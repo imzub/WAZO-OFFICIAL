@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WAZO — Official App</title>
+  <meta name="description" content="WAZO — lightweight demo web app" />
+  <link rel="stylesheet" href="/docs/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>WAZO</h1>
+      <p class="tagline">Your app — simple, fast, beautiful.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Welcome to WAZO</h2>
+      <p>A minimal demo site for your app. Use this as the starting point for your GitHub Pages website.</p>
+      <div class="cta">
+        <a class="btn" id="try-btn">Try demo</a>
+        <a class="btn btn-outline" href="https://github.com/imzub/WAZO-OFFICIAL" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <article>
+        <h3>Lightweight</h3>
+        <p>Static, fast, and easy to host on GitHub Pages.</p>
+      </article>
+      <article>
+        <h3>Customizable</h3>
+        <p>Edit the files in the docs/ folder to update content and styling.</p>
+      </article>
+      <article>
+        <h3>Interactive</h3>
+        <p>Small JavaScript demo included below.</p>
+      </article>
+    </section>
+
+    <section class="demo" id="demo">
+      <h3>Demo</h3>
+      <p>Type a message and press <strong>Send</strong> to see the demo response.</p>
+      <div class="demo-controls">
+        <input id="demo-input" placeholder="Say something to WAZO..." />
+        <button id="send-btn">Send</button>
+      </div>
+      <div id="demo-output" class="demo-output"></div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Built with ❤️ — WAZO</p>
+    </footer>
+  </main>
+
+  <script src="/docs/app.js"></script>
+</body>
+</html>
