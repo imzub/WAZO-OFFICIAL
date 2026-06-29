@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WAZO | Personal Wealth Organizer</title>
+  <meta name="description" content="WAZO is an offline-first Windows desktop app for personal wealth tracking, goals, reports, allocation analysis, privacy mode, and optional zakat planning." />
+  <meta name="theme-color" content="#0b7f86" />
+  <meta property="og:title" content="WAZO | Personal Wealth Organizer" />
+  <meta property="og:description" content="A private, local-first desktop workspace for assets, goals, reports, allocation analysis, and optional zakat planning." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/wazo-logo.png" />
+  <link rel="icon" href="assets/wazo-logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="shell-header">
+    <a class="brand" href="#top" aria-label="WAZO home">
+      <img src="assets/wazo-logo.png" alt="WAZO logo" />
+      <span>
+        <strong>WAZO</strong>
+        <small>Personal Wealth Organizer</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#features">Features</a>
+      <a href="#workspace">Workspace</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="nav-cta" href="#download">Get Updates</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Offline-first Windows desktop app</span>
+        <h1>Your personalized wealth organizer.</h1>
+        <p>
+          WAZO brings assets, family/member ownership, allocation targets, financial goals,
+          smart reports, privacy mode, backups, and optional zakat planning into one local desktop workspace.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#workspace">Explore WAZO</a>
+          <a class="btn ghost" href="https://github.com/imzub/WAZO" target="_blank" rel="noopener">View GitHub</a>
+        </div>
+        <div class="trust-row" aria-label="Product highlights">
+          <span>Local JSON</span>
+          <span>No cloud lock-in</span>
+          <span>Private by design</span>
+        </div>
+      </div>
+
+      <div class="product-frame" aria-label="WAZO app preview">
+        <div class="preview-window">
+          <div class="preview-sidebar">
+            <img src="assets/wazo-logo.png" alt="" />
+            <span>Portfolio</span>
+            <span>Assets</span>
+            <span>Goals</span>
+            <span>Reports</span>
+          </div>
+          <div class="preview-main">
+            <div class="preview-top">
+              <div>
+                <small>Active profile</small>
+                <strong>Zubair Family</strong>
+              </div>
+              <button type="button">Privacy</button>
+            </div>
+            <div class="metric-grid">
+              <article>
+                <span>Net worth</span>
+                <strong data-count="11780746">0</strong>
+              </article>
+              <article>
+                <span>Assets</span>
+                <strong data-count="28">0</strong>
+              </article>
+              <article>
+                <span>Goal progress</span>
+                <strong data-count="58">0</strong>
+              </article>
+            </div>
+            <div class="chart-panel">
+              <div class="line-chart" aria-hidden="true">
+                <span style="--x: 4%; --y: 76%"></span>
+                <span style="--x: 24%; --y: 66%"></span>
+                <span style="--x: 44%; --y: 70%"></span>
+                <span style="--x: 64%; --y: 52%"></span>
+                <span style="--x: 84%; --y: 18%"></span>
+              </div>
+              <div class="donut" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="WAZO capability summary">
+      <div><strong>100%</strong><span>Local storage</span></div>
+      <div><strong>4</strong><span>Separate JSON files</span></div>
+      <div><strong>Optional</strong><span>Zakat module</span></div>
+      <div><strong>PDF</strong><span>Designed reports</span></div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-heading">
+        <span class="eyebrow">Feature system</span>
+        <h2>Built like a personal finance command center.</h2>
+        <p>Every module is designed around practical day-to-day wealth tracking, not a marketing demo.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="icon">01</span>
+          <h3>Portfolio dashboard</h3>
+          <p>Track financial-year net worth, allocation, member breakdown, growth charts, and smart focus signals.</p>
+        </article>
+        <article class="feature-card">
+          <span class="icon">02</span>
+          <h3>Asset inventory</h3>
+          <p>Assets attach to real members, support manual rates, searchable tables, allocation targets, and rebalancing gaps.</p>
+        </article>
+        <article class="feature-card">
+          <span class="icon">03</span>
+          <h3>Financial goals</h3>
+          <p>Plan FIRE, goal funding, monthly needs, saved progress, and investment suggestions for future targets.</p>
+        </article>
+        <article class="feature-card">
+          <span class="icon">04</span>
+          <h3>Optional zakat planning</h3>
+          <p>Enable zakat only when needed. When disabled, zakat pages, cards, fields, reports, and calculations stay hidden.</p>
+        </article>
+        <article class="feature-card">
+          <span class="icon">05</span>
+          <h3>Designed reports</h3>
+          <p>Generate portfolio reports, smart analytics, PDF/HTML/CSV exports, and printable summaries with WAZO branding.</p>
+        </article>
+        <article class="feature-card">
+          <span class="icon">06</span>
+          <h3>Privacy mode</h3>
+          <p>Hide sensitive figures instantly with a dedicated privacy experience for screen sharing or public use.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="workspace" class="section workspace">
+      <div class="section-heading">
+        <span class="eyebrow">Interactive tour</span>
+        <h2>Choose a module and see what it solves.</h2>
+      </div>
+      <div class="tour-layout">
+        <div class="tour-tabs" role="tablist" aria-label="WAZO modules">
+          <button class="active" type="button" data-panel="portfolio">Portfolio</button>
+          <button type="button" data-panel="assets">Assets</button>
+          <button type="button" data-panel="goals">Goals</button>
+          <button type="button" data-panel="reports">Reports</button>
+        </div>
+        <div class="tour-panel" id="tour-panel">
+          <div>
+            <span class="eyebrow">Portfolio intelligence</span>
+            <h3>Know what changed, not just what you own.</h3>
+            <p>WAZO summarizes the selected financial year, compares growth, and highlights allocation gaps that need attention.</p>
+          </div>
+          <ul>
+            <li>Financial year: April 1 to March 31</li>
+            <li>Current vs desired asset allocation</li>
+            <li>Member-level portfolio breakdown</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section allocation-lab">
+      <div class="section-heading">
+        <span class="eyebrow">Rebalancing preview</span>
+        <h2>Turn allocation targets into action.</h2>
+        <p>Use targets to see current allocation, desired allocation, and required rebalancing.</p>
+      </div>
+      <div class="lab-card">
+        <div class="range-row">
+          <label>Equity target <input id="equityRange" type="range" min="10" max="85" value="60" /></label>
+          <strong><span id="equityValue">60</span>%</strong>
+        </div>
+        <div class="range-row">
+          <label>Gold target <input id="goldRange" type="range" min="5" max="40" value="15" /></label>
+          <strong><span id="goldValue">15</span>%</strong>
+        </div>
+        <div class="rebalance-output">
+          <article><span>Current equity</span><strong>42%</strong></article>
+          <article><span>Required shift</span><strong id="rebalanceValue">+18%</strong></article>
+          <article><span>Signal</span><strong id="rebalanceSignal">Add gradually</strong></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section privacy-band">
+      <div>
+        <span class="eyebrow">Private by design</span>
+        <h2>Your data stays on your machine.</h2>
+        <p>
+          WAZO is designed around local JSON files for portfolio data, settings, activity logs,
+          and diagnostic events. Backups are user-controlled, and financial data is not sent to a developer cloud.
+        </p>
+      </div>
+      <div class="privacy-list">
+        <span>Local app data</span>
+        <span>Manual backup folder</span>
+        <span>Privacy toggle</span>
+        <span>Offline-first workflow</span>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section">
+      <div class="section-heading">
+        <span class="eyebrow">Development story</span>
+        <h2>From spreadsheet workflow to desktop product.</h2>
+      </div>
+      <div class="timeline">
+        <article><strong>01</strong><h3>Excel analysis</h3><p>Converted manual financial tracking patterns into product requirements.</p></article>
+        <article><strong>02</strong><h3>Local-first build</h3><p>Created an Electron app with JSON storage, settings, logs, and backup flows.</p></article>
+        <article><strong>03</strong><h3>AI context docs</h3><p>Added repo context files so AI coding tools understand WAZO’s rules before editing.</p></article>
+        <article><strong>04</strong><h3>Packaging</h3><p>Prepared installer and Microsoft Store package flow for wider testing and distribution.</p></article>
+      </div>
+    </section>
+
+    <section id="download" class="section download-card">
+      <div>
+        <span class="eyebrow">Release status</span>
+        <h2>WAZO is preparing for public release.</h2>
+        <p>Follow the project for release notes, product updates, and availability announcements.</p>
+      </div>
+      <div class="download-actions">
+        <a class="btn primary" href="https://github.com/imzub/WAZO" target="_blank" rel="noopener">Follow on GitHub</a>
+        <a class="btn ghost" href="mailto:zubair.softdeveloper@gmail.com?subject=WAZO%20App%20Updates&body=Hi%20Zubair,%0A%0AI%20would%20like%20to%20receive%20WAZO%20updates.%0A">Contact developer</a>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div class="section-heading">
+        <span class="eyebrow">Questions</span>
+        <h2>Quick answers for visitors.</h2>
+      </div>
+      <details open>
+        <summary>Is WAZO only for zakat users?</summary>
+        <p>No. WAZO is a general personal wealth organizer. The zakat module is optional and can be enabled only when needed.</p>
+      </details>
+      <details>
+        <summary>Does WAZO need internet?</summary>
+        <p>The app is built offline-first. Core data, settings, reports, and backups are stored locally.</p>
+      </details>
+      <details>
+        <summary>Where is data stored?</summary>
+        <p>WAZO uses local JSON files for portfolio data, settings, activity logs, and diagnostic events.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>WAZO</strong>
+      <span>Your personalized wealth organizer.</span>
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/imzub/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:zubair.softdeveloper@gmail.com">Email</a>
+      <a href="https://github.com/imzub/WAZO-OFFICIAL" target="_blank" rel="noopener">Website repo</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
