@@ -13,6 +13,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - GitHub Pages publishes from `docs/`.
 - Keep public website content in `docs/`.
 - Public installer downloads are stored in `docs/downloads/` and linked from the Downloads section.
+- Microsoft Store should be positioned as the recommended public install path once available; direct `.exe` installers are for offline setup and controlled testing.
 - Do not recreate or use the old `Site/` folder.
 - Do not link to the private WAZO source repository.
 - The website may link to LinkedIn, support email, public release files, and public documentation.
@@ -29,6 +30,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 
 - Update this context file when website structure, public messaging, download/release process, support process, or GitHub Pages publishing rules change.
 - Keep download sections version-aware: stable version, latest fix/testing version, release notes, and known fixes.
+- Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 

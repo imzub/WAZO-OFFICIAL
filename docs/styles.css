@@ -454,6 +454,11 @@ input[type="range"] { width: 100%; accent-color: var(--teal); }
   font-weight: 900;
 }
 
+.release-grid .store-release {
+  border-color: rgba(11, 127, 134, 0.28);
+  background: linear-gradient(135deg, rgba(227, 248, 246, 0.9), rgba(255, 255, 255, 0.72));
+}
+
 .release-meta {
   display: grid;
   gap: 0.35rem;

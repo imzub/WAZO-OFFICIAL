@@ -244,21 +244,31 @@
       <div>
         <span class="eyebrow">Downloads and versions</span>
         <h2>Install the right WAZO build.</h2>
-        <p>Download the Windows installer directly from this page. Stable builds are for normal users; latest fix builds are for testers who want recent bug fixes.</p>
-        <p class="download-note">Windows may show an Unknown Publisher warning until WAZO is code-signed. Only install files downloaded from this official page.</p>
+        <p>Use the Microsoft Store release when available. Direct installers are provided for early testers and users who need an offline setup file.</p>
+        <div class="download-note">
+          <strong>SmartScreen and Chrome warning note</strong>
+          <p>Windows or Chrome may warn that the standalone installer is from an unknown publisher because WAZO is new and the direct installer is not yet code-signed. Only install WAZO from this official page, verify the version and SHA-256 hash, and prefer the Microsoft Store version for normal public installation.</p>
+          <p>If SmartScreen appears, click <b>More info</b> and then <b>Run anyway</b> only when the file name, source, and hash match this page.</p>
+        </div>
       </div>
       <div class="release-grid">
+        <article class="store-release">
+          <strong>Recommended install</strong>
+          <span>Microsoft Store</span>
+          <p>Best option for public users after Store approval. It avoids most browser download warnings and uses Microsoft Store delivery.</p>
+          <a class="btn primary" href="#" aria-disabled="true">Store link coming soon</a>
+        </article>
         <article>
           <strong>Stable version</strong>
           <span>v1.0.0</span>
-          <p>Recommended public baseline installer for general testing.</p>
+          <p>Standalone baseline installer for controlled testing and offline setup.</p>
           <dl class="release-meta">
             <div><dt>File</dt><dd>WAZO-Setup-1.0.0.exe</dd></div>
             <div><dt>Size</dt><dd>97.1 MiB</dd></div>
             <div><dt>Build</dt><dd>June 28, 2026</dd></div>
           </dl>
           <p class="checksum"><strong>SHA-256</strong><code>345496F625396510E6A8A04B6946FA1FDF831789FE0943E9CDA22118C9073A04</code></p>
-          <a class="btn" href="downloads/WAZO-Setup-1.0.0.exe" download>Download v1.0.0</a>
+          <a class="btn" href="downloads/WAZO-Setup-1.0.0.exe" download>Download installer v1.0.0</a>
         </article>
         <article>
           <strong>Latest fix version</strong>
@@ -270,7 +280,7 @@
             <div><dt>Build</dt><dd>June 29, 2026</dd></div>
           </dl>
           <p class="checksum"><strong>SHA-256</strong><code>33EB9D4980858A632E7AE486E335E12B0078353B7C19F28326BE65B15603ED12</code></p>
-          <a class="btn" href="downloads/WAZO-Setup-1.0.1.exe" download>Download v1.0.1</a>
+          <a class="btn" href="downloads/WAZO-Setup-1.0.1.exe" download>Download installer v1.0.1</a>
         </article>
       </div>
     </section>
