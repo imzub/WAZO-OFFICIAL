@@ -13,6 +13,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Explain what WAZO does.
 - Help users understand the app workflow.
 - Provide version-aware download areas.
+- Host public Windows installer downloads from `docs/downloads/` with version, size, notes, and SHA-256 hashes.
 - Provide support paths for bugs, issues, feature requests, and queries.
 - Showcase privacy, local JSON storage, multiple currencies, reports, backups, and optional zakat module.
 

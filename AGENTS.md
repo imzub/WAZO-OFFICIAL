@@ -12,6 +12,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 
 - GitHub Pages publishes from `docs/`.
 - Keep public website content in `docs/`.
+- Public installer downloads are stored in `docs/downloads/` and linked from the Downloads section.
 - Do not recreate or use the old `Site/` folder.
 - Do not link to the private WAZO source repository.
 - The website may link to LinkedIn, support email, public release files, and public documentation.
