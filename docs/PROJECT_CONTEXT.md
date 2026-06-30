@@ -19,6 +19,13 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Provide support paths for bugs, issues, feature requests, and queries.
 - Showcase privacy, local JSON storage, multiple currencies, reports, backups, and optional zakat module.
 
+## Current Public Downloads
+
+- Stable direct installer: `v1.0.0` / `docs/downloads/WAZO-Setup-1.0.0.exe`.
+- Latest fix direct installer: `v1.0.2` / `docs/downloads/WAZO-Setup-1.0.2.exe`.
+- Previous testing installer retained for rollback testing: `v1.0.1` / `docs/downloads/WAZO-Setup-1.0.1.exe`.
+- Keep older installers available unless Zubair explicitly asks to remove them.
+
 ## Public Safety
 
 - Do not link to the private WAZO source repo.
