@@ -240,60 +240,61 @@
       </div>
     </section>
 
-    <section id="downloads" class="section download-card">
-      <div>
+    <section id="downloads" class="section download-card download-showcase">
+      <div class="download-copy">
         <span class="eyebrow">Downloads and versions</span>
-        <h2>Install the right WAZO build.</h2>
-        <p>Use the Microsoft Store release for normal installation. Direct installers are provided for early testers and users who need an offline setup file.</p>
+        <h2>Choose your WAZO install path.</h2>
+        <p>Start with the Microsoft Store for the smoothest public install. Direct installers remain available for offline setup, testing, and controlled rollback.</p>
         <div class="download-note">
           <strong>SmartScreen and Chrome warning note</strong>
           <p>Windows or Chrome may warn that the standalone installer is from an unknown publisher because WAZO is new and the direct installer is not yet code-signed. Only install WAZO from this official page, verify the version and SHA-256 hash, and prefer the Microsoft Store version for normal public installation.</p>
           <p>If SmartScreen appears, click <b>More info</b> and then <b>Run anyway</b> only when the file name, source, and hash match this page.</p>
         </div>
       </div>
-      <div class="release-grid">
-        <article class="store-release">
-          <strong>Recommended install</strong>
-          <span>Microsoft Store</span>
-          <p>Best option for public users. It avoids most browser download warnings and uses Microsoft Store delivery.</p>
-          <a class="btn primary" href="https://apps.microsoft.com/detail/9NKLT8DKJ1QX" target="_blank" rel="noreferrer">Get WAZO from Microsoft Store</a>
-          <a class="btn" href="ms-windows-store://pdp/?productid=9NKLT8DKJ1QX">Open Store app</a>
+      <div class="release-grid release-grid-three">
+        <article class="release-option store-release">
+          <div class="release-badge">Recommended</div>
+          <div>
+            <strong>Microsoft Store</strong>
+            <span>Public install</span>
+          </div>
+          <p>Recommended for most users. Microsoft Store delivery avoids most direct-download warnings and keeps installation familiar.</p>
+          <div class="release-actions">
+            <a class="btn primary" href="https://apps.microsoft.com/detail/9NKLT8DKJ1QX" target="_blank" rel="noreferrer">Install from Store</a>
+            <a class="btn" href="ms-windows-store://pdp/?productid=9NKLT8DKJ1QX">Open Store app</a>
+          </div>
         </article>
-        <article>
-          <strong>Stable version</strong>
-          <span>v1.0.0</span>
-          <p>Standalone baseline installer for controlled testing and offline setup.</p>
-          <dl class="release-meta">
-            <div><dt>File</dt><dd>WAZO-Setup-1.0.0.exe</dd></div>
-            <div><dt>Size</dt><dd>97.1 MiB</dd></div>
-            <div><dt>Build</dt><dd>June 28, 2026</dd></div>
-          </dl>
-          <p class="checksum"><strong>SHA-256</strong><code>345496F625396510E6A8A04B6946FA1FDF831789FE0943E9CDA22118C9073A04</code></p>
-          <a class="btn" href="downloads/WAZO-Setup-1.0.0.exe" download>Download installer v1.0.0</a>
-        </article>
-        <article>
-          <strong>Latest fix version</strong>
-          <span>v1.0.2</span>
-          <p>Includes Automatic Backup scheduling controls with backup time, Custom Days locking, and safer save behavior.</p>
+
+        <article class="release-option stable-release">
+          <div class="release-badge">Stable 1.0.x</div>
+          <div>
+            <strong>Latest stable installer</strong>
+            <span>v1.0.2</span>
+          </div>
+          <p>Latest stable direct installer for users who need offline setup or a standalone executable.</p>
           <dl class="release-meta">
             <div><dt>File</dt><dd>WAZO-Setup-1.0.2.exe</dd></div>
             <div><dt>Size</dt><dd>97.3 MiB</dd></div>
             <div><dt>Build</dt><dd>June 30, 2026</dd></div>
           </dl>
           <p class="checksum"><strong>SHA-256</strong><code>77017F72A1322126F1A6117F45A43CFF031B6C1D13D13D7705AC2BDA17A10F44</code></p>
-          <a class="btn" href="downloads/WAZO-Setup-1.0.2.exe" download>Download installer v1.0.2</a>
+          <a class="btn primary" href="downloads/WAZO-Setup-1.0.2.exe" download>Download stable v1.0.2</a>
         </article>
-        <article>
-          <strong>Previous testing build</strong>
-          <span>v1.0.1</span>
-          <p>Scoped UI, charts, onboarding, settings, and report fixes kept available for controlled rollback testing.</p>
+
+        <article class="release-option major-release">
+          <div class="release-badge">Major release</div>
+          <div>
+            <strong>Baseline installer</strong>
+            <span>v1.0.0</span>
+          </div>
+          <p>Original major release baseline, kept for version reference, rollback testing, and controlled comparison.</p>
           <dl class="release-meta">
-            <div><dt>File</dt><dd>WAZO-Setup-1.0.1.exe</dd></div>
-            <div><dt>Size</dt><dd>97.2 MiB</dd></div>
-            <div><dt>Build</dt><dd>June 29, 2026</dd></div>
+            <div><dt>File</dt><dd>WAZO-Setup-1.0.0.exe</dd></div>
+            <div><dt>Size</dt><dd>97.1 MiB</dd></div>
+            <div><dt>Build</dt><dd>June 28, 2026</dd></div>
           </dl>
-          <p class="checksum"><strong>SHA-256</strong><code>33EB9D4980858A632E7AE486E335E12B0078353B7C19F28326BE65B15603ED12</code></p>
-          <a class="btn" href="downloads/WAZO-Setup-1.0.1.exe" download>Download installer v1.0.1</a>
+          <p class="checksum"><strong>SHA-256</strong><code>345496F625396510E6A8A04B6946FA1FDF831789FE0943E9CDA22118C9073A04</code></p>
+          <a class="btn" href="downloads/WAZO-Setup-1.0.0.exe" download>Download major v1.0.0</a>
         </article>
       </div>
     </section>

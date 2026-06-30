@@ -19,6 +19,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Host public Windows installer downloads from `docs/downloads/` with version, size, notes, and SHA-256 hashes.
 - Explain that direct `.exe` installers may trigger SmartScreen/Chrome warnings until they are code-signed and gain reputation.
 - Provide support paths for bugs, issues, feature requests, and queries.
+- The downloads section should show only three install paths: recommended Microsoft Store install, latest stable `1.0.x` installer, and the current major baseline installer such as `1.0.0`, `1.1.0`, or `2.0.0`.
 - Showcase privacy, local JSON storage, multiple currencies, reports, backups, and optional zakat module.
 
 ## Current Public Downloads
