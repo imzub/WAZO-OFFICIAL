@@ -21,6 +21,8 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Provide support paths for bugs, issues, feature requests, and queries.
 - The downloads section should show only three install paths: recommended Microsoft Store install, latest stable `1.0.x` installer, and the current major baseline installer such as `1.0.0`, `1.1.0`, or `2.0.0`.
 - Showcase privacy, local JSON storage, multiple currencies, reports, backups, and optional zakat module.
+- Keep the downloads section visually light: one short warning panel, three release cards, and concise version metadata.
+- Add beginner-friendly FAQ items for initial setup, freeware, offline mode, backups, and core workflows whenever the site is updated.
 
 ## Current Public Downloads
 
