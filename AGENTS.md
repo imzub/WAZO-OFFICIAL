@@ -29,8 +29,9 @@ This repository hosts the public WAZO product website through GitHub Pages.
 ## Website Maintenance Rules
 
 - Update this context file when website structure, public messaging, download/release process, support process, or GitHub Pages publishing rules change.
-- Keep download sections version-aware: stable version, latest fix/testing version, release notes, and known fixes.
+- Keep download sections version-aware: recommended Microsoft Store install, latest stable `1.0.x` installer, and the major baseline installer, with release notes and known fixes.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
+- Current stable direct installer should track the latest fixed build (currently `v1.0.4` unless a newer release is published).
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 

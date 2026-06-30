@@ -24,9 +24,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 ## Current Public Downloads
 
-- Stable direct installer: `v1.0.0` / `docs/downloads/WAZO-Setup-1.0.0.exe`.
-- Latest fix direct installer: `v1.0.2` / `docs/downloads/WAZO-Setup-1.0.2.exe`.
-- Previous testing installer retained for rollback testing: `v1.0.1` / `docs/downloads/WAZO-Setup-1.0.1.exe`.
+- Stable direct installer: `v1.0.4` / `docs/downloads/WAZO-Setup-1.0.4.exe`.
+- Major baseline installer: `v1.0.0` / `docs/downloads/WAZO-Setup-1.0.0.exe`.
+- Older installers retained for rollback/testing: `v1.0.1` and `v1.0.2`.
 - Keep older installers available unless Zubair explicitly asks to remove them.
 - Direct installers remain available, but the Store link should be the primary public install path.
 
