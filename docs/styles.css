@@ -361,10 +361,11 @@ p { font-size: 1.05rem; line-height: 1.7; }
 .release-grid {
   display: grid;
   gap: 1rem;
+  grid-column: 1 / -1;
 }
 
 .release-grid-three {
-  grid-template-columns: 1.15fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: stretch;
 }
 
@@ -574,6 +575,14 @@ input[type="range"] { width: 100%; accent-color: var(--teal); }
 .download-showcase {
   grid-template-columns: 1.1fr 0.9fr;
   align-items: stretch;
+}
+
+.download-copy {
+  grid-column: 1;
+}
+
+.download-aside {
+  grid-column: 2;
 }
 
 .download-showcase h2 {
