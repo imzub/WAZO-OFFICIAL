@@ -1,0 +1,8 @@
+version: 1.1.4
+files:
+  - url: WAZO-Setup-1.1.4.exe
+    sha512: f6mybwpJMyzkOp4GZO4iDzF3oYe9Y2MQVd37E17l2rZepwThiZst8ZgGYzj3UXQxkK0OQItNvZYnZPekWnf6EA==
+    size: 102030250
+path: WAZO-Setup-1.1.4.exe
+sha512: f6mybwpJMyzkOp4GZO4iDzF3oYe9Y2MQVd37E17l2rZepwThiZst8ZgGYzj3UXQxkK0OQItNvZYnZPekWnf6EA==
+releaseDate: '2026-07-20T10:34:47.733Z'

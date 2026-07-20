@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "version": "1.1.4",
+  "buildVersion": "1.1.4.0",
+  "status": "current",
+  "platform": "Windows",
+  "architecture": "x64",
+  "installerTechnology": "NSIS",
+  "publishedDate": "2026-07-20",
+  "installer": {
+    "file": "WAZO-Setup-1.1.4.exe",
+    "url": "site-data/releases/v1.1.4/installer/WAZO-Setup-1.1.4.exe",
+    "sizeBytes": 102030250,
+    "sha256": "B68BF71887027D6699F2ABCB617E689A414633F8CD5A21431BA140662099D963",
+    "authenticode": "NotSigned"
+  },
+  "validation": {
+    "completedAtUtc": "2026-07-20T10:41:16.837Z",
+    "automatedTests": {
+      "passed": 82,
+      "failed": 0
+    },
+    "installerMetadata": "passed",
+    "archiveIntegrity": "passed",
+    "isolatedLaunch": "passed",
+    "install": "passed",
+    "uninstall": "passed"
+  },
+  "releaseNotes": "site-data/releases/v1.1.4/updates/release-notes.md",
+  "manual": {
+    "url": "site-data/releases/v1.1.4/updates/WAZO-User-Manual-v1.1.4.pdf",
+    "sizeBytes": 49463,
+    "pages": 6,
+    "sha256": "2370E80D8BFCE5C5AECF98B8A294CAFC3F49A717712D3F6DD5F4A9775809E7F6"
+  },
+  "updateMetadata": {
+    "latest": "site-data/releases/v1.1.4/updates/latest.yml",
+    "blockmap": "site-data/releases/v1.1.4/updates/WAZO-Setup-1.1.4.exe.blockmap",
+    "blockmapSizeBytes": 106647,
+    "blockmapSha256": "90C98B1EFABB1E6AE32A0F1AF41C7BA0B94A0B8FAE051088800552F4F12045F9"
+  },
+  "images": [
+    "site-data/releases/v1.1.4/images/wazo-hero-v114.png",
+    "site-data/releases/v1.1.4/images/wazo-assets-investments-v114.png",
+    "site-data/releases/v1.1.4/images/wazo-asset-library-v114.png",
+    "site-data/releases/v1.1.4/images/wazo-performance-reports-v114.png",
+    "site-data/releases/v1.1.4/images/wazo-privacy-backup-v114.png"
+  ],
+  "existingUserImpact": "No action required. Existing local data and settings are preserved; no schema migration or data re-entry is required."
+}

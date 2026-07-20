@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "product": "WAZO",
   "version": "1.1.3",
-  "status": "installer-pending",
+  "status": "superseded",
   "platform": "Windows",
   "installer": null,
   "releaseNotes": "site-data/releases/v1.1.3/updates/release-notes.md",
