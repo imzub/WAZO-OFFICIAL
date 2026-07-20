@@ -10,6 +10,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 
 ## Repository Rules
 
+- For all WAZO GitHub authentication and repository operations, always select and use the `imzub` account without asking the user to make the account choice.
 - GitHub Pages publishes from `docs/`.
 - Keep public website content in `docs/`.
 - Public installer downloads are stored in `docs/downloads/` and linked from the Downloads section.

@@ -1,355 +1,464 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WAZO | Personal Wealth Organizer</title>
-  <meta name="description" content="WAZO is an offline-first Windows desktop app for personal wealth tracking, family/member assets, financial goals, reports, backups, privacy mode, and optional zakat planning." />
-  <meta name="theme-color" content="#0b7f86" />
-  <meta property="og:title" content="WAZO | Personal Wealth Organizer" />
-  <meta property="og:description" content="A private, local-first desktop workspace for assets, goals, reports, allocation analysis, and optional zakat planning." />
+  <title>WAZO | Private Personal Wealth Organizer for Windows</title>
+  <meta name="description" content="WAZO is an offline-first Windows desktop app for family wealth, assets, investment plans, performance reports, backups, privacy mode, and optional zakat." />
+  <meta name="theme-color" content="#5546d7" />
+  <meta property="og:title" content="WAZO | Your personalized wealth organizer" />
+  <meta property="og:description" content="Meet the WAZO 1.1.3 experience: one workspace for assets and investments, reusable asset definitions, deeper performance insights, and stronger local data protection." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/wazo-logo.png" />
+  <meta property="og:url" content="https://imzub.github.io/WAZO-OFFICIAL/" />
+  <meta property="og:image" content="https://imzub.github.io/WAZO-OFFICIAL/assets/product-graphics/wazo-hero-v113.png" />
+  <meta property="og:image:width" content="1672" />
+  <meta property="og:image:height" content="941" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://imzub.github.io/WAZO-OFFICIAL/" />
   <link rel="icon" href="assets/wazo-logo.png" />
+  <link rel="preload" as="image" href="assets/product-graphics/wazo-hero-v113.png" fetchpriority="high" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="release-banner" role="status">
+    <span>New</span>
+    <strong>WAZO 1.1.3 product update</strong>
+    <p>Explore the new experience now. The 1.1.3 installer will be added when packaging is complete.</p>
+    <a href="#downloads">Installer status</a>
+  </div>
+
   <header class="shell-header">
     <a class="brand" href="#top" aria-label="WAZO home">
-      <img src="assets/wazo-logo.png" alt="WAZO logo" />
+      <img src="assets/wazo-logo.png" width="48" height="48" alt="WAZO logo" />
       <span>
         <strong>WAZO</strong>
         <small>Personal Wealth Organizer</small>
       </span>
     </a>
     <nav class="nav-links" aria-label="Primary navigation">
-      <a href="#features">Features</a>
-      <a href="#tour">How it works</a>
+      <a href="#whats-new">What’s new</a>
+      <a href="#experience">Experience</a>
+      <a href="#workflow">How it works</a>
       <a href="#downloads">Downloads</a>
       <a href="#support">Support</a>
-      <a href="#faq">FAQ</a>
     </nav>
-    <a class="nav-cta" href="#downloads">Download</a>
+    <a class="btn primary nav-cta" href="#downloads">Get WAZO</a>
   </header>
 
-  <main id="top">
-    <section class="hero section-grid">
+  <main id="main">
+    <section id="top" class="hero section-shell">
       <div class="hero-copy">
-        <span class="eyebrow">Private Windows desktop wealth app</span>
-        <h1>Your personalized wealth organizer.</h1>
-        <p>
-          WAZO helps you organize profiles, members, assets, allocation targets, goals,
-          reports, backups, privacy mode, and optional zakat planning without exposing your
-          private financial data to a public cloud.
+        <span class="eyebrow">Offline-first wealth management for Windows</span>
+        <h1>See your whole financial life, clearly.</h1>
+        <p class="hero-lead">
+          WAZO brings family profiles, member-owned assets, recurring investments,
+          goals, performance, reports, backups, and optional zakat into one private
+          desktop workspace.
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="#downloads">Get WAZO</a>
-          <a class="btn ghost" href="#tour">Learn the workflow</a>
+          <a class="btn primary" href="#whats-new">Explore WAZO 1.1.3</a>
+          <a class="btn secondary" href="#downloads">View current downloads</a>
         </div>
-        <div class="trust-row" aria-label="Product highlights">
-          <span>Offline-first</span>
-          <span>Local JSON</span>
-          <span>Private source code</span>
-          <span>Optional zakat</span>
-        </div>
+        <ul class="trust-list" aria-label="WAZO product qualities">
+          <li>Local JSON data</li>
+          <li>Family and member ownership</li>
+          <li>Review-first investing</li>
+          <li>Optional online rates</li>
+        </ul>
       </div>
 
-      <div class="product-frame" aria-label="WAZO app preview">
-        <div class="preview-window">
-          <div class="preview-sidebar">
-            <img src="assets/wazo-logo.png" alt="" />
-            <span>Portfolio</span>
-            <span>Assets</span>
-            <span>Goals</span>
-            <span>Reports</span>
-            <span>Settings</span>
-          </div>
-          <div class="preview-main">
-            <div class="preview-top">
-              <div>
-                <small>Active profile</small>
-                <strong>Family Wealth Profile</strong>
-              </div>
-              <button type="button">Privacy</button>
-            </div>
-            <div class="metric-grid">
-              <article><span>Net worth</span><strong data-count="11780746">0</strong></article>
-              <article><span>Assets</span><strong data-count="28">0</strong></article>
-              <article><span>Goal progress</span><strong data-count="58">0</strong></article>
-            </div>
-            <div class="chart-panel">
-              <div class="line-chart" aria-hidden="true">
-                <span style="--x: 8%; --y: 78%"></span>
-                <span style="--x: 28%; --y: 68%"></span>
-                <span style="--x: 48%; --y: 71%"></span>
-                <span style="--x: 68%; --y: 48%"></span>
-                <span style="--x: 88%; --y: 18%"></span>
-              </div>
-              <div class="donut" aria-hidden="true"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <figure class="hero-visual">
+        <img
+          src="assets/product-graphics/wazo-hero-v113.png"
+          width="1672"
+          height="941"
+          alt="WAZO 1.1.3 Portfolio dashboard showing net worth, asset allocation, goals, and family wealth insights"
+          fetchpriority="high"
+          decoding="async"
+        />
+        <figcaption>Private demo data shown. Your WAZO records stay on your device.</figcaption>
+      </figure>
     </section>
 
-    <section class="stats-strip" aria-label="WAZO capability summary">
-      <div><strong>100%</strong><span>Local-first core</span></div>
-      <div><strong>4</strong><span>Separate JSON files</span></div>
-      <div><strong>150+</strong><span>Currency choices</span></div>
-      <div><strong>PDF</strong><span>Designed exports</span></div>
+    <section class="capability-strip section-shell" aria-label="WAZO 1.1.3 capability summary">
+      <article><strong>One</strong><span>Assets workspace</span></article>
+      <article><strong>CAGR + XIRR</strong><span>Performance insight</span></article>
+      <article><strong>5 formats</strong><span>PDF, Print, Excel, CSV, JSON</span></article>
+      <article><strong>Local-first</strong><span>Private core data</span></article>
     </section>
 
-    <section id="features" class="section">
+    <section id="whats-new" class="section section-shell">
       <div class="section-heading">
-        <span class="eyebrow">Feature system</span>
-        <h2>A complete workspace for personal wealth.</h2>
-        <p>WAZO is designed around practical workflows: add people, add assets, track goals, review allocation, back up data, and export reports.</p>
+        <span class="eyebrow">What’s new in 1.1.3</span>
+        <h2>A more complete, dependable way to manage wealth.</h2>
+        <p>
+          This update connects setup, asset definitions, investment activity,
+          analysis, exports, and recovery into a clearer end-to-end experience.
+        </p>
+      </div>
+      <div class="update-grid">
+        <article class="update-card accent-purple">
+          <span class="card-number">01</span>
+          <h3>Guided first run</h3>
+          <p>Set up your profile, members, country, currency, regional format, financial year, and optional zakat with a focused onboarding flow.</p>
+        </article>
+        <article class="update-card accent-teal">
+          <span class="card-number">02</span>
+          <h3>Reusable Asset Library</h3>
+          <p>Define assets once, prefill new holdings, and keep allocation targets beside the categories that drive your portfolio plan.</p>
+        </article>
+        <article class="update-card accent-blue">
+          <span class="card-number">03</span>
+          <h3>Unified Assets workspace</h3>
+          <p>Work with holdings, SIP and recurring plans, pending reviews, and confirmed transactions without jumping between disconnected pages.</p>
+        </article>
+        <article class="update-card accent-gold">
+          <span class="card-number">04</span>
+          <h3>Review before investing</h3>
+          <p>Backdated recurring plans queue every due installment for review. Holdings and cost basis change only after you confirm each occurrence.</p>
+        </article>
+        <article class="update-card accent-coral">
+          <span class="card-number">05</span>
+          <h3>Deeper performance</h3>
+          <p>Investigate category mix, asset gain or loss, CAGR, and XIRR, then create fresh exports from the same reporting workspace.</p>
+        </article>
+        <article class="update-card accent-green">
+          <span class="card-number">06</span>
+          <h3>Safer local recovery</h3>
+          <p>Imports can be previewed before confirmation, protected backups are created before restore or reset, and recovery preserves damaged evidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section story-section">
+      <div class="section-shell">
+        <div class="section-heading">
+          <span class="eyebrow">The updated experience</span>
+          <h2>Built around the work you actually do.</h2>
+          <p>Each workspace has a distinct job, with less navigation and clearer decisions.</p>
+        </div>
+
+        <div class="story-stack">
+          <article class="story-card">
+            <figure>
+              <img
+                src="assets/product-graphics/wazo-assets-investments-v113.png"
+                width="1672"
+                height="941"
+                alt="WAZO Assets workspace with holdings, recurring investment plans, pending reviews, and confirmed transactions"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <div class="story-copy">
+              <span class="story-kicker">Assets + investments</span>
+              <h3>One workspace for every asset.</h3>
+              <p>Add a manual holding or start from a reusable definition. Create SIP and recurring plans, review generated occurrences, and confirm the transactions that should affect your portfolio.</p>
+              <ul class="check-list">
+                <li>Member-owned assets roll up to the family profile</li>
+                <li>Investment plans enable only relevant schedule fields</li>
+                <li>Cost basis and holdings update after confirmation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="story-card reverse">
+            <figure>
+              <img
+                src="assets/product-graphics/wazo-asset-library-v113.png"
+                width="1672"
+                height="941"
+                alt="WAZO Asset Library with reusable asset definitions, allocation targets, and rebalancing guidance"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <div class="story-copy">
+              <span class="story-kicker">Asset Library</span>
+              <h3>Define once. Organize everything.</h3>
+              <p>Use built-in or custom definitions for funds, equities, metals, crypto, property, cash, physical and digital assets, and anything unique to you.</p>
+              <ul class="check-list">
+                <li>Prefill consistent names, types, and categories</li>
+                <li>Set allocation targets up to a combined 100%</li>
+                <li>Separate net-worth inclusion from other asset controls</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="story-card">
+            <figure>
+              <img
+                src="assets/product-graphics/wazo-performance-reports-v113.png"
+                width="1672"
+                height="941"
+                alt="WAZO Asset Performance and Reports workspace with CAGR, XIRR, gain and loss, charts, and export formats"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <div class="story-copy">
+              <span class="story-kicker">Performance + reports</span>
+              <h3>See what your wealth is doing.</h3>
+              <p>Move from portfolio totals to asset-level investigation. Compare category mix, understand returns, and create a fresh output for the view you are analysing.</p>
+              <div class="format-list" aria-label="Available report outputs">
+                <span>PDF</span><span>Print</span><span>Excel</span><span>CSV</span><span>JSON</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="story-card reverse">
+            <figure>
+              <img
+                src="assets/product-graphics/wazo-privacy-backup-v113.png"
+                width="1672"
+                height="941"
+                alt="WAZO privacy, backup and restore controls with local data and optional zakat"
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <div class="story-copy">
+              <span class="story-kicker">Privacy + resilience</span>
+              <h3>Private by design. Powerful by choice.</h3>
+              <p>Core financial records remain local. Privacy mode removes sensitive values from previews, accessible content, and exports—not just from the visible screen.</p>
+              <ul class="check-list">
+                <li>Manual and scheduled backups to a folder you choose</li>
+                <li>Preview and confirm before importing or restoring</li>
+                <li>Optional zakat stays hidden when you do not use it</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-shell">
+      <div class="section-heading">
+        <span class="eyebrow">Everything that matters</span>
+        <h2>Personal wealth is more than a balance.</h2>
+        <p>WAZO keeps the surrounding context—ownership, goals, time, preferences, and protection—close to the numbers.</p>
       </div>
       <div class="feature-grid">
-        <article class="feature-card screen-card portfolio-card">
-          <span class="icon">01</span>
-          <h3>Portfolio intelligence</h3>
-          <p>Financial-year net worth, asset records, growth charts, current vs desired allocation, and rebalancing signals.</p>
-          <div class="mini-screen" aria-hidden="true"><span></span><span></span><span></span></div>
-        </article>
-        <article class="feature-card screen-card asset-card">
-          <span class="icon">02</span>
-          <h3>Member-owned assets</h3>
-          <p>Every asset belongs to an actual member, with valuation, purchase details, categories, search, sorting, and pagination.</p>
-          <div class="mini-table" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-        </article>
-        <article class="feature-card screen-card">
-          <span class="icon">03</span>
-          <h3>Financial goals</h3>
-          <p>Plan FIRE, monthly needs, goal progress, and estimated equity/gold/real-estate contribution paths.</p>
-          <div class="goal-bars" aria-hidden="true"><span></span><span></span><span></span></div>
-        </article>
-        <article class="feature-card">
-          <span class="icon">04</span>
-          <h3>Optional zakat module</h3>
-          <p>Enable zakat only when needed. When disabled, zakat navigation, fields, reports, cards, and calculations stay hidden.</p>
-        </article>
-        <article class="feature-card">
-          <span class="icon">05</span>
-          <h3>Reports and exports</h3>
-          <p>Generate portfolio reports, PDF exports, HTML, Excel-compatible files, CSV data, and smart focus summaries.</p>
-        </article>
-        <article class="feature-card">
-          <span class="icon">06</span>
-          <h3>Privacy mode</h3>
-          <p>Hide sensitive figures instantly when sharing your screen, working outside, or reviewing data with someone nearby.</p>
-        </article>
-        <article class="feature-card">
-          <span class="icon">07</span>
-          <h3>Backup control</h3>
-          <p>Manual and automatic backups copy local data, settings, activity logs, and event logs to a user-selected folder.</p>
-        </article>
-        <article class="feature-card">
-          <span class="icon">08</span>
-          <h3>Theme system</h3>
-          <p>Choose from multiple themes, control size options, and visual preferences that fit your desktop style.</p>
-        </article>
-        <article class="feature-card">
-          <span class="icon">09</span>
-          <h3>Diagnostics</h3>
-          <p>Activity Log and Event Viewer help trace CRUD changes, warnings, diagnostics, and important app events.</p>
-        </article>
+        <article><span class="feature-icon">PF</span><h3>Profiles and members</h3><p>Model a family or personal profile while preserving the real owner of every asset.</p></article>
+        <article><span class="feature-icon">FY</span><h3>Financial-year views</h3><p>Review records across WAZO’s April-to-March financial year and protect historical snapshots from accidental change.</p></article>
+        <article><span class="feature-icon">GL</span><h3>Financial goals</h3><p>Track progress toward FIRE, retirement, education, property, travel, and custom goals.</p></article>
+        <article><span class="feature-icon">FX</span><h3>Currencies and formats</h3><p>Choose your working currency and regional date and number format while the interface remains in English.</p></article>
+        <article><span class="feature-icon">RT</span><h3>Optional rate updates</h3><p>Use offline values by default or explicitly enable protected online rate updates when they are useful.</p></article>
+        <article><span class="feature-icon">ZK</span><h3>Optional zakat</h3><p>Enable zakat planning when needed. Turn it off without deleting its saved data or affecting normal wealth tracking.</p></article>
+        <article><span class="feature-icon">PR</span><h3>Structural privacy</h3><p>Hide sensitive figures across the screen, preview content, accessibility surfaces, print, and export.</p></article>
+        <article><span class="feature-icon">BK</span><h3>Automatic backups</h3><p>Choose a schedule and let WAZO detect a missed run while keeping the backup location under your control.</p></article>
+        <article><span class="feature-icon">EV</span><h3>Activity and events</h3><p>Review changes, warnings, diagnostics, and important app events in one combined history.</p></article>
       </div>
     </section>
 
-    <section class="section screenshot-gallery">
-      <div class="section-heading">
-        <span class="eyebrow">App views</span>
-        <h2>Visual guide to the main modules.</h2>
-        <p>These product-style panels explain the app flow. Real release screenshots can be dropped into this same section later.</p>
-      </div>
-      <div class="gallery-grid">
-        <article class="gallery-card"><div class="mock mock-portfolio"></div><h3>Portfolio</h3><p>Review net worth, asset allocation, growth, and smart analytics.</p></article>
-        <article class="gallery-card"><div class="mock mock-assets"></div><h3>Assets</h3><p>Add assets, assign owners, update values, and inspect allocation targets.</p></article>
-        <article class="gallery-card"><div class="mock mock-goals"></div><h3>Financial Goals</h3><p>Plan targets, monthly need, FIRE readiness, and goal intelligence.</p></article>
-        <article class="gallery-card"><div class="mock mock-reports"></div><h3>Reports</h3><p>Create printable summaries and export data in useful formats.</p></article>
-      </div>
-    </section>
-
-    <section id="tour" class="section workspace">
+    <section id="workflow" class="section section-shell">
       <div class="section-heading">
         <span class="eyebrow">How it works</span>
-        <h2>Start simple, then grow into advanced tracking.</h2>
+        <h2>Start guided. Grow at your pace.</h2>
+        <p>The new workflow handles a simple first holding just as comfortably as an active family portfolio.</p>
       </div>
-      <div class="steps-grid">
-        <article><strong>1</strong><h3>Create profile</h3><p>Go to Settings > Member Setup and add the family/profile name.</p></article>
-        <article><strong>2</strong><h3>Add members</h3><p>Add people who own assets. Reports and totals roll up from members.</p></article>
-        <article><strong>3</strong><h3>Add assets</h3><p>Open Assets, choose the owner, asset type, value, and notes.</p></article>
-        <article><strong>4</strong><h3>Review portfolio</h3><p>Use Portfolio to inspect growth, allocation, member totals, and analytics.</p></article>
-        <article><strong>5</strong><h3>Set goals</h3><p>Open Financial Goals and add FIRE, education, house, travel, or retirement goals.</p></article>
-        <article><strong>6</strong><h3>Export reports</h3><p>Use Reports or page export buttons to create PDF, HTML, Excel, CSV, or JSON outputs.</p></article>
-      </div>
+      <ol class="workflow-list">
+        <li><span>01</span><div><h3>Set up your profile</h3><p>Follow the first-run guide for members, country, currency, regional format, financial year, and optional zakat.</p></div></li>
+        <li><span>02</span><div><h3>Shape the Asset Library</h3><p>Use ready definitions or create your own, then set category allocation targets where needed.</p></div></li>
+        <li><span>03</span><div><h3>Add holdings and plans</h3><p>Create assets directly or from the library, assign each owner, and add recurring investments.</p></div></li>
+        <li><span>04</span><div><h3>Review pending activity</h3><p>Inspect every due recurring occurrence before it becomes a confirmed transaction or changes a holding.</p></div></li>
+        <li><span>05</span><div><h3>Analyse and rebalance</h3><p>Study net worth, category mix, goals, gain or loss, CAGR, XIRR, and target gaps.</p></div></li>
+        <li><span>06</span><div><h3>Protect and share</h3><p>Back up locally, turn on privacy when needed, and export the exact report format you want.</p></div></li>
+      </ol>
     </section>
 
-    <section class="section currency-section">
-      <div class="section-heading">
-        <span class="eyebrow">Global currency support</span>
-        <h2>Use WAZO in the currency that fits your life.</h2>
-        <p>The app is built with configurable currency settings, including popular global currencies.</p>
-      </div>
-      <div class="currency-cloud" aria-label="Popular currencies supported by WAZO">
-        <span>INR Indian Rupee</span><span>USD US Dollar</span><span>EUR Euro</span><span>GBP Pound Sterling</span>
-        <span>AED UAE Dirham</span><span>SAR Saudi Riyal</span><span>CAD Canadian Dollar</span><span>AUD Australian Dollar</span>
-        <span>SGD Singapore Dollar</span><span>MYR Malaysian Ringgit</span><span>PKR Pakistani Rupee</span><span>BDT Bangladeshi Taka</span>
-        <span>JPY Japanese Yen</span><span>CHF Swiss Franc</span><span>NZD New Zealand Dollar</span><span>ZAR South African Rand</span>
-      </div>
-    </section>
-
-    <section class="section allocation-lab">
-      <div class="section-heading">
-        <span class="eyebrow">Rebalancing preview</span>
-        <h2>Turn allocation targets into action.</h2>
-        <p>Move the sliders to see how desired allocation creates a rebalance signal.</p>
+    <section class="section section-shell allocation-lab">
+      <div class="lab-intro">
+        <span class="eyebrow">Interactive example</span>
+        <h2>Turn targets into a clearer next step.</h2>
+        <p>Try the illustrative targets below. In WAZO, allocation targets live in the Asset Library and guide portfolio rebalancing.</p>
+        <p class="lab-note">Example only—not financial advice.</p>
       </div>
       <div class="lab-card">
         <div class="range-row">
-          <label>Equity target <input id="equityRange" type="range" min="10" max="85" value="60" /></label>
-          <strong><span id="equityValue">60</span>%</strong>
+          <label for="equityRange">Equity target</label>
+          <div class="range-control"><input id="equityRange" type="range" min="10" max="85" value="60" /><strong><span id="equityValue">60</span>%</strong></div>
         </div>
         <div class="range-row">
-          <label>Gold target <input id="goldRange" type="range" min="5" max="40" value="15" /></label>
-          <strong><span id="goldValue">15</span>%</strong>
+          <label for="goldRange">Gold target</label>
+          <div class="range-control"><input id="goldRange" type="range" min="5" max="40" value="15" /><strong><span id="goldValue">15</span>%</strong></div>
         </div>
-        <div class="rebalance-output">
+        <div class="rebalance-output" aria-live="polite">
           <article><span>Current equity</span><strong>42%</strong></article>
-          <article><span>Required shift</span><strong id="rebalanceValue">+18%</strong></article>
+          <article><span>Illustrative gap</span><strong id="rebalanceValue">+18%</strong></article>
           <article><span>Signal</span><strong id="rebalanceSignal">Add gradually</strong></article>
         </div>
       </div>
     </section>
 
-    <section class="section privacy-band">
+    <section class="section section-shell upgrade-note">
       <div>
-        <span class="eyebrow">Private by design</span>
-        <h2>Your data stays on your machine.</h2>
-        <p>
-          WAZO is designed around local JSON files for portfolio data, settings, activity logs,
-          and diagnostic events. Backups are user-controlled, and source code is private.
-        </p>
+        <span class="eyebrow">For existing WAZO users</span>
+        <h2>Your setup moves forward with you.</h2>
       </div>
-      <div class="privacy-list">
-        <span>Local app data</span>
-        <span>User-selected backups</span>
-        <span>Privacy toggle</span>
-        <span>Offline-first workflow</span>
-      </div>
+      <p>
+        WAZO 1.1.3 is designed to preserve existing profiles, members, settings,
+        assets, and optional zakat preferences. No data re-entry is planned when
+        you upgrade, and startup migration includes protected backup and rollback
+        handling.
+      </p>
     </section>
 
-    <section id="downloads" class="section download-card download-showcase">
-      <div class="download-copy">
-        <span class="eyebrow">Downloads and versions</span>
-        <h2>Choose the WAZO build that fits your setup.</h2>
-        <p>Use the Microsoft Store for the recommended public install, the latest stable installer for offline setup, or the major release baseline for rollback and controlled testing.</p>
+    <section id="downloads" class="section section-shell">
+      <div class="section-heading download-heading">
+        <span class="eyebrow">Downloads</span>
+        <h2>Install the current public release.</h2>
+        <p>WAZO 1.1.3 is documented on this page, but its installer is still being prepared. Current download links remain unchanged until the new package is ready.</p>
       </div>
-      <aside class="download-aside">
-        <div class="download-note">
-          <strong>SmartScreen and Chrome warning note</strong>
-          <p>Windows or Chrome may warn that the standalone installer is from an unknown publisher because WAZO is new and the direct installer is not yet code-signed. Only install WAZO from this official page, verify the version and SHA-256 hash, and prefer the Microsoft Store version for normal public installation.</p>
-          <p>If SmartScreen appears, click <b>More info</b> and then <b>Run anyway</b> only when the file name, source, and hash match this page.</p>
+
+      <aside class="installer-status">
+        <div>
+          <span class="status-dot" aria-hidden="true"></span>
+          <strong>WAZO 1.1.3 installer: coming soon</strong>
         </div>
+        <p>Do not download a file claiming to be the WAZO 1.1.3 installer from an unofficial source.</p>
       </aside>
-      <div class="release-grid release-grid-three">
-        <article class="release-option store-release">
+
+      <div class="download-note">
+        <strong>About direct installer warnings</strong>
+        <p>Windows SmartScreen or Chrome may warn that the standalone installer is from an unknown publisher because the direct installer is not yet code-signed. Only use this official page, verify the file name and SHA-256 hash, and choose <b>More info</b> → <b>Run anyway</b> only when those details match.</p>
+      </div>
+
+      <div class="release-grid">
+        <article class="release-option recommended-release">
           <div class="release-badge">Recommended</div>
           <div>
             <strong>Microsoft Store</strong>
-            <span>Recommended public install</span>
+            <span>Public install channel</span>
           </div>
-          <p>Best for most users. Microsoft Store delivery avoids most direct-download warnings and keeps installation familiar.</p>
+          <p>Open WAZO’s Microsoft Store listing for the familiar Windows installation experience.</p>
           <div class="release-actions">
-            <a class="btn primary" href="https://apps.microsoft.com/detail/9NKLT8DKJ1QX" target="_blank" rel="noreferrer">Install from Store</a>
-            <a class="btn" href="ms-windows-store://pdp/?productid=9NKLT8DKJ1QX">Open Store app</a>
+            <a class="btn primary" href="https://apps.microsoft.com/detail/9NKLT8DKJ1QX" target="_blank" rel="noopener noreferrer">View in Microsoft Store</a>
+            <a class="text-link" href="ms-windows-store://pdp/?productid=9NKLT8DKJ1QX">Open the Store app</a>
           </div>
         </article>
 
         <article class="release-option stable-release">
-          <div class="release-badge">Stable 1.0.x</div>
+          <div class="release-badge">Current direct installer</div>
           <div>
-            <strong>Latest stable installer</strong>
-            <span>v1.0.4</span>
+            <strong>WAZO v1.0.4</strong>
+            <span>Latest published 1.0.x build</span>
           </div>
-          <p>Current stable direct installer for offline setup, stand-alone use, and public testing of the latest fixed build.</p>
+          <p>For offline setup and controlled standalone installation while the 1.1.3 package is being prepared.</p>
           <dl class="release-meta">
             <div><dt>File</dt><dd>WAZO-Setup-1.0.4.exe</dd></div>
-            <div><dt>Size</dt><dd>97.4 MiB</dd></div>
+            <div><dt>Size</dt><dd>97.3 MiB</dd></div>
             <div><dt>Build</dt><dd>July 1, 2026</dd></div>
           </dl>
           <p class="checksum"><strong>SHA-256</strong><code>5F77E905169AFF6B8F2FD95EB3F8A62CD5AB6C4D973C2460B165DDC0C2CEF686</code></p>
-          <a class="btn primary" href="downloads/WAZO-Setup-1.0.4.exe" download>Download stable v1.0.4</a>
+          <a class="btn primary" href="downloads/WAZO-Setup-1.0.4.exe" download="WAZO-Setup-1.0.4.exe">Download v1.0.4</a>
         </article>
 
-        <article class="release-option major-release">
-          <div class="release-badge">Major release</div>
+        <article class="release-option baseline-release">
+          <div class="release-badge">Major baseline</div>
           <div>
-            <strong>Baseline installer</strong>
-            <span>v1.0.0</span>
+            <strong>WAZO v1.0.0</strong>
+            <span>Original public baseline</span>
           </div>
-          <p>Original major release baseline, kept for version reference, rollback testing, and controlled comparison.</p>
+          <p>Kept for version reference, rollback testing, and controlled comparison.</p>
           <dl class="release-meta">
             <div><dt>File</dt><dd>WAZO-Setup-1.0.0.exe</dd></div>
             <div><dt>Size</dt><dd>97.1 MiB</dd></div>
             <div><dt>Build</dt><dd>June 28, 2026</dd></div>
           </dl>
           <p class="checksum"><strong>SHA-256</strong><code>345496F625396510E6A8A04B6946FA1FDF831789FE0943E9CDA22118C9073A04</code></p>
-          <a class="btn" href="downloads/WAZO-Setup-1.0.0.exe" download>Download major v1.0.0</a>
+          <a class="btn secondary" href="downloads/WAZO-Setup-1.0.0.exe" download="WAZO-Setup-1.0.0.exe">Download v1.0.0</a>
         </article>
       </div>
     </section>
 
     <section id="support" class="section support-section">
-      <div class="section-heading">
-        <span class="eyebrow">Support desk</span>
-        <h2>Raise a bug, issue, or query.</h2>
-        <p>Choose a template and your email app opens with the right subject and details.</p>
-      </div>
-      <div class="support-grid">
-        <a class="support-card" href="mailto:zubair.softdeveloper@gmail.com?subject=WAZO%20Bug%20Report&body=Hi%20Zubair,%0A%0AI%20found%20a%20bug%20in%20WAZO.%0A%0AVersion:%0AWindows%20version:%0ASteps%20to%20reproduce:%0AExpected%20result:%0AActual%20result:%0AScreenshot%20attached:%20Yes/No%0A">
-          <strong>Raise a bug</strong><span>Broken control, wrong calculation, layout issue, or crash.</span>
-        </a>
-        <a class="support-card" href="mailto:zubair.softdeveloper@gmail.com?subject=WAZO%20Feature%20Request&body=Hi%20Zubair,%0A%0AI%20would%20like%20to%20suggest%20a%20WAZO%20feature.%0A%0AFeature:%0AWhy%20it%20helps:%0AExpected%20workflow:%0A">
-          <strong>Request a feature</strong><span>Suggest a better workflow, report, calculator, or setting.</span>
-        </a>
-        <a class="support-card" href="mailto:zubair.softdeveloper@gmail.com?subject=WAZO%20Support%20Query&body=Hi%20Zubair,%0A%0AI%20need%20help%20with%20WAZO.%0A%0AQuestion:%0AApp%20version:%0A">
-          <strong>Ask a query</strong><span>Setup help, backup help, report questions, or usage guidance.</span>
-        </a>
+      <div class="section-shell">
+        <div class="section-heading">
+          <span class="eyebrow">Support</span>
+          <h2>Tell us what you need.</h2>
+          <p>Choose a template and your email app opens with the useful details already outlined.</p>
+        </div>
+        <div class="support-grid">
+          <a class="support-card" href="mailto:zubair.softdeveloper@gmail.com?subject=WAZO%20Bug%20Report&amp;body=Hi%20Zubair,%0A%0AI%20found%20a%20bug%20in%20WAZO.%0A%0AVersion:%0AWindows%20version:%0ASteps%20to%20reproduce:%0AExpected%20result:%0AActual%20result:%0AScreenshot%20attached:%20Yes/No%0A">
+            <span>01</span><strong>Report a bug</strong><p>Wrong calculation, broken control, layout problem, data issue, or crash.</p>
+          </a>
+          <a class="support-card" href="mailto:zubair.softdeveloper@gmail.com?subject=WAZO%20Feature%20Request&amp;body=Hi%20Zubair,%0A%0AI%20would%20like%20to%20suggest%20a%20WAZO%20feature.%0A%0AFeature:%0AWhy%20it%20helps:%0AExpected%20workflow:%0A">
+            <span>02</span><strong>Request a feature</strong><p>Suggest a workflow, report, asset type, calculator, or setting.</p>
+          </a>
+          <a class="support-card" href="mailto:zubair.softdeveloper@gmail.com?subject=WAZO%20Support%20Query&amp;body=Hi%20Zubair,%0A%0AI%20need%20help%20with%20WAZO.%0A%0AQuestion:%0AApp%20version:%0A">
+            <span>03</span><strong>Ask a question</strong><p>Get help with setup, recurring plans, backups, reports, or everyday use.</p>
+          </a>
+        </div>
       </div>
     </section>
 
-    <section id="faq" class="section faq">
+    <section id="faq" class="section section-shell faq">
       <div class="section-heading">
-        <span class="eyebrow">Questions</span>
-        <h2>Quick help for new users.</h2>
+        <span class="eyebrow">Quick answers</span>
+        <h2>Getting started with confidence.</h2>
       </div>
-      <details open><summary>How do I add a family profile?</summary><p>Open Settings, choose Member Setup, then use Add / Edit Family to create a profile. New installs show a highlighted shortcut until this setup is complete.</p></details>
-      <details><summary>How do I add members?</summary><p>Go to Settings > Member Setup. Add members under Member Register. Assets should be linked to the member who owns them.</p></details>
-      <details><summary>How do I add an asset?</summary><p>Open Assets, select the financial year, then fill Add / Edit Asset. Choose the owner, asset type, purchase details, current value, and save.</p></details>
-      <details><summary>What is the initial setup flow?</summary><p>After install, WAZO guides you through the first family profile, members, currency, and basic preferences so the app is ready to use without guesswork.</p></details>
-      <details><summary>Is WAZO freeware?</summary><p>Yes. WAZO is intended as a free personal wealth organizer for local use, with no required subscription for the core desktop app.</p></details>
-      <details><summary>Does WAZO work offline?</summary><p>Yes. WAZO is offline-first and keeps your main data in local JSON files unless you choose to back it up or export it.</p></details>
-      <details><summary>How do I set allocation targets?</summary><p>On the Assets page, use Allocation Targets to set desired category percentages. Portfolio uses those targets to show required rebalancing.</p></details>
-      <details><summary>How do I change the theme?</summary><p>Open Settings > Themes, choose a theme, font size, and control size, then save. Theme choices help adapt the app for personal preference.</p></details>
-      <details><summary>How do I back up data?</summary><p>Open Settings > Storage, choose a backup folder, then run Backup All JSON Files. Automatic backup can be configured by frequency.</p></details>
-      <details><summary>How do I generate reports or PDFs?</summary><p>Open Reports, choose the report type, financial year, and scope, then export as PDF, HTML, Excel-compatible file, CSV, or JSON.</p></details>
-      <details><summary>Is WAZO only for zakat users?</summary><p>No. WAZO is a general personal wealth organizer. Zakat is optional and can be hidden if not needed.</p></details>
-      <details><summary>Does WAZO need internet?</summary><p>No for core workflows. WAZO is offline-first and stores its main data locally as JSON.</p></details>
-      <details><summary>Where is data stored?</summary><p>WAZO stores portfolio data, settings, activity logs, and event logs in local JSON files in the app data folder.</p></details>
+      <div class="faq-grid">
+        <details open="open">
+          <summary>Is the WAZO 1.1.3 installer available?</summary>
+          <p>Not yet. This page previews the completed product experience while packaging is being prepared. Use the current Store listing or published v1.0.4 direct installer until this page is updated.</p>
+        </details>
+        <details>
+          <summary>What happens during first-time setup?</summary>
+          <p>WAZO guides you through a profile, members, country, currency, regional formatting, financial year, and optional zakat so the workspace fits you from the start.</p>
+        </details>
+        <details>
+          <summary>Do existing users need to enter their data again?</summary>
+          <p>No. The 1.1.3 update is designed to migrate and preserve existing profiles, members, settings, assets, and optional zakat preferences, with protected backup and rollback handling.</p>
+        </details>
+        <details>
+          <summary>Does WAZO work offline?</summary>
+          <p>Yes. Core wealth-management workflows are offline-first and store their main data locally as JSON. Online rate updates are optional and must be enabled by you.</p>
+        </details>
+        <details>
+          <summary>How do recurring investments affect holdings?</summary>
+          <p>Due SIP or recurring occurrences appear for review. A holding and its cost basis update only after you confirm the occurrence, including every installment created from a backdated plan.</p>
+        </details>
+        <details>
+          <summary>Where are allocation targets now?</summary>
+          <p>Allocation targets are managed in the Asset Library, alongside reusable asset definitions. Combined targets are limited to 100%.</p>
+        </details>
+        <details>
+          <summary>What can I export?</summary>
+          <p>WAZO provides fresh PDF, print, Excel, CSV, and JSON outputs from its Export &amp; Print Center and supported workspaces, including Assets and optional Zakat.</p>
+        </details>
+        <details>
+          <summary>What does privacy mode protect?</summary>
+          <p>Privacy mode removes sensitive values from visible screens, preview content, accessibility surfaces, print, and export rather than merely covering them with styling.</p>
+        </details>
+        <details>
+          <summary>Is WAZO only for zakat users?</summary>
+          <p>No. WAZO is a general personal wealth organizer. Zakat planning is optional, stays out of the interface when disabled, and can be re-enabled without deleting saved data.</p>
+        </details>
+        <details>
+          <summary>Is WAZO freeware?</summary>
+          <p>Yes. WAZO is intended as a free personal wealth organizer for local use, with no required subscription for the core Windows desktop app.</p>
+        </details>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div>
-      <strong>WAZO</strong>
-      <span>Your personalized wealth organizer.</span>
-    </div>
-    <div>
-      <a href="https://www.linkedin.com/in/imzub/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:zubair.softdeveloper@gmail.com">Email</a>
-      <a href="#support">Support</a>
+    <div class="section-shell footer-inner">
+      <a class="brand footer-brand" href="#top" aria-label="Back to WAZO home">
+        <img src="assets/wazo-logo.png" width="44" height="44" alt="" />
+        <span><strong>WAZO</strong><small>Your personalized wealth organizer.</small></span>
+      </a>
+      <div class="footer-links">
+        <a href="#whats-new">What’s new</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#support">Support</a>
+        <a href="https://www.linkedin.com/in/imzub/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:zubair.softdeveloper@gmail.com">Email</a>
+      </div>
+      <p>© 2026 WAZO. Private, offline-first personal wealth organization for Windows.</p>
     </div>
   </footer>
 
