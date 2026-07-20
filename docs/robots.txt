@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imzub.github.io/WAZO-OFFICIAL/sitemap.xml

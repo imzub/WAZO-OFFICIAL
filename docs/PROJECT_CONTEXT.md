@@ -21,7 +21,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Explain that direct `.exe` installers may trigger SmartScreen/Chrome warnings until they are code-signed and gain reputation.
 - Provide support paths for bugs, issues, feature requests, and queries.
 - The downloads section should show only three install paths: recommended Microsoft Store install, latest published direct installer, and the current major baseline installer such as `1.0.0`, `1.1.0`, or `2.0.0`.
-- Showcase privacy, local JSON storage, multiple currencies, reports, backups, and optional zakat module.
+- Showcase privacy, local storage, multiple currencies, reports, backups, and the optional zakat module. For v1.1.5, describe app-managed Windows records as authenticated protected storage rather than plaintext local JSON.
 - Keep the downloads section visually light: one short warning panel, three release cards, and concise version metadata.
 - Add beginner-friendly FAQ items for initial setup, freeware, offline mode, backups, and core workflows whenever the site is updated.
 
@@ -49,6 +49,14 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Do not link to the private WAZO source repo.
 - Do not publish real user financial data.
 - Use only public-safe screenshots, generated visuals, or anonymized demo data.
+
+## Stable Privacy Policy
+
+- Public route: `https://imzub.github.io/WAZO-OFFICIAL/privacy/`, sourced from `docs/privacy/index.html`.
+- Active revision: `WAZO-PP-1.1.5-2026-07-20`; effective date: `2026-07-20`.
+- Canonical bundled-policy SHA-256: `345782b97fb5c6e530658415a4ba8b1a2589f03068e2238b03a588a1b9a442af`.
+- `docs/privacy/policy-manifest.json` and the `wazo-policy-*` metadata in the policy HTML must retain the same revision, effective date, URL, and canonical hash as the exact UTF-8/LF `docs/PRIVACY_POLICY.md` bundled by the matching WAZO release.
+- Any substantive privacy-policy edit requires a new reviewed revision and synchronized app, website, manifest, Help/About, manual, and Store-listing metadata. Do not silently edit one copy.
 
 ## Change Rule
 
