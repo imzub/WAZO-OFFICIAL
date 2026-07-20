@@ -13,7 +13,12 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - For all WAZO GitHub authentication and repository operations, always select and use the `imzub` account without asking the user to make the account choice.
 - GitHub Pages publishes from `docs/`.
 - Keep public website content in `docs/`.
-- Public installer downloads are stored in `docs/downloads/` and linked from the Downloads section.
+- Store website-managed data under `docs/site-data/`.
+- Keep shared brand files in `docs/site-data/shared/`.
+- Store every release under `docs/site-data/releases/v<version>/` with `release.json`, `updates/`, and optional `images/` and `installer/` folders.
+- Public installer downloads are stored in the matching version's `installer/` folder and linked from the Downloads section.
+- Keep older releases and installers tracked in the GitHub repository. The local clone may use sparse checkout to omit archived installer binaries while keeping their metadata and release notes locally.
+- Do not remove an older release artifact from GitHub unless Zubair explicitly asks for its deletion.
 - Microsoft Store should be positioned as the recommended public install path once available; direct `.exe` installers are for offline setup and controlled testing.
 - Do not recreate or use the old `Site/` folder.
 - Do not link to the private WAZO source repository.
@@ -30,6 +35,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 ## Website Maintenance Rules
 
 - Update this context file when website structure, public messaging, download/release process, support process, or GitHub Pages publishing rules change.
+- Update `docs/site-data/releases/index.json`, the version's `release.json`, and its release notes whenever release status, installer metadata, product graphics, or public update details change.
 - Keep download sections version-aware: recommended Microsoft Store install, latest stable `1.0.x` installer, and the major baseline installer, with release notes and known fixes.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
 - Current stable direct installer should track the latest fixed build (currently `v1.0.4` unless a newer release is published).

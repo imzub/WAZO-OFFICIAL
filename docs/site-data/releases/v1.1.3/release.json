@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "version": "1.1.3",
+  "status": "installer-pending",
+  "platform": "Windows",
+  "installer": null,
+  "releaseNotes": "site-data/releases/v1.1.3/updates/release-notes.md",
+  "images": [
+    "site-data/releases/v1.1.3/images/wazo-hero-v113.png",
+    "site-data/releases/v1.1.3/images/wazo-assets-investments-v113.png",
+    "site-data/releases/v1.1.3/images/wazo-asset-library-v113.png",
+    "site-data/releases/v1.1.3/images/wazo-performance-reports-v113.png",
+    "site-data/releases/v1.1.3/images/wazo-privacy-backup-v113.png"
+  ]
+}

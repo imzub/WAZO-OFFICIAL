@@ -17,7 +17,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Help users understand the app workflow.
 - Provide version-aware download areas.
 - Position Microsoft Store as the recommended public install channel.
-- Host public Windows installer downloads from `docs/downloads/` with version, size, notes, and SHA-256 hashes.
+- Host public Windows installer downloads in versioned folders under `docs/site-data/releases/` with version, size, notes, and SHA-256 hashes.
 - Explain that direct `.exe` installers may trigger SmartScreen/Chrome warnings until they are code-signed and gain reputation.
 - Provide support paths for bugs, issues, feature requests, and queries.
 - The downloads section should show only three install paths: recommended Microsoft Store install, latest stable `1.0.x` installer, and the current major baseline installer such as `1.0.0`, `1.1.0`, or `2.0.0`.
@@ -27,12 +27,22 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 ## Current Public Downloads
 
-- Stable direct installer: `v1.0.4` / `docs/downloads/WAZO-Setup-1.0.4.exe`.
+- Stable direct installer: `v1.0.4` / `docs/site-data/releases/v1.0.4/installer/WAZO-Setup-1.0.4.exe`.
 - WAZO `v1.1.3` is currently a website feature preview only. Do not add or imply a `v1.1.3` installer download until Zubair confirms the package is ready and published.
-- Major baseline installer: `v1.0.0` / `docs/downloads/WAZO-Setup-1.0.0.exe`.
+- Major baseline installer: `v1.0.0` / `docs/site-data/releases/v1.0.0/installer/WAZO-Setup-1.0.0.exe`.
 - Older installers retained for rollback/testing: `v1.0.1` and `v1.0.2`.
 - Keep older installers available unless Zubair explicitly asks to remove them.
 - Direct installers remain available, but the Store link should be the primary public install path.
+
+## Versioned Website Data
+
+- Shared branding lives in `docs/site-data/shared/branding/`.
+- Release data lives in `docs/site-data/releases/v<version>/`.
+- Each release keeps a machine-readable `release.json` and human-readable notes under `updates/`.
+- Release-specific product graphics live under that release's `images/` folder.
+- Installer binaries live under that release's `installer/` folder.
+- `docs/site-data/releases/index.json` records the product version, current published installer, major baseline, and archived versions.
+- Archived installers remain tracked in GitHub for GitHub Pages and rollback use. This working clone may omit their binary files through Git sparse checkout; their manifests and notes remain local.
 
 ## Public Safety
 
@@ -46,6 +56,6 @@ Update `AGENTS.md` or this context file when future website work changes publish
 
 ## Current Website Presentation
 
-- Product graphics for the `v1.1.3` experience live in `docs/assets/product-graphics/`.
+- Product graphics for the `v1.1.3` experience live in `docs/site-data/releases/v1.1.3/images/`.
 - The public feature story highlights guided setup, the Asset Library, the unified Assets and investment-review workspace, performance reporting, exports, local recovery, privacy mode, regional formatting, and optional zakat.
 - Existing-user messaging should explain that the update preserves profiles, members, settings, assets, and optional zakat preferences without asking users to re-enter their data.

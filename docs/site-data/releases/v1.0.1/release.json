@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "version": "1.0.1",
+  "status": "archived",
+  "platform": "Windows",
+  "publishedDate": "2026-06-30",
+  "installer": {
+    "file": "WAZO-Setup-1.0.1.exe",
+    "url": "site-data/releases/v1.0.1/installer/WAZO-Setup-1.0.1.exe",
+    "sizeBytes": 101870381,
+    "sha256": "33EB9D4980858A632E7AE486E335E12B0078353B7C19F28326BE65B15603ED12"
+  },
+  "releaseNotes": "site-data/releases/v1.0.1/updates/release-notes.md",
+  "images": []
+}

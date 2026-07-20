@@ -69,6 +69,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 button,
@@ -523,6 +524,10 @@ p {
 
 .story-card.reverse .story-copy {
   order: 1;
+}
+
+.story-card.reverse {
+  grid-template-columns: minmax(310px, 0.75fr) minmax(0, 1.25fr);
 }
 
 .story-copy {
@@ -1074,6 +1079,10 @@ input[type="range"] {
   }
 
   .story-card {
+    grid-template-columns: 1fr;
+  }
+
+  .story-card.reverse {
     grid-template-columns: 1fr;
   }
 
