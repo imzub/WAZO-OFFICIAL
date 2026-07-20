@@ -1,13 +1,18 @@
 {
   "schemaVersion": 1,
   "product": "WAZO",
-  "latestProductVersion": "1.1.4",
-  "currentInstallerVersion": "1.1.4",
+  "latestProductVersion": "1.1.5",
+  "currentInstallerVersion": "1.1.5",
   "majorBaselineVersion": "1.0.0",
   "versions": [
     {
-      "version": "1.1.4",
+      "version": "1.1.5",
       "status": "current",
+      "manifest": "site-data/releases/v1.1.5/release.json"
+    },
+    {
+      "version": "1.1.4",
+      "status": "superseded",
       "manifest": "site-data/releases/v1.1.4/release.json"
     },
     {

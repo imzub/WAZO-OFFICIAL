@@ -3,7 +3,7 @@
   "product": "WAZO",
   "version": "1.1.4",
   "buildVersion": "1.1.4.0",
-  "status": "current",
+  "status": "superseded",
   "platform": "Windows",
   "architecture": "x64",
   "installerTechnology": "NSIS",

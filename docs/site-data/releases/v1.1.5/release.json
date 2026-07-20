@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "version": "1.1.5",
+  "buildVersion": "1.1.5.0",
+  "status": "current",
+  "platform": "Windows",
+  "architecture": "x64",
+  "installerTechnology": "NSIS",
+  "publishedDate": "2026-07-20",
+  "sourceCommit": "60252b49da38d1fd2e8a79421ff0cd6db2c7fa30",
+  "installer": {
+    "file": "WAZO-Setup-1.1.5.exe",
+    "url": "site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe",
+    "sizeBytes": 102277651,
+    "sha256": "4CD10928FB07886CE114A6029B9070B85D2BFF98D89228835CD2EBD2DD34865B",
+    "authenticode": "NotSigned"
+  },
+  "validation": {
+    "completedDate": "2026-07-20",
+    "automatedTests": {
+      "passed": 204,
+      "failed": 0
+    },
+    "installerMetadata": "passed",
+    "archiveIntegrity": "passed",
+    "isolatedLaunch": "passed",
+    "install": "passed",
+    "sameVersionReinstall": "passed",
+    "existingProfilePreservation": "passed",
+    "uninstall": "passed"
+  },
+  "releaseNotes": "site-data/releases/v1.1.5/updates/release-notes.md",
+  "manual": {
+    "url": "site-data/releases/v1.1.5/updates/WAZO-User-Manual-v1.1.5.pdf",
+    "sizeBytes": 93041,
+    "pages": 11,
+    "sha256": "9B2EF8CDE67006832F263B041D70664316B0240F64C98552A610B9D3A5B3B977"
+  },
+  "privacyPolicy": {
+    "revision": "WAZO-PP-1.1.5-2026-07-20",
+    "effectiveDate": "2026-07-20",
+    "url": "https://imzub.github.io/WAZO-OFFICIAL/privacy/",
+    "sha256": "345782b97fb5c6e530658415a4ba8b1a2589f03068e2238b03a588a1b9a442af"
+  },
+  "images": [
+    "site-data/releases/v1.1.5/images/wazo-hero-v115.png",
+    "site-data/releases/v1.1.5/images/wazo-assets-investments-v115.png",
+    "site-data/releases/v1.1.5/images/wazo-asset-library-v115.png",
+    "site-data/releases/v1.1.5/images/wazo-performance-reports-v115.png",
+    "site-data/releases/v1.1.5/images/wazo-private-setup-v115.png"
+  ],
+  "existingUserImpact": "Existing v1.1.4 users receive a one-time, non-preselected privacy review before WAZO validates and migrates their data into Windows-protected storage. Exiting before acknowledgement leaves the prior store unchanged. Successful migration preserves supported profiles, members, assets, goals, settings, and values without data re-entry."
+}

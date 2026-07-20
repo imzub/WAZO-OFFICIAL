@@ -20,7 +20,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Public installer downloads are stored in the matching version's `installer/` folder and linked from the Downloads section.
 - Keep older releases and installers tracked in the GitHub repository. The local clone may use sparse checkout to omit archived installer binaries while keeping their metadata and release notes locally.
 - Do not remove an older release artifact from GitHub unless Zubair explicitly asks for its deletion.
-- Microsoft Store should be positioned as the recommended public install path once available; direct `.exe` installers are for offline setup and controlled testing.
+- Microsoft Store should be positioned as the recommended public install path once available. Keep the Store card unlinked and marked pending until the WAZO listing is published and verified; direct `.exe` installers are the current website channel for offline setup and controlled installation.
 - Do not recreate or use the old `Site/` folder.
 - Do not link to the private WAZO source repository.
 - The website may link to LinkedIn, support email, public release files, and public documentation.
@@ -41,7 +41,8 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Update `docs/site-data/releases/index.json`, the version's `release.json`, and its release notes whenever release status, installer metadata, product graphics, or public update details change.
 - Keep download sections version-aware: recommended Microsoft Store install, latest published direct installer, and the major baseline installer, with release notes and known fixes.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
-- Current stable direct installer should track the latest validated build (currently `v1.1.4`).
+- Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v1.1.5 uses a direct installer link only.
+- Current stable direct installer should track the latest validated build (currently `v1.1.5`).
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 
@@ -51,5 +52,6 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Confirm no private source-code links are present.
 - Confirm GitHub Pages can publish from `docs/`.
 - Confirm support email links open with useful templates.
+- Confirm every local page, image, manual, release-note, and installer link resolves, and verify public installer size/hash against the current release manifest.
 - Confirm the `/privacy/` page, canonical URL, policy metadata, and sitemap entry are valid.
 - Check desktop and mobile responsiveness.
