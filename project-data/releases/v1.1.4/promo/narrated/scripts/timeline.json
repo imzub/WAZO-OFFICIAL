@@ -1,0 +1,111 @@
+{
+  "title": "Meet WAZO \u2014 Your personalized wealth organizer",
+  "voice": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "pitch": "-1Hz",
+  "silenceBetweenScenes": 0.58,
+  "narrationDuration": 120.492,
+  "videoDuration": 121.692,
+  "scenes": [
+    {
+      "index": 1,
+      "id": "01-introduction",
+      "view": "portfolio",
+      "start": 0.0,
+      "voiceDuration": 10.44,
+      "end": 10.44,
+      "sceneEnd": 11.02,
+      "caption": "Wealth can be spread across accounts, properties, investments, goals, and family members. WAZO brings the complete picture together in one Windows app."
+    },
+    {
+      "index": 2,
+      "id": "02-for-whom",
+      "view": "portfolio",
+      "start": 11.02,
+      "voiceDuration": 9.744,
+      "end": 20.764,
+      "sceneEnd": 21.344,
+      "caption": "WAZO is built for individuals and families who want a clear, private way to organize their financial life, without depending on an always-online service."
+    },
+    {
+      "index": 3,
+      "id": "03-family-ownership",
+      "view": "settings-members",
+      "start": 21.344,
+      "voiceDuration": 12.888,
+      "end": 34.232,
+      "sceneEnd": 34.812,
+      "caption": "Start with family profiles and assign each asset to its real owner. The portfolio then shows net worth, holdings, and allocation across the household, while keeping ownership easy to understand."
+    },
+    {
+      "index": 4,
+      "id": "04-asset-library",
+      "view": "assetLibrary",
+      "start": 34.812,
+      "voiceDuration": 11.352,
+      "end": 46.164,
+      "sceneEnd": 46.744,
+      "caption": "Use the Asset Library to define reusable asset types, then add investments and other holdings consistently. This keeps your records organized as your portfolio grows."
+    },
+    {
+      "index": 5,
+      "id": "05-recurring-investments",
+      "view": "assets",
+      "start": 46.744,
+      "voiceDuration": 12.624,
+      "end": 59.368,
+      "sceneEnd": 59.948,
+      "caption": "For SIP plans and recurring investments, WAZO prepares upcoming entries for review. Check the details first, then confirm them when they are correct, so your holdings change intentionally."
+    },
+    {
+      "index": 6,
+      "id": "06-goals-performance",
+      "view": "reports",
+      "start": 59.948,
+      "voiceDuration": 14.28,
+      "end": 74.228,
+      "sceneEnd": 74.808,
+      "caption": "Set financial goals and allocation targets, then follow progress over time. Performance views help you understand gains and losses, financial-year results, CAGR, and XIRR."
+    },
+    {
+      "index": 7,
+      "id": "07-reports-exports",
+      "view": "reports",
+      "start": 74.808,
+      "voiceDuration": 11.424,
+      "end": 86.232,
+      "sceneEnd": 86.812,
+      "caption": "When you need to share or analyze information, create clear reports and export them to PDF, Excel, CSV, JSON, or print."
+    },
+    {
+      "index": 8,
+      "id": "08-privacy-backups",
+      "view": "settings",
+      "start": 86.812,
+      "voiceDuration": 12.648,
+      "end": 99.46,
+      "sceneEnd": 100.04,
+      "caption": "Your core records stay on your computer in local app storage. Privacy Mode helps conceal sensitive values, while manual and scheduled backups, plus restore previews, help protect your data."
+    },
+    {
+      "index": 9,
+      "id": "09-optional-features",
+      "view": "zakat",
+      "start": 100.04,
+      "voiceDuration": 8.208,
+      "end": 108.248,
+      "sceneEnd": 108.828,
+      "caption": "Online rate updates are optional and used only when you enable them. Optional zakat tools can also be turned on when they are relevant to you."
+    },
+    {
+      "index": 10,
+      "id": "10-closing",
+      "view": "portfolio",
+      "start": 108.828,
+      "voiceDuration": 11.664,
+      "end": 120.492,
+      "sceneEnd": 121.692,
+      "caption": "From everyday organization to long-term planning, WAZO gives you one calm, structured view of your wealth. Discover WAZO for Windows and take control of your financial picture."
+    }
+  ]
+}

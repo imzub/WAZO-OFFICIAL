@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "title": "WAZO Narrated Explainer",
+  "recordedVersion": "1.1.4",
+  "sourceCommit": "7c63be818372307dc08ff6551b7296fca863d3e7",
+  "language": "en-US",
+  "voice": "en-US-AndrewNeural",
+  "durationSeconds": 121.72,
+  "resolution": "1920x1080",
+  "frameRate": "30000/1001",
+  "video": {
+    "url": "site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4.mp4",
+    "sizeBytes": 25540813,
+    "sha256": "639D090D6C730BD583FD5FD87EA92DF3D98C6DA69C78CE53D3C090AEAC9A2723",
+    "codec": "H.264 High / AAC-LC stereo",
+    "fastStart": true
+  },
+  "poster": {
+    "url": "site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-Poster.png",
+    "sizeBytes": 520766,
+    "sha256": "3E5D4BD45B995AC98E02EC9017335BBDC398A2F7BAFD52393317A65D3F325379"
+  },
+  "captions": {
+    "webVtt": "site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-English.vtt",
+    "webVttSizeBytes": 1976,
+    "webVttSha256": "041FEBA63FBF29077D37EFB5C76025FDBD9D87670AE4216D8E1EC60858828448",
+    "srt": "site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-English.srt",
+    "srtSizeBytes": 2028,
+    "srtSha256": "75B5FE7F969A1F8B8309FCE2AB0E6D7730F15A61267D3FA05555C40FF3B228A7"
+  },
+  "transcript": {
+    "url": "site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-Transcript.md",
+    "sizeBytes": 1936,
+    "sha256": "A4D13DC8780296F530672CCEDE2B8A91C52CEDB4F7A0F9983D678A31325D14D5"
+  },
+  "productionWorkspace": "project-data/releases/v1.1.4/promo/narrated/",
+  "dataPolicy": "Isolated anonymous demo profile only",
+  "currentReleaseNote": "The current v1.1.5 release retains these core workflows and adds guided privacy setup and protected Windows storage."
+}

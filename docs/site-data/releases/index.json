@@ -4,6 +4,10 @@
   "latestProductVersion": "1.1.5",
   "currentInstallerVersion": "1.1.5",
   "majorBaselineVersion": "1.0.0",
+  "featuredVideo": {
+    "recordedVersion": "1.1.4",
+    "manifest": "site-data/releases/v1.1.4/video/video.json"
+  },
   "versions": [
     {
       "version": "1.1.5",

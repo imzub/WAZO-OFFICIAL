@@ -19,7 +19,7 @@
   <link rel="sitemap" type="application/xml" href="https://imzub.github.io/WAZO-OFFICIAL/sitemap.xml" />
   <link rel="icon" href="site-data/shared/branding/wazo-logo.png" />
   <link rel="preload" as="image" href="site-data/releases/v1.1.5/images/wazo-hero-v115.png" fetchpriority="high" />
-  <link rel="stylesheet" href="styles.css?v=1.1.5-20260721" />
+  <link rel="stylesheet" href="styles.css?v=1.1.5-20260721-tour" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -40,6 +40,7 @@
       </span>
     </a>
     <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#tour">Tour</a>
       <a href="#whats-new">What’s new</a>
       <a href="#experience">Experience</a>
       <a href="#workflow">How it works</a>
@@ -61,8 +62,8 @@
           desktop workspace.
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="#whats-new">Explore WAZO 1.1.5</a>
-          <a class="btn secondary" href="#downloads">View current downloads</a>
+          <a class="btn primary" href="#tour">Watch the WAZO tour</a>
+          <a class="btn secondary" href="#whats-new">Explore WAZO 1.1.5</a>
         </div>
         <ul class="trust-list" aria-label="WAZO product qualities">
           <li>Protected app-managed Windows data</li>
@@ -90,6 +91,79 @@
       <article><strong>CAGR + XIRR</strong><span>Performance insight</span></article>
       <article><strong>5 formats</strong><span>PDF, Print, Excel, CSV, JSON</span></article>
       <article><strong>Protected</strong><span>App-managed Windows data</span></article>
+    </section>
+
+    <section id="tour" class="section tour-section" aria-labelledby="tour-title">
+      <div class="section-shell">
+        <div class="tour-layout">
+          <div class="tour-copy">
+            <span class="eyebrow">2-minute product tour</span>
+            <h2 id="tour-title">See how WAZO brings your wealth together.</h2>
+            <p id="tour-description">
+              Follow the complete WAZO workflow—from family ownership and assets
+              to recurring investments, goals, reports, privacy controls, backups,
+              optional rates, and zakat.
+            </p>
+            <ul class="tour-facts" aria-label="Video details">
+              <li>English narration</li>
+              <li>English captions</li>
+              <li>2 min 2 sec</li>
+              <li>Anonymous demo data</li>
+            </ul>
+            <p class="tour-version-note">
+              <strong>Version note:</strong> The interface shown was recorded in
+              WAZO 1.1.4. Current v1.1.5 retains these core workflows and adds
+              guided privacy setup and protected Windows storage.
+            </p>
+            <div class="tour-actions">
+              <a class="btn primary" href="#experience">Explore all features</a>
+              <a class="tour-text-link" href="site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-Transcript.md" download>Download transcript</a>
+            </div>
+          </div>
+
+          <div class="tour-media">
+            <video
+              class="explainer-video"
+              controls
+              preload="metadata"
+              playsinline
+              poster="site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-Poster.png"
+              aria-label="WAZO 1.1.4 product tour with English narration"
+              aria-describedby="tour-description tour-video-note"
+            >
+              <source src="site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4.mp4" type="video/mp4" />
+              <track
+                kind="captions"
+                src="site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-English.vtt"
+                srclang="en"
+                label="English"
+                default
+              />
+              Your browser cannot play this video.
+              <a href="site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4.mp4">Download the WAZO product tour</a>.
+            </video>
+            <p id="tour-video-note" class="tour-video-note">
+              A genuine WAZO walkthrough with voiceover, captions, and an isolated demo profile.
+            </p>
+          </div>
+        </div>
+
+        <details class="tour-transcript">
+          <summary>Read the complete English transcript</summary>
+          <div class="tour-transcript-copy">
+            <p>Wealth can be spread across accounts, properties, investments, goals, and family members. WAZO brings the complete picture together in one Windows app.</p>
+            <p>WAZO is built for individuals and families who want a clear, private way to organize their financial life, without depending on an always-online service.</p>
+            <p>Start with family profiles and assign each asset to its real owner. The portfolio then shows net worth, holdings, and allocation across the household, while keeping ownership easy to understand.</p>
+            <p>Use the Asset Library to define reusable asset types, then add investments and other holdings consistently. This keeps your records organized as your portfolio grows.</p>
+            <p>For SIP plans and recurring investments, WAZO prepares upcoming entries for review. Check the details first, then confirm them when they are correct, so your holdings change intentionally.</p>
+            <p>Set financial goals and allocation targets, then follow progress over time. Performance views help you understand gains and losses, financial-year results, CAGR, and XIRR.</p>
+            <p>When you need to share or analyze information, create clear reports and export them to PDF, Excel, CSV, JSON, or print.</p>
+            <p>Your core records stay on your computer in local app storage. Privacy Mode helps conceal sensitive values, while manual and scheduled backups, plus restore previews, help protect your data.</p>
+            <p>Online rate updates are optional and used only when you enable them. Optional zakat tools can also be turned on when they are relevant to you.</p>
+            <p>From everyday organization to long-term planning, WAZO gives you one calm, structured view of your wealth. Discover WAZO for Windows and take control of your financial picture.</p>
+          </div>
+        </details>
+      </div>
     </section>
 
     <section id="whats-new" class="section section-shell">
@@ -458,6 +532,7 @@
         <span><strong>WAZO</strong><small>Your personalized wealth organizer.</small></span>
       </a>
       <div class="footer-links">
+        <a href="#tour">Product tour</a>
         <a href="#whats-new">What’s new</a>
         <a href="#downloads">Downloads</a>
         <a href="#support">Support</a>

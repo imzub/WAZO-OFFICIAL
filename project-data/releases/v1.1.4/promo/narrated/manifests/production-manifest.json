@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-21T07:14:47.385596+00:00",
+  "project": "WAZO narrated English introduction",
+  "appVersion": "1.1.4",
+  "sourceCommit": "7c63be818372307dc08ff6551b7296fca863d3e7",
+  "durationSeconds": 121.692,
+  "video": {
+    "resolution": "1920x1080",
+    "captureFps": 6,
+    "outputFps": "30000/1001",
+    "captureFramePattern": "capture-frames/frame-%06d.jpg",
+    "captureFrameCount": 731,
+    "motionInterpolation": "FFmpeg scene-aware linear frame interpolation",
+    "masterVideoRate": "15 Mbps target, 16 Mbps maximum",
+    "reviewVideoRate": "CRF 23, 6 Mbps maximum"
+  },
+  "audio": {
+    "voice": "en-US-AndrewNeural",
+    "language": "en-US",
+    "narration": {
+      "path": "WAZO-English-Narration.wav",
+      "bytes": 11567310,
+      "sha256": "53a34444f74de9686b7fdd131c25050c6dea5a436e4586b2ff437697f312dcbb"
+    },
+    "music": {
+      "path": "source/generated/wazo-narrated-original-bed.wav",
+      "bytes": 23364908,
+      "sha256": "e7adbc95bfb65a5f500a3ba06e63c4697be7f042fb668454a70cfac229967897",
+      "description": "Original procedurally generated ambient instrumental; ducked under narration"
+    },
+    "masterTarget": "-16 LUFS, true peak below -1.2 dB"
+  },
+  "subtitles": {
+    "language": "English",
+    "embeddedCodec": "mov_text",
+    "sidecar": {
+      "path": "WAZO-Narrated-Explainer-v1.1.4-English.srt",
+      "bytes": 2028,
+      "sha256": "75b5fe7f969a1f8b8309fce2ab0e6d7730f15a61267d3fa05555c40ff3b228a7"
+    }
+  },
+  "timeline": {
+    "path": "source/timeline.json",
+    "bytes": 4122,
+    "sha256": "3e2fd3f44b4d6d77e4ee0feb2e64e576d25997d1f7fef948e361db5d488d5a6d"
+  },
+  "captureManifest": {
+    "title": "WAZO v1.1.4 narrated explainer \u2014 live app capture",
+    "generatedAt": "2026-07-21T07:03:12.596Z",
+    "source": {
+      "version": "1.1.4",
+      "commit": "7c63be818372307dc08ff6551b7296fca863d3e7",
+      "app": "source-app-v1.1.4",
+      "historicalCaptureHarness": "source-app-v1.1.4/scripts/capture-store-screenshots.js",
+      "captureDataExpressionSha256": "01E037E6C77E4BA1CBB8B39146939198E7527D7C27862910F96AB0654C299C9D"
+    },
+    "capture": {
+      "fps": 6,
+      "frameCount": 731,
+      "timelineDurationSeconds": 121.692,
+      "encodedFrameDurationSeconds": 121.83333333333333,
+      "outputPattern": "capture-frames/frame-%06d.jpg",
+      "format": "JPEG",
+      "jpegQuality": 74,
+      "viewport": {
+        "css": "2400x1350",
+        "deviceScaleFactor": 0.8,
+        "output": "1920x1080"
+      },
+      "bytes": 100710140,
+      "megabytes": 96.04,
+      "concatenatedFrameSha256": "1C496F813F53835846362AB4D006820050F6FAC80CDF145CCCF056F0ABB371A0",
+      "startedAt": "2026-07-21T07:00:53.119Z",
+      "completedAt": "2026-07-21T07:03:12.596Z"
+    },
+    "data": {
+      "profile": "fresh isolated Electron user-data directory",
+      "content": "bundled anonymous demo data plus one in-memory capture-only SIP example",
+      "installedUserDataUsed": false,
+      "repositorySeedModified": false
+    },
+    "safety": {
+      "visiblePersonalPathScan": "passed for every activated shot",
+      "settingsStoragePaths": "hidden with capture-only CSS",
+      "dialogsOpened": false,
+      "destructiveActionsInvoked": false,
+      "persistentAppSettingsChanged": false
+    },
+    "storage": {
+      "freeBytesBefore": 1103204352,
+      "freeBytesAfter": 1000734720,
+      "estimatedCaptureBytes": [
+        115343360,
+        230686720
+      ]
+    },
+    "scenes": [
+      {
+        "index": 1,
+        "id": "01-introduction",
+        "start": 0,
+        "end": 11.02,
+        "overlayTitle": "Meet WAZO",
+        "shots": [
+          {
+            "at": 0,
+            "view": "portfolio"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "id": "02-for-whom",
+        "start": 11.02,
+        "end": 21.344,
+        "overlayTitle": "Individuals & families",
+        "shots": [
+          {
+            "at": 0,
+            "view": "help"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "id": "03-family-ownership",
+        "start": 21.344,
+        "end": 34.812,
+        "overlayTitle": "Clear family ownership",
+        "shots": [
+          {
+            "at": 0,
+            "view": "settings",
+            "settingsSection": "members"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "id": "04-asset-library",
+        "start": 34.812,
+        "end": 46.744,
+        "overlayTitle": "Consistent asset records",
+        "shots": [
+          {
+            "at": 0,
+            "view": "assetLibrary"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "id": "05-recurring-investments",
+        "start": 46.744,
+        "end": 59.948,
+        "overlayTitle": "Review recurring investments",
+        "shots": [
+          {
+            "at": 0,
+            "view": "assets"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "id": "06-goals-performance",
+        "start": 59.948,
+        "end": 74.808,
+        "overlayTitle": "Goals & performance",
+        "shots": [
+          {
+            "at": 0,
+            "view": "budget"
+          },
+          {
+            "at": 0.48,
+            "view": "reports"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "id": "07-reports-exports",
+        "start": 74.808,
+        "end": 86.812,
+        "overlayTitle": "Reports & exports",
+        "shots": [
+          {
+            "at": 0,
+            "view": "reports"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "id": "08-privacy-backups",
+        "start": 86.812,
+        "end": 100.04,
+        "overlayTitle": "Privacy & backups",
+        "shots": [
+          {
+            "at": 0,
+            "view": "portfolio",
+            "privacy": true
+          },
+          {
+            "at": 0.46,
+            "view": "settings",
+            "settingsSection": "storage",
+            "privacy": true
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "id": "09-optional-features",
+        "start": 100.04,
+        "end": 108.828,
+        "overlayTitle": "Optional rates & zakat",
+        "shots": [
+          {
+            "at": 0,
+            "view": "settings",
+            "settingsSection": "general",
+            "privacy": false
+          },
+          {
+            "at": 0.5,
+            "view": "zakat"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "id": "10-closing",
+        "start": 108.828,
+        "end": 121.692,
+        "overlayTitle": "Your wealth, clearly organized",
+        "shots": [
+          {
+            "at": 0,
+            "view": "portfolio"
+          },
+          {
+            "at": 0.25,
+            "view": "assets"
+          },
+          {
+            "at": 0.45,
+            "view": "budget"
+          },
+          {
+            "at": 0.63,
+            "view": "reports"
+          },
+          {
+            "at": 0.81,
+            "view": "portfolio"
+          }
+        ]
+      }
+    ]
+  },
+  "ffmpeg": "G:\\iZ\\WAZO-PROMO\\.tools\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "outputs": [
+    {
+      "path": "WAZO-Narrated-Explainer-v1.1.4-Master.mp4",
+      "bytes": 164609325,
+      "sha256": "a29c156218b245021b1f99e1dd4b132757032770229e888fa0d583f19db5ee2a"
+    },
+    {
+      "path": "WAZO-Narrated-Explainer-v1.1.4-Review.mp4",
+      "bytes": 25540813,
+      "sha256": "639d090d6c730bd583fd5fd87ea92df3d98c6da69c78ce53d3c090aeac9a2723"
+    },
+    {
+      "path": "WAZO-Narrated-Explainer-v1.1.4-Poster.png",
+      "bytes": 520766,
+      "sha256": "3e5d4bd45b995ac98e02ec9017335bbdc398a2f7bafd52393317a65d3f325379"
+    },
+    {
+      "path": "WAZO-Narrated-Explainer-v1.1.4-English.srt",
+      "bytes": 2028,
+      "sha256": "75b5fe7f969a1f8b8309fce2ab0e6d7730f15a61267d3fa05555c40ff3b228a7"
+    }
+  ],
+  "privacy": "Live capture uses the isolated anonymous WAZO demo profile only."
+}

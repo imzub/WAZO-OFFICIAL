@@ -47,5 +47,14 @@
     "site-data/releases/v1.1.4/images/wazo-performance-reports-v114.png",
     "site-data/releases/v1.1.4/images/wazo-privacy-backup-v114.png"
   ],
+  "video": {
+    "manifest": "site-data/releases/v1.1.4/video/video.json",
+    "webVideo": "site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4.mp4",
+    "poster": "site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-Poster.png",
+    "captions": "site-data/releases/v1.1.4/video/WAZO-Narrated-Explainer-v1.1.4-English.vtt",
+    "durationSeconds": 121.72,
+    "language": "English",
+    "status": "published"
+  },
   "existingUserImpact": "No action required. Existing local data and settings are preserved; no schema migration or data re-entry is required."
 }

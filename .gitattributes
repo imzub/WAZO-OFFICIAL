@@ -4,3 +4,17 @@
 *.jpg binary
 *.jpeg binary
 *.webp binary
+*.mp4 binary
+*.wav binary
+*.mp3 binary
+*.srt binary
+*.vtt text eol=lf
+
+# The browser-ready MP4 under docs/ stays in normal Git for GitHub Pages.
+# Editable production media outside docs/ uses Git LFS for portable clones.
+/project-data/releases/v*/promo/narrated/delivery/*-Master.mp4 filter=lfs diff=lfs merge=lfs -text
+/project-data/releases/v*/promo/narrated/audio/*.wav filter=lfs diff=lfs merge=lfs -text
+/project-data/releases/v*/promo/narrated/audio/*.mp3 filter=lfs diff=lfs merge=lfs -text
+/project-data/releases/v*/promo/narrated/audio/voice-segments/*.wav filter=lfs diff=lfs merge=lfs -text
+/project-data/releases/v*/promo/narrated/audio/voice-segments/*.mp3 filter=lfs diff=lfs merge=lfs -text
+/project-data/releases/v*/promo/narrated/capture-frames/*.jpg filter=lfs diff=lfs merge=lfs -text

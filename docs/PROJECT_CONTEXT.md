@@ -42,6 +42,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Release data lives in `docs/site-data/releases/v<version>/`.
 - Each release keeps a machine-readable `release.json` and human-readable notes under `updates/`.
 - Release-specific product graphics live under that release's `images/` folder.
+- Release-specific public video assets live under that release's optional `video/` folder with a machine-readable manifest, web MP4, poster, captions, and transcript.
 - Installer binaries live under that release's `installer/` folder.
 - `docs/site-data/releases/index.json` records the product version, current published installer, major baseline, and archived versions.
 - Archived installers remain tracked in GitHub for GitHub Pages and rollback use. This working clone may omit their binary files through Git sparse checkout; their manifests and notes remain local.
@@ -52,6 +53,16 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Do not link to the private WAZO source repo.
 - Do not publish real user financial data.
 - Use only public-safe screenshots, generated visuals, or anonymized demo data.
+
+## Current Product Tour
+
+- The home page includes a narrated product tour at `#tour`, placed before the release-specific v1.1.5 changes.
+- The accepted interface recording is WAZO `v1.1.4`, built from private application commit `7c63be818372307dc08ff6551b7296fca863d3e7`; the current website and installer remain `v1.1.5`.
+- The tour is approximately 2 minutes 2 seconds, 1920 x 1080, with English narration, default English WebVTT captions, anonymous demo data, a poster, and a complete transcript.
+- Public delivery files are under `docs/site-data/releases/v1.1.4/video/`. The Pages MP4 must remain ordinary Git content.
+- The complete public-safe editable workspace and durable continuation notes are under `project-data/`. The master, production audio, voice segments, and 731 capture frames use Git LFS and require `git lfs pull` after cloning.
+- Private WAZO application source and dependencies are intentionally excluded. Authorized reproduction requires a separate checkout of the recorded source commit.
+- Do not describe the v1.1.4 recording as demonstrating v1.1.5 protected-storage internals. Its on-page disclosure explains the version boundary.
 
 ## Stable Privacy Policy
 

@@ -1,0 +1,68 @@
+{
+  "title": "Meet WAZO — Your personalized wealth organizer",
+  "voice": "en-US-AndrewNeural",
+  "rate": "-4%",
+  "pitch": "-1Hz",
+  "scenes": [
+    {
+      "id": "01-introduction",
+      "view": "portfolio",
+      "spoken": "Wealth can be spread across accounts, properties, investments, goals, and family members. Wah-zo brings the complete picture together in one Windows app.",
+      "caption": "Wealth can be spread across accounts, properties, investments, goals, and family members. WAZO brings the complete picture together in one Windows app."
+    },
+    {
+      "id": "02-for-whom",
+      "view": "portfolio",
+      "spoken": "Wah-zo is built for individuals and families who want a clear, private way to organize their financial life, without depending on an always-online service.",
+      "caption": "WAZO is built for individuals and families who want a clear, private way to organize their financial life, without depending on an always-online service."
+    },
+    {
+      "id": "03-family-ownership",
+      "view": "settings-members",
+      "spoken": "Start with family profiles and assign each asset to its real owner. The portfolio then shows net worth, holdings, and allocation across the household, while keeping ownership easy to understand.",
+      "caption": "Start with family profiles and assign each asset to its real owner. The portfolio then shows net worth, holdings, and allocation across the household, while keeping ownership easy to understand."
+    },
+    {
+      "id": "04-asset-library",
+      "view": "assetLibrary",
+      "spoken": "Use the Asset Library to define reusable asset types, then add investments and other holdings consistently. This keeps your records organized as your portfolio grows.",
+      "caption": "Use the Asset Library to define reusable asset types, then add investments and other holdings consistently. This keeps your records organized as your portfolio grows."
+    },
+    {
+      "id": "05-recurring-investments",
+      "view": "assets",
+      "spoken": "For SIP plans and recurring investments, Wah-zo prepares upcoming entries for review. Check the details first, then confirm them when they are correct, so your holdings change intentionally.",
+      "caption": "For SIP plans and recurring investments, WAZO prepares upcoming entries for review. Check the details first, then confirm them when they are correct, so your holdings change intentionally."
+    },
+    {
+      "id": "06-goals-performance",
+      "view": "reports",
+      "spoken": "Set financial goals and allocation targets, then follow progress over time. Performance views help you understand gains and losses, financial-year results, C. A. G. R., and X. I. R. R.",
+      "caption": "Set financial goals and allocation targets, then follow progress over time. Performance views help you understand gains and losses, financial-year results, CAGR, and XIRR."
+    },
+    {
+      "id": "07-reports-exports",
+      "view": "reports",
+      "spoken": "When you need to share or analyze information, create clear reports and export them to PDF, Excel, C. S. V., JSON, or print.",
+      "caption": "When you need to share or analyze information, create clear reports and export them to PDF, Excel, CSV, JSON, or print."
+    },
+    {
+      "id": "08-privacy-backups",
+      "view": "settings",
+      "spoken": "Your core records stay on your computer in local app storage. Privacy Mode helps conceal sensitive values, while manual and scheduled backups, plus restore previews, help protect your data.",
+      "caption": "Your core records stay on your computer in local app storage. Privacy Mode helps conceal sensitive values, while manual and scheduled backups, plus restore previews, help protect your data."
+    },
+    {
+      "id": "09-optional-features",
+      "view": "zakat",
+      "spoken": "Online rate updates are optional and used only when you enable them. Optional zakat tools can also be turned on when they are relevant to you.",
+      "caption": "Online rate updates are optional and used only when you enable them. Optional zakat tools can also be turned on when they are relevant to you."
+    },
+    {
+      "id": "10-closing",
+      "view": "portfolio",
+      "spoken": "From everyday organization to long-term planning, Wah-zo gives you one calm, structured view of your wealth. Discover Wah-zo for Windows and take control of your financial picture.",
+      "caption": "From everyday organization to long-term planning, WAZO gives you one calm, structured view of your wealth. Discover WAZO for Windows and take control of your financial picture."
+    }
+  ]
+}

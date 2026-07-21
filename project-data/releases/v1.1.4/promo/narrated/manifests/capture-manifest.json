@@ -1,0 +1,217 @@
+{
+  "title": "WAZO v1.1.4 narrated explainer — live app capture",
+  "generatedAt": "2026-07-21T07:03:12.596Z",
+  "source": {
+    "version": "1.1.4",
+    "commit": "7c63be818372307dc08ff6551b7296fca863d3e7",
+    "app": "source-app-v1.1.4",
+    "historicalCaptureHarness": "source-app-v1.1.4/scripts/capture-store-screenshots.js",
+    "captureDataExpressionSha256": "01E037E6C77E4BA1CBB8B39146939198E7527D7C27862910F96AB0654C299C9D"
+  },
+  "capture": {
+    "fps": 6,
+    "frameCount": 731,
+    "timelineDurationSeconds": 121.692,
+    "encodedFrameDurationSeconds": 121.83333333333333,
+    "outputPattern": "capture-frames/frame-%06d.jpg",
+    "format": "JPEG",
+    "jpegQuality": 74,
+    "viewport": {
+      "css": "2400x1350",
+      "deviceScaleFactor": 0.8,
+      "output": "1920x1080"
+    },
+    "bytes": 100710140,
+    "megabytes": 96.04,
+    "concatenatedFrameSha256": "1C496F813F53835846362AB4D006820050F6FAC80CDF145CCCF056F0ABB371A0",
+    "startedAt": "2026-07-21T07:00:53.119Z",
+    "completedAt": "2026-07-21T07:03:12.596Z"
+  },
+  "data": {
+    "profile": "fresh isolated Electron user-data directory",
+    "content": "bundled anonymous demo data plus one in-memory capture-only SIP example",
+    "installedUserDataUsed": false,
+    "repositorySeedModified": false
+  },
+  "safety": {
+    "visiblePersonalPathScan": "passed for every activated shot",
+    "settingsStoragePaths": "hidden with capture-only CSS",
+    "dialogsOpened": false,
+    "destructiveActionsInvoked": false,
+    "persistentAppSettingsChanged": false
+  },
+  "storage": {
+    "freeBytesBefore": 1103204352,
+    "freeBytesAfter": 1000734720,
+    "estimatedCaptureBytes": [
+      115343360,
+      230686720
+    ]
+  },
+  "scenes": [
+    {
+      "index": 1,
+      "id": "01-introduction",
+      "start": 0,
+      "end": 11.02,
+      "overlayTitle": "Meet WAZO",
+      "shots": [
+        {
+          "at": 0,
+          "view": "portfolio"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "id": "02-for-whom",
+      "start": 11.02,
+      "end": 21.344,
+      "overlayTitle": "Individuals & families",
+      "shots": [
+        {
+          "at": 0,
+          "view": "help"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "id": "03-family-ownership",
+      "start": 21.344,
+      "end": 34.812,
+      "overlayTitle": "Clear family ownership",
+      "shots": [
+        {
+          "at": 0,
+          "view": "settings",
+          "settingsSection": "members"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "id": "04-asset-library",
+      "start": 34.812,
+      "end": 46.744,
+      "overlayTitle": "Consistent asset records",
+      "shots": [
+        {
+          "at": 0,
+          "view": "assetLibrary"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "id": "05-recurring-investments",
+      "start": 46.744,
+      "end": 59.948,
+      "overlayTitle": "Review recurring investments",
+      "shots": [
+        {
+          "at": 0,
+          "view": "assets"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "id": "06-goals-performance",
+      "start": 59.948,
+      "end": 74.808,
+      "overlayTitle": "Goals & performance",
+      "shots": [
+        {
+          "at": 0,
+          "view": "budget"
+        },
+        {
+          "at": 0.48,
+          "view": "reports"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "id": "07-reports-exports",
+      "start": 74.808,
+      "end": 86.812,
+      "overlayTitle": "Reports & exports",
+      "shots": [
+        {
+          "at": 0,
+          "view": "reports"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "id": "08-privacy-backups",
+      "start": 86.812,
+      "end": 100.04,
+      "overlayTitle": "Privacy & backups",
+      "shots": [
+        {
+          "at": 0,
+          "view": "portfolio",
+          "privacy": true
+        },
+        {
+          "at": 0.46,
+          "view": "settings",
+          "settingsSection": "storage",
+          "privacy": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "id": "09-optional-features",
+      "start": 100.04,
+      "end": 108.828,
+      "overlayTitle": "Optional rates & zakat",
+      "shots": [
+        {
+          "at": 0,
+          "view": "settings",
+          "settingsSection": "general",
+          "privacy": false
+        },
+        {
+          "at": 0.5,
+          "view": "zakat"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "id": "10-closing",
+      "start": 108.828,
+      "end": 121.692,
+      "overlayTitle": "Your wealth, clearly organized",
+      "shots": [
+        {
+          "at": 0,
+          "view": "portfolio"
+        },
+        {
+          "at": 0.25,
+          "view": "assets"
+        },
+        {
+          "at": 0.45,
+          "view": "budget"
+        },
+        {
+          "at": 0.63,
+          "view": "reports"
+        },
+        {
+          "at": 0.81,
+          "view": "portfolio"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.venv/
+tools/
+source-app-v1.1.4/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.capture-profile/
+temp/

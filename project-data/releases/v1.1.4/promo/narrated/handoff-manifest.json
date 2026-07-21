@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "checkpointDate": "2026-07-21",
+  "status": "accepted-for-current-website",
+  "product": "WAZO",
+  "recordedVersion": "1.1.4",
+  "currentWebsiteVersion": "1.1.5",
+  "sourceCommit": "7c63be818372307dc08ff6551b7296fca863d3e7",
+  "durationSeconds": 121.692,
+  "voice": {
+    "name": "en-US-AndrewNeural",
+    "rate": "-4%",
+    "pitch": "-1Hz",
+    "language": "en-US"
+  },
+  "capture": {
+    "frameCount": 731,
+    "frameBytes": 100710140,
+    "captureFps": 6,
+    "resolution": "1920x1080",
+    "concatenatedFrameSha256": "1C496F813F53835846362AB4D006820050F6FAC80CDF145CCCF056F0ABB371A0",
+    "data": "fresh isolated profile with anonymous demo data"
+  },
+  "delivery": {
+    "master": {
+      "path": "delivery/WAZO-Narrated-Explainer-v1.1.4-Master.mp4",
+      "bytes": 164609325,
+      "sha256": "A29C156218B245021B1F99E1DD4B132757032770229E888FA0D583F19DB5EE2A"
+    },
+    "review": {
+      "path": "delivery/WAZO-Narrated-Explainer-v1.1.4-Review.mp4",
+      "bytes": 25540813,
+      "sha256": "639D090D6C730BD583FD5FD87EA92DF3D98C6DA69C78CE53D3C090AEAC9A2723"
+    },
+    "poster": {
+      "path": "delivery/WAZO-Narrated-Explainer-v1.1.4-Poster.png",
+      "bytes": 520766,
+      "sha256": "3E5D4BD45B995AC98E02EC9017335BBDC398A2F7BAFD52393317A65D3F325379"
+    },
+    "captions": {
+      "path": "delivery/WAZO-Narrated-Explainer-v1.1.4-English.srt",
+      "bytes": 2028,
+      "sha256": "75B5FE7F969A1F8B8309FCE2AB0E6D7730F15A61267D3FA05555C40FF3B228A7"
+    }
+  },
+  "publicDelivery": "../../../../../docs/site-data/releases/v1.1.4/video/",
+  "requiresGitLfs": [
+    "delivery/WAZO-Narrated-Explainer-v1.1.4-Master.mp4",
+    "audio/*.wav",
+    "audio/*.mp3",
+    "audio/voice-segments/*",
+    "capture-frames/*.jpg"
+  ],
+  "historicalManifestPathMap": {
+    "WAZO-English-Narration.wav": "audio/WAZO-English-Narration.wav",
+    "source/generated/wazo-narrated-original-bed.wav": "audio/wazo-narrated-original-bed.wav",
+    "source/timeline.json": "scripts/timeline.json",
+    "WAZO-Narrated-Explainer-v1.1.4-Master.mp4": "delivery/WAZO-Narrated-Explainer-v1.1.4-Master.mp4",
+    "WAZO-Narrated-Explainer-v1.1.4-Review.mp4": "delivery/WAZO-Narrated-Explainer-v1.1.4-Review.mp4",
+    "WAZO-Narrated-Explainer-v1.1.4-Poster.png": "delivery/WAZO-Narrated-Explainer-v1.1.4-Poster.png",
+    "WAZO-Narrated-Explainer-v1.1.4-English.srt": "delivery/WAZO-Narrated-Explainer-v1.1.4-English.srt"
+  },
+  "privateSourceIncluded": false,
+  "checksumFile": "checksums.sha256",
+  "resumeGuide": "../../../../context/PRODUCTION_HANDOFF.md"
+}
