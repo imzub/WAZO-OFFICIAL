@@ -9,7 +9,10 @@
     "sizeBytes": 102285721,
     "sha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
     "sourceCommit": "0f03c6084ab023cd14841158bd369461163ac319",
+    "websitePublicationCommit": "94f6cff4868814ee3bc0fd40903e025a72c6331c",
     "publishedDate": "2026-07-21",
+    "verifiedAtUtc": "2026-07-21T12:59:13Z",
+    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe?sha=94ef7f7c3456",
     "sourceValidation": {
       "syntax": "passed",
       "static": "passed",
@@ -19,6 +22,7 @@
     },
     "correctedNsisWebsitePayloadMatrix": "18/18 passed",
     "nativeCurrentDisplay": "3/3 passed in 104.4s on the exact NSIS payload via browser/CDP interaction plus Windows IsZoomed attestation at flow endpoints and five lifecycle checkpoints; humanValidated=false",
+    "publicDownloadVerification": "HTTP 200; 102285721 bytes; SHA-256 matched at 2026-07-21T12:59:13Z",
     "manifest": "site-data/releases/v1.1.5/release.json"
   },
   "previousLiveInstaller": {

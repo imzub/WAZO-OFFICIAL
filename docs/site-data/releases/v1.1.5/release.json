@@ -14,6 +14,10 @@
     "channel": "official-website-direct-installer",
     "authorizedBy": "explicit-user-instruction",
     "authorizedDate": "2026-07-21",
+    "artifactPublicationCommit": "94f6cff4868814ee3bc0fd40903e025a72c6331c",
+    "pagesDeploymentId": 5538627778,
+    "pagesDeploymentState": "success",
+    "pagesDeploymentUrl": "https://imzub.github.io/WAZO-OFFICIAL/",
     "note": "Publication was explicitly authorized for the official website. That authorization publishes the automated-tested installer but does not represent or replace physical human workflow validation."
   },
   "installer": {
@@ -22,6 +26,20 @@
     "sizeBytes": 102285721,
     "sha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
     "authenticode": "NotSigned"
+  },
+  "liveVerification": {
+    "verifiedAtUtc": "2026-07-21T12:59:13Z",
+    "homepageHttpStatus": 200,
+    "releaseIndexHttpStatus": 200,
+    "releaseManifestHttpStatus": 200,
+    "releaseNotesHttpStatus": 200,
+    "privacyPageHttpStatus": 200,
+    "installerHttpStatus": 200,
+    "installerDownloadedBytes": 102285721,
+    "installerDownloadedSha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
+    "manualHttpStatus": 200,
+    "manualDownloadedBytes": 96715,
+    "manualDownloadedSha256": "F21FCF29713F10AA8BEB934A21AF08112B16055C0EA66A51D5CEB877B1055E59"
   },
   "validation": {
     "state": "automated-validation-passed",
