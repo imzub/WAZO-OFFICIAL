@@ -48,7 +48,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Keep download sections version-aware: recommended Microsoft Store install, latest published direct installer, and the major baseline installer, with release notes and known fixes.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
 - Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v1.1.5 uses a direct installer link only.
-- Current stable direct installer should track the latest validated build (currently `v1.1.5`).
+- Current stable direct installer is WAZO `v1.1.5`, 102,285,721 bytes, SHA-256 `94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB`, from private product source commit `0f03c6084ab023cd14841158bd369461163ac319`. Its website publication was explicitly authorized on 2026-07-21 after the recorded automated release gates passed. Physical human workflow validation is not recorded, and publication must not be described as a human test pass. The earlier 102,284,642-byte `955F0060...A13E` installer is rejected, superseded historical evidence only.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 

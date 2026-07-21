@@ -5,7 +5,9 @@ Checkpoint date: 2026-07-21
 ## Published product state
 
 - The website remains WAZO `1.1.5`; no product, installer, Store, or policy version was changed for this media update.
-- The validated direct installer remains `docs/site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe`.
+- The current public direct installer is `docs/site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe`: 102,285,721 bytes, SHA-256 `94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB`, from private product source commit `0f03c6084ab023cd14841158bd369461163ac319`.
+- Publication was explicitly authorized on 2026-07-21 after the recorded automated release gates passed. Physical human workflow validation is not recorded; website publication is not a human-validation pass.
+- The earlier 102,284,642-byte installer with SHA-256 `955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E` is rejected, superseded historical evidence only.
 - The Microsoft Store card remains pending until the listing is published and independently verified.
 - GitHub Pages continues to publish from `docs/` on branch `Master` under the `imzub` account.
 

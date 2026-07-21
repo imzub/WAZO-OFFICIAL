@@ -28,3 +28,19 @@ When an installer is published, update its version manifest, release notes,
 manual and updater files when supplied, `releases/index.json`, and the website
 download section together. Verify published installer hashes and sizes against
 the approved app-release handoff before promoting the version to `current`.
+
+## Prepared Candidates
+
+A corrected installer may be copied into a local website working tree before
+publication only when its manifest, download section, release notes, and project
+context all label it as prepared and not published. Promote it to current only
+after publication is explicitly authorized and record that authorization in
+the release manifest. Publication authorization is separate from physical human
+workflow validation and must never be described as a human test pass. Retain
+the replaced installer identity as historical evidence. Native-display evidence
+must identify browser/CDP interaction separately from Windows IsZoomed state
+attestation at flow endpoints and lifecycle checkpoints.
+
+WAZO v1.1.5 uses direct installer delivery only. Never copy `latest.yml`, a
+blockmap, or other updater-feed metadata into `docs/` unless a compatible update
+client and URL layout have first been implemented and verified.

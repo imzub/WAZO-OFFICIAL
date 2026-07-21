@@ -3,6 +3,31 @@
   "product": "WAZO",
   "latestProductVersion": "1.1.5",
   "currentInstallerVersion": "1.1.5",
+  "currentLiveInstaller": {
+    "version": "1.1.5",
+    "status": "current",
+    "sizeBytes": 102285721,
+    "sha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
+    "sourceCommit": "0f03c6084ab023cd14841158bd369461163ac319",
+    "publishedDate": "2026-07-21",
+    "sourceValidation": {
+      "syntax": "passed",
+      "static": "passed",
+      "fullTests": "245/245 passed in 25.9s",
+      "brand": "passed",
+      "defaultSourceStartupGateCleanRerun": "12/12 passed in 148.5s"
+    },
+    "correctedNsisWebsitePayloadMatrix": "18/18 passed",
+    "nativeCurrentDisplay": "3/3 passed in 104.4s on the exact NSIS payload via browser/CDP interaction plus Windows IsZoomed attestation at flow endpoints and five lifecycle checkpoints; humanValidated=false",
+    "manifest": "site-data/releases/v1.1.5/release.json"
+  },
+  "previousLiveInstaller": {
+    "version": "1.1.5",
+    "status": "rejected-superseded-historical",
+    "sizeBytes": 102284642,
+    "sha256": "955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E",
+    "websiteCommit": "1630edadb907cce834886ded65b7190ecbe6205a"
+  },
   "majorBaselineVersion": "1.0.0",
   "featuredVideo": {
     "recordedVersion": "1.1.4",

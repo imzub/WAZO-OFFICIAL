@@ -8,27 +8,85 @@
   "architecture": "x64",
   "installerTechnology": "NSIS",
   "publishedDate": "2026-07-21",
-  "sourceCommit": "232210ba29904c9f3badf54d0650edc6c721a1b1",
+  "sourceCommit": "0f03c6084ab023cd14841158bd369461163ac319",
+  "publication": {
+    "state": "published",
+    "channel": "official-website-direct-installer",
+    "authorizedBy": "explicit-user-instruction",
+    "authorizedDate": "2026-07-21",
+    "note": "Publication was explicitly authorized for the official website. That authorization publishes the automated-tested installer but does not represent or replace physical human workflow validation."
+  },
   "installer": {
     "file": "WAZO-Setup-1.1.5.exe",
-    "url": "site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe?sha=955f00602e1f",
-    "sizeBytes": 102284642,
-    "sha256": "955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E",
+    "url": "site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe?sha=94ef7f7c3456",
+    "sizeBytes": 102285721,
+    "sha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
     "authenticode": "NotSigned"
   },
   "validation": {
-    "completedDate": "2026-07-21",
-    "automatedTests": {
-      "passed": 240,
-      "failed": 0
+    "state": "automated-validation-passed",
+    "privateAutomatedEvidence": "recorded-in-product-release-handoff",
+    "sourceValidation": {
+      "syntax": "passed",
+      "static": "passed",
+      "fullTests": {
+        "passed": 245,
+        "failed": 0,
+        "runtimeSeconds": 25.9,
+        "status": "passed"
+      },
+      "brand": "passed",
+      "defaultSourceStartupGateCleanRerun": {
+        "passed": 12,
+        "failed": 0,
+        "runtimeSeconds": 148.5,
+        "status": "passed"
+      }
     },
-    "installerMetadata": "passed",
-    "archiveIntegrity": "passed",
-    "isolatedLaunch": "passed",
-    "install": "passed",
-    "sameVersionReinstall": "passed",
-    "existingProfilePreservation": "passed",
-    "uninstall": "passed"
+    "correctedNsisWebsitePayloadMatrix": {
+      "passed": 18,
+      "failed": 0,
+      "status": "passed"
+    },
+    "nativeCurrentDisplay": {
+      "passed": 3,
+      "failed": 0,
+      "status": "passed",
+      "scenarios": [
+        "fresh",
+        "legacy",
+        "lifecycle"
+      ],
+      "artifact": "exact corrected NSIS/website-installer payload",
+      "automation": "browser/CDP interaction",
+      "nativeWindowStateAttestation": {
+        "api": "Windows IsZoomed",
+        "flowEndpoints": "passed",
+        "lifecycleCheckpointsPassed": 5,
+        "lifecycleCheckpointsRequired": 5
+      },
+      "display": {
+        "windowsScalingPercent": 150,
+        "devicePixelRatio": 1.5,
+        "cssScreen": "1280x800",
+        "cssWorkArea": "1280x752",
+        "physical": "1920x1200"
+      },
+      "runtimeSeconds": 104.4,
+      "humanValidated": false
+    },
+    "physicalHumanValidation": "not-recorded",
+    "publicationApproval": "approved-by-explicit-user-instruction-2026-07-21"
+  },
+  "previousLiveInstaller": {
+    "status": "rejected-superseded-historical",
+    "file": "WAZO-Setup-1.1.5.exe",
+    "cacheBustedUrlAtPublication": "site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe?sha=955f00602e1f",
+    "sizeBytes": 102284642,
+    "sha256": "955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E",
+    "sourceCommit": "232210ba29904c9f3badf54d0650edc6c721a1b1",
+    "websiteCommit": "1630edadb907cce834886ded65b7190ecbe6205a",
+    "note": "These facts describe the previously published installer and are retained only as historical release evidence."
   },
   "releaseNotes": "site-data/releases/v1.1.5/updates/release-notes.md",
   "manual": {
