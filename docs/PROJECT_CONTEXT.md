@@ -27,8 +27,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 ## Current Public Downloads
 
 - Stable direct installer: `v1.1.5` / `docs/site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe`.
-- The `v1.1.5` Windows x64 installer is 102,277,651 bytes with SHA-256 `4CD10928FB07886CE114A6029B9070B85D2BFF98D89228835CD2EBD2DD34865B`.
-- Its source passed 204 automated tests with 0 failures. Installer metadata, archive integrity, isolated launch, fresh install, same-version reinstall, 237-file existing-profile preservation, and uninstall checks passed.
+- The refreshed `v1.1.5` Windows x64 installer is 102,284,642 bytes with SHA-256 `955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E`; its source commit is `232210ba29904c9f3badf54d0650edc6c721a1b1`.
+- Its source passed 240 automated tests with 0 failures, 0 dependency-audit vulnerabilities, and an independent GREEN review. Installer metadata, archive and payload integrity, isolated launch, fresh install, same-version reinstall, 237-file existing-profile preservation, and uninstall checks passed.
+- The matching 12-page manual is 96,715 bytes with SHA-256 `F21FCF29713F10AA8BEB934A21AF08112B16055C0EA66A51D5CEB877B1055E59`.
 - Authenticode status is `NotSigned`, so keep the direct-installer warning visible and never claim code signing.
 - Major baseline installer: `v1.0.0` / `docs/site-data/releases/v1.0.0/installer/WAZO-Setup-1.0.0.exe`.
 - Older installers retained for rollback/testing: `v1.0.1`, `v1.0.2`, and `v1.0.4`.
@@ -68,6 +69,6 @@ Update `AGENTS.md` or this context file when future website work changes publish
 
 - Product graphics for the `v1.1.5` experience live in `docs/site-data/releases/v1.1.5/images/`; all five website images are genuine 1920 x 1080 app captures with anonymous/demo data.
 - The public feature story highlights seven-step initial setup, non-preselected in-app privacy acknowledgement, protected Windows storage, backup-first v1.1.4 migration, password-protected portable backups, protected automatic recovery, readable-export warnings, opt-in online rates, the Asset Library, Assets and investment review, and performance reports.
-- Release confidence messaging may cite 204 passing automated tests and successful integrity, isolated-launch, install, same-version reinstall, 237-file existing-profile preservation, and uninstall validation recorded for `v1.1.5`.
+- Release confidence messaging may cite 240 passing automated tests, 0 dependency-audit vulnerabilities, a GREEN independent review, and successful integrity, isolated-launch, install, same-version reinstall, 237-file existing-profile preservation, and uninstall validation recorded for `v1.1.5`.
 - Existing-user messaging must explain the one-time privacy review, that exiting before acknowledgement leaves the v1.1.4 store unchanged, and that successful migration preserves supported data without re-entry.
 - Windows protection claims apply only to the Windows desktop release. Do not imply Android protection parity.

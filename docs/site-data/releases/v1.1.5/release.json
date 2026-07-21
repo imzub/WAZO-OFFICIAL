@@ -7,19 +7,19 @@
   "platform": "Windows",
   "architecture": "x64",
   "installerTechnology": "NSIS",
-  "publishedDate": "2026-07-20",
-  "sourceCommit": "60252b49da38d1fd2e8a79421ff0cd6db2c7fa30",
+  "publishedDate": "2026-07-21",
+  "sourceCommit": "232210ba29904c9f3badf54d0650edc6c721a1b1",
   "installer": {
     "file": "WAZO-Setup-1.1.5.exe",
-    "url": "site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe",
-    "sizeBytes": 102277651,
-    "sha256": "4CD10928FB07886CE114A6029B9070B85D2BFF98D89228835CD2EBD2DD34865B",
+    "url": "site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe?sha=955f00602e1f",
+    "sizeBytes": 102284642,
+    "sha256": "955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E",
     "authenticode": "NotSigned"
   },
   "validation": {
-    "completedDate": "2026-07-20",
+    "completedDate": "2026-07-21",
     "automatedTests": {
-      "passed": 204,
+      "passed": 240,
       "failed": 0
     },
     "installerMetadata": "passed",
@@ -32,10 +32,10 @@
   },
   "releaseNotes": "site-data/releases/v1.1.5/updates/release-notes.md",
   "manual": {
-    "url": "site-data/releases/v1.1.5/updates/WAZO-User-Manual-v1.1.5.pdf",
-    "sizeBytes": 93041,
-    "pages": 11,
-    "sha256": "9B2EF8CDE67006832F263B041D70664316B0240F64C98552A610B9D3A5B3B977"
+    "url": "site-data/releases/v1.1.5/updates/WAZO-User-Manual-v1.1.5.pdf?sha=f21fcf29713f",
+    "sizeBytes": 96715,
+    "pages": 12,
+    "sha256": "F21FCF29713F10AA8BEB934A21AF08112B16055C0EA66A51D5CEB877B1055E59"
   },
   "privacyPolicy": {
     "revision": "WAZO-PP-1.1.5-2026-07-20",
@@ -50,5 +50,5 @@
     "site-data/releases/v1.1.5/images/wazo-performance-reports-v115.png",
     "site-data/releases/v1.1.5/images/wazo-private-setup-v115.png"
   ],
-  "existingUserImpact": "Existing v1.1.4 users receive a one-time, non-preselected privacy review before WAZO validates and migrates their data into Windows-protected storage. Exiting before acknowledgement leaves the prior store unchanged. Successful migration preserves supported profiles, members, assets, goals, settings, and values without data re-entry."
+  "existingUserImpact": "Existing v1.1.5 users can reinstall this maintenance build without re-entering supported profiles, members, assets, transactions, goals, settings, or values. Existing v1.1.4 users still receive the one-time, non-preselected privacy review before WAZO validates and migrates their data into Windows-protected storage."
 }
