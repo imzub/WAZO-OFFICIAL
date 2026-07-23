@@ -1,31 +1,44 @@
 {
   "schemaVersion": 1,
   "product": "WAZO",
-  "latestProductVersion": "1.1.5",
-  "currentInstallerVersion": "1.1.5",
+  "latestProductVersion": "1.1.6",
+  "currentInstallerVersion": "1.1.6",
   "currentLiveInstaller": {
+    "version": "1.1.6",
+    "status": "publication-pending",
+    "sizeBytes": 102427430,
+    "sha256": "E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077",
+    "sourceCommit": "68562c0af607f5c73bd1b948beb95f5517243523",
+    "websitePublicationCommit": null,
+    "publishedDate": null,
+    "verifiedAtUtc": null,
+    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe?sha=e641ab23bbfb",
+    "sourceValidation": {
+      "nodeVersion": "24.14.0",
+      "syntax": "passed",
+      "static": "passed",
+      "fullTests": "716/716 passed in 57.060s",
+      "coverage": "716/716 passed; 76.22% lines, 75.86% branches, 86.16% functions",
+      "brand": "48 archived and 7 Store assets passed",
+      "npmAudit": "0 vulnerabilities across 384 dependencies"
+    },
+    "exactPackageMatrices": "standalone 18/18, NSIS website payload 18/18, Store AppX payload 18/18; 54/54 total",
+    "nativeCurrentDisplay": "standalone 3/3, NSIS website payload 3/3, Store AppX payload 3/3; 9/9 total at DPR 1.5; humanValidated=false",
+    "installerLifecycle": "fresh install, policy-error retry, configured workspace, restart, repair, post-repair launch, uninstall, and protected-data preservation passed",
+    "upgradeLifecycle": "graceful v1.1.5 to v1.1.6 upgrade passed; 2 families, 5 members, and 11 assets preserved",
+    "publicDownloadVerification": "pending-after-first-deployment",
+    "manifest": "site-data/releases/v1.1.6/release.json"
+  },
+  "previousLiveInstaller": {
     "version": "1.1.5",
-    "status": "current",
+    "status": "current-until-v1.1.6-publication",
     "sizeBytes": 102285721,
     "sha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
     "sourceCommit": "0f03c6084ab023cd14841158bd369461163ac319",
-    "websitePublicationCommit": "94f6cff4868814ee3bc0fd40903e025a72c6331c",
-    "publishedDate": "2026-07-21",
-    "verifiedAtUtc": "2026-07-21T12:59:13Z",
-    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe?sha=94ef7f7c3456",
-    "sourceValidation": {
-      "syntax": "passed",
-      "static": "passed",
-      "fullTests": "245/245 passed in 25.9s",
-      "brand": "passed",
-      "defaultSourceStartupGateCleanRerun": "12/12 passed in 148.5s"
-    },
-    "correctedNsisWebsitePayloadMatrix": "18/18 passed",
-    "nativeCurrentDisplay": "3/3 passed in 104.4s on the exact NSIS payload via browser/CDP interaction plus Windows IsZoomed attestation at flow endpoints and five lifecycle checkpoints; humanValidated=false",
-    "publicDownloadVerification": "HTTP 200; 102285721 bytes; SHA-256 matched at 2026-07-21T12:59:13Z",
-    "manifest": "site-data/releases/v1.1.5/release.json"
+    "websiteCommit": "94f6cff4868814ee3bc0fd40903e025a72c6331c",
+    "verifiedAtUtc": "2026-07-21T12:59:13Z"
   },
-  "previousLiveInstaller": {
+  "rejectedHistoricalInstaller": {
     "version": "1.1.5",
     "status": "rejected-superseded-historical",
     "sizeBytes": 102284642,
@@ -39,8 +52,13 @@
   },
   "versions": [
     {
+      "version": "1.1.6",
+      "status": "publication-pending",
+      "manifest": "site-data/releases/v1.1.6/release.json"
+    },
+    {
       "version": "1.1.5",
-      "status": "current",
+      "status": "current-until-v1.1.6-publication",
       "manifest": "site-data/releases/v1.1.5/release.json"
     },
     {

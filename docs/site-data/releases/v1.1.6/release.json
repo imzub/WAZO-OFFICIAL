@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "version": "1.1.6",
+  "buildVersion": "1.1.6.0",
+  "status": "publication-pending",
+  "platform": "Windows",
+  "architecture": "x64",
+  "installerTechnology": "NSIS",
+  "preparedDate": "2026-07-24",
+  "publishedDate": null,
+  "sourceCommit": "68562c0af607f5c73bd1b948beb95f5517243523",
+  "sourcePackageProjection": {
+    "files": 45,
+    "sha256": "B06A4C3A943CF114E862223F0D251928A2DE1BD20CB86D0026E3EAAA40F55512"
+  },
+  "publication": {
+    "state": "prepared-awaiting-first-deployment",
+    "channel": "official-website-direct-installer",
+    "authorizedBy": "explicit-user-instruction",
+    "authorizedDate": "2026-07-23",
+    "artifactPublicationCommit": null,
+    "pagesDeploymentId": null,
+    "pagesDeploymentState": "not-started",
+    "pagesDeploymentUrl": "https://imzub.github.io/WAZO-OFFICIAL/",
+    "note": "The release is authorized and prepared locally. Publication commit, Pages deployment, and live byte/hash verification are recorded only after they complete. Automated validation does not represent physical human workflow validation."
+  },
+  "installer": {
+    "file": "WAZO-Setup-1.1.6.exe",
+    "url": "site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe?sha=e641ab23bbfb",
+    "sizeBytes": 102427430,
+    "sha256": "E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077",
+    "fileVersion": "1.1.6.0",
+    "productVersion": "1.1.6",
+    "authenticode": "NotSigned"
+  },
+  "liveVerification": {
+    "state": "pending-after-deployment",
+    "verifiedAtUtc": null,
+    "homepageHttpStatus": null,
+    "releaseIndexHttpStatus": null,
+    "releaseManifestHttpStatus": null,
+    "releaseNotesHttpStatus": null,
+    "privacyPageHttpStatus": null,
+    "installerHttpStatus": null,
+    "installerDownloadedBytes": null,
+    "installerDownloadedSha256": null,
+    "manualHttpStatus": null,
+    "manualDownloadedBytes": null,
+    "manualDownloadedSha256": null
+  },
+  "validation": {
+    "state": "automated-validation-passed",
+    "privateAutomatedEvidence": "recorded-in-product-release-handoff",
+    "sourceValidation": {
+      "nodeVersion": "24.14.0",
+      "syntaxFiles": 75,
+      "syntax": "passed",
+      "static": "passed",
+      "fullTests": {
+        "passed": 716,
+        "failed": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0,
+        "runtimeMilliseconds": 57059.6633,
+        "status": "passed"
+      },
+      "coverage": {
+        "testsPassed": 716,
+        "testsFailed": 0,
+        "runtimeMilliseconds": 53120.3566,
+        "linesPercent": 76.22,
+        "branchesPercent": 75.86,
+        "functionsPercent": 86.16,
+        "status": "passed"
+      },
+      "releaseHardening": "35/35 passed",
+      "offlineStoragePrivacy": "97/97 passed",
+      "brand": "48 archived and 7 Store assets passed",
+      "npmAudit": "0 vulnerabilities across 384 dependencies"
+    },
+    "packageMatrices": {
+      "standalone": "18/18 passed",
+      "nsisWebsitePayload": "18/18 passed",
+      "storeAppxPayload": "18/18 passed",
+      "total": "54/54 passed"
+    },
+    "nativeCurrentDisplay": {
+      "standalone": "3/3 passed",
+      "nsisWebsitePayload": "3/3 passed",
+      "storeAppxPayload": "3/3 passed",
+      "total": "9/9 passed",
+      "display": {
+        "windowsScalingPercent": 150,
+        "devicePixelRatio": 1.5,
+        "cssScreen": "1280x800",
+        "cssWorkArea": "1280x752"
+      },
+      "humanValidated": false
+    },
+    "installerLifecycle": {
+      "freshInstall": "passed",
+      "uncheckedPolicyRejection": "passed",
+      "checkedRetry": "passed",
+      "configuredWorkspace": "passed with 2 members",
+      "secondLaunch": "passed",
+      "sameVersionRepair": "passed",
+      "postRepairLaunch": "passed",
+      "uninstall": "passed",
+      "protectedUserDataAndSentinel": "preserved byte-for-byte through repair and uninstall; no plaintext"
+    },
+    "upgradeLifecycle": {
+      "from": "1.1.5",
+      "to": "1.1.6",
+      "status": "passed",
+      "privacyReview": "shown; unchecked submission rejected; checked retry accepted",
+      "preserved": "2 families, 5 members, and 11 assets",
+      "secondLaunch": "stable",
+      "uninstall": "passed"
+    },
+    "physicalHumanValidation": "not-recorded",
+    "authenticode": "NotSigned",
+    "windowsAppCertificationKit": "not-run-unavailable",
+    "partnerCenterUpload": "not-performed",
+    "microsoftCertification": "not-claimed"
+  },
+  "releaseNotes": "site-data/releases/v1.1.6/updates/release-notes.md",
+  "manual": {
+    "url": "site-data/releases/v1.1.6/updates/WAZO-User-Manual-v1.1.6.pdf?sha=028c0233b47b",
+    "sizeBytes": 112431,
+    "pages": 16,
+    "sha256": "028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30"
+  },
+  "privacyPolicy": {
+    "revision": "WAZO-PP-1.1.6-2026-07-23-R2",
+    "effectiveDate": "2026-07-23",
+    "url": "https://imzub.github.io/WAZO-OFFICIAL/privacy/",
+    "sha256": "0F792E634EEC910E6C248575A2497301544CE8E85B9BD45A16827B2EC7A43150"
+  },
+  "images": [
+    "site-data/releases/v1.1.6/images/wazo-hero-v116.png",
+    "site-data/releases/v1.1.6/images/wazo-assets-investments-v116.png",
+    "site-data/releases/v1.1.6/images/wazo-asset-library-v116.png",
+    "site-data/releases/v1.1.6/images/wazo-performance-reports-v116.png",
+    "site-data/releases/v1.1.6/images/wazo-private-setup-v116.png"
+  ],
+  "existingUserImpact": "Existing supported v1.1.5 profiles, members, assets, definitions, plans, transactions, goals, Zakat data/settings, themes, presets, backups, and logs are intended to remain available without re-entry. Existing confirmed transactions remain auditable; new correction, void, reversal, lifecycle, financial-year, risk, and guidance fields are additive. Legacy .wazo-backup files remain readable alongside .wz."
+}
