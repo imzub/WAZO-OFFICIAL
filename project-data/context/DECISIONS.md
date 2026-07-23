@@ -12,3 +12,10 @@
 8. Do not publish the private WAZO application source or dependencies. Record the exact source commit and require a separate authorized checkout for reproduction.
 9. Treat the current explainer as accepted, not final forever. Future visual and narration polish belongs in a new revision or versioned media folder after review.
 10. Always use the `imzub` GitHub account for WAZO operations without asking the user to select between saved accounts.
+
+## 2026-07-23 offline-only policy publication
+
+1. WAZO `1.1.6` and later are permanently offline-only. Do not plan or advertise cloud storage, synchronization, market-data or financial APIs, cloud AI, telemetry, advertising requests, or background portfolio uploads.
+2. Keep prices, rates, guidance, analysis, and the WAZO Guide local. External website, Store, LinkedIn, policy, and email links remain explicit user-initiated handoffs and do not attach portfolio data.
+3. Publish the reviewed policy revision `WAZO-PP-1.1.6-2026-07-23-R2` at the stable `/privacy/` route with canonical source SHA-256 `0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150`.
+4. This policy publication does not promote a product binary. Keep the public website release, release index, and direct installer at verified WAZO `1.1.5` until the separate `1.1.6` release is approved.

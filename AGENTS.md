@@ -32,7 +32,8 @@ This repository hosts the public WAZO product website through GitHub Pages.
 ## Product Messaging
 
 - WAZO is a Windows desktop personal wealth organizer.
-- It is offline-first and stores core data locally. WAZO v1.1.5 protects app-managed Windows data as authenticated encrypted envelopes; do not describe those active records as plaintext JSON.
+- WAZO `1.1.6` and later are permanently offline-only: no cloud portfolio service or synchronization, market-data or financial API, cloud AI, telemetry, advertising request, or background portfolio upload. Prices and rates are user-maintained locally. Explicit website, Store, LinkedIn, policy, and email links are user-initiated handoffs and never attach the local portfolio.
+- The current public installer remains WAZO `1.1.5` until a separate verified `1.1.6` release is approved. WAZO v1.1.5 protects app-managed Windows data as authenticated encrypted envelopes; do not describe those active records as plaintext JSON.
 - It supports family/profile setup, members, assets, allocation targets, financial goals, reports, backups, privacy mode, themes, multiple currencies, and optional zakat planning.
 - Zakat is optional. The website should not position WAZO as only a zakat app.
 - Source code is private.

@@ -4,22 +4,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Privacy Policy | WAZO Personal Wealth Organizer</title>
-  <meta name="description" content="Learn how WAZO 1.1.5 processes personal and financial information locally, protects app-managed Windows data, and gives users control over backups, exports, reset, and deletion." />
+  <meta name="description" content="Learn how WAZO 1.1.6 processes personal and financial information entirely offline, protects app-managed Windows data, and gives users control over backups, exports, recovery, and deletion." />
   <meta name="theme-color" content="#5546d7" />
   <meta name="robots" content="index,follow" />
-  <meta name="wazo-policy-version" content="WAZO-PP-1.1.5-2026-07-20" />
-  <meta name="wazo-policy-effective-date" content="2026-07-20" />
-  <meta name="wazo-policy-document-sha256" content="345782b97fb5c6e530658415a4ba8b1a2589f03068e2238b03a588a1b9a442af" />
+  <meta name="wazo-policy-version" content="WAZO-PP-1.1.6-2026-07-23-R2" />
+  <meta name="wazo-policy-effective-date" content="2026-07-23" />
+  <meta name="wazo-policy-document-sha256" content="0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150" />
   <meta property="og:title" content="WAZO Privacy Policy" />
-  <meta property="og:description" content="How WAZO processes and protects local wealth data, and the choices available to every user." />
+  <meta property="og:description" content="How WAZO processes and protects local wealth data entirely offline, and the choices available to every user." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://imzub.github.io/WAZO-OFFICIAL/privacy/" />
-  <meta property="article:modified_time" content="2026-07-20" />
+  <meta property="article:modified_time" content="2026-07-23" />
   <meta name="twitter:card" content="summary" />
   <link rel="canonical" href="https://imzub.github.io/WAZO-OFFICIAL/privacy/" />
   <link rel="sitemap" type="application/xml" href="https://imzub.github.io/WAZO-OFFICIAL/sitemap.xml" />
   <link rel="icon" href="../site-data/shared/branding/wazo-logo.png" />
-  <link rel="stylesheet" href="../styles.css?v=1.1.5-privacy-20260720" />
+  <link rel="stylesheet" href="../styles.css?v=1.1.6-privacy-20260723-r2" />
 </head>
 <body class="policy-page">
   <a class="skip-link" href="#main">Skip to policy</a>
@@ -44,268 +44,166 @@
 
   <main id="main">
     <section class="policy-hero section-shell" aria-labelledby="policy-title">
-      <a class="policy-back-link" href="../">← Back to WAZO</a>
+      <a class="policy-back-link" href="../">&larr; Back to WAZO</a>
       <span class="eyebrow">Privacy in plain language</span>
       <h1 id="policy-title">WAZO Privacy Policy</h1>
-      <p class="policy-lead">
-        WAZO is a local-first personal wealth organizer developed by Zubair Shaikh.
-        It processes the information you enter on your Windows device so it can organize
-        your finances. Using the app does not, by itself, send your portfolio to the developer.
-      </p>
+      <p class="policy-lead">WAZO is an offline personal wealth organizer developed by Zubair Shaikh. It processes the information you enter on your Windows device so it can organize your finances. WAZO does not operate a cloud portfolio service, connect to market-data APIs, synchronize records to a remote account, use cloud AI, collect telemetry, or automatically transmit your portfolio to the developer.</p>
       <dl class="policy-metadata" aria-label="Policy metadata">
-        <div><dt>Policy revision</dt><dd>WAZO-PP-1.1.5-2026-07-20</dd></div>
-        <div><dt>Effective date</dt><dd>July 20, 2026</dd></div>
-        <div><dt>Applies to</dt><dd>WAZO 1.1.5 for Windows</dd></div>
+        <div><dt>Policy revision</dt><dd><code>WAZO-PP-1.1.6-2026-07-23-R2</code></dd></div>
+        <div><dt>Effective date</dt><dd>July 23, 2026</dd></div>
+        <div><dt>Applies to</dt><dd>WAZO 1.1.6 for Windows</dd></div>
         <div><dt>Developer</dt><dd>Zubair Shaikh</dd></div>
+        <div><dt>Canonical URL</dt><dd><a href="https://imzub.github.io/WAZO-OFFICIAL/privacy/">https://imzub.github.io/WAZO-OFFICIAL/privacy/</a></dd></div>
+        <div><dt>Document SHA-256</dt><dd><code>0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150</code></dd></div>
       </dl>
-    </section>
-
-    <section id="summary" class="policy-summary section-shell" aria-labelledby="summary-title">
-      <div class="section-heading">
-        <span class="eyebrow">At a glance</span>
-        <h2 id="summary-title">Your records stay under your control.</h2>
-      </div>
-      <div class="policy-summary-grid">
-        <article>
-          <span>01</span>
-          <h3>Processed locally</h3>
-          <p>Profiles, holdings, goals, transactions, settings, and optional Zakat records are processed in the app on your device.</p>
-        </article>
-        <article>
-          <span>02</span>
-          <h3>No WAZO account</h3>
-          <p>WAZO does not require registration and does not operate a cloud portfolio service, advertising profile, or portfolio telemetry service.</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>Protected on Windows</h3>
-          <p>WAZO 1.1.5 protects app-managed data with authenticated encryption and a key bound to your Windows user account and device.</p>
-        </article>
-        <article>
-          <span>04</span>
-          <h3>Your choices</h3>
-          <p>You can review, edit, export, back up, reset, or permanently delete app-managed local data using WAZO’s controls.</p>
-        </article>
-      </div>
-      <aside class="policy-callout" aria-label="Important privacy distinction">
-        <strong>Local processing is not developer collection.</strong>
-        <p>
-          WAZO must read and calculate with the information you enter to provide its features.
-          The developer receives information only when you deliberately send it—for example,
-          in a support email—or when an optional external service receives the limited request
-          information described below.
-        </p>
-      </aside>
     </section>
 
     <div class="policy-layout section-shell">
       <aside class="policy-toc" aria-label="On this page">
         <strong>On this page</strong>
         <ol>
+          <li><a href="#summary">At a glance</a></li>
           <li><a href="#scope">Scope and responsibility</a></li>
           <li><a href="#information">Information WAZO processes</a></li>
           <li><a href="#purposes">Why WAZO processes it</a></li>
           <li><a href="#protection">Storage and protection</a></li>
           <li><a href="#acknowledgement">Policy acknowledgement</a></li>
-          <li><a href="#backups">Backups, exports, and print</a></li>
-          <li><a href="#network">Optional internet features</a></li>
+          <li><a href="#backups">Backups, recovery, exports, and print</a></li>
+          <li><a href="#network">Offline operation and external links</a></li>
           <li><a href="#choices">Access, retention, and deletion</a></li>
           <li><a href="#credentials">Information not to enter</a></li>
           <li><a href="#support-data">Support communications</a></li>
           <li><a href="#changes">Policy changes</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Privacy questions</a></li>
         </ol>
       </aside>
 
-      <article class="policy-article">
+      <article class="policy-article" data-policy-revision="WAZO-PP-1.1.6-2026-07-23-R2" data-policy-sha256="0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150">
+        <section id="summary" class="policy-section" aria-labelledby="summary-title">
+          <h2 id="summary-title">At a glance</h2>
+          <h3>Processed locally</h3>
+          <p>Profiles, members, holdings, goals, transactions, settings, optional risk and Zakat records, calculations, local guidance, recovery information, and diagnostic records are processed on your device.</p>
+          <h3>No WAZO account or API connection</h3>
+          <p>WAZO does not require registration. It has no cloud synchronization, hosted assistant, advertising profile, portfolio telemetry, or online price and rate API.</p>
+          <h3>Protected on Windows</h3>
+          <p>WAZO 1.1.6 protects app-managed active data with authenticated encryption and a key bound to your Windows user account and Windows installation. Portable backups are user-selected files outside that Windows-bound protection and may be password-protected or, only after an explicit warning and confirmation, readable.</p>
+          <h3>Your choices</h3>
+          <p>You can review, correct, export, back up, restore, reset, or permanently delete app-managed local data using WAZO&#39;s controls. Ordinary removable records use recoverable Trash, while confirmed financial history uses auditable correction, void, reversal, or restore workflows.</p>
+          <h3>Local processing is not developer collection</h3>
+          <p>WAZO must read and calculate with the information you enter to provide its features. The developer receives information only when you deliberately send it, for example in a support email. Opening a website, Store, LinkedIn, policy, or email link is a user-initiated handoff to another application and does not upload your local WAZO portfolio.</p>
+        </section>
         <section id="scope" class="policy-section" aria-labelledby="scope-title">
           <span class="policy-section-number">01</span>
           <h2 id="scope-title">Scope and responsibility</h2>
-          <p>
-            This policy describes privacy handling in WAZO 1.1.5 for Windows and the
-            WAZO Official website. Zubair Shaikh is the developer responsible for WAZO.
-            WAZO is designed for personal or family wealth organization and is not a bank,
-            broker, investment adviser, payment service, tax service, or cloud account provider.
-          </p>
-          <p>
-            If you record information about another family member, you are responsible for
-            having an appropriate reason and permission to do so. The device owner controls
-            the Windows account, local files, selected backup locations, and exported reports.
-          </p>
+          <p>This policy describes privacy handling in WAZO 1.1.6 for Windows and the WAZO Official website. Zubair Shaikh is the developer responsible for WAZO. WAZO is designed for personal or family wealth organization and is not a bank, broker, investment adviser, payment service, tax service, cloud account provider, or remote data-storage service.</p>
+          <p>If you record information about another family member, you are responsible for having an appropriate reason and permission to do so. The device owner controls the Windows account, local files, selected backup locations, exported reports, and information deliberately sent through external applications.</p>
         </section>
-
         <section id="information" class="policy-section" aria-labelledby="information-title">
           <span class="policy-section-number">02</span>
           <h2 id="information-title">Information WAZO processes</h2>
           <p>Depending on the features you use, WAZO may process these categories locally:</p>
-          <div class="policy-data-grid">
-            <article><h3>Profiles and members</h3><p>Family or profile names, member names, ownership assignments, and related profile preferences.</p></article>
-            <article><h3>Assets and valuations</h3><p>Asset definitions, categories, ownership, quantities, values, prices, rates, allocation targets, notes, and optional reference labels.</p></article>
-            <article><h3>Plans and transactions</h3><p>Investment plans, schedules, pending occurrences, confirmed transactions, cost basis, performance calculations, CAGR, and XIRR inputs and results.</p></article>
-            <article><h3>Goals and optional Zakat</h3><p>Financial goals, target values and dates, and—only if enabled—Zakat settings, calculations, eligibility details, and payments.</p></article>
-            <article><h3>Preferences and diagnostics</h3><p>Currency, country, regional format, financial year, theme, privacy settings, backup settings, and local activity or diagnostic event logs.</p></article>
-            <article><h3>Files and recovery data</h3><p>Imports, app-managed backups, transaction generations, migration or recovery copies, damaged-data evidence, reports, and user-initiated exports or print output.</p></article>
-            <article><h3>Policy records</h3><p>The accepted policy revision, effective date, document hash, app version, acceptance source, and a timestamp created by the app.</p></article>
-            <article><h3>Support content</h3><p>Only the information you voluntarily include if you contact the developer, such as your email address, question, diagnostic details, or attachments.</p></article>
-          </div>
+          <h3>Profiles, members, and planning context</h3>
+          <p>Family or profile names, member names, ownership assignments, profile preferences, optional dates of birth, and age values derived locally from those dates for age-aware planning context.</p>
+          <p>Optional member-specific risk assessments may include questionnaire answers, willingness and capacity indicators, time horizon, knowledge and goal context, result bands, scores, warnings, review dates, disclaimer acknowledgement, revision history, and archive or restore records. Risk-summary export is optional and off by default; an enabled summary does not include the underlying answers or numerical scores.</p>
+          <h3>Assets, ownership continuity, and valuations</h3>
+          <p>Asset definitions, categories, quantities, values, prices, rates, allocation targets, notes, and valuation evidence. Ownership-continuity information may include one primary member, ownership type, a reference ownership percentage, nominee or beneficiary review status, and an institution or custodian label.</p>
+          <p>The reference percentage is informational and is not used to prorate values or calculations. These fields are not proof of legal ownership, title, nomination, custody, or beneficial ownership.</p>
+          <h3>Plans, transactions, and calculations</h3>
+          <p>Investment plans, schedules, pending occurrences, confirmed transactions, corrections, voids, lifecycle or disposal events, cost basis, realized values, fees, taxes and handling charges, and dated cash flows.</p>
+          <p>WAZO locally derives portfolio totals, allocation, gain or loss, CAGR and XIRR eligibility and results, Calculation Details, valuation and foreign-exchange review states, reconciliation context, formulas, assumptions, and warnings.</p>
+          <h3>Goals, resilience, and optional Zakat</h3>
+          <p>Financial goals, target values and dates, monthly needs, recurring commitments, and locally derived Household Resilience and completeness indicators. Only when the optional Zakat module is enabled, WAZO may also process Zakat settings, calculations, eligibility details, payees, categories, and payments.</p>
+          <h3>Trust Center and Data Health</h3>
+          <p>WAZO locally checks protected-storage status, authenticated recovery points, links between records, transaction-ledger replay, valuation and currency evidence, ownership completeness, goals, commitments, and optional risk context.</p>
+          <p>Data Health settings may include locally configured stale-day thresholds and non-critical dismissal identifiers, finding codes, and timestamps. Non-critical dismissals expire after 30 days. Critical findings cannot be dismissed. Rechecking does not repair or change financial records.</p>
+          <h3>Local CSV reconciliation</h3>
+          <p>When you choose Import &amp; Reconcile Transactions, WAZO temporarily processes the selected CSV text, explicit column mapping, normalized rows, row errors, a whole-file source hash, transaction fingerprints, existing-record comparisons, and duplicate or difference classifications.</p>
+          <p>This workflow is session-only, preview-only, and non-mutating. The preview does not create, edit, confirm, overwrite, or delete transactions, and its mapped rows and fingerprints are not persisted by the reconciliation feature. Closing the preview or enabling Privacy Mode clears the transient details.</p>
+          <h3>Audio guidance preferences</h3>
+          <p>If you enable the optional English Audio Guide, WAZO may store the selected installed local voice identifier, volume, rate, pitch, topics, cadence, reminder settings, and local reminder or replay timestamps. It uses fixed local scripts and does not use a microphone, record speech, contact a network speech service, or speak user-entered names, dates of birth, holdings, goals, or financial values.</p>
+          <h3>Preferences and diagnostics</h3>
+          <p>Currency, country, regional format, configurable financial-year policy, theme, Privacy Mode, privacy-safe export preference, backup settings, module controls, accessibility preferences, activity history, and diagnostic event logs.</p>
+          <h3>Files, Trash, and recovery data</h3>
+          <p>Imports, app-managed backups, transaction generations, migration or recovery copies, damaged-data evidence, reports, and user-initiated exports or print output.</p>
+          <p>Recoverable Trash can retain a protected snapshot of a removed record, related companion records, stable identifiers, dependency information, a deletion reason, and timestamps so the item can be validated and restored. A separately confirmed permanent Trash purge removes the retained record content but keeps a minimal lifecycle tombstone for audit integrity.</p>
+          <h3>Policy records</h3>
+          <p>The accepted policy revision, effective date, document hash, app version, acceptance source, and a timestamp created by the app.</p>
+          <h3>Support content</h3>
+          <p>Only the information you voluntarily include if you contact the developer, such as your email address, question, copied diagnostic details, screenshots, or attachments.</p>
+          <h3>Local WAZO Guide content</h3>
+          <p>Questions or instructions you type into WAZO Guide, the current app-page context used to answer them, structured record previews, and issue-template text that you choose to prepare. WAZO Guide runs locally, uses deterministic app rules rather than a cloud model, and does not keep prompt or result history by default.</p>
         </section>
-
         <section id="purposes" class="policy-section" aria-labelledby="purposes-title">
           <span class="policy-section-number">03</span>
           <h2 id="purposes-title">Why WAZO processes it</h2>
           <p>WAZO uses locally stored information to:</p>
           <ul>
-            <li>create family profiles, assign member ownership, and display your chosen regional and currency formats;</li>
-            <li>calculate portfolio values, allocation, goals, recurring occurrences, returns, and optional Zakat;</li>
-            <li>create the reports, prints, and exports that you request;</li>
-            <li>remember your settings and current privacy-policy acknowledgement;</li>
-            <li>protect data integrity through transaction generations, recovery points, validation, and backups; and</li>
+            <li>create family profiles, assign member ownership, and display your selected regional and currency formats;</li>
+            <li>calculate portfolio values, allocation, goals, recurring occurrences, returns, completeness indicators, and optional Zakat;</li>
+            <li>explain calculation scope, assumptions, record quality, missing information, and review requirements;</li>
+            <li>create the reports, prints, backups, restores, and exports that you request;</li>
+            <li>provide local task help, navigation, fixed audio guidance, structured previews, and issue-template preparation;</li>
+            <li>remember your settings, privacy-safe output choice, local dismissals, and current privacy-policy acknowledgement;</li>
+            <li>protect data integrity through transaction generations, Trash, recovery points, validation, and backups; and</li>
             <li>show local activity and diagnostic information that helps you understand or troubleshoot the app.</li>
           </ul>
-          <p>WAZO does not sell or rent personal information and does not use portfolio data for advertising.</p>
+          <p>WAZO does not sell or rent personal information. It does not use portfolio data for advertising, telemetry, shared-model training, remote profiling, or a cloud recommendation service.</p>
         </section>
-
         <section id="protection" class="policy-section" aria-labelledby="protection-title">
           <span class="policy-section-number">04</span>
           <h2 id="protection-title">Storage and protection on Windows</h2>
-          <p>
-            WAZO stores app-managed active data inside the current user’s Windows application-data
-            area. In WAZO 1.1.5, active records, app-managed transaction generations, recovery data,
-            logs, and internal backups containing personal or financial data are protected with
-            authenticated encryption. The local protection key is secured through Electron’s
-            Windows safe-storage integration, which uses Windows Data Protection API (DPAPI).
-          </p>
-          <div class="policy-note">
-            <h3>What Windows-bound protection means</h3>
-            <p>
-              It is designed to prevent readable app data from being left as ordinary local files
-              and to detect unauthorized changes. The protected key is normally usable only by the
-              same Windows user on the same Windows installation. It is not a substitute for a strong
-              Windows password, full-device encryption, malware protection, or physical device security.
-              Software already running with your Windows user’s privileges may still be able to access
-              information while WAZO is open. Losing the Windows account or device can make the local
-              protected store unrecoverable without a portable backup.
-            </p>
-          </div>
-          <h3>Privacy Mode is different</h3>
-          <p>
-            Privacy Mode redacts sensitive values from supported screens, previews, accessibility
-            content, print, and exports. It is useful when sharing a screen or creating a redacted
-            output, but it is not encryption, authentication, access control, secure deletion, or a
-            replacement for locking your Windows session.
-          </p>
-          <p>
-            No security measure can guarantee absolute protection. Keep Windows updated, protect your
-            account, use trusted software, and store portable-backup passwords safely.
-          </p>
+          <p>WAZO stores app-managed active data inside the current user&#39;s Windows application-data area. In WAZO 1.1.6, active records, app-managed transaction generations, Trash and recovery data, logs, and internal backups containing personal or financial data are protected with authenticated encryption. The local protection key is secured through Electron&#39;s Windows safe-storage integration, which uses Windows Data Protection API (DPAPI).</p>
+          <h3>What Windows-bound protection means</h3>
+          <p>It is designed to prevent readable app data from being left as ordinary local files and to detect unauthorized changes. The protected key is normally usable only by the same Windows user on the same Windows installation. It is not a substitute for a strong Windows password, full-device encryption, malware protection, or physical device security. Software already running with your Windows user&#39;s privileges may still be able to access information while WAZO is open. Losing the Windows account or device can make the local protected store unrecoverable without a portable backup.</p>
+          <h3>Privacy Mode and privacy-safe exports are different controls</h3>
+          <p>Privacy Mode redacts sensitive values from supported screens, previews, accessibility content, print, and exports. It is useful when sharing a screen or creating a redacted output, but it is not encryption, authentication, access control, secure deletion, or a replacement for locking your Windows session.</p>
+          <p>Supported exports default to structurally privacy-safe output even when the on-screen Privacy Mode is off. You can deliberately turn that export preference off when a readable report is required. The separate readable-file warning still applies before output containing financial information is created.</p>
+          <p>No security measure can guarantee absolute protection. Keep Windows updated, protect your account, use trusted software, store portable-backup passwords safely, and protect or delete any readable portable backup or export that you deliberately create.</p>
         </section>
-
         <section id="acknowledgement" class="policy-section" aria-labelledby="acknowledgement-title">
           <span class="policy-section-number">05</span>
           <h2 id="acknowledgement-title">Policy acknowledgement</h2>
-          <p>
-            During initial setup, WAZO shows a privacy summary and link to this policy before it stores
-            real personal or financial data. The acknowledgement control is not selected in advance.
-            A new user may continue later in demo-only mode; attempts to add real data reopen setup.
-          </p>
-          <p>
-            When an existing installation needs a material policy or storage update, WAZO asks the user
-            to review and acknowledge the current policy before transforming or exposing existing local
-            portfolio data. If the user exits or declines, WAZO leaves the prior store unchanged.
-          </p>
-          <p>
-            WAZO records the policy version, effective date, policy-document hash, app version, source,
-            and app-generated UTC timestamp locally. This record shows that the local notice was accepted;
-            it is not proof of identity and does not authorize the developer to collect a portfolio.
-          </p>
+          <p>During initial setup, WAZO shows a privacy summary and link to this policy before it stores real personal or financial data. The acknowledgement control is not selected in advance. A new user may continue later in demo-only mode; attempts to add real data reopen setup.</p>
+          <p>When an existing installation needs a material policy or storage update, WAZO asks the user to review and acknowledge the current policy before transforming or exposing existing local portfolio data. If the user exits or declines, WAZO leaves the prior store unchanged.</p>
+          <p>WAZO records the policy version, effective date, policy-document hash, app version, source, and app-generated UTC timestamp locally. This record shows that the local notice was accepted; it is not proof of identity and does not authorize the developer to collect a portfolio.</p>
         </section>
-
         <section id="backups" class="policy-section" aria-labelledby="backups-title">
           <span class="policy-section-number">06</span>
           <h2 id="backups-title">Backups, recovery, exports, and print</h2>
           <h3>App-managed recovery data</h3>
-          <p>
-            WAZO may create protected transaction generations, pre-migration or pre-restore recovery
-            points, and internal backups to prevent partial or failed changes from destroying active data.
-            These remain under WAZO’s local-data controls.
-          </p>
+          <p>WAZO may create protected transaction generations, pre-migration or pre-restore recovery points, and internal backups to prevent partial or failed changes from destroying active data. These remain under WAZO&#39;s local-data controls.</p>
           <h3>Portable backups</h3>
-          <p>
-            Windows-bound local protection cannot move safely to a different Windows account or device.
-            WAZO therefore offers a separate password-protected portable backup format. You choose the
-            password and destination. WAZO and the developer cannot recover a forgotten backup password.
-            Anyone with the file and password may be able to restore its contents, so protect both.
-          </p>
+          <p>Windows-bound local protection cannot move safely to a different Windows account or device. WAZO therefore offers a separate <code>.wz</code> portable backup format. Password protection is enabled by default but optional. You choose the protection mode and destination.</p>
+          <p>A password-protected <code>.wz</code> backup uses password-based authenticated encryption. WAZO and the developer cannot recover a forgotten backup password. Anyone with both the file and password may be able to restore its contents, so protect both.</p>
+          <p>An unprotected <code>.wz</code> backup contains readable personal and financial data. Before creating one, WAZO shows a separate readable-financial-data warning and requires explicit confirmation. Anyone who can access that file may be able to read or import its contents without a password. Store it only in a location you trust and delete copies you no longer need.</p>
+          <p>Portable backups are user-selected files outside WAZO&#39;s Windows-bound protected application storage. WAZO can also select, inspect, and import supported legacy password-protected <code>.wazo-backup</code> files. Compatibility import does not weaken or silently convert the selected source file, and an unsupported, damaged, incorrectly authenticated, canceled, or unconfirmed import does not replace the active store.</p>
           <h3>User-selected exports and destinations</h3>
-          <p>
-            PDF, Excel, CSV, JSON, HTML, print output, screenshots, and other files you deliberately create
-            may be readable and are outside WAZO’s protected application storage. Files saved to OneDrive,
-            another cloud-synced folder, removable media, email, or a shared location may be processed by
-            those services or seen by other people. WAZO displays an export warning, but you remain
-            responsible for selecting a safe destination and deleting copies you no longer need.
-          </p>
+          <p>PDF, Excel, CSV, JSON, HTML, print output, screenshots, and other files you deliberately create may be readable and are outside WAZO&#39;s protected application storage. Files saved to OneDrive, another cloud-synced folder, removable media, email, or a shared location may be processed by those services or seen by other people. WAZO displays an export warning, but you remain responsible for selecting a safe destination and deleting copies you no longer need.</p>
         </section>
-
         <section id="network" class="policy-section" aria-labelledby="network-title">
           <span class="policy-section-number">07</span>
-          <h2 id="network-title">Optional internet features and external providers</h2>
-          <p>
-            Core portfolio organization works locally. Online rate updates are off by default and require
-            the user to enable them. When enabled, the selected rate endpoint receives ordinary internet
-            connection information—such as an IP address, request time, and transport metadata—plus the
-            requested symbol or rate parameters. WAZO does not include family names, holdings, transaction
-            history, portfolio values, goals, Zakat records, or local portfolio files in a rate request.
-          </p>
-          <p>
-            Do not place a password, token, private key, or other secret in a custom rate URL. Turning online
-            rates off stops WAZO from making rate-provider requests.
-          </p>
-          <p>
-            Opening the WAZO Official website, Microsoft Store, LinkedIn, or a support-email link transfers
-            control to your browser, Microsoft, LinkedIn, GitHub Pages, or your email provider. Those services
-            may receive normal connection, device, account, and message information under their own privacy
-            terms. The WAZO Official website does not receive your local portfolio merely because you visit it.
-          </p>
+          <h2 id="network-title">Offline operation and external links</h2>
+          <p>WAZO&#39;s app features operate locally. The app has no automatic cloud synchronization, market-data or financial API connection, cloud AI, portfolio telemetry, advertising request, or background portfolio upload. Prices and rates are entered or maintained locally by the user.</p>
+          <p>WAZO Guide and English Audio Guide are local. WAZO Guide does not transmit prompts or portfolio data, and the Audio Guide uses an installed local voice without a microphone, recording, or network speech service.</p>
+          <p>Choosing to open the WAZO Official website, a verified live privacy policy, Microsoft Store, LinkedIn, or a support-email link transfers control to your browser, Microsoft, LinkedIn, GitHub Pages, or your email provider. Those services may receive normal connection, device, account, and message information under their own privacy terms. WAZO does not include or attach the local portfolio merely because you open a link. Use the bundled offline policy when you do not want to open an external service.</p>
         </section>
-
         <section id="choices" class="policy-section" aria-labelledby="choices-title">
           <span class="policy-section-number">08</span>
-          <h2 id="choices-title">Access, retention, reset, and deletion</h2>
+          <h2 id="choices-title">Access, correction, retention, reset, and deletion</h2>
           <h3>Access and correction</h3>
-          <p>
-            Use WAZO’s profile, Assets, Asset Library, goals, reports, optional Zakat, and Settings screens to
-            review or edit supported records. Export tools can create a copy of selected information in a
-            format you choose.
-          </p>
+          <p>Use WAZO&#39;s profile, Assets, Asset Library, goals, reports, optional Zakat, risk, Trash, and Settings screens to review or correct supported records. Confirmed financial history uses append-only correction, void, reversal, or restore events so the original audit evidence remains available. Export tools can create a copy of selected information in a format you choose.</p>
           <h3>How long information remains</h3>
-          <p>
-            Active data, preferences, policy metadata, logs, and app-managed recovery information remain on
-            the device while needed for the app’s features, integrity, and recovery, until replaced through
-            normal app operation or removed through reset or permanent deletion. User-selected backups and
-            exports remain wherever you saved them until you delete them. Support communications remain in
-            the relevant email systems as needed to answer or manage the request.
-          </p>
+          <p>Active data, preferences, policy metadata, risk revisions, audio settings, logs, Trash snapshots, lifecycle tombstones, Data Health preferences, and app-managed recovery information remain on the device while needed for the app&#39;s features, integrity, audit, and recovery, until replaced or removed through normal app operation, purge, reset, or permanent deletion.</p>
+          <p>Non-critical Data Health dismissals expire after 30 days. Local CSV reconciliation rows and fingerprints remain only for the current preview session. User-selected backups and exports remain wherever you saved them until you delete them. Support communications remain in the relevant email systems as needed to answer or manage the request.</p>
+          <h3>Recoverable Trash</h3>
+          <p>Ordinary removal places supported current-state records and companion data in protected Trash. Restore validates ownership, dependencies, and identifier conflicts before returning an item. A permanent Trash purge requires separate confirmation and cannot be undone; it removes the retained record content while preserving a minimal lifecycle tombstone.</p>
           <h3>Reset to demo</h3>
-          <p>
-            Reset to demo is intended to replace active records with sample data and reopen initial setup.
-            It may first create a protected recovery point. Reset is not the same as permanent deletion.
-          </p>
+          <p>Reset to demo is intended to replace active records with sample data and reopen initial setup. It may first create a protected recovery point. Reset is not the same as permanent deletion.</p>
           <h3>Permanent local deletion</h3>
-          <p>
-            WAZO’s permanent-delete control removes the active protected store, app-managed generations and
-            recovery data, local policy acknowledgement, and app-managed automatic backups after explicit
-            confirmation. It cannot find or delete user-selected backups, exports, printed copies, email
-            attachments, screenshots, Windows File History, cloud-provider copies, or third-party backups.
-            Storage hardware and operating-system behavior may also prevent a guarantee of forensic erasure.
-          </p>
+          <p>WAZO&#39;s permanent-delete control removes the active protected store, app-managed generations, Trash and recovery data, local policy acknowledgement, and app-managed automatic backups after explicit confirmation. It cannot find or delete user-selected backups, exports, printed copies, email attachments, screenshots, Windows File History, cloud-provider copies, or third-party backups. Storage hardware and operating-system behavior may also prevent a guarantee of forensic erasure.</p>
           <h3>Uninstalling WAZO</h3>
-          <p>
-            Windows or the installer may preserve per-user application data after an uninstall. If you intend
-            to remove your records, use WAZO’s permanent-delete control before uninstalling, then separately
-            remove any backups or exports you created elsewhere.
-          </p>
+          <p>Windows or the installer may preserve per-user application data after an uninstall. If you intend to remove your records, use WAZO&#39;s permanent-delete control before uninstalling, then separately remove any backups or exports you created elsewhere.</p>
         </section>
-
         <section id="credentials" class="policy-section" aria-labelledby="credentials-title">
           <span class="policy-section-number">09</span>
           <h2 id="credentials-title">Information you should not enter</h2>
@@ -317,44 +215,25 @@
             <li>API keys, private keys, or access tokens; or</li>
             <li>cryptocurrency wallet recovery phrases, seed words, or private keys.</li>
           </ul>
-          <p>
-            Optional account or reference fields are descriptive labels only. Do not use them to store
-            secrets or credentials.
-          </p>
+          <p>Optional account, institution, custodian, nominee, beneficiary, and reference fields are descriptive labels only. Do not use them to store secrets or credentials.</p>
         </section>
-
-        <section id="support-data" class="policy-section" aria-labelledby="support-title">
+        <section id="support-data" class="policy-section" aria-labelledby="support-data-title">
           <span class="policy-section-number">10</span>
-          <h2 id="support-title">Support communications</h2>
-          <p>
-            If you email support, the developer receives the sender address and whatever text or attachments
-            you choose to include. That information is used to respond, investigate the reported issue, and
-            maintain necessary support records. Email providers process the message under their own terms.
-          </p>
-          <p>
-            Remove or redact portfolio values and other sensitive information before sending unless it is
-            necessary for the request and you intentionally choose to include it. WAZO never sends a local
-            portfolio automatically as part of support.
-          </p>
+          <h2 id="support-data-title">Support communications</h2>
+          <p>If you email support, the developer receives the sender address and whatever text or attachments you choose to include. That information is used to respond, investigate the reported issue, and maintain necessary support records. Email providers process the message under their own terms.</p>
+          <p>Remove or redact portfolio values and other sensitive information before sending unless it is necessary for the request and you intentionally choose to include it. WAZO never sends or attaches a local portfolio automatically as part of support.</p>
         </section>
-
         <section id="changes" class="policy-section" aria-labelledby="changes-title">
           <span class="policy-section-number">11</span>
           <h2 id="changes-title">Changes to this policy</h2>
-          <p>
-            This page shows its revision and effective date. Material changes that affect how WAZO processes,
-            protects, shares, or retains information require a new policy revision. The app may ask users to
-            review and acknowledge that revision before real data is newly stored or migrated under changed
-            terms. Minor editorial corrections may be published without changing app behavior.
-          </p>
+          <p>This page shows its revision and effective date. Material changes that affect how WAZO processes, protects, shares, or retains information require a new policy revision. The app may ask users to review and acknowledge that revision before real data is newly stored or migrated under changed terms. Minor editorial corrections may be published without changing app behavior.</p>
         </section>
-
         <section id="contact" class="policy-section policy-contact" aria-labelledby="contact-title">
           <span class="policy-section-number">12</span>
           <h2 id="contact-title">Privacy questions</h2>
           <p>For a privacy question, support request, or request concerning information voluntarily sent to support, contact:</p>
-          <a class="btn primary" href="mailto:zubair.softdeveloper@gmail.com?subject=WAZO%20Privacy%20Question">zubair.softdeveloper@gmail.com</a>
-          <p class="policy-contact-note">Developer: Zubair Shaikh · WAZO Personal Wealth Organizer</p>
+          <p><a href="mailto:zubair.softdeveloper@gmail.com">zubair.softdeveloper@gmail.com</a></p>
+          <p>Developer: Zubair Shaikh WAZO Personal Wealth Organizer</p>
         </section>
       </article>
     </div>
@@ -373,7 +252,7 @@
         <a href="#policy-title" aria-current="page">Privacy</a>
         <a href="mailto:zubair.softdeveloper@gmail.com">Email</a>
       </div>
-      <p>© 2026 WAZO. Privacy policy revision WAZO-PP-1.1.5-2026-07-20.</p>
+      <p>&copy; 2026 WAZO. Privacy policy revision WAZO-PP-1.1.6-2026-07-23-R2.</p>
     </div>
   </footer>
 </body>

@@ -1,10 +1,11 @@
 # Current WAZO Website State
 
-Checkpoint date: 2026-07-21
+Checkpoint date: 2026-07-23
 
 ## Published product state
 
-- The website remains WAZO `1.1.5`; no product, installer, Store, or policy version was changed for this media update.
+- The website product release remains WAZO `1.1.5`; the policy-only R2 publication does not change the installer, Store state, release index, or product-tour version.
+- The stable website privacy route is prepared for policy revision `WAZO-PP-1.1.6-2026-07-23-R2` (effective `2026-07-23`, canonical source SHA-256 `0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150`). This is a policy-only publication for the WAZO `1.1.6` offline-only boundary; it does not promote or replace the current public `1.1.5` installer.
 - The current public direct installer is `docs/site-data/releases/v1.1.5/installer/WAZO-Setup-1.1.5.exe`: 102,285,721 bytes, SHA-256 `94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB`, from private product source commit `0f03c6084ab023cd14841158bd369461163ac319`.
 - Website artifact-publication commit `94f6cff4868814ee3bc0fd40903e025a72c6331c` deployed successfully as GitHub Pages deployment `5538627778`. Cache-busted live verification at `2026-07-21T12:59:13Z` returned HTTP 200 for the homepage, release index, release manifest, release notes, privacy page, installer, and manual. The downloaded installer and manual matched their recorded byte sizes and SHA-256 hashes exactly.
 - Publication was explicitly authorized on 2026-07-21 after the recorded automated release gates passed. Physical human workflow validation is not recorded; website publication is not a human-validation pass.

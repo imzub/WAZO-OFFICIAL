@@ -70,8 +70,10 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 ## Stable Privacy Policy
 
 - Public route: `https://imzub.github.io/WAZO-OFFICIAL/privacy/`, sourced from `docs/privacy/index.html`.
-- Active revision: `WAZO-PP-1.1.5-2026-07-20`; effective date: `2026-07-20`.
-- Canonical bundled-policy SHA-256: `345782b97fb5c6e530658415a4ba8b1a2589f03068e2238b03a588a1b9a442af`.
+- Active revision: `WAZO-PP-1.1.6-2026-07-23-R2`; effective date: `2026-07-23`.
+- Canonical bundled-policy SHA-256: `0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150`.
+- This policy applies to WAZO `1.1.6` for Windows and the WAZO Official website. Its July 23 publication is policy-only: the website's current public direct installer and release index remain on verified WAZO `1.1.5` until the separate `1.1.6` release is approved and published.
+- The R2 policy records the permanent offline-only product boundary: no WAZO cloud portfolio service, synchronization, market-data or financial API, cloud AI, telemetry, advertising request, or background portfolio upload. User-selected website, Store, LinkedIn, policy, and email links are explicit handoffs to external applications and do not attach the local portfolio.
 - `docs/privacy/policy-manifest.json` and the `wazo-policy-*` metadata in the policy HTML must retain the same revision, effective date, URL, and canonical hash as the exact UTF-8/LF `docs/PRIVACY_POLICY.md` bundled by the matching WAZO release.
 - Any substantive privacy-policy edit requires a new reviewed revision and synchronized app, website, manifest, Help/About, manual, and Store-listing metadata. Do not silently edit one copy.
 
