@@ -5,13 +5,13 @@
   "currentInstallerVersion": "1.1.6",
   "currentLiveInstaller": {
     "version": "1.1.6",
-    "status": "publication-pending",
+    "status": "published-live-verified",
     "sizeBytes": 102427430,
     "sha256": "E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077",
     "sourceCommit": "68562c0af607f5c73bd1b948beb95f5517243523",
-    "websitePublicationCommit": null,
-    "publishedDate": null,
-    "verifiedAtUtc": null,
+    "websitePublicationCommit": "41b359e4e306dacb090da69b82e2e3de1eab2e7b",
+    "publishedDate": "2026-07-23",
+    "verifiedAtUtc": "2026-07-23T19:28:34Z",
     "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe?sha=e641ab23bbfb",
     "sourceValidation": {
       "nodeVersion": "24.14.0",
@@ -26,12 +26,12 @@
     "nativeCurrentDisplay": "standalone 3/3, NSIS website payload 3/3, Store AppX payload 3/3; 9/9 total at DPR 1.5; humanValidated=false",
     "installerLifecycle": "fresh install, policy-error retry, configured workspace, restart, repair, post-repair launch, uninstall, and protected-data preservation passed",
     "upgradeLifecycle": "graceful v1.1.5 to v1.1.6 upgrade passed; 2 families, 5 members, and 11 assets preserved",
-    "publicDownloadVerification": "pending-after-first-deployment",
+    "publicDownloadVerification": "HTTP 200; installer 102,427,430 bytes / E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077; manual 112,431 bytes / 028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30",
     "manifest": "site-data/releases/v1.1.6/release.json"
   },
   "previousLiveInstaller": {
     "version": "1.1.5",
-    "status": "current-until-v1.1.6-publication",
+    "status": "superseded-by-v1.1.6",
     "sizeBytes": 102285721,
     "sha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
     "sourceCommit": "0f03c6084ab023cd14841158bd369461163ac319",
@@ -53,12 +53,12 @@
   "versions": [
     {
       "version": "1.1.6",
-      "status": "publication-pending",
+      "status": "published-live-verified",
       "manifest": "site-data/releases/v1.1.6/release.json"
     },
     {
       "version": "1.1.5",
-      "status": "current-until-v1.1.6-publication",
+      "status": "superseded",
       "manifest": "site-data/releases/v1.1.5/release.json"
     },
     {

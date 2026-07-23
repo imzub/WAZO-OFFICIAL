@@ -3,27 +3,27 @@
   "product": "WAZO",
   "version": "1.1.6",
   "buildVersion": "1.1.6.0",
-  "status": "publication-pending",
+  "status": "published-live-verified",
   "platform": "Windows",
   "architecture": "x64",
   "installerTechnology": "NSIS",
   "preparedDate": "2026-07-24",
-  "publishedDate": null,
+  "publishedDate": "2026-07-23",
   "sourceCommit": "68562c0af607f5c73bd1b948beb95f5517243523",
   "sourcePackageProjection": {
     "files": 45,
     "sha256": "B06A4C3A943CF114E862223F0D251928A2DE1BD20CB86D0026E3EAAA40F55512"
   },
   "publication": {
-    "state": "prepared-awaiting-first-deployment",
+    "state": "published-live-verified",
     "channel": "official-website-direct-installer",
     "authorizedBy": "explicit-user-instruction",
     "authorizedDate": "2026-07-23",
-    "artifactPublicationCommit": null,
-    "pagesDeploymentId": null,
-    "pagesDeploymentState": "not-started",
+    "artifactPublicationCommit": "41b359e4e306dacb090da69b82e2e3de1eab2e7b",
+    "pagesDeploymentId": 30037802828,
+    "pagesDeploymentState": "success",
     "pagesDeploymentUrl": "https://imzub.github.io/WAZO-OFFICIAL/",
-    "note": "The release is authorized and prepared locally. Publication commit, Pages deployment, and live byte/hash verification are recorded only after they complete. Automated validation does not represent physical human workflow validation."
+    "note": "The exact authorized artifact commit deployed successfully through GitHub Pages. Cache-busted public pages returned HTTP 200, and full public installer/manual downloads matched the archived byte counts and SHA-256 hashes. Automated validation does not represent physical human workflow validation."
   },
   "installer": {
     "file": "WAZO-Setup-1.1.6.exe",
@@ -35,19 +35,19 @@
     "authenticode": "NotSigned"
   },
   "liveVerification": {
-    "state": "pending-after-deployment",
-    "verifiedAtUtc": null,
-    "homepageHttpStatus": null,
-    "releaseIndexHttpStatus": null,
-    "releaseManifestHttpStatus": null,
-    "releaseNotesHttpStatus": null,
-    "privacyPageHttpStatus": null,
-    "installerHttpStatus": null,
-    "installerDownloadedBytes": null,
-    "installerDownloadedSha256": null,
-    "manualHttpStatus": null,
-    "manualDownloadedBytes": null,
-    "manualDownloadedSha256": null
+    "state": "passed",
+    "verifiedAtUtc": "2026-07-23T19:28:34Z",
+    "homepageHttpStatus": 200,
+    "releaseIndexHttpStatus": 200,
+    "releaseManifestHttpStatus": 200,
+    "releaseNotesHttpStatus": 200,
+    "privacyPageHttpStatus": 200,
+    "installerHttpStatus": 200,
+    "installerDownloadedBytes": 102427430,
+    "installerDownloadedSha256": "E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077",
+    "manualHttpStatus": 200,
+    "manualDownloadedBytes": 112431,
+    "manualDownloadedSha256": "028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30"
   },
   "validation": {
     "state": "automated-validation-passed",

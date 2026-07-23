@@ -5,6 +5,10 @@ Version/build: `1.1.6` / `1.1.6.0`
 Platform: Windows x64
 Channel: WAZO Official website direct installer
 
+Publication: live and byte/hash verified on `2026-07-23T19:28:34Z` through
+GitHub Pages deployment `30037802828` from artifact commit
+`41b359e4e306dacb090da69b82e2e3de1eab2e7b`.
+
 WAZO 1.1.6 is a permanently offline personal wealth organizer. Portfolio
 records, calculations, guidance, prices, and rates remain on the user's
 computer. The app has no cloud portfolio service, synchronization, market-data
