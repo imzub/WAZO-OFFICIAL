@@ -17,6 +17,8 @@ This directory preserves the public-safe working material needed to continue WAZ
 
 The current 58.17-second tour was recorded from WAZO 1.1.6 using anonymous demo data. Its browser-ready media, captions, poster, thumbnail, transcript, and manifest are versioned with the release. The earlier v1.1.4 narrated tour remains retained as historical media.
 
+The corrective v1.1.6 website release was published from commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` through successful GitHub Pages run `30125432522`. Cache-busted public verification completed at `2026-07-24T20:53:53Z`; the installer and all current tour assets matched the repository byte counts and SHA-256 hashes.
+
 ## Directory map
 
 - `context/` contains the durable state, decisions, handoff instructions, and improvement backlog.

@@ -14,3 +14,5 @@ The website encode was derived from the validated 364,239,785-byte Microsoft Sto
 The tour uses WAZO v1.1.6 with an isolated anonymous demo profile. Privacy Mode is intentionally off for clarity. It contains no real user or financial data, and its claims stay within the implemented fully offline-only v1.1.6 boundary.
 
 The browser encode passed a complete audio/video decode and Fast Start check. Frame-by-frame comparison with the Store master measured all-plane SSIM `0.999938` and average PSNR `71.668123 dB`. These are automated media checks (`humanValidated=false`).
+
+Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` published these files through successful GitHub Pages run `30125432522`. Cache-busted public verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact repository hashes for the MP4, poster, thumbnail, captions, and transcript. Live desktop and 390 x 844 responsive checks produced no console errors, and the public video decoded at its native 1920 x 1080 resolution with one caption track.

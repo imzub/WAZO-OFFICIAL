@@ -4,6 +4,13 @@
   "title": "Meet WAZO — Your Personalized Wealth Organizer",
   "recordedVersion": "1.1.6",
   "sourceCommit": "56399c120c644c1d80485b368370e630c58f6ac7",
+  "publication": {
+    "status": "published-live-verified",
+    "websiteCommit": "5db6957ae8e7d91a060db0fee2f37cbc5e4f807e",
+    "pagesDeploymentId": 30125432522,
+    "verifiedAtUtc": "2026-07-24T20:53:53Z",
+    "httpStatus": 200
+  },
   "language": "en-US",
   "durationSeconds": 58.17,
   "resolution": "1920x1080",

@@ -5,14 +5,16 @@ Version/build: `1.1.6` / `1.1.6.0`
 Platform: Windows x64
 Channel: WAZO Official website direct installer
 
-Corrective refresh prepared: `2026-07-25`.
+Corrective refresh published: `2026-07-25`.
 
 The previous v1.1.6 website binary was published and byte/hash verified on
 `2026-07-23T19:28:34Z` through GitHub Pages deployment `30037802828`. The
 corrective build below supersedes those binary bytes without changing the
-`1.1.6` product version or `1.1.6.0` build version. Its public deployment and
-download verification are recorded separately after GitHub Pages publishes the
-replacement.
+`1.1.6` product version or `1.1.6.0` build version. Website commit
+`5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed through successful
+GitHub Pages run `30125432522`. Cache-busted public verification at
+`2026-07-24T20:53:53Z` matched the installer, video, captions, poster,
+thumbnail, transcript, and manual byte counts and SHA-256 hashes.
 
 Website branding correction: the public header, footer, favicon, and Privacy
 Policy page now use the current Organized W logo through a cache-busted
@@ -144,6 +146,10 @@ claimed here.
 - The video uses an isolated anonymous demo profile. Privacy Mode is
   intentionally off for presentation clarity; no real user or financial data
   appears.
+- Public delivery verification returned HTTP 200 for every tour asset. Live
+  desktop and 390 x 844 responsive checks had no console errors; the video
+  reported ready state 4, 1920 x 1080 native dimensions, 58.179 seconds, and
+  one English caption track.
 
 ## Installation And Upgrade Notes
 

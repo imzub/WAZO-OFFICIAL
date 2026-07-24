@@ -12,11 +12,11 @@ The current v1.1.6 work includes:
 - the exact corrective v1.1.6 direct installer and synchronized download metadata;
 - current release notes, release manifests, homepage content, and durable context.
 
-The remaining steps are release operations for these completed v1.1.6 assets, not future implementation:
+The v1.1.6 release operations are also complete:
 
-1. Commit and push the prepared website state with the `imzub` account.
-2. Wait for the GitHub Pages deployment to succeed.
-3. Verify cache-busted public HTML, JSON, installer, video, captions, poster, transcript, manual, and privacy-policy responses.
-4. Record the exact publication commit, deployment ID, HTTP results, byte counts, and hashes.
+1. Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` was pushed with the `imzub` account.
+2. GitHub Pages run `30125432522` succeeded.
+3. Cache-busted public HTML, JSON, installer, video, captions, poster, thumbnail, transcript, manual, and privacy-policy responses were verified.
+4. The exact publication commit, deployment ID, HTTP results, byte counts, and hashes are recorded in the release index, release manifest, product-tour manifest, and durable context.
 
 Any later idea requires a new explicit user decision; it is not an inherited pending plan.
