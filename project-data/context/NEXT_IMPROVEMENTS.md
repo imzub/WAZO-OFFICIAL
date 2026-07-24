@@ -28,4 +28,5 @@ The current video is accepted for publication. These are candidates for a later 
 ## Deferred product work
 
 - Update installer and Microsoft Store links only when a new validated artifact or published listing is supplied.
-- Do not change the current WAZO `1.1.5` website version merely to improve the video.
+- Do not change the current WAZO `1.1.6` website version merely to improve the historical v1.1.4 video.
+- Create a separate 45-60 second v1.1.6 Microsoft Store trailer only from current UI and offline-only claims. Produce a 1920 x 1080 compliant encode, matching PNG thumbnail, title, and English WebVTT captions; do not reuse the v1.1.4 website explainer unchanged.

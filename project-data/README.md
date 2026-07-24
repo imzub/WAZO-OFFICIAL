@@ -9,10 +9,13 @@ This directory preserves the public-safe working material needed to continue WAZ
 - Publishing branch: `Master`
 - GitHub Pages source: `docs/`
 - Live site: `https://imzub.github.io/WAZO-OFFICIAL/`
-- Current website and direct-installer version: `1.1.5`
+- Current website and direct-installer version: `1.1.6` / build `1.1.6.0`
+- Current privacy policy: `WAZO-PP-1.1.6-2026-07-23-R2`
+- Current public manual: 16-page WAZO `1.1.6` user manual
+- Current website identity: Organized W revision `organized-w-r2`
 - Current narrated product-tour recording: `1.1.4`
 
-The version difference is intentional. The accepted tour was recorded from WAZO 1.1.4. The website remains on 1.1.5 and clearly explains that 1.1.5 retains the demonstrated core workflow while adding guided privacy setup and protected Windows storage.
+The version difference is intentional. The accepted tour was recorded from WAZO 1.1.4. The website is on 1.1.6 and clearly explains that the recording demonstrates earlier core workflows, not the current protected-storage, reversible-history, financial-year, risk, or local-guidance internals.
 
 ## Directory map
 
