@@ -138,6 +138,15 @@
     "url": "https://imzub.github.io/WAZO-OFFICIAL/privacy/",
     "sha256": "0F792E634EEC910E6C248575A2497301544CE8E85B9BD45A16827B2EC7A43150"
   },
+  "branding": {
+    "revision": "organized-w-r2",
+    "logo": "site-data/shared/branding/wazo-logo-organized-w-r2.png",
+    "sizeBytes": 57329,
+    "width": 256,
+    "height": 256,
+    "sha256": "4F897AF777A8ADEB4782848E04F934B05D40F8F2A92979D75D75380E6BAC4B55",
+    "legacyLogo": "site-data/shared/branding/wazo-logo.png"
+  },
   "images": [
     "site-data/releases/v1.1.6/images/wazo-hero-v116.png",
     "site-data/releases/v1.1.6/images/wazo-assets-investments-v116.png",

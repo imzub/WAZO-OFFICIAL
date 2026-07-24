@@ -9,6 +9,11 @@ Publication: live and byte/hash verified on `2026-07-23T19:28:34Z` through
 GitHub Pages deployment `30037802828` from artifact commit
 `41b359e4e306dacb090da69b82e2e3de1eab2e7b`.
 
+Website branding correction: the public header, footer, favicon, and Privacy
+Policy page now use the current Organized W logo through a cache-busted
+website asset. This presentation-only correction does not change the WAZO
+`1.1.6` product version, `1.1.6.0` build version, or installer bytes.
+
 WAZO 1.1.6 is a permanently offline personal wealth organizer. Portfolio
 records, calculations, guidance, prices, and rates remain on the user's
 computer. The app has no cloud portfolio service, synchronization, market-data
