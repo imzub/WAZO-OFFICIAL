@@ -5,14 +5,25 @@ Version/build: `1.1.6` / `1.1.6.0`
 Platform: Windows x64
 Channel: WAZO Official website direct installer
 
-Publication: live and byte/hash verified on `2026-07-23T19:28:34Z` through
-GitHub Pages deployment `30037802828` from artifact commit
-`41b359e4e306dacb090da69b82e2e3de1eab2e7b`.
+Corrective refresh prepared: `2026-07-25`.
+
+The previous v1.1.6 website binary was published and byte/hash verified on
+`2026-07-23T19:28:34Z` through GitHub Pages deployment `30037802828`. The
+corrective build below supersedes those binary bytes without changing the
+`1.1.6` product version or `1.1.6.0` build version. Its public deployment and
+download verification are recorded separately after GitHub Pages publishes the
+replacement.
 
 Website branding correction: the public header, footer, favicon, and Privacy
 Policy page now use the current Organized W logo through a cache-busted
 website asset. This presentation-only correction does not change the WAZO
-`1.1.6` product version, `1.1.6.0` build version, or installer bytes.
+`1.1.6` product version or `1.1.6.0` build version.
+
+Corrective reliability refresh: source commit
+`56399c120c644c1d80485b368370e630c58f6ac7` improves transient status cleanup,
+form alignment and responsive behavior, theme legibility, Privacy Mode
+redaction, regional-format display, valuation preservation, and human-scale
+runtime validation without deferring an agreed item to a later release.
 
 WAZO 1.1.6 is a permanently offline personal wealth organizer. Portfolio
 records, calculations, guidance, prices, and rates remain on the user's
@@ -74,11 +85,11 @@ portfolio upload.
 ## Verified Installer
 
 - Product source commit:
-  `68562c0af607f5c73bd1b948beb95f5517243523`
+  `56399c120c644c1d80485b368370e630c58f6ac7`
 - File: `WAZO-Setup-1.1.6.exe`
-- Size: `102,427,430` bytes (`97.7 MiB`)
+- Size: `102,429,605` bytes (`97.7 MiB`)
 - SHA-256:
-  `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`
+  `A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7`
 - Authenticode: `NotSigned`
 - Manual: 16 pages, `112,431` bytes, SHA-256
   `028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30`
@@ -89,33 +100,50 @@ Official website and verify the file name, size, and SHA-256 above.
 
 ## Validation Record
 
-- Closing standalone Node `v24.14.0` suite: `716/716` passed with no failures,
-  cancellations, skips, or todo tests in `57.060` seconds.
-- Closing coverage suite: `716/716` passed; `76.22%` lines, `75.86%` branches,
+- Closing standalone Node suite: `726/726` passed with no failures,
+  cancellations, skips, or todo tests in `52.533` seconds.
+- Closing coverage suite: `726/726` passed; `76.23%` lines, `75.90%` branches,
   and `86.16%` functions.
-- Syntax passed for 75 source files; static analysis and brand validation
+- Syntax passed for 78 source files; static analysis, brand validation, and
+  Trust Center validation
   passed.
-- Focused release-hardening verification passed `35/35`; focused
-  offline/storage/privacy verification passed `97/97`.
-- `npm audit` reported zero known vulnerabilities across 384 dependencies.
+- UI-humanity validation passed `166/166`; runtime workflow validation passed
+  `14/14`; calculator/settings Electron validation passed `30/30`; focused
+  calculator/settings tests passed `86/86`; lifecycle/recovery passed `20/20`;
+  and deterministic file workflows passed `21/21`.
 - The exact standalone, installer payload, and Store package payload each
   passed `18/18` package checks (`54/54` total).
 - Native current-display validation passed `3/3` for each exact payload
-  (`9/9` total) at DPR `1.5`, CSS screen `1280 x 800`, and CSS work area
-  `1280 x 752`.
-- Fresh install, unchecked-policy rejection, checked retry, configured
-  workspace creation, restart, same-version repair, post-repair launch, and
-  uninstall passed.
-- A graceful v1.1.5-to-v1.1.6 upgrade preserved 2 families, 5 members, and 11
-  assets, showed the current-policy review, accepted a clean retry, and
-  remained stable after restart.
-- The test user data and protected-store sentinel were preserved byte-for-byte
-  through repair and uninstall, with no plaintext portfolio record found.
+  (`9/9` total) at DPR `1.5`, CSS screen `1280 x 720`, and CSS work area
+  `1280 x 672`.
+- The installer was extracted directly and its 76-file application payload was
+  byte-for-byte identical to the validated standalone payload. A clean full
+  rerun passed `18/18`.
+- Native Print cancellation cannot be concluded from automation because the
+  operating-system dialog is intentionally outside the app harness.
 
 The results above are automated evidence. Physical human workflow validation
-is not recorded. The installer is unsigned. Windows App Certification Kit,
-signed/sideload validation, Microsoft Partner Center upload, and Store
-certification are separate external gates and are not claimed here.
+is not recorded. A physical install/repair/uninstall lifecycle was not rerun for
+this replacement candidate because it uses the same per-user product identity;
+the exact extracted payload was validated instead. The installer is unsigned.
+Windows App Certification Kit, signed/sideload validation, Microsoft Partner
+Center upload, and Store certification are separate external gates and are not
+claimed here.
+
+## Current Product Tour
+
+- Recording version: WAZO `1.1.6`, source commit
+  `56399c120c644c1d80485b368370e630c58f6ac7`.
+- Runtime: `58.17` seconds at `1920 x 1080`, with English narration, original
+  music, and nine English WebVTT caption cues.
+- Browser MP4: `24,372,012` bytes, SHA-256
+  `6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533`.
+- The website copy was transcoded from the validated 364,239,785-byte Store
+  master with SHA-256
+  `3C0D867D007FF20607DDB7209A9EA9DFB78631C5959BC7B4992FDFAA50AD584F`.
+- The video uses an isolated anonymous demo profile. Privacy Mode is
+  intentionally off for presentation clarity; no real user or financial data
+  appears.
 
 ## Installation And Upgrade Notes
 

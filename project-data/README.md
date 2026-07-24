@@ -13,15 +13,16 @@ This directory preserves the public-safe working material needed to continue WAZ
 - Current privacy policy: `WAZO-PP-1.1.6-2026-07-23-R2`
 - Current public manual: 16-page WAZO `1.1.6` user manual
 - Current website identity: Organized W revision `organized-w-r2`
-- Current narrated product-tour recording: `1.1.4`
+- Current narrated product-tour recording: `1.1.6`
 
-The version difference is intentional. The accepted tour was recorded from WAZO 1.1.4. The website is on 1.1.6 and clearly explains that the recording demonstrates earlier core workflows, not the current protected-storage, reversible-history, financial-year, risk, or local-guidance internals.
+The current 58.17-second tour was recorded from WAZO 1.1.6 using anonymous demo data. Its browser-ready media, captions, poster, thumbnail, transcript, and manifest are versioned with the release. The earlier v1.1.4 narrated tour remains retained as historical media.
 
 ## Directory map
 
 - `context/` contains the durable state, decisions, handoff instructions, and improvement backlog.
-- `releases/v1.1.4/promo/narrated/` contains the accepted narrated-video workspace.
-- `docs/site-data/releases/v1.1.4/video/` contains the lightweight browser delivery copy, poster, captions, transcript, and public manifest.
+- `releases/v1.1.4/promo/narrated/` contains the retained historical v1.1.4 narrated-video workspace.
+- `docs/site-data/releases/v1.1.4/video/` contains the retained historical v1.1.4 browser delivery assets.
+- `docs/site-data/releases/v1.1.6/video/` contains the current lightweight browser delivery copy, poster, thumbnail, captions, transcript, and public manifest.
 
 ## Clone and restore
 
@@ -39,7 +40,7 @@ git sparse-checkout add project-data
 git lfs pull --include="project-data/releases/v1.1.4/promo/narrated/**"
 ```
 
-The browser-ready MP4 under `docs/` deliberately stays in ordinary Git because GitHub Pages must serve the actual media bytes, not an LFS pointer.
+Browser-ready MP4 files under `docs/` deliberately stay in ordinary Git because GitHub Pages must serve the actual media bytes, not an LFS pointer. The current v1.1.6 Store master remains preserved in the private WAZO release repository and is not duplicated here.
 
 ## Public/private boundary
 

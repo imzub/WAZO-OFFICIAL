@@ -40,3 +40,13 @@
 2. Do not attach that recording to the v1.1.6 Microsoft Store draft: it exceeds Microsoft's recommended 60-second trailer length and shows older UI, branding, and the removed optional-rates workflow.
 3. A future Store trailer should be a fresh 45-60 second v1.1.6-specific production using the current Organized W identity, current offline-only UI and claims, a 1920 x 1080 Store-compliant video and PNG thumbnail, an accurate title, and English WebVTT captions.
 4. Trailer production and upload are separate future media work. Submission 4 remains intentionally trailer-free unless the current release-specific trailer is created, validated, and explicitly approved.
+
+## 2026-07-25 WAZO 1.1.6 corrective website refresh
+
+1. Keep the product and build versions at `1.1.6` / `1.1.6.0`; the corrective reliability work does not create a later release or defer an agreed implementation item.
+2. Prepare the exact 102,429,605-byte NSIS installer with SHA-256 `A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7` from private source commit `56399c120c644c1d80485b368370e630c58f6ac7`.
+3. Replace the featured historical tour with the current 58.17-second WAZO v1.1.6 production. The 24,372,012-byte 1920 x 1080 Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533`, English narration and captions, original music, a poster, a thumbnail, and an accessible transcript.
+4. Keep the 364,239,785-byte Store master (SHA-256 `3C0D867D007FF20607DDB7209A9EA9DFB78631C5959BC7B4992FDFAA50AD584F`) in the private WAZO release repository. Keep the browser MP4 in ordinary Git under `docs/` so GitHub Pages serves real video bytes.
+5. Preserve all v1.1.4 media and older installers in versioned history. Replacing the homepage feature does not authorize deleting historical artifacts.
+6. Record the replacement as prepared, not published, until an exact website commit deploys successfully and cache-busted public installer/video downloads match their local byte counts and hashes.
+7. Continue to label all automated evidence honestly with `humanValidated=false`. Do not infer physical install/repair/uninstall validation for the replacement candidate from its byte-identical extracted payload.

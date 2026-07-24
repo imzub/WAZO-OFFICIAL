@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "title": "Meet WAZO — Your Personalized Wealth Organizer",
+  "recordedVersion": "1.1.6",
+  "sourceCommit": "56399c120c644c1d80485b368370e630c58f6ac7",
+  "language": "en-US",
+  "durationSeconds": 58.17,
+  "resolution": "1920x1080",
+  "frameRate": "30000/1001",
+  "video": {
+    "url": "site-data/releases/v1.1.6/video/WAZO-Product-Tour-v1.1.6.mp4",
+    "sizeBytes": 24372012,
+    "sha256": "6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533",
+    "codec": "H.264 High / AAC-LC stereo",
+    "fastStart": true,
+    "sourceMasterSizeBytes": 364239785,
+    "sourceMasterSha256": "3C0D867D007FF20607DDB7209A9EA9DFB78631C5959BC7B4992FDFAA50AD584F"
+  },
+  "poster": {
+    "url": "site-data/releases/v1.1.6/video/WAZO-Product-Tour-v1.1.6-Poster.png",
+    "sizeBytes": 626659,
+    "sha256": "DE17D3C98C0242545601A07CFA5227951D55E64CB8D2DDC97BF69ADDD0F166AD",
+    "width": 1920,
+    "height": 1080
+  },
+  "thumbnail": {
+    "url": "site-data/releases/v1.1.6/video/WAZO-Product-Tour-v1.1.6-Thumbnail.png",
+    "sizeBytes": 626659,
+    "sha256": "DE17D3C98C0242545601A07CFA5227951D55E64CB8D2DDC97BF69ADDD0F166AD",
+    "width": 1920,
+    "height": 1080
+  },
+  "captions": {
+    "webVtt": "site-data/releases/v1.1.6/video/WAZO-Product-Tour-v1.1.6-English.vtt",
+    "cueCount": 9,
+    "sizeBytes": 1201,
+    "sha256": "D84CA447910D88B9A5AEF3954ED537A27223B27924A473449A458411FCB8B7B9"
+  },
+  "transcript": {
+    "url": "site-data/releases/v1.1.6/video/WAZO-Product-Tour-v1.1.6-Transcript.md",
+    "sizeBytes": 1283,
+    "sha256": "0189788BF9FDD66E90F41B34578649233C219966FDD1D72F5461FCA00C452557"
+  },
+  "validation": {
+    "validatedDate": "2026-07-25",
+    "fullDecode": "passed",
+    "fastStart": true,
+    "sourceComparisonSsimAll": 0.999938,
+    "sourceComparisonPsnrAverageDb": 71.668123,
+    "humanValidated": false
+  },
+  "dataPolicy": "Isolated anonymous demo profile only; Privacy Mode intentionally off for presentation clarity",
+  "offlineBoundary": "No account, cloud storage, synchronization, market-data API, cloud AI, telemetry, advertising request, or background portfolio upload",
+  "pagesDelivery": "ordinary-git-not-lfs"
+}

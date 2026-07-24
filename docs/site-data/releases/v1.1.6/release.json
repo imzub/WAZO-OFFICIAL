@@ -3,82 +3,82 @@
   "product": "WAZO",
   "version": "1.1.6",
   "buildVersion": "1.1.6.0",
-  "status": "published-live-verified",
+  "status": "replacement-prepared-not-yet-published",
   "platform": "Windows",
   "architecture": "x64",
   "installerTechnology": "NSIS",
-  "preparedDate": "2026-07-24",
-  "publishedDate": "2026-07-23",
-  "sourceCommit": "68562c0af607f5c73bd1b948beb95f5517243523",
-  "sourcePackageProjection": {
-    "files": 45,
-    "sha256": "B06A4C3A943CF114E862223F0D251928A2DE1BD20CB86D0026E3EAAA40F55512"
-  },
+  "preparedDate": "2026-07-25",
+  "publishedDate": null,
+  "sourceCommit": "56399c120c644c1d80485b368370e630c58f6ac7",
   "publication": {
-    "state": "published-live-verified",
+    "state": "replacement-prepared-not-yet-published",
     "channel": "official-website-direct-installer",
     "authorizedBy": "explicit-user-instruction",
-    "authorizedDate": "2026-07-23",
-    "artifactPublicationCommit": "41b359e4e306dacb090da69b82e2e3de1eab2e7b",
-    "pagesDeploymentId": 30037802828,
-    "pagesDeploymentState": "success",
+    "authorizedDate": "2026-07-24",
+    "artifactPublicationCommit": null,
+    "pagesDeploymentId": null,
+    "pagesDeploymentState": "pending",
     "pagesDeploymentUrl": "https://imzub.github.io/WAZO-OFFICIAL/",
-    "note": "The exact authorized artifact commit deployed successfully through GitHub Pages. Cache-busted public pages returned HTTP 200, and full public installer/manual downloads matched the archived byte counts and SHA-256 hashes. Automated validation does not represent physical human workflow validation."
+    "note": "The corrective v1.1.6 website package is prepared locally. Record the exact website commit, Pages deployment, and cache-busted public hashes only after deployment. Automated validation does not represent physical human workflow validation.",
+    "previousLivePublication": {
+      "artifactPublicationCommit": "41b359e4e306dacb090da69b82e2e3de1eab2e7b",
+      "pagesDeploymentId": 30037802828,
+      "verifiedAtUtc": "2026-07-23T19:28:34Z",
+      "installerSizeBytes": 102427430,
+      "installerSha256": "E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077"
+    }
   },
   "installer": {
     "file": "WAZO-Setup-1.1.6.exe",
-    "url": "site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe?sha=e641ab23bbfb",
-    "sizeBytes": 102427430,
-    "sha256": "E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077",
+    "url": "site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe?sha=a4bab97f8d25",
+    "sizeBytes": 102429605,
+    "sha256": "A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7",
     "fileVersion": "1.1.6.0",
     "productVersion": "1.1.6",
     "authenticode": "NotSigned"
   },
   "liveVerification": {
-    "state": "passed",
-    "verifiedAtUtc": "2026-07-23T19:28:34Z",
-    "homepageHttpStatus": 200,
-    "releaseIndexHttpStatus": 200,
-    "releaseManifestHttpStatus": 200,
-    "releaseNotesHttpStatus": 200,
-    "privacyPageHttpStatus": 200,
-    "installerHttpStatus": 200,
-    "installerDownloadedBytes": 102427430,
-    "installerDownloadedSha256": "E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077",
-    "manualHttpStatus": 200,
-    "manualDownloadedBytes": 112431,
-    "manualDownloadedSha256": "028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30"
+    "state": "pending-replacement-deployment",
+    "verifiedAtUtc": null,
+    "candidateInstallerSizeBytes": 102429605,
+    "candidateInstallerSha256": "A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7",
+    "candidateVideoSizeBytes": 24372012,
+    "candidateVideoSha256": "6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533"
   },
   "validation": {
     "state": "automated-validation-passed",
     "privateAutomatedEvidence": "recorded-in-product-release-handoff",
     "sourceValidation": {
       "nodeVersion": "24.14.0",
-      "syntaxFiles": 75,
+      "syntaxFiles": 78,
       "syntax": "passed",
       "static": "passed",
       "fullTests": {
-        "passed": 716,
+        "passed": 726,
         "failed": 0,
         "cancelled": 0,
         "skipped": 0,
         "todo": 0,
-        "runtimeMilliseconds": 57059.6633,
+        "runtimeMilliseconds": 52532.8882,
         "status": "passed"
       },
       "coverage": {
-        "testsPassed": 716,
+        "testsPassed": 726,
         "testsFailed": 0,
-        "runtimeMilliseconds": 53120.3566,
-        "linesPercent": 76.22,
-        "branchesPercent": 75.86,
+        "runtimeMilliseconds": 79030.3546,
+        "linesPercent": 76.23,
+        "branchesPercent": 75.9,
         "functionsPercent": 86.16,
         "status": "passed"
       },
-      "releaseHardening": "35/35 passed",
-      "offlineStoragePrivacy": "97/97 passed",
-      "brand": "48 archived and 7 Store assets passed",
-      "npmAudit": "0 vulnerabilities across 384 dependencies"
+      "brand": "passed",
+      "trustCenter": "passed",
+      "uiHumanity": "166/166 passed",
+      "runtimeWorkflows": "14/14 passed",
+      "calculatorSettingsElectron": "30/30 passed",
+      "calculatorSettingsFocused": "86/86 passed",
+      "lifecycleRecovery": "20/20 passed",
+      "fileWorkflows": "21/21 deterministic scenarios passed; native Print cancellation remains automation-inconclusive"
     },
     "packageMatrices": {
       "standalone": "18/18 passed",
@@ -94,26 +94,22 @@
       "display": {
         "windowsScalingPercent": 150,
         "devicePixelRatio": 1.5,
-        "cssScreen": "1280x800",
-        "cssWorkArea": "1280x752"
+        "cssScreen": "1280x720",
+        "cssWorkArea": "1280x672"
       },
       "humanValidated": false
     },
     "installerLifecycle": {
-      "freshInstall": "passed",
-      "uncheckedPolicyRejection": "passed",
-      "checkedRetry": "passed",
-      "configuredWorkspace": "passed with 2 members",
-      "secondLaunch": "passed",
-      "sameVersionRepair": "passed",
-      "postRepairLaunch": "passed",
-      "uninstall": "passed",
-      "protectedUserDataAndSentinel": "preserved byte-for-byte through repair and uninstall; no plaintext"
+      "status": "physical-lifecycle-not-rerun-for-corrective-candidate",
+      "reason": "The replacement uses the same per-user product identity.",
+      "exactExtractedPayload": "76 files byte-for-byte identical to the validated standalone payload",
+      "payloadValidation": "18/18 clean full rerun passed",
+      "nativeCurrentDisplay": "3/3 passed"
     },
     "upgradeLifecycle": {
       "from": "1.1.5",
       "to": "1.1.6",
-      "status": "passed",
+      "status": "historical-evidence-from-earlier-v1.1.6-candidate",
       "privacyReview": "shown; unchecked submission rejected; checked retry accepted",
       "preserved": "2 families, 5 members, and 11 assets",
       "secondLaunch": "stable",
@@ -122,10 +118,22 @@
     "physicalHumanValidation": "not-recorded",
     "authenticode": "NotSigned",
     "windowsAppCertificationKit": "not-run-unavailable",
-    "partnerCenterUpload": "not-performed",
+    "partnerCenterUpload": "managed as a separate external release step",
     "microsoftCertification": "not-claimed"
   },
   "releaseNotes": "site-data/releases/v1.1.6/updates/release-notes.md",
+  "productTour": {
+    "recordedVersion": "1.1.6",
+    "status": "prepared-not-yet-published",
+    "manifest": "site-data/releases/v1.1.6/video/video.json",
+    "videoUrl": "site-data/releases/v1.1.6/video/WAZO-Product-Tour-v1.1.6.mp4",
+    "sizeBytes": 24372012,
+    "sha256": "6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533",
+    "durationSeconds": 58.17,
+    "resolution": "1920x1080",
+    "captions": "site-data/releases/v1.1.6/video/WAZO-Product-Tour-v1.1.6-English.vtt",
+    "transcript": "site-data/releases/v1.1.6/video/WAZO-Product-Tour-v1.1.6-Transcript.md"
+  },
   "manual": {
     "url": "site-data/releases/v1.1.6/updates/WAZO-User-Manual-v1.1.6.pdf?sha=028c0233b47b",
     "sizeBytes": 112431,

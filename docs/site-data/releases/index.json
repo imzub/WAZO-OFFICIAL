@@ -27,6 +27,30 @@
     "installerLifecycle": "fresh install, policy-error retry, configured workspace, restart, repair, post-repair launch, uninstall, and protected-data preservation passed",
     "upgradeLifecycle": "graceful v1.1.5 to v1.1.6 upgrade passed; 2 families, 5 members, and 11 assets preserved",
     "publicDownloadVerification": "HTTP 200; installer 102,427,430 bytes / E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077; manual 112,431 bytes / 028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30",
+    "historicalStatus": "remains live until the prepared same-version replacement deploys; the current release manifest describes that replacement"
+  },
+  "preparedReplacementInstaller": {
+    "version": "1.1.6",
+    "buildVersion": "1.1.6.0",
+    "status": "prepared-not-yet-published",
+    "sizeBytes": 102429605,
+    "sha256": "A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7",
+    "sourceCommit": "56399c120c644c1d80485b368370e630c58f6ac7",
+    "preparedDate": "2026-07-25",
+    "publicUrlAfterDeployment": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe?sha=a4bab97f8d25",
+    "sourceValidation": {
+      "fullTests": "726/726 passed in 52.533s",
+      "coverage": "726/726 passed; 76.23% lines, 75.90% branches, 86.16% functions",
+      "syntax": "78 files passed",
+      "static": "passed",
+      "brand": "passed",
+      "trustCenter": "passed",
+      "uiHumanity": "166/166 passed",
+      "runtimeWorkflows": "14/14 passed"
+    },
+    "exactPackageMatrices": "standalone 18/18, NSIS website payload 18/18, Store AppX payload 18/18; 54/54 total",
+    "nativeCurrentDisplay": "standalone 3/3, NSIS website payload 3/3, Store AppX payload 3/3; 9/9 total at DPR 1.5; humanValidated=false",
+    "physicalInstallerLifecycle": "not rerun for the same per-user product identity; exact 76-file extracted payload matched the validated standalone byte-for-byte",
     "manifest": "site-data/releases/v1.1.6/release.json"
   },
   "currentWebsiteBranding": {
@@ -56,13 +80,16 @@
   },
   "majorBaselineVersion": "1.0.0",
   "featuredVideo": {
-    "recordedVersion": "1.1.4",
-    "manifest": "site-data/releases/v1.1.4/video/video.json"
+    "recordedVersion": "1.1.6",
+    "status": "prepared-not-yet-published",
+    "manifest": "site-data/releases/v1.1.6/video/video.json",
+    "sizeBytes": 24372012,
+    "sha256": "6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533"
   },
   "versions": [
     {
       "version": "1.1.6",
-      "status": "published-live-verified",
+      "status": "replacement-prepared-not-yet-published",
       "manifest": "site-data/releases/v1.1.6/release.json"
     },
     {

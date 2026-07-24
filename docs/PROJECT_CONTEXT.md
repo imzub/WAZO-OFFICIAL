@@ -26,10 +26,11 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 ## Current Public Downloads
 
-- Stable direct installer: `v1.1.6` / `docs/site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe`.
-- The published Windows x64 installer is 102,427,430 bytes with SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`; its product source commit is `68562c0af607f5c73bd1b948beb95f5517243523`.
-- Website artifact-publication commit `41b359e4e306dacb090da69b82e2e3de1eab2e7b` deployed successfully through GitHub Pages run `30037802828`. Cache-busted public verification completed at `2026-07-23T19:28:34Z`: the homepage, release index, release manifest, release notes, privacy page, installer, and manual returned HTTP 200; fresh public downloads matched the recorded installer and manual byte counts and SHA-256 hashes.
-- Final source validation passed syntax, static analysis, brand checks, `716/716` tests, package matrices `54/54`, and native-current-display matrices `9/9` at DPR `1.5`. This remains automated evidence (`humanValidated=false`); physical packaged human validation is not recorded. Publication was explicitly authorized on July 23, 2026 and must not be described as a human test pass.
+- Prepared corrective direct installer: `v1.1.6` / `docs/site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe`.
+- The prepared Windows x64 installer is 102,429,605 bytes with SHA-256 `A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7`; its product source commit is `56399c120c644c1d80485b368370e630c58f6ac7`.
+- The replacement has not yet been committed, deployed, or publicly byte/hash verified. After publication, replace this preparation checkpoint with the exact website commit, GitHub Pages deployment, HTTP results, and fresh installer/video download hashes.
+- The previous live v1.1.6 installer remains historical deployment evidence: 102,427,430 bytes, SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`, source commit `68562c0af607f5c73bd1b948beb95f5517243523`, website artifact commit `41b359e4e306dacb090da69b82e2e3de1eab2e7b`, and successful Pages run `30037802828`.
+- Final corrective-source validation passed syntax for 78 files, static analysis, brand and Trust Center checks, `726/726` tests, package matrices `54/54`, native-current-display matrices `9/9` at DPR `1.5`, UI-humanity `166/166`, and runtime workflows `14/14`. This remains automated evidence (`humanValidated=false`); physical packaged human validation is not recorded.
 - The superseded published v1.1.5 installer remains historical evidence: 102,285,721 bytes, SHA-256 `94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB`, product source commit `0f03c6084ab023cd14841158bd369461163ac319`, and website publication commit `94f6cff4868814ee3bc0fd40903e025a72c6331c`.
 - The rejected v1.1.5 predecessor also remains historical evidence: 102,284,642 bytes, SHA-256 `955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E`, product source commit `232210ba29904c9f3badf54d0650edc6c721a1b1`, and website publication commit `1630edadb907cce834886ded65b7190ecbe6205a`.
 - The matching 16-page v1.1.6 manual is 112,431 bytes with SHA-256 `028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30`.
@@ -60,12 +61,12 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 ## Current Product Tour
 
 - The home page includes a narrated product tour at `#tour`, placed before the release-specific v1.1.6 changes.
-- The accepted interface recording is WAZO `v1.1.4`, built from private application commit `7c63be818372307dc08ff6551b7296fca863d3e7`; the website and current installer are `v1.1.6`.
-- The tour is approximately 2 minutes 2 seconds, 1920 x 1080, with English narration, default English WebVTT captions, anonymous demo data, a poster, and a complete transcript.
-- Public delivery files are under `docs/site-data/releases/v1.1.4/video/`. The Pages MP4 must remain ordinary Git content.
-- The complete public-safe editable workspace and durable continuation notes are under `project-data/`. The master, production audio, voice segments, and 731 capture frames use Git LFS and require `git lfs pull` after cloning.
+- The featured interface recording is WAZO `v1.1.6`, built from private application commit `56399c120c644c1d80485b368370e630c58f6ac7`.
+- The tour is 58.17 seconds at 1920 x 1080, with English narration, original music, default English WebVTT captions, anonymous demo data, a poster, a thumbnail, and a complete transcript.
+- Public delivery files are under `docs/site-data/releases/v1.1.6/video/`. The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533` and must remain ordinary Git content.
+- The browser MP4 was derived from the validated 364,239,785-byte Store master with SHA-256 `3C0D867D007FF20607DDB7209A9EA9DFB78631C5959BC7B4992FDFAA50AD584F`, which remains preserved in the private WAZO release repository.
+- The prior v1.1.4 narrated explainer and its complete editable workspace remain retained as historical media under their existing versioned folders; do not delete or overwrite them.
 - Private WAZO application source and dependencies are intentionally excluded. Authorized reproduction requires a separate checkout of the recorded source commit.
-- Do not describe the v1.1.4 recording as demonstrating v1.1.6 protected-storage, reversible-history, financial-year, risk, or local-guidance internals. Its on-page disclosure explains the version boundary.
 
 ## Stable Privacy Policy
 
@@ -87,6 +88,6 @@ Update `AGENTS.md` or this context file when future website work changes publish
 - Product graphics for the `v1.1.6` experience live in `docs/site-data/releases/v1.1.6/images/`; the current website uses five release-specific graphics plus the shared Organized W logo.
 - Public branding uses `docs/site-data/shared/branding/wazo-logo-organized-w-r2.png`. Logo correction commit `ab4a65f06656940f3da92b02d0a9e2cc182dd769` deployed successfully through GitHub Pages run `30062852367`; the live homepage and privacy page each return HTTP 200 and reference the current logo.
 - The public feature story highlights ten-step scroll-safe setup, explicit privacy acknowledgement, permanently offline operation, Windows-bound protected storage, reversible records, configurable financial years, local guidance, password-optional `.wz` backups, Asset Library, investments, goals, reports, and optional Zakat.
-- Current-installer confidence messaging may cite only confirmed evidence: syntax, static analysis, brand checks, `716/716` source tests, `54/54` exact-package matrix checks, and `9/9` native-current-display scenarios passed, with `humanValidated=false`. Publication is confirmed separately and must not be presented as physical human validation.
+- Current-installer confidence messaging may cite only confirmed evidence: syntax for 78 files, static analysis, brand and Trust Center checks, `726/726` source tests, `54/54` exact-package matrix checks, `9/9` native-current-display scenarios, `166/166` UI-humanity checks, and `14/14` runtime workflows passed, with `humanValidated=false`. Publication must be confirmed separately and must not be presented as physical human validation.
 - Existing-user messaging must explain the one-time current-policy review, that exiting before acknowledgement leaves supported existing data unchanged, and that successful v1.1.5-to-v1.1.6 upgrade preserves supported data without re-entry.
 - Windows protection claims apply only to the Windows desktop release. Do not imply Android protection parity.
