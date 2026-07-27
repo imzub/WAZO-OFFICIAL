@@ -1,0 +1,54 @@
+{
+  "version": "1.1.4",
+  "deviceFamily": "Desktop",
+  "screenshots": [
+    {
+      "order": 1,
+      "file": "01-portfolio-overview.png",
+      "caption": "See net worth, growth, allocation, and member-level insights in one clear portfolio view.",
+      "captionCharacters": 89
+    },
+    {
+      "order": 2,
+      "file": "02-assets-holdings.png",
+      "caption": "Manage confirmed member-owned assets with calculated values, flexible filters, and export tools.",
+      "captionCharacters": 96
+    },
+    {
+      "order": 3,
+      "file": "03-recurring-plans-transactions.png",
+      "caption": "Review each scheduled investment before updating holdings, then retain a clear confirmed transaction history.",
+      "captionCharacters": 109
+    },
+    {
+      "order": 4,
+      "file": "04-asset-library.png",
+      "caption": "Maintain reusable asset definitions, prices, rate sources, and allocation targets in one organized library.",
+      "captionCharacters": 107
+    },
+    {
+      "order": 5,
+      "file": "05-performance-reports.png",
+      "caption": "Investigate category mix, gains, CAGR, and XIRR across confirmed portfolio records.",
+      "captionCharacters": 83
+    },
+    {
+      "order": 6,
+      "file": "06-financial-goals.png",
+      "caption": "Set financial goals, calculate a FIRE target, and track progress and funding gaps.",
+      "captionCharacters": 82
+    },
+    {
+      "order": 7,
+      "file": "07-financial-calculators.png",
+      "caption": "Compare SIP, SWP, deposit, loan, return, and projection scenarios with calculators that run locally.",
+      "captionCharacters": 100
+    },
+    {
+      "order": 8,
+      "file": "08-zakat-center.png",
+      "caption": "Optionally calculate Zakat, monitor payment progress, and organize payments, payees, and distribution.",
+      "captionCharacters": 102
+    }
+  ]
+}

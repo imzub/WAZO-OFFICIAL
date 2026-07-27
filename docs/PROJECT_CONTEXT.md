@@ -91,3 +91,11 @@ Update `AGENTS.md` or this context file when future website work changes publish
 - Current-installer confidence messaging may cite only confirmed evidence: syntax for 78 files, static analysis, brand and Trust Center checks, `726/726` source tests, `54/54` exact-package matrix checks, `9/9` native-current-display scenarios, `166/166` UI-humanity checks, and `14/14` runtime workflows passed, with `humanValidated=false`. Publication must be confirmed separately and must not be presented as physical human validation.
 - Existing-user messaging must explain the one-time current-policy review, that exiting before acknowledgement leaves supported existing data unchanged, and that successful v1.1.5-to-v1.1.6 upgrade preserves supported data without re-entry.
 - Windows protection claims apply only to the Windows desktop release. Do not imply Android protection parity.
+
+## Cross-System Handoff And Media Preservation
+
+The private WAZO application repository owns the canonical living Codex handoff at `docs/WAZO_CODEX_CONVERSATION_HANDOFF.md`. This public repository keeps a sanitized pointer in `docs/WAZO_CODEX_HANDOFF_POINTER.md` and updates it after substantive website scope, media, release, deployment, repository-state, or external-gate changes.
+
+Historical v1.1.4 original Store-promo production media previously found only in `G:\iZ\WAZO-PROMO` is preserved under `project-data/releases/v1.1.4/promo/store-original/`. Master/review video and original WAV use Git LFS; source script, storyboard, manifest, captions, thumbnails, frames, and Store screenshots remain versioned alongside them. The workspace contains anonymous demo content.
+
+Private application source, credentials, browser/session profiles, real financial data, and task feedback screenshots must never enter this public repository. Reproducible toolchains, dependency caches, pycache, and duplicate source-app checkouts remain excluded.

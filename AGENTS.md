@@ -65,3 +65,9 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Confirm `git check-attr` marks production master/audio/capture frames as LFS while leaving the Pages MP4 as ordinary Git data.
 - Confirm the `/privacy/` page, canonical URL, policy metadata, and sitemap entry are valid.
 - Check desktop and mobile responsiveness.
+
+## Cross-System Handoff And Media Preservation
+
+- Never leave a unique WAZO website visual, photo, audio, video, caption, thumbnail, frame, or editable production asset only in a temporary/non-repository workspace. Preserve it under `project-data/releases/v<version>/`; large production video/audio uses Git LFS.
+- Keep the public repository free of private application source, credentials, browser/session data, real financial records, and user-specific task screenshots.
+- Keep `docs/WAZO_CODEX_HANDOFF_POINTER.md` synchronized with the private application repository’s living handoff and current website task/repository state after substantive website scope, asset, release, deployment, or external-gate changes.

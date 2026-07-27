@@ -18,3 +18,7 @@
 /project-data/releases/v*/promo/narrated/audio/voice-segments/*.wav filter=lfs diff=lfs merge=lfs -text
 /project-data/releases/v*/promo/narrated/audio/voice-segments/*.mp3 filter=lfs diff=lfs merge=lfs -text
 /project-data/releases/v*/promo/narrated/capture-frames/*.jpg filter=lfs diff=lfs merge=lfs -text
+
+/project-data/releases/v*/promo/store-original/*.mp4 filter=lfs diff=lfs merge=lfs -text
+/project-data/releases/v*/promo/store-original/source/*.wav filter=lfs diff=lfs merge=lfs -text
+/project-data/releases/v*/promo/store-original/source/audio-analysis.txt whitespace=-blank-at-eol

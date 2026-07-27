@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "applicationVersion": "1.1.4",
+  "windowsBuildVersion": "1.1.4.0",
+  "capturedOn": "2026-07-20",
+  "deviceFamily": "Desktop",
+  "format": "PNG",
+  "capture": {
+    "width": 1920,
+    "height": 1080,
+    "orientation": "landscape",
+    "profile": "fresh isolated profile",
+    "data": "bundled anonymous test data plus one in-memory capture-only SIP example",
+    "privacyMode": "off",
+    "renderViewport": "2400x1350 CSS pixels at 0.8 device scale"
+  },
+  "validation": {
+    "visualInspection": "passed",
+    "visibleLocalPathScan": "passed",
+    "installedUserDataUsed": false,
+    "repositorySeedModified": false,
+    "partnerCenterUpload": "pending"
+  },
+  "files": [
+    {
+      "file": "01-portfolio-overview.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 355366,
+      "sha256": "FE984DFD58318A8BA007C9CE3940415993EAC7DE1F5CAADB4657BF3C2B707EB2"
+    },
+    {
+      "file": "02-assets-holdings.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 238700,
+      "sha256": "6B7493F63164A1081E7DF6BBFA89288C8CEDDF92A59BCE75111EC5FB92757712"
+    },
+    {
+      "file": "03-recurring-plans-transactions.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 237166,
+      "sha256": "CD1643D3F8E75CAF6D92667488EE12D356C5E23C645A4471060291AFF6B4B349"
+    },
+    {
+      "file": "04-asset-library.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 177809,
+      "sha256": "31531A0352E3A12DD877FE955A5753AE315ED35AFEB04F217660736654CBCEB6"
+    },
+    {
+      "file": "05-performance-reports.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 284368,
+      "sha256": "C5DC22EC6BA67585BE53CF105793491F8EDE930AE9170FD6C93457E3C7B23171"
+    },
+    {
+      "file": "06-financial-goals.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 333820,
+      "sha256": "9EB994C68D977BAF3711F218E242DBFEA642069CAE5BFE6FF2DAC3CE53A9D5BB"
+    },
+    {
+      "file": "07-financial-calculators.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 428313,
+      "sha256": "75A58B6CF40DA86FAD38E0C9B412A93EB08E43B174F94DCF2F063FA351D5D75A"
+    },
+    {
+      "file": "08-zakat-center.png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 244473,
+      "sha256": "0DAF5CDA93BA167348393E54977A56BF0668CCEC4D281E937DA6177E1F060E0C"
+    }
+  ],
+  "brandingRevision": "r2-redesign"
+}

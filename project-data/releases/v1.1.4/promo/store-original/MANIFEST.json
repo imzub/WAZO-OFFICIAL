@@ -1,0 +1,43 @@
+{
+  "project": "WAZO promotional intro",
+  "version": "1.1.4",
+  "createdDate": "2026-07-21",
+  "durationSeconds": 46.21,
+  "sourceVisuals": "Approved public-safe WAZO v1.1.4 website graphics",
+  "music": "Original synthesized ambient soundtrack; no third-party samples",
+  "outputs": {
+    "storeMaster": {
+      "file": "WAZO-Promo-v1.1.4-Store-Master.mp4",
+      "sizeBytes": 259433837,
+      "sha256": "B66116887F14467365DBC157BD243092656553EB0D4AD969EA4EED281219AD19",
+      "video": "H.264 High Profile, progressive, 1920x1080, 29.97 fps, yuv420p",
+      "audio": "AAC-LC stereo, 48 kHz",
+      "fastStart": true
+    },
+    "reviewCopy": {
+      "file": "WAZO-Promo-v1.1.4-Review.mp4",
+      "sizeBytes": 17349425,
+      "sha256": "50A8FA633B62B1EAC383476556675034AB01F2CC8780101E324FEE199CD2225A"
+    },
+    "thumbnail": {
+      "file": "WAZO-Promo-Thumbnail-v1.1.4.png",
+      "sizeBytes": 1632969,
+      "sha256": "C6AF40E1544DE2E75B9EB9CBDF3C14282EA8D363889BF4D4AC30C81BD69CA403",
+      "dimensions": "1920x1080"
+    },
+    "captions": {
+      "file": "WAZO-Promo-Captions-v1.1.4.vtt",
+      "sizeBytes": 534,
+      "sha256": "E4083621F4DC42D9925ADB262E77372836126017E0056D4E409B98B1ECA250A5"
+    }
+  },
+  "verification": {
+    "fullReviewDecode": "passed",
+    "storeMasterTailDecode": "passed",
+    "sampledScenes": 7,
+    "aspectRatio": "16:9 with no stretched source graphics",
+    "integratedLoudness": "-15.9 LUFS",
+    "truePeak": "-4.1 dBFS"
+  },
+  "publicationStatus": "local review only; not committed or published"
+}
