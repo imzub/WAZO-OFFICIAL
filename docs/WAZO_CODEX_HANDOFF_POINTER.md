@@ -25,7 +25,7 @@ Read this repository’s `AGENTS.md` and `docs/PROJECT_CONTEXT.md` before websit
 - GitHub Pages publishes from `docs/`.
 - Current website installer line is v1.1.7; the v1.1.6 product tour remains explicitly versioned historical media.
 - The website publication scope is the v1.1.7 installer only; the v1.1.7 Store AppX remains local for user testing.
-- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability and website live byte/hash verification remain pending.
+- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability remains unverified, while the v1.1.7 installer live byte/hash check passed after Pages deployment `30834371474`.
 - Do not claim v1.1.7 Store upload, certification, or publication without direct evidence.
 - Public browser media under `docs/` remains ordinary Git content.
 - Large editable production video/audio under `project-data/` uses Git LFS.

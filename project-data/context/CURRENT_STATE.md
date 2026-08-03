@@ -6,7 +6,7 @@ Checkpoint date: 2026-07-25
 
 - The current website and direct-installer release is WAZO `1.1.7` / build `1.1.7.0`.
 - The stable website privacy route publishes policy revision `WAZO-PP-1.1.6-2026-07-23-R2` (effective `2026-07-23`, canonical source SHA-256 `0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150`). Policy commit `02b985126843180a6f68e3fac1aa1469642405bc` deployed successfully through GitHub Pages run `30020443537`.
-- The current installer is `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`: 103,181,264 bytes, SHA-256 `2DDEADC0D06E171DD7DB95B4D5038DAEB9CABE4BC7849A450EF9EEB2CEB906E1`. Source tests passed 923/923 and packaged readiness passed; live website byte/hash verification is pending.
+- The current installer is `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`: 103,181,264 bytes, SHA-256 `2DDEADC0D06E171DD7DB95B4D5038DAEB9CABE4BC7849A450EF9EEB2CEB906E1`. Source tests passed 923/923 and packaged readiness passed; Pages deployment `30834371474` live byte/hash verification matched exactly.
 - Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed through successful GitHub Pages run `30125432522`. Cache-busted verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact expected byte counts and SHA-256 hashes for the installer, video, captions, poster, thumbnail, transcript, and manual.
 - Live desktop and 390 x 844 responsive browser checks passed with no console errors. The public video decoded at 1920 x 1080, duration 58.179 seconds, ready state 4, with one English caption track.
 - The previous same-version v1.1.6 website bytes remain historical evidence: artifact-publication commit `41b359e4e306dacb090da69b82e2e3de1eab2e7b`, successful Pages run `30037802828`, verification at `2026-07-23T19:28:34Z`, installer size 102,427,430 bytes, and SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`.
@@ -46,7 +46,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The v1.1.7 installer-only website update is prepared. GitHub Pages publication and live byte/hash verification remain pending. Keep the prior v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
+The v1.1.7 installer-only website update is published and live byte/hash verified through Pages deployment `30834371474`. Keep the prior v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 
