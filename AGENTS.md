@@ -23,7 +23,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Public installer downloads are stored in the matching version's `installer/` folder and linked from the Downloads section.
 - Keep older releases and installers tracked in the GitHub repository. The local clone may use sparse checkout to omit archived installer binaries while keeping their metadata and release notes locally.
 - Do not remove an older release artifact from GitHub unless Zubair explicitly asks for its deletion.
-- Microsoft Store should be positioned as the recommended public install path once available. Keep the Store card unlinked and marked pending until the WAZO listing is published and verified; direct `.exe` installers are the current website channel for offline setup and controlled installation.
+- Microsoft Store is the recommended install path through `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; the website link is present but listing availability is not independently live-verified. The direct `.exe` installer remains the current website download channel.
 - Do not recreate or use the old `Site/` folder.
 - Do not link to the private WAZO source repository.
 - Do not copy private WAZO application source, dependencies, credentials, browser sessions, or user data into this public repository. Record only the exact private source commit required for authorized reproduction.
@@ -33,7 +33,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 
 - WAZO is a Windows desktop personal wealth organizer.
 - WAZO `1.1.6` and later are permanently offline-only: no cloud portfolio service or synchronization, market-data or financial API, cloud AI, telemetry, advertising request, or background portfolio upload. Prices and rates are user-maintained locally. Explicit website, Store, LinkedIn, policy, and email links are user-initiated handoffs and never attach the local portfolio.
-- The current public installer is WAZO `1.1.6`. It protects app-managed Windows data as authenticated encrypted envelopes; do not describe those active records as plaintext JSON.
+- The current public installer is WAZO `1.1.7`. It protects app-managed Windows data as authenticated encrypted envelopes; do not describe those active records as plaintext JSON.
 - It supports family/profile setup, members, assets, allocation targets, financial goals, reports, backups, privacy mode, themes, multiple currencies, and optional zakat planning.
 - Zakat is optional. The website should not position WAZO as only a zakat app.
 - Source code is private.
@@ -47,10 +47,10 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Update `docs/site-data/releases/index.json`, the version's `release.json`, and its release notes whenever release status, installer metadata, product graphics, or public update details change.
 - When publishing or replacing a product tour, update its public `video.json`, the version `release.json`, the release index featured-video pointer, `docs/PROJECT_CONTEXT.md`, and the matching `project-data/context/` checkpoint together.
 - Keep video recording versions explicit. The featured tour now shows WAZO `v1.1.6`; the earlier v1.1.4 tour remains retained as historical media and must not be relabeled as current-version evidence.
-- Keep download sections version-aware: recommended Microsoft Store install, latest published direct installer, and the major baseline installer, with release notes and known fixes.
+- Keep the Downloads section to two cards: recommended Microsoft Store install and the latest direct installer. Retain older releases and the major baseline in repository history, but do not surface them as current download cards.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
-- Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v1.1.6 uses a direct installer link only.
-- Current corrective direct installer is WAZO `v1.1.6`, 102,429,605 bytes, SHA-256 `A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7`, from private product source commit `56399c120c644c1d80485b368370e630c58f6ac7`. Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed through successful Pages run `30125432522`; cache-busted public verification passed at `2026-07-24T20:53:53Z`. The previously published v1.1.6 bytes (102,427,430 bytes, SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`) remain historical deployment evidence. Physical human workflow validation is not recorded, and publication must not be described as a human test pass. WAZO v1.1.5 is superseded historical evidence.
+- Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v1.1.7 uses a direct installer link only.
+- Current direct installer is WAZO `v1.1.7`, 103,181,264 bytes, SHA-256 `2DDEADC0D06E171DD7DB95B4D5038DAEB9CABE4BC7849A450EF9EEB2CEB906E1`. Source tests passed 923/923 and packaged readiness passed; website live byte/hash verification remains pending. The Store AppX was generated locally for user testing and is not a website artifact. Physical human workflow validation is not recorded, and publication must not be described as a human test pass. Earlier releases remain historical evidence.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 

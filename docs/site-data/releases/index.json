@@ -1,35 +1,28 @@
 {
   "schemaVersion": 1,
   "product": "WAZO",
-  "latestProductVersion": "1.1.6",
-  "currentInstallerVersion": "1.1.6",
+  "latestProductVersion": "1.1.7",
+  "currentInstallerVersion": "1.1.7",
   "currentLiveInstaller": {
-    "version": "1.1.6",
-    "status": "published-live-verified",
-    "sizeBytes": 102429605,
-    "sha256": "A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7",
-    "sourceCommit": "56399c120c644c1d80485b368370e630c58f6ac7",
-    "websitePublicationCommit": "5db6957ae8e7d91a060db0fee2f37cbc5e4f807e",
-    "pagesDeploymentId": 30125432522,
-    "publishedDate": "2026-07-25",
-    "verifiedAtUtc": "2026-07-24T20:53:53Z",
-    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe?sha=a4bab97f8d25",
+    "version": "1.1.7",
+    "status": "published-pending-live-verification",
+    "sizeBytes": 103181264,
+    "sha256": "2DDEADC0D06E171DD7DB95B4D5038DAEB9CABE4BC7849A450EF9EEB2CEB906E1",
+    "sourceCommit": "pending-source-publication",
+    "websitePublicationCommit": "pending-website-publication",
+    "publishedDate": "2026-08-03",
+    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe?sha=2ddeadc0d06e",
     "sourceValidation": {
-      "nodeVersion": "24.14.0",
-      "syntax": "78 files passed",
+      "nodeVersion": "bundled Node runtime",
+      "syntax": "passed",
       "static": "passed",
-      "fullTests": "726/726 passed in 52.533s",
-      "coverage": "726/726 passed; 76.23% lines, 75.90% branches, 86.16% functions",
-      "brand": "passed",
-      "trustCenter": "passed",
-      "uiHumanity": "166/166 passed",
-      "runtimeWorkflows": "14/14 passed"
+      "fullTests": "923/923 passed",
+      "packagedReadiness": "portable v1.1.7 passed",
+      "installerBuild": "NSIS generated successfully",
+      "storePackage": "AppX generated locally; not published"
     },
-    "exactPackageMatrices": "standalone 18/18, NSIS website payload 18/18, Store AppX payload 18/18; 54/54 total",
-    "nativeCurrentDisplay": "standalone 3/3, NSIS website payload 3/3, Store AppX payload 3/3; 9/9 total at DPR 1.5; humanValidated=false",
-    "installerLifecycle": "physical install/repair/uninstall not rerun for the same per-user identity; the extracted 76-file payload was byte-identical to the validated standalone and passed 18/18 plus native 3/3",
-    "upgradeLifecycle": "historical earlier-v1.1.6 candidate evidence: graceful v1.1.5 to v1.1.6 upgrade preserved 2 families, 5 members, and 11 assets",
-    "publicDownloadVerification": "Cache-busted HTTP 200 at 2026-07-24T20:53:53Z; installer, video, captions, poster, thumbnail, transcript, and manual matched their repository byte counts and SHA-256 hashes; live desktop and 390x844 browser checks had no console errors",
+    "installerLifecycle": "not yet human-validated",
+    "publicDownloadVerification": "pending Pages deployment and live byte/hash verification",
     "humanValidated": false
   },
   "previousSameVersionInstaller": {
@@ -68,7 +61,11 @@
     "sha256": "955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E",
     "websiteCommit": "1630edadb907cce834886ded65b7190ecbe6205a"
   },
-  "majorBaselineVersion": "1.0.0",
+  "storeListing": {
+    "productId": "9NKLT8DKJ1QX",
+    "deepLink": "ms-windows-store://pdp/?productid=9NKLT8DKJ1QX",
+    "status": "link-added-not-live-verified"
+  },
   "featuredVideo": {
     "recordedVersion": "1.1.6",
     "status": "published-live-verified",
@@ -78,6 +75,11 @@
     "verifiedAtUtc": "2026-07-24T20:53:53Z"
   },
   "versions": [
+    {
+      "version": "1.1.7",
+      "status": "published-pending-live-verification",
+      "manifest": "site-data/releases/v1.1.7/release.json"
+    },
     {
       "version": "1.1.6",
       "status": "published-current-live-verified",

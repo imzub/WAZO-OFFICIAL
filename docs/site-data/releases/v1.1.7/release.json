@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "version": "1.1.7",
+  "status": "published-pending-live-verification",
+  "publishedDate": "2026-08-03",
+  "installer": {
+    "file": "installer/WAZO-Setup-1.1.7.exe",
+    "sizeBytes": 103181264,
+    "sha256": "2DDEADC0D06E171DD7DB95B4D5038DAEB9CABE4BC7849A450EF9EEB2CEB906E1",
+    "signed": false
+  },
+  "store": {
+    "productId": "9NKLT8DKJ1QX",
+    "deepLink": "ms-windows-store://pdp/?productid=9NKLT8DKJ1QX",
+    "status": "link-added-not-live-verified"
+  },
+  "publication": {
+    "websiteArtifactScope": "installer-only",
+    "storePackagePublished": false,
+    "liveVerification": "pending"
+  },
+  "validation": {
+    "sourceTests": "923/923 passed",
+    "portableReadiness": "passed",
+    "nsisBuild": "passed",
+    "humanValidated": false
+  }
+}

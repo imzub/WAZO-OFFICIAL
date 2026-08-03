@@ -1,6 +1,6 @@
 # WAZO Cross-System Handoff Pointer
 
-Last updated: 2026-07-27
+Last updated: 2026-08-03
 
 The canonical complete substantive WAZO/Codex handoff is stored in the private application repository:
 
@@ -23,8 +23,9 @@ Read this repository’s `AGENTS.md` and `docs/PROJECT_CONTEXT.md` before websit
 ## Current Website State
 
 - GitHub Pages publishes from `docs/`.
-- Current public installer/product-tour line remains v1.1.6.
-- v1.1.7 is a local application/package candidate and has not been deployed or live-verified on this website.
+- Current website installer line is v1.1.7; the v1.1.6 product tour remains explicitly versioned historical media.
+- The website publication scope is the v1.1.7 installer only; the v1.1.7 Store AppX remains local for user testing.
+- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability and website live byte/hash verification remain pending.
 - Do not claim v1.1.7 Store upload, certification, or publication without direct evidence.
 - Public browser media under `docs/` remains ordinary Git content.
 - Large editable production video/audio under `project-data/` uses Git LFS.

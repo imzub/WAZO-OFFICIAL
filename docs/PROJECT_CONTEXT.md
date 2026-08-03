@@ -5,29 +5,29 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 ## Publishing
 
 - GitHub Pages URL: `https://imzub.github.io/WAZO-OFFICIAL/`
-- Reserved Microsoft Store product ID: `9NKLT8DKJ1QX`. Do not expose its web or app link until the WAZO listing is published and verified as available.
+- Microsoft Store product ID: `9NKLT8DKJ1QX`; the public Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`. Listing availability remains unverified.
 - Publish source: `docs/`
 - Keep `.nojekyll` in `docs/` so GitHub Pages serves static assets directly.
 
 ## Content Goals
 
 - Explain what WAZO does.
-- Present the complete WAZO `v1.1.6` Windows product experience, major improvements, and current direct installer.
+- Present the current WAZO `v1.1.7` Windows direct installer while retaining the v1.1.6 product tour as explicitly versioned historical media.
 - Help users understand the app workflow.
 - Provide version-aware download areas.
-- Position Microsoft Store as the recommended public install channel once available; until then, show it as pending without an outbound link.
+- Position Microsoft Store as the recommended public install channel using the supplied deep link; do not claim listing availability until it is independently verified.
 - Host public Windows installer downloads in versioned folders under `docs/site-data/releases/` with version, size, notes, and SHA-256 hashes.
 - Explain that direct `.exe` installers may trigger SmartScreen/Chrome warnings until they are code-signed and gain reputation.
 - Provide support paths for bugs, issues, feature requests, and queries.
-- The downloads section should show only three cards: the recommended-when-available Microsoft Store channel, latest published direct installer, and the current major baseline installer such as `1.0.0`, `1.1.0`, or `2.0.0`.
+- The downloads section should show only two cards: the recommended Microsoft Store channel and the latest direct installer. Older releases and the major baseline remain repository history, not current download cards.
 - Showcase privacy, protected local storage, multiple currencies, reports, backups, reversible records, local guidance, and the optional zakat module. For v1.1.6, describe app-managed Windows records as authenticated encrypted envelopes protected by a Windows-bound key rather than plaintext local JSON.
-- Keep the downloads section visually light: one short warning panel, three release cards, and concise version metadata.
+- Keep the downloads section visually light: one short warning panel, two release cards, and concise version metadata.
 - Add beginner-friendly FAQ items for initial setup, freeware, offline mode, backups, and core workflows whenever the site is updated.
 
 ## Current Public Downloads
 
-- Current corrective direct installer: `v1.1.6` / `docs/site-data/releases/v1.1.6/installer/WAZO-Setup-1.1.6.exe`.
-- The Windows x64 installer is 102,429,605 bytes with SHA-256 `A4BAB97F8D252FA95F586B98CB59BF123FE1F91C3BFA3CA52B7B6DCD807DE6F7`; its product source commit is `56399c120c644c1d80485b368370e630c58f6ac7`.
+- Current direct installer: `v1.1.7` / `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`.
+- The Windows x64 installer is 103,181,264 bytes with SHA-256 `2DDEADC0D06E171DD7DB95B4D5038DAEB9CABE4BC7849A450EF9EEB2CEB906E1`; source tests passed 923/923 and packaged readiness passed. Website live byte/hash verification is pending.
 - Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed successfully through GitHub Pages run `30125432522`. Cache-busted verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact expected hashes for the installer, video, captions, poster, thumbnail, transcript, and manual. Live desktop and 390 x 844 responsive checks had no browser-console errors; the 1920 x 1080 video decoded with one caption track.
 - The previous same-version v1.1.6 installer remains historical deployment evidence: 102,427,430 bytes, SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`, source commit `68562c0af607f5c73bd1b948beb95f5517243523`, website artifact commit `41b359e4e306dacb090da69b82e2e3de1eab2e7b`, and successful Pages run `30037802828`.
 - Final corrective-source validation passed syntax for 78 files, static analysis, brand and Trust Center checks, `726/726` tests, package matrices `54/54`, native-current-display matrices `9/9` at DPR `1.5`, UI-humanity `166/166`, and runtime workflows `14/14`. This remains automated evidence (`humanValidated=false`); physical packaged human validation is not recorded.
@@ -35,10 +35,10 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - The rejected v1.1.5 predecessor also remains historical evidence: 102,284,642 bytes, SHA-256 `955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E`, product source commit `232210ba29904c9f3badf54d0650edc6c721a1b1`, and website publication commit `1630edadb907cce834886ded65b7190ecbe6205a`.
 - The matching 16-page v1.1.6 manual is 112,431 bytes with SHA-256 `028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30`.
 - Authenticode status is `NotSigned`, so keep the direct-installer warning visible and never claim code signing.
-- Major baseline installer: `v1.0.0` / `docs/site-data/releases/v1.0.0/installer/WAZO-Setup-1.0.0.exe`.
+- The major baseline installer and other older binaries remain archived in the repository but are intentionally not shown in the Downloads section.
 - Older installers retained for rollback/testing: `v1.0.1`, `v1.0.2`, and `v1.0.4`.
 - Keep older installers available unless Zubair explicitly asks to remove them.
-- The Store card is recommended-when-available but remains unlinked until availability is verified. The corrected direct installer is the current usable public download; it remains unsigned and separate from the pending Store channel.
+- The Store card is linked through the Windows Store deep link but remains availability-unverified. The v1.1.7 direct installer is the current usable public download; it remains unsigned and separate from the local-only Store AppX candidate.
 
 ## Versioned Website Data
 
@@ -48,9 +48,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Release-specific product graphics live under that release's `images/` folder.
 - Release-specific public video assets live under that release's optional `video/` folder with a machine-readable manifest, web MP4, poster, captions, and transcript.
 - Installer binaries live under that release's `installer/` folder.
-- `docs/site-data/releases/index.json` records the product version, current published installer, major baseline, and archived versions.
+- `docs/site-data/releases/index.json` records the current installer, Store deep link, and archived versions; the major baseline is retained in history rather than surfaced as a current card.
 - Archived installers remain tracked in GitHub for GitHub Pages and rollback use. This working clone may omit their binary files through Git sparse checkout; their manifests and notes remain local.
-- WAZO does not currently integrate Electron's automatic updater. Do not publish `latest.yml`, blockmaps, or other auto-update-feed metadata for v1.1.6; website delivery is the direct installer link only.
+- WAZO does not currently integrate Electron's automatic updater. Do not publish `latest.yml`, blockmaps, or other auto-update-feed metadata for v1.1.7; website delivery is the direct installer link only.
 
 ## Public Safety
 
