@@ -1,6 +1,6 @@
 # WAZO v1.1.6 Product Tour
 
-Public, browser-ready assets for the current English WAZO product tour.
+Public, browser-ready assets for the historical English WAZO product tour.
 
 - `WAZO-Product-Tour-v1.1.6.mp4`: 1920 × 1080 H.264/AAC web encode with Fast Start.
 - `WAZO-Product-Tour-v1.1.6-Poster.png`: 1920 × 1080 playback poster.

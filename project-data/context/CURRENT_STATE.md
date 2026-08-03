@@ -5,7 +5,7 @@ Checkpoint date: 2026-07-25
 ## Published product state
 
 - The current website and direct-installer release is WAZO `1.1.7` / build `1.1.7.0`.
-- The stable website privacy route publishes policy revision `WAZO-PP-1.1.6-2026-07-23-R2` (effective `2026-07-23`, canonical source SHA-256 `0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150`). Policy commit `02b985126843180a6f68e3fac1aa1469642405bc` deployed successfully through GitHub Pages run `30020443537`.
+- The stable website privacy route publishes policy revision `WAZO-PP-1.1.7-2026-07-25` (effective `2026-07-25`, canonical source SHA-256 `4d2e8f1076573679d5653bf63c12e3c08752ea7f261e2e820fd92a5e6f232dea`). It is synchronized with the current WAZO 1.1.7 application policy.
 - The current installer is `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`: 103,181,264 bytes, SHA-256 `2DDEADC0D06E171DD7DB95B4D5038DAEB9CABE4BC7849A450EF9EEB2CEB906E1`. Source tests passed 923/923 and packaged readiness passed; Pages deployment `30834371474` live byte/hash verification matched exactly.
 - Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed through successful GitHub Pages run `30125432522`. Cache-busted verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact expected byte counts and SHA-256 hashes for the installer, video, captions, poster, thumbnail, transcript, and manual.
 - Live desktop and 390 x 844 responsive browser checks passed with no console errors. The public video decoded at 1920 x 1080, duration 58.179 seconds, ready state 4, with one English caption track.

@@ -41,6 +41,6 @@ the replaced installer identity as historical evidence. Native-display evidence
 must identify browser/CDP interaction separately from Windows IsZoomed state
 attestation at flow endpoints and lifecycle checkpoints.
 
-WAZO v1.1.6 uses direct installer delivery only. Never copy `latest.yml`, a
+WAZO v1.1.7 uses direct installer delivery only. Never copy `latest.yml`, a
 blockmap, or other updater-feed metadata into `docs/` unless a compatible update
 client and URL layout have first been implemented and verified.

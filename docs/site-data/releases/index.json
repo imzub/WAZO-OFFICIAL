@@ -49,7 +49,7 @@
   },
   "previousLiveInstaller": {
     "version": "1.1.5",
-    "status": "superseded-by-v1.1.6",
+    "status": "superseded-by-v1.1.7",
     "sizeBytes": 102285721,
     "sha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
     "sourceCommit": "0f03c6084ab023cd14841158bd369461163ac319",
@@ -84,7 +84,7 @@
     },
     {
       "version": "1.1.6",
-      "status": "published-current-live-verified",
+      "status": "superseded-same-version-historical",
       "manifest": "site-data/releases/v1.1.6/release.json"
     },
     {

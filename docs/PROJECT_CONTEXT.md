@@ -20,7 +20,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Explain that direct `.exe` installers may trigger SmartScreen/Chrome warnings until they are code-signed and gain reputation.
 - Provide support paths for bugs, issues, feature requests, and queries.
 - The downloads section should show only two cards: the recommended Microsoft Store channel and the latest direct installer. Older releases and the major baseline remain repository history, not current download cards.
-- Showcase privacy, protected local storage, multiple currencies, reports, backups, reversible records, local guidance, and the optional zakat module. For v1.1.6, describe app-managed Windows records as authenticated encrypted envelopes protected by a Windows-bound key rather than plaintext local JSON.
+- Showcase privacy, protected local storage, multiple currencies, reports, backups, reversible records, local guidance, and the optional zakat module. For v1.1.7, describe app-managed Windows records and encrypted Import Studio drafts as authenticated encrypted envelopes protected by a Windows-bound key rather than plaintext local JSON.
 - Keep the downloads section visually light: one short warning panel, two release cards, and concise version metadata.
 - Add beginner-friendly FAQ items for initial setup, freeware, offline mode, backups, and core workflows whenever the site is updated.
 
@@ -33,7 +33,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Final corrective-source validation passed syntax for 78 files, static analysis, brand and Trust Center checks, `726/726` tests, package matrices `54/54`, native-current-display matrices `9/9` at DPR `1.5`, UI-humanity `166/166`, and runtime workflows `14/14`. This remains automated evidence (`humanValidated=false`); physical packaged human validation is not recorded.
 - The superseded published v1.1.5 installer remains historical evidence: 102,285,721 bytes, SHA-256 `94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB`, product source commit `0f03c6084ab023cd14841158bd369461163ac319`, and website publication commit `94f6cff4868814ee3bc0fd40903e025a72c6331c`.
 - The rejected v1.1.5 predecessor also remains historical evidence: 102,284,642 bytes, SHA-256 `955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E`, product source commit `232210ba29904c9f3badf54d0650edc6c721a1b1`, and website publication commit `1630edadb907cce834886ded65b7190ecbe6205a`.
-- The matching 16-page v1.1.6 manual is 112,431 bytes with SHA-256 `028C0233B47B44AB32C655E0F1133512CF8118E164032D700B706FB5FF66CE30`.
+- The 16-page v1.1.6 manual remains historical website evidence; the v1.1.7 public website scope is intentionally installer-only.
 - Authenticode status is `NotSigned`, so keep the direct-installer warning visible and never claim code signing.
 - The major baseline installer and other older binaries remain archived in the repository but are intentionally not shown in the Downloads section.
 - Older installers retained for rollback/testing: `v1.0.1`, `v1.0.2`, and `v1.0.4`.
@@ -71,9 +71,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 ## Stable Privacy Policy
 
 - Public route: `https://imzub.github.io/WAZO-OFFICIAL/privacy/`, sourced from `docs/privacy/index.html`.
-- Active revision: `WAZO-PP-1.1.6-2026-07-23-R2`; effective date: `2026-07-23`.
+- Active revision: `WAZO-PP-1.1.7-2026-07-25`; effective date: `2026-07-25`; document SHA-256 `4D2E8F1076573679D5653BF63C12E3C08752EA7F261E2E820FD92A5E6F232DEA`.
 - Canonical bundled-policy SHA-256: `0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150`.
-- This policy applies to the live WAZO `1.1.6` Windows release and the WAZO Official website. The policy, installer, 16-page manual, release manifest, and release index are published together as the current v1.1.6 public release.
+- This policy applies to the live WAZO `1.1.7` Windows release and the WAZO Official website. The policy page, installer, release manifest, and release index are synchronized as the current v1.1.7 public release; the v1.1.6 tour remains historical media.
 - The R2 policy records the permanent offline-only product boundary: no WAZO cloud portfolio service, synchronization, market-data or financial API, cloud AI, telemetry, advertising request, or background portfolio upload. User-selected website, Store, LinkedIn, policy, and email links are explicit handoffs to external applications and do not attach the local portfolio.
 - Policy publication commit `02b985126843180a6f68e3fac1aa1469642405bc` deployed successfully through GitHub Pages run `30020443537`. Cache-busted verification at `2026-07-23T15:27:22Z` returned HTTP 200 for both policy and manifest; the public policy was byte-identical to `docs/privacy/index.html` (28,953 bytes, SHA-256 `1DDE5582371B480965B5FEC219492D3D1AE494DB94883A20C9CA164C11EBC3E9`), and the public manifest was byte-identical to its repository source.
 - `docs/privacy/policy-manifest.json` and the `wazo-policy-*` metadata in the policy HTML must retain the same revision, effective date, URL, and canonical hash as the exact UTF-8/LF `docs/PRIVACY_POLICY.md` bundled by the matching WAZO release.

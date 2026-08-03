@@ -9,22 +9,21 @@ This directory preserves the public-safe working material needed to continue WAZ
 - Publishing branch: `Master`
 - GitHub Pages source: `docs/`
 - Live site: `https://imzub.github.io/WAZO-OFFICIAL/`
-- Current website and direct-installer version: `1.1.6` / build `1.1.6.0`
-- Current privacy policy: `WAZO-PP-1.1.6-2026-07-23-R2`
-- Current public manual: 16-page WAZO `1.1.6` user manual
+- Current website and direct-installer version: `1.1.7` / build `1.1.7.0`
+- Current privacy policy: `WAZO-PP-1.1.7-2026-07-25`
 - Current website identity: Organized W revision `organized-w-r2`
-- Current narrated product-tour recording: `1.1.6`
+- Current narrated product-tour recording: `1.1.6` historical media
 
-The current 58.17-second tour was recorded from WAZO 1.1.6 using anonymous demo data. Its browser-ready media, captions, poster, thumbnail, transcript, and manifest are versioned with the release. The earlier v1.1.4 narrated tour remains retained as historical media.
+The historical 58.17-second tour was recorded from WAZO 1.1.6 using anonymous demo data. Its browser-ready media, captions, poster, thumbnail, transcript, and manifest are versioned with the release. The earlier v1.1.4 narrated tour remains retained as historical media.
 
-The corrective v1.1.6 website release was published from commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` through successful GitHub Pages run `30125432522`. Cache-busted public verification completed at `2026-07-24T20:53:53Z`; the installer and all current tour assets matched the repository byte counts and SHA-256 hashes.
+The v1.1.7 installer-only website release was published from website commit `19dc0f51899a730955e11327b53a6577a9b4013e` through Pages deployment `30834371474`; the live installer matched 103,181,264 bytes and SHA-256 `2DDEADC0D06E171DD7DB95B4D5038DAEB9CABE4BC7849A450EF9EEB2CEB906E1`. The v1.1.6 tour remains historical media.
 
 ## Directory map
 
 - `context/` contains the durable state, decisions, handoff instructions, and improvement backlog.
 - `releases/v1.1.4/promo/narrated/` contains the retained historical v1.1.4 narrated-video workspace.
 - `docs/site-data/releases/v1.1.4/video/` contains the retained historical v1.1.4 browser delivery assets.
-- `docs/site-data/releases/v1.1.6/video/` contains the current lightweight browser delivery copy, poster, thumbnail, captions, transcript, and public manifest.
+- `docs/site-data/releases/v1.1.6/video/` contains the historical lightweight browser delivery copy, poster, thumbnail, captions, transcript, and public manifest.
 
 ## Clone and restore
 
@@ -42,7 +41,7 @@ git sparse-checkout add project-data
 git lfs pull --include="project-data/releases/v1.1.4/promo/narrated/**"
 ```
 
-Browser-ready MP4 files under `docs/` deliberately stay in ordinary Git because GitHub Pages must serve the actual media bytes, not an LFS pointer. The current v1.1.6 Store master remains preserved in the private WAZO release repository and is not duplicated here.
+Browser-ready MP4 files under `docs/` deliberately stay in ordinary Git because GitHub Pages must serve the actual media bytes, not an LFS pointer. The historical v1.1.6 Store master remains preserved in the private WAZO release repository and is not duplicated here.
 
 ## Public/private boundary
 
