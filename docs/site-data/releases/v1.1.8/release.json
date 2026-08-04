@@ -14,7 +14,7 @@
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
-    "branch": "codex/fix-audit-findings",
+    "branch": "Dev/QA",
     "commit": "c90835ada83f0c906b2b6b24b16a39334dce2023"
   },
   "store": {
