@@ -932,6 +932,16 @@ input[type="range"] {
   font-size: 0.88rem;
 }
 
+.testing-status {
+  border-color: #ecd39a;
+  background: #fff8e9;
+}
+
+.testing-status .status-dot {
+  background: #b87900;
+  box-shadow: 0 0 0 5px rgba(184, 121, 0, 0.12);
+}
+
 .download-note {
   margin-bottom: 1rem;
   padding: 1rem 1.2rem;
@@ -973,6 +983,16 @@ input[type="range"] {
 
 .stable-release {
   border-color: #cfc9f8;
+}
+
+.testing-release {
+  border-color: #ecd39a;
+  background: #fffdf7;
+}
+
+.testing-release .release-badge {
+  color: #8a5a00;
+  background: #fff0c7;
 }
 
 .baseline-release {

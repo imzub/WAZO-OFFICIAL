@@ -27,6 +27,20 @@
     "publicDownloadVerification": "Pending Pages deployment and cache-busted HTTPS verification for the 103200128-byte installer and SHA-256 489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5",
     "humanValidated": false
   },
+  "testingRelease": {
+    "version": "1.1.8",
+    "status": "testing",
+    "stableVersion": "1.1.7",
+    "sizeBytes": 101734632,
+    "sha256": "F13CCDA41C68A13C055044F2190C96272CEE5EB446EEAF4B40F875CB4355B5C8",
+    "sourceCommit": "c90835ada83f0c906b2b6b24b16a39334dce2023",
+    "manifest": "site-data/releases/v1.1.8/release.json",
+    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.8/installer/WAZO-Setup-1.1.8.exe?sha=f13ccda41c68",
+    "websitePublicationCommit": "pending",
+    "pagesDeploymentId": null,
+    "liveVerification": "pending",
+    "humanValidated": false
+  },
   "previousSameVersionInstaller": {
     "version": "1.1.6",
     "buildVersion": "1.1.6.0",
@@ -77,6 +91,11 @@
     "verifiedAtUtc": "2026-07-24T20:53:53Z"
   },
   "versions": [
+    {
+      "version": "1.1.8",
+      "status": "testing",
+      "manifest": "site-data/releases/v1.1.8/release.json"
+    },
     {
       "version": "1.1.7",
       "status": "published-live-verified",
