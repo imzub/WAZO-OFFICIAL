@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "product": "WAZO",
   "version": "1.1.7",
-  "status": "candidate-pending-live-verification",
+  "status": "published-live-verified",
   "publishedDate": "2026-08-04",
   "installer": {
     "file": "installer/WAZO-Setup-1.1.7.exe",
@@ -18,9 +18,9 @@
   "publication": {
     "websiteArtifactScope": "installer-only",
     "storePackagePublished": false,
-    "liveVerification": "pending-after-current-package-push",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": null
+    "liveVerification": "verified-2026-08-04T07:28:49Z",
+    "pagesDeploymentId": 30887811068,
+    "websitePublicationCommit": "5ef8eb4756a2f688ea849bbc2ccd4a58df9af182"
   },
   "validation": {
     "sourceTests": "928/928 Node tests passed; syntax 98/98; static PASS; UI-humanity 198/198",

@@ -6,7 +6,7 @@ Checkpoint date: 2026-08-04
 
 - The current website and direct-installer release is WAZO `1.1.7` / build `1.1.7.0`.
 - The stable website privacy route publishes policy revision `WAZO-PP-1.1.7-2026-07-25` (effective `2026-07-25`, canonical source SHA-256 `4d2e8f1076573679d5653bf63c12e3c08752ea7f261e2e820fd92a5e6f232dea`). It is synchronized with the current WAZO 1.1.7 application policy.
-- The current installer candidate is `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`: 103,198,673 bytes, SHA-256 `DD9F7E7A3644BBCBC3E9076C3759BBA20B0778F11AD56D2FB31367859C58960E`. Source tests passed 928/928, syntax 98/98, UI-humanity 198/198, portable packaged 18/18 plus native 3/3, and Store-inner packaged 18/18 plus native 3/3. Pages deployment/live byte-hash verification is pending this candidate.
+- The current installer is `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`: 103,198,673 bytes, SHA-256 `DD9F7E7A3644BBCBC3E9076C3759BBA20B0778F11AD56D2FB31367859C58960E`. Source tests passed 928/928, syntax 98/98, UI-humanity 198/198, portable packaged 18/18 plus native 3/3, and Store-inner packaged 18/18 plus native 3/3. Website commit `5ef8eb4756a2f688ea849bbc2ccd4a58df9af182` deployed through Pages `30887811068`; live byte/hash verification passed at `2026-08-04T07:28:49Z`.
 - Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed through successful GitHub Pages run `30125432522`. Cache-busted verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact expected byte counts and SHA-256 hashes for the installer, video, captions, poster, thumbnail, transcript, and manual.
 - Live desktop and 390 x 844 responsive browser checks passed with no console errors. The public video decoded at 1920 x 1080, duration 58.179 seconds, ready state 4, with one English caption track.
 - The previous same-version v1.1.6 website bytes remain historical evidence: artifact-publication commit `41b359e4e306dacb090da69b82e2e3de1eab2e7b`, successful Pages run `30037802828`, verification at `2026-07-23T19:28:34Z`, installer size 102,427,430 bytes, and SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`.
@@ -46,7 +46,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The v1.1.7 installer-only website candidate is prepared in the repository and awaits Pages deployment/live byte-hash verification. Keep the prior v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
+The v1.1.7 installer-only website release is live and byte/hash verified. Keep the prior v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 
