@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "WAZO",
   "version": "1.1.7",
-  "status": "published-live-verified",
+  "status": "candidate-pending-live-verification",
   "publishedDate": "2026-08-04",
   "installer": {
     "file": "installer/WAZO-Setup-1.1.7.exe",
-    "sizeBytes": 103180984,
-    "sha256": "820B67EF3CECB4026D22A43524D35DDE227BEB61B218DF1848F86FB503A4B6D2",
+    "sizeBytes": 103198673,
+    "sha256": "DD9F7E7A3644BBCBC3E9076C3759BBA20B0778F11AD56D2FB31367859C58960E",
     "signed": false
   },
   "store": {
@@ -18,14 +18,15 @@
   "publication": {
     "websiteArtifactScope": "installer-only",
     "storePackagePublished": false,
-    "liveVerification": "verified-2026-08-04T02:58:07Z",
-    "pagesDeploymentId": 30873274747,
-    "websitePublicationCommit": "e915d672aa9ad9b203a48312df9dc905e7663d3d"
+    "liveVerification": "pending-after-current-package-push",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": null
   },
   "validation": {
-    "sourceTests": "882/882 Node tests passed; 43/43 Import Studio tests passed",
-    "portableReadiness": "passed",
-    "nsisBuild": "passed",
+    "sourceTests": "928/928 Node tests passed; syntax 98/98; static PASS; UI-humanity 198/198",
+    "portableReadiness": "portable packaged matrix 18/18 and native-current-display 3/3 passed",
+    "nsisBuild": "NSIS generated and exact installer/archive copy verified",
+    "storePackage": "Store AppX generated and tested locally; not published",
     "humanValidated": false
   }
 }
