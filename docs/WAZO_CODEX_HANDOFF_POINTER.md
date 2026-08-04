@@ -25,7 +25,7 @@ Read this repository’s `AGENTS.md` and `docs/PROJECT_CONTEXT.md` before websit
 - GitHub Pages publishes from `docs/`.
 - Current website installer line is v1.1.7; the v1.1.6 product tour remains explicitly versioned historical media.
 - The website publication scope is the v1.1.7 installer only; the v1.1.7 Store AppX remains local for user testing.
-- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability remains unverified. The current installer is 103,198,673 bytes / SHA-256 `DD9F7E7A3644BBCBC3E9076C3759BBA20B0778F11AD56D2FB31367859C58960E`; website commit `5ef8eb4756a2f688ea849bbc2ccd4a58df9af182` deployed through Pages `30887811068`, and live byte/hash verification passed at `2026-08-04T07:28:49Z`.
+- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability remains unverified. The current installer candidate is 103,200,128 bytes / SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` commit `c13bbb973c8866876f527685e52d1875b1de2ad7`; Pages deployment and live byte/hash verification are pending.
 - Do not claim v1.1.7 Store upload, certification, or publication without direct evidence.
 - Public browser media under `docs/` remains ordinary Git content.
 - Large editable production video/audio under `project-data/` uses Git LFS.

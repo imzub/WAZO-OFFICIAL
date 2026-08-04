@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "product": "WAZO",
   "version": "1.1.7",
-  "status": "published-live-verified",
+  "status": "pending-pages-deployment",
   "publishedDate": "2026-08-04",
   "installer": {
     "file": "installer/WAZO-Setup-1.1.7.exe",
-    "sizeBytes": 103198673,
-    "sha256": "DD9F7E7A3644BBCBC3E9076C3759BBA20B0778F11AD56D2FB31367859C58960E",
+    "sizeBytes": 103200128,
+    "sha256": "489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5",
     "signed": false
   },
   "store": {
@@ -18,13 +18,13 @@
   "publication": {
     "websiteArtifactScope": "installer-only",
     "storePackagePublished": false,
-    "liveVerification": "verified-2026-08-04T07:28:49Z",
-    "pagesDeploymentId": 30887811068,
-    "websitePublicationCommit": "5ef8eb4756a2f688ea849bbc2ccd4a58df9af182"
+    "liveVerification": "pending",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": "pending"
   },
   "validation": {
-    "sourceTests": "928/928 Node tests passed; syntax 98/98; static PASS; UI-humanity 198/198",
-    "portableReadiness": "portable packaged matrix 18/18 and native-current-display 3/3 passed",
+    "sourceTests": "889/889 Node tests passed; focused 77/77; Demo seed/SIP 8/8; static PASS; UI-humanity 198/198; isolated runtime 19/19",
+    "portableReadiness": "packaged startup matrix 12/12 passed across fresh/legacy viewport and scaling journeys",
     "nsisBuild": "NSIS generated and exact installer/archive copy verified",
     "storePackage": "Store AppX generated and tested locally; not published",
     "humanValidated": false
