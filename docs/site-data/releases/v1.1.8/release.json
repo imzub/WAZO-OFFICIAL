@@ -8,14 +8,14 @@
   "stableVersion": "1.1.7",
   "installer": {
     "file": "installer/WAZO-Setup-1.1.8.exe",
-    "sizeBytes": 101734632,
-    "sha256": "F13CCDA41C68A13C055044F2190C96272CEE5EB446EEAF4B40F875CB4355B5C8",
+    "sizeBytes": 103205840,
+    "sha256": "BA99682DA105D0FC52EB6C371C43B7C960FC77417C58FC2700F963FDBD014850",
     "signed": false
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "Dev/QA",
-    "commit": "c90835ada83f0c906b2b6b24b16a39334dce2023"
+    "commit": "14c3a3d640c36c44e38e63de44ebc2eb4ca68b9a"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",
@@ -26,18 +26,18 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "verified",
-    "pagesDeploymentId": 30923304970,
-    "websitePublicationCommit": "4406783f39724fa5ca84e454707f26e4cfe00ba1",
-    "verifiedAtUtc": "2026-08-04T15:18:07Z"
+    "liveVerification": "pending",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": "pending",
+    "verifiedAtUtc": null
   },
   "validation": {
     "sourceTests": "143/143 focused regression tests passed; source/privacy/demo/import subset 72/72",
     "trustFoundation": "passed on desktop and compact viewports",
     "uiHumanity": "198/198 cases passed with zero findings",
     "staticAndSyntax": "passed",
-    "portableAndInstaller": "portable and NSIS packages generated and hash-verified",
-    "runtimeNote": "Refresh/import portions passed in isolated runs; complete startup/runtime automation remains unclaimed because of intermittent DevTools mouse-dispatch transport timeouts",
+    "portableAndInstaller": "portable package was previously verified; corrected NSIS payload contains WAZO.exe and resources/app.asar, with executable hardening, metadata, shortcut resolution, and isolated installed startup passed",
+    "runtimeNote": "Refresh/import portions passed in isolated runs; installed NSIS startup smoke passed; complete source startup/runtime automation remains unclaimed because of intermittent DevTools mouse-dispatch transport timeouts",
     "humanValidated": false
   }
 }
