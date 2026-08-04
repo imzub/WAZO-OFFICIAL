@@ -26,9 +26,10 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "pending",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": "pending"
+    "liveVerification": "verified",
+    "pagesDeploymentId": 30923304970,
+    "websitePublicationCommit": "4406783f39724fa5ca84e454707f26e4cfe00ba1",
+    "verifiedAtUtc": "2026-08-04T15:18:07Z"
   },
   "validation": {
     "sourceTests": "143/143 focused regression tests passed; source/privacy/demo/import subset 72/72",
