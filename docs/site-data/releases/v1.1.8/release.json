@@ -8,14 +8,14 @@
   "stableVersion": "1.1.7",
   "installer": {
     "file": "installer/WAZO-Setup-1.1.8.exe",
-    "sizeBytes": 103205840,
-    "sha256": "BA99682DA105D0FC52EB6C371C43B7C960FC77417C58FC2700F963FDBD014850",
+    "sizeBytes": 103207734,
+    "sha256": "3D5C803A6DB914418EA364AD39C8A9F5DE0642FCEC08B3FF54C9BC8E8E133CE8",
     "signed": false
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "Dev/QA",
-    "commit": "14c3a3d640c36c44e38e63de44ebc2eb4ca68b9a"
+    "commit": "1a9a0d818ea6159f8d28f4c3c228133da44728dc"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",
@@ -26,10 +26,10 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "verified",
-    "pagesDeploymentId": 30927906679,
-    "websitePublicationCommit": "d1dfb61e07cbd77b97c8b0f5f46f05c3466766c8",
-    "verifiedAtUtc": "2026-08-04T16:16:26Z"
+    "liveVerification": "pending",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": "pending",
+    "verifiedAtUtc": null
   },
   "validation": {
     "sourceTests": "143/143 focused regression tests passed; source/privacy/demo/import subset 72/72",
