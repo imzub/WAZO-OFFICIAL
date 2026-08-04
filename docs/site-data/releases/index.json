@@ -36,10 +36,10 @@
     "sourceCommit": "14c3a3d640c36c44e38e63de44ebc2eb4ca68b9a",
     "manifest": "site-data/releases/v1.1.8/release.json",
     "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.8/installer/WAZO-Setup-1.1.8.exe?sha=ba99682da105",
-    "websitePublicationCommit": "pending",
-    "pagesDeploymentId": null,
-    "liveVerification": "pending",
-    "verifiedAtUtc": null,
+    "websitePublicationCommit": "d1dfb61e07cbd77b97c8b0f5f46f05c3466766c8",
+    "pagesDeploymentId": 30927906679,
+    "liveVerification": "verified",
+    "verifiedAtUtc": "2026-08-04T16:16:26Z",
     "humanValidated": false
   },
   "previousSameVersionInstaller": {
