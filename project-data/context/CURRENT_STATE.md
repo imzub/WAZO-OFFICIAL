@@ -46,7 +46,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The v1.1.9 testing installer-only website release is being prepared while v1.1.7 remains stable; live byte/hash verification is pending. Keep the v1.1.6 tour, v1.1.4 tour, v1.1.8 testing record, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
+The v1.1.9 testing installer-only website release is live-verified while v1.1.7 remains stable. The exact 103,209,868-byte installer and SHA-256 `CB9981CC163502FDED5FC5496853430D8F6CECAFD9EFEBF1CFE17BD60AEF081F` were verified at Pages deployment `31051069963` / website commit `01be28f07458fba5bb157235471cc5ff5bb10f5e` on `2026-08-05T22:05:36Z`. Keep the v1.1.6 tour, v1.1.4 tour, v1.1.8 testing record, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 

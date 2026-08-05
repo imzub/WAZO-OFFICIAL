@@ -28,10 +28,10 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "pending",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": "pending",
-    "verifiedAtUtc": null
+    "liveVerification": "verified",
+    "pagesDeploymentId": 31051069963,
+    "websitePublicationCommit": "01be28f07458fba5bb157235471cc5ff5bb10f5e",
+    "verifiedAtUtc": "2026-08-05T22:05:36Z"
   },
   "validation": {
     "sourceTests": "isolated batches passed: core 350/350, import/onboarding/backup/recovery 281/281, storage 40/40, release-hardening 35/35, focused reliability/source/UI 163/163",
