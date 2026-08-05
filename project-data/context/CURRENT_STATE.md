@@ -4,7 +4,7 @@ Checkpoint date: 2026-08-04
 
 ## Published product state
 
-- The current website and direct-installer release is WAZO `1.1.7` / build `1.1.7.0`.
+- The current stable website and direct-installer release is WAZO `1.1.7` / build `1.1.7.0`; the optional testing installer is v1.1.9 / build 1.1.9.0.
 - The stable website privacy route publishes policy revision `WAZO-PP-1.1.7-2026-07-25` (effective `2026-07-25`, canonical source SHA-256 `4d2e8f1076573679d5653bf63c12e3c08752ea7f261e2e820fd92a5e6f232dea`). It is synchronized with the current WAZO 1.1.7 application policy.
 - The current installer candidate is `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`: 103,200,128 bytes, SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` commit `c13bbb973c8866876f527685e52d1875b1de2ad7`. Source tests passed 889/889, focused 77/77, Demo seed/SIP 8/8, UI-humanity 198/198, packaged startup 12/12, and complete isolated runtime 19/19. Pages deployment and live byte/hash verification are pending for this update.
 - Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed through successful GitHub Pages run `30125432522`. Cache-busted verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact expected byte counts and SHA-256 hashes for the installer, video, captions, poster, thumbnail, transcript, and manual.
@@ -46,7 +46,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The v1.1.7 installer-only website release is being updated to the current same-version candidate; live byte/hash verification is pending. Keep the prior v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
+The v1.1.9 testing installer-only website release is being prepared while v1.1.7 remains stable; live byte/hash verification is pending. Keep the v1.1.6 tour, v1.1.4 tour, v1.1.8 testing record, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 

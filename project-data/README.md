@@ -9,14 +9,15 @@ This directory preserves the public-safe working material needed to continue WAZ
 - Publishing branch: `Master`
 - GitHub Pages source: `docs/`
 - Live site: `https://imzub.github.io/WAZO-OFFICIAL/`
-- Current website and direct-installer version: `1.1.7` / build `1.1.7.0`
+- Current stable website and direct-installer version: `1.1.7` / build `1.1.7.0`
+- Current optional testing installer: `1.1.9` / build `1.1.9.0`; v1.1.8 remains historical testing evidence.
 - Current privacy policy: `WAZO-PP-1.1.7-2026-07-25`
 - Current website identity: Organized W revision `organized-w-r2`
 - Current narrated product-tour recording: `1.1.6` historical media
 
 The historical 58.17-second tour was recorded from WAZO 1.1.6 using anonymous demo data. Its browser-ready media, captions, poster, thumbnail, transcript, and manifest are versioned with the release. The earlier v1.1.4 narrated tour remains retained as historical media.
 
-The current v1.1.7 installer candidate is 103,200,128 bytes with SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, anchored to WAZO `Dev/QA` source commit `c13bbb973c8866876f527685e52d1875b1de2ad7`. This website update is pending Pages deployment and cache-busted live verification. The v1.1.6 tour remains historical media.
+The stable v1.1.7 installer remains 103,200,128 bytes with SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`. The optional v1.1.9 testing installer is 103,209,868 bytes with SHA-256 `CB9981CC163502FDED5FC5496853430D8F6CECAFD9EFEBF1CFE17BD60AEF081F`, anchored to WAZO source commit `e109f57`; Pages deployment and cache-busted live verification are pending. The v1.1.6 tour remains historical media.
 
 ## Directory map
 

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "version": "1.1.9",
+  "buildVersion": "1.1.9.0",
+  "status": "testing",
+  "publishedDate": "2026-08-06",
+  "channel": "testing",
+  "stableVersion": "1.1.7",
+  "installer": {
+    "file": "installer/WAZO-Setup-1.1.9.exe",
+    "sizeBytes": 103209868,
+    "sha256": "CB9981CC163502FDED5FC5496853430D8F6CECAFD9EFEBF1CFE17BD60AEF081F",
+    "signed": false
+  },
+  "source": {
+    "repository": "https://github.com/imzub/WAZO.git",
+    "branch": "codex/v1.1.9-reliability-ui",
+    "baseBranch": "Dev/QA",
+    "commit": "e109f57"
+  },
+  "store": {
+    "productId": "9NKLT8DKJ1QX",
+    "deepLink": "ms-windows-store://pdp/?productid=9NKLT8DKJ1QX",
+    "status": "local-test-package-not-published"
+  },
+  "publication": {
+    "websiteArtifactScope": "testing-installer-only",
+    "stablePublicReleaseUnchanged": true,
+    "storePackagePublished": false,
+    "liveVerification": "pending",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": "pending",
+    "verifiedAtUtc": null
+  },
+  "validation": {
+    "sourceTests": "isolated batches passed: core 350/350, import/onboarding/backup/recovery 281/281, storage 40/40, release-hardening 35/35, focused reliability/source/UI 163/163",
+    "startup": "12/12 isolated fresh/legacy journeys across six viewport/DPI configurations",
+    "trustFoundation": "passed",
+    "uiHumanity": "198/198 with zero findings",
+    "packagedReadiness": "NSIS installer payload verified; Store manifest and inner payload parity verified",
+    "humanValidated": false
+  }
+}
