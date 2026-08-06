@@ -28,10 +28,10 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "pending",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": null,
-    "verifiedAtUtc": null
+    "liveVerification": "verified",
+    "pagesDeploymentId": 31074581797,
+    "websitePublicationCommit": "f976331ac0b0047eea4176c8b8c5047e18528dd5",
+    "verifiedAtUtc": "2026-08-06T05:37:21Z"
   },
   "validation": {
     "sourceTests": "financial/deep-audit 147/147; import/storage/protected 207/207; source/UI 271/271; deterministic matrix 100,000 probes / 460,000 assertions",

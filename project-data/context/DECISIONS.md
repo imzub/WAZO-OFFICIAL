@@ -16,7 +16,7 @@
 ## 2026-08-06 cross-system deep-audit synchronization
 
 1. Keep v1.1.7 as the stable public website release and keep v1.1.9 explicitly testing-only.
-2. Synchronize the website testing installer to the v1.1.9 deep-audit source commit `d6533f1`, size `103,209,860` bytes, SHA-256 `D8097C2BC4CDCF63B80E5A2FCA6F9A79593AFE1ED8A45D371FB81A6A82F0AA01`; preserve the Store AppX as local-only.
+2. Synchronize the website testing installer to the v1.1.9 deep-audit source commit `d6533f1`, size `103,209,860` bytes, SHA-256 `D8097C2BC4CDCF63B80E5A2FCA6F9A79593AFE1ED8A45D371FB81A6A82F0AA01`; live verification passed at website commit `f976331ac0b0047eea4176c8b8c5047e18528dd5` / Pages deployment `31074581797`; preserve the Store AppX as local-only.
 3. Make all continuation state account-independent: tracked context, release manifests, exact hashes, branch/base information, deployment evidence, and explicit pending gates must be sufficient for a new system or AI to resume without hidden conversation or browser state.
 
 ## 2026-07-23 offline-only policy publication
