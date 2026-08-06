@@ -29,6 +29,13 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Do not copy private WAZO application source, dependencies, credentials, browser sessions, or user data into this public repository. Record only the exact private source commit required for authorized reproduction.
 - The website may link to LinkedIn, support email, public release files, and public documentation.
 
+## Portable cross-system continuation
+
+- Treat repository files as the durable source of truth; never depend on a particular Codex account, browser profile, saved GitHub session, local path, or hidden task memory.
+- On a new system or with a new AI/tool, read this file, `docs/PROJECT_CONTEXT.md`, `docs/WAZO_CODEX_HANDOFF_POINTER.md`, `project-data/context/CURRENT_STATE.md`, and the matching `docs/site-data/releases/v<version>/release.json` before editing.
+- Re-verify `origin` and the active branch, fetch the named source repositories, and use the exact source commit, artifact size, and SHA-256 recorded in the release manifest. Authentication is an environment prerequisite, not project state; never store tokens or session data in context.
+- Keep `Master` as the website publishing branch, preserve v1.1.7 as stable, and label v1.1.9 as testing until a separately recorded publication and live byte/hash verification exists.
+
 ## Product Messaging
 
 - WAZO is a Windows desktop personal wealth organizer.
@@ -51,7 +58,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
 - Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v1.1.7 uses a direct installer link only.
 - Current direct installer candidate is WAZO `v1.1.7`, 103,200,128 bytes, SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` source commit `c13bbb973c8866876f527685e52d1875b1de2ad7`. Source tests passed 889/889, focused financial/SIP/source/renderer 77/77, Demo seed/SIP 8/8, UI-humanity 198/198, packaged startup 12/12, and complete isolated runtime 19/19. The current website update is pending Pages deployment and live byte/hash verification. The Store AppX was generated and tested locally and is not a website artifact. Physical human workflow validation is not recorded, and publication must not be described as a human test pass. Earlier releases remain historical evidence.
-- The optional testing installer is WAZO `v1.1.9`, 103,209,868 bytes, SHA-256 `CB9981CC163502FDED5FC5496853430D8F6CECAFD9EFEBF1CFE17BD60AEF081F`, from WAZO `codex/v1.1.9-reliability-ui` commit `e109f57` based on `Dev/QA`. It remains labeled Testing; v1.1.7 remains the stable public installer and v1.1.8 remains historical testing evidence. Core 350/350, import/onboarding/backup/recovery 281/281, storage 40/40, release-hardening 35/35, focused reliability/source/UI 163/163, startup 12/12, Trust Foundation, and UI-humanity 198/198 passed. It is live-verified at website commit `01be28f07458fba5bb157235471cc5ff5bb10f5e` through Pages deployment `31051069963` at `2026-08-05T22:05:36Z`. The Store AppX is local-only and is not a website artifact.
+- The optional testing installer is WAZO `v1.1.9`, 103,209,860 bytes, SHA-256 `D8097C2BC4CDCF63B80E5A2FCA6F9A79593AFE1ED8A45D371FB81A6A82F0AA01`, from WAZO `codex/v1.1.9-deep-audit` commit `d6533f1` based on `Dev/QA`. It remains labeled Testing; v1.1.7 remains the stable public installer and v1.1.8 remains historical testing evidence. Financial/deep-audit 147/147, import/storage/protected 207/207, source/UI 271/271, deterministic matrix 100,000 probes / 460,000 assertions, Trust Foundation, and UI-humanity 198/198 passed. The current startup-flow rerun exceeded its bounded timeout without a report, so it is not claimed as current-candidate evidence. The Store AppX is local-only and is not a website artifact.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 

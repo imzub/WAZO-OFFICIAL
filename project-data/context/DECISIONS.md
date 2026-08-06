@@ -13,6 +13,12 @@
 9. Treat the current explainer as accepted, not final forever. Future visual and narration polish belongs in a new revision or versioned media folder after review.
 10. Always use the `imzub` GitHub account for WAZO operations without asking the user to select between saved accounts.
 
+## 2026-08-06 cross-system deep-audit synchronization
+
+1. Keep v1.1.7 as the stable public website release and keep v1.1.9 explicitly testing-only.
+2. Synchronize the website testing installer to the v1.1.9 deep-audit source commit `d6533f1`, size `103,209,860` bytes, SHA-256 `D8097C2BC4CDCF63B80E5A2FCA6F9A79593AFE1ED8A45D371FB81A6A82F0AA01`; preserve the Store AppX as local-only.
+3. Make all continuation state account-independent: tracked context, release manifests, exact hashes, branch/base information, deployment evidence, and explicit pending gates must be sufficient for a new system or AI to resume without hidden conversation or browser state.
+
 ## 2026-07-23 offline-only policy publication
 
 1. WAZO `1.1.6` and later are permanently offline-only. Do not plan or advertise cloud storage, synchronization, market-data or financial APIs, cloud AI, telemetry, advertising requests, or background portfolio uploads.

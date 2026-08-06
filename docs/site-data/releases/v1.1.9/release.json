@@ -9,15 +9,15 @@
   "stableVersion": "1.1.7",
   "installer": {
     "file": "installer/WAZO-Setup-1.1.9.exe",
-    "sizeBytes": 103209868,
-    "sha256": "CB9981CC163502FDED5FC5496853430D8F6CECAFD9EFEBF1CFE17BD60AEF081F",
+    "sizeBytes": 103209860,
+    "sha256": "D8097C2BC4CDCF63B80E5A2FCA6F9A79593AFE1ED8A45D371FB81A6A82F0AA01",
     "signed": false
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
-    "branch": "codex/v1.1.9-reliability-ui",
+    "branch": "codex/v1.1.9-deep-audit",
     "baseBranch": "Dev/QA",
-    "commit": "e109f57"
+    "commit": "d6533f1"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",
@@ -28,14 +28,14 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "verified",
-    "pagesDeploymentId": 31051069963,
-    "websitePublicationCommit": "01be28f07458fba5bb157235471cc5ff5bb10f5e",
-    "verifiedAtUtc": "2026-08-05T22:05:36Z"
+    "liveVerification": "pending",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": null,
+    "verifiedAtUtc": null
   },
   "validation": {
-    "sourceTests": "isolated batches passed: core 350/350, import/onboarding/backup/recovery 281/281, storage 40/40, release-hardening 35/35, focused reliability/source/UI 163/163",
-    "startup": "12/12 isolated fresh/legacy journeys across six viewport/DPI configurations",
+    "sourceTests": "financial/deep-audit 147/147; import/storage/protected 207/207; source/UI 271/271; deterministic matrix 100,000 probes / 460,000 assertions",
+    "startup": "current bounded rerun timed out without a report; prior baseline is not reused as current-candidate evidence",
     "trustFoundation": "passed",
     "uiHumanity": "198/198 with zero findings",
     "packagedReadiness": "NSIS installer payload verified; Store manifest and inner payload parity verified",
