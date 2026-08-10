@@ -28,10 +28,11 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "pending",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": "pending",
-    "verifiedAtUtc": null
+    "liveVerification": "verified",
+    "pagesDeploymentId": 31372833271,
+    "websitePublicationCommit": "e8cdc6a",
+    "verifiedAtUtc": "2026-08-10T09:09:00Z",
+    "publicDownloadVerification": "Verified HTTP 200 and exact 99438888-byte installer SHA-256 5C6783D145FB3C3A5B83B1721B10F6D902F881455C7C3BD36C7F08156D2F753E at the cache-busted public URL."
   },
   "validation": {
     "sourceTests": "Repository tests 1644/1644; focused migration/onboarding and renderer hardening tests passed; Import Studio 46/46; deep audit 100,000 probes / 460,000 assertions; UI Humanity 430/430; real-Electron workflows 19/19",
