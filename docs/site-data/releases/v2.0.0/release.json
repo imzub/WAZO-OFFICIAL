@@ -28,11 +28,11 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "pending",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": null,
-    "verifiedAtUtc": null,
-    "publicDownloadVerification": "Pending Pages deployment and cache-busted HTTP 200/hash verification for the replacement installer."
+    "liveVerification": "verified",
+    "pagesDeploymentId": 31394023056,
+    "websitePublicationCommit": "d91d1d3",
+    "verifiedAtUtc": "2026-08-10T13:45:29Z",
+    "publicDownloadVerification": "Verified HTTP 200 and exact 99433175-byte installer SHA-256 248C263FA712E40AF6835E7902D7C31B7ACFDBB90210ED3980670DF264365B12 at the cache-busted public URL."
   },
   "validation": {
     "sourceTests": "Prior v2 baseline 1646/1646; post-fix focused source/UI contracts 316/316; static/documentation checks passed; bounded complete-suite rerun exceeded 120 seconds without a result",
