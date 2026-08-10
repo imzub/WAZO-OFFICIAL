@@ -9,15 +9,15 @@
   "stableVersion": "1.1.7",
   "installer": {
     "file": "installer/WAZO-Setup-2.0.0.exe",
-    "sizeBytes": 99438425,
-    "sha256": "B9C7A7D471CE404752C46C2BE8FAED3BC491317452E259C6D3DE3BA12C5CDB64",
+    "sizeBytes": 99438888,
+    "sha256": "5C6783D145FB3C3A5B83B1721B10F6D902F881455C7C3BD36C7F08156D2F753E",
     "signed": false
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "codex/v1.1.9-deep-audit",
     "baseBranch": "Dev/QA",
-    "commit": "ca08fa7"
+    "commit": "4284642"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",
@@ -28,13 +28,13 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "verified",
-    "pagesDeploymentId": 31367837482,
-    "websitePublicationCommit": "b9c3f41",
-    "verifiedAtUtc": "2026-08-10T07:58:39Z"
+    "liveVerification": "pending",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": "pending",
+    "verifiedAtUtc": null
   },
   "validation": {
-    "sourceTests": "Repository tests 1642/1642; Import Studio 46/46; deep audit 100,000 probes / 460,000 assertions; UI Humanity 430/430; real-Electron workflows 19/19",
+    "sourceTests": "Repository tests 1644/1644; focused migration/onboarding and renderer hardening tests passed; Import Studio 46/46; deep audit 100,000 probes / 460,000 assertions; UI Humanity 430/430; real-Electron workflows 19/19",
     "packagedStartup": "Native current-display fresh and legacy startup 2/2 at DPR 1.5 on 1280x800 with 1280x752 work area",
     "installerBuild": "NSIS installer payload verified with the repository verifier",
     "dependencyAudit": "0 advisories; 762 registry signatures; 117 attestations; license review recorded separately",
