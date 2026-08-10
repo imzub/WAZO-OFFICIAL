@@ -28,10 +28,10 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "pending",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": null,
-    "verifiedAtUtc": null
+    "liveVerification": "verified",
+    "pagesDeploymentId": 31367837482,
+    "websitePublicationCommit": "b9c3f41",
+    "verifiedAtUtc": "2026-08-10T07:58:39Z"
   },
   "validation": {
     "sourceTests": "Repository tests 1642/1642; Import Studio 46/46; deep audit 100,000 probes / 460,000 assertions; UI Humanity 430/430; real-Electron workflows 19/19",

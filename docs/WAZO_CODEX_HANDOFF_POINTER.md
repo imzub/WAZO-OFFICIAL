@@ -24,7 +24,7 @@ Read this repository’s `AGENTS.md` and `docs/PROJECT_CONTEXT.md` before websit
 
 - GitHub Pages publishes from `docs/`.
 - Current stable website installer line is v1.1.7; the v1.1.6 product tour remains explicitly versioned historical media.
-- An optional v2.0.0 testing installer is listed separately and does not replace or relabel v1.1.7. The prepared candidate is 99,438,425 bytes / SHA-256 `B9C7A7D471CE404752C46C2BE8FAED3BC491317452E259C6D3DE3BA12C5CDB64`, from WAZO `codex/v1.1.9-deep-audit` commit `ca08fa7` based on `Dev/QA`; Pages deployment and live byte/hash verification are pending until the website push completes. v1.1.9 remains historical testing evidence.
+- An optional v2.0.0 testing installer is listed separately and does not replace or relabel v1.1.7. The candidate is 99,438,425 bytes / SHA-256 `B9C7A7D471CE404752C46C2BE8FAED3BC491317452E259C6D3DE3BA12C5CDB64`, from WAZO `codex/v1.1.9-deep-audit` commit `ca08fa7` based on `Dev/QA`; live verification passed at website commit `b9c3f41` / Pages deployment `31367837482` on `2026-08-10T07:58:39Z`. v1.1.9 remains historical testing evidence.
 - The website publication scope includes the v1.1.7 stable installer and the explicitly labeled v2.0.0 testing installer; the v2.0.0 Store AppX remains local for user testing.
 - The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability remains unverified. The current installer candidate is 103,200,128 bytes / SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` commit `c13bbb973c8866876f527685e52d1875b1de2ad7`; Pages deployment and live byte/hash verification are pending.
 - Do not claim v1.1.7 Store upload, certification, or publication without direct evidence.

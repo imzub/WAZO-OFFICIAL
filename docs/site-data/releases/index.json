@@ -36,10 +36,10 @@
     "sourceCommit": "ca08fa7",
     "manifest": "site-data/releases/v2.0.0/release.json",
     "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0.exe?sha=b9c7a7d471ce",
-    "websitePublicationCommit": null,
-    "pagesDeploymentId": null,
-    "liveVerification": "pending",
-    "verifiedAtUtc": null,
+    "websitePublicationCommit": "b9c3f41",
+    "pagesDeploymentId": 31367837482,
+    "liveVerification": "verified",
+    "verifiedAtUtc": "2026-08-10T07:58:39Z",
     "humanValidated": false
   },
   "previousSameVersionInstaller": {
