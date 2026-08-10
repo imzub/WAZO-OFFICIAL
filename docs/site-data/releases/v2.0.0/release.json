@@ -15,7 +15,7 @@
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
-    "branch": "codex/v1.1.9-deep-audit",
+    "branch": "Dev/QA",
     "baseBranch": "Dev/QA",
     "commit": "4284642"
   },

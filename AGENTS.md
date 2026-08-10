@@ -1,5 +1,14 @@
 # WAZO-OFFICIAL Website Agent Guide
 
+## Current synchronization checkpoint - 2026-08-10
+
+- Website checkout is `Master` at metadata commit `2d39a28`.
+- The v2.0.0.0 testing installer is live-verified from private WAZO `Dev/QA`
+  source commit `4284642`: 99,438,888 bytes, SHA-256
+  `5C6783D145FB3C3A5B83B1721B10F6D902F881455C7C3BD36C7F08156D2F753E`.
+- Stable v1.1.7 remains unchanged. The Store AppX is local-only, the Store
+  listing is not independently verified, and Android is out of scope.
+
 This repository hosts the public WAZO product website through GitHub Pages.
 
 ## Purpose
@@ -57,8 +66,8 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Keep the Downloads section's two stable/public channel cards: recommended Microsoft Store install and the v1.1.7 stable direct installer. When an explicitly approved testing build is published, add one clearly labeled Testing card without changing or removing the stable cards. Retain older releases and the major baseline in repository history, but do not surface them as current download cards.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
 - Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v1.1.7 uses a direct installer link only.
-- Current direct installer candidate is WAZO `v1.1.7`, 103,200,128 bytes, SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` source commit `c13bbb973c8866876f527685e52d1875b1de2ad7`. Source tests passed 889/889, focused financial/SIP/source/renderer 77/77, Demo seed/SIP 8/8, UI-humanity 198/198, packaged startup 12/12, and complete isolated runtime 19/19. The current website update is pending Pages deployment and live byte/hash verification. The Store AppX was generated and tested locally and is not a website artifact. Physical human workflow validation is not recorded, and publication must not be described as a human test pass. Earlier releases remain historical evidence.
-- The current optional testing installer is WAZO `v2.0.0` / build `2.0.0.0`, 99,438,888 bytes, SHA-256 `5C6783D145FB3C3A5B83B1721B10F6D902F881455C7C3BD36C7F08156D2F753E`, from WAZO `codex/v1.1.9-deep-audit` source commit `4284642` based on `Dev/QA`. Repository tests 1644/1644, Import Studio 46/46, deep audit 100,000 probes / 460,000 assertions, UI Humanity 430/430, real-Electron workflows 19/19, packaged native startup 2/2, dependency audit 0 advisories, 762 registry signatures, and 117 attestations passed. The package includes the existing-user migration repair that preserves legacy append-only investment facts across migration saves. Live byte/size verification passed at website commit `e8cdc6a` through Pages deployment `31372833271` at `2026-08-10T09:09:00Z`. It replaces v1.1.9 as the testing card; v1.1.7 remains stable and v1.1.9 remains historical testing evidence. The package is unsigned and the Store AppX is local-only.
+- Current direct installer is WAZO `v1.1.7`, 103,200,128 bytes, SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` source commit `c13bbb973c8866876f527685e52d1875b1de2ad7`; the website release manifest records Pages deployment `30905719455` and live verification on `2026-08-04T11:41:14Z`. The Store AppX was generated and tested locally and is not a website artifact. Physical human workflow validation is not recorded.
+- The current optional testing installer is WAZO `v2.0.0` / build `2.0.0.0`, 99,438,888 bytes, SHA-256 `5C6783D145FB3C3A5B83B1721B10F6D902F881455C7C3BD36C7F08156D2F753E`, from WAZO `Dev/QA` source commit `4284642`. Repository tests 1644/1644, Import Studio 46/46, deep audit 100,000 probes / 460,000 assertions, UI Humanity 430/430, real-Electron workflows 19/19, packaged native startup 2/2, dependency audit 0 advisories, 762 registry signatures, and 117 attestations passed. The package includes the existing-user migration repair that preserves legacy append-only investment facts across migration saves. Live byte/size verification passed through Pages deployment `31372833271`; metadata is synchronized in website commit `2d39a28`. It replaces v1.1.9 as the testing card; v1.1.7 remains stable and v1.1.9 remains historical testing evidence. The package is unsigned and the Store AppX is local-only.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 
