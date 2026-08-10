@@ -2,10 +2,14 @@
 
 ## Current synchronization checkpoint - 2026-08-10
 
-- Website checkout is `Master` at metadata commit `2d39a28`.
-- The v2.0.0.0 testing installer is live-verified from private WAZO `Dev/QA`
-  source commit `4284642`: 99,438,888 bytes, SHA-256
-  `5C6783D145FB3C3A5B83B1721B10F6D902F881455C7C3BD36C7F08156D2F753E`.
+- Website checkout is `Master`; the refreshed v2 installer replacement is
+  prepared locally and its publication commit is recorded after Pages
+  verification.
+- The v2.0.0.0 testing installer replacement is sourced from private WAZO
+  `Dev/QA` commit `dea4226`: 99,432,089 bytes, SHA-256
+  `362036E1A4418EAB54BA6E4DA15F0B7666FBC7BA53517D21FEB9D8541133A753`.
+  Website publication and cache-busted live verification are pending until
+  the replacement commit is deployed.
 - Stable v1.1.7 remains unchanged. The Store AppX is local-only, the Store
   listing is not independently verified, and Android is out of scope.
 
@@ -67,7 +71,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
 - Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v1.1.7 uses a direct installer link only.
 - Current direct installer is WAZO `v1.1.7`, 103,200,128 bytes, SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` source commit `c13bbb973c8866876f527685e52d1875b1de2ad7`; the website release manifest records Pages deployment `30905719455` and live verification on `2026-08-04T11:41:14Z`. The Store AppX was generated and tested locally and is not a website artifact. Physical human workflow validation is not recorded.
-- The current optional testing installer is WAZO `v2.0.0` / build `2.0.0.0`, 99,438,888 bytes, SHA-256 `5C6783D145FB3C3A5B83B1721B10F6D902F881455C7C3BD36C7F08156D2F753E`, from WAZO `Dev/QA` source commit `4284642`. Repository tests 1644/1644, Import Studio 46/46, deep audit 100,000 probes / 460,000 assertions, UI Humanity 430/430, real-Electron workflows 19/19, packaged native startup 2/2, dependency audit 0 advisories, 762 registry signatures, and 117 attestations passed. The package includes the existing-user migration repair that preserves legacy append-only investment facts across migration saves. Live byte/size verification passed through Pages deployment `31372833271`; metadata is synchronized in website commit `2d39a28`. It replaces v1.1.9 as the testing card; v1.1.7 remains stable and v1.1.9 remains historical testing evidence. The package is unsigned and the Store AppX is local-only.
+- The current optional testing installer is WAZO `v2.0.0` / build `2.0.0.0`, 99,432,089 bytes, SHA-256 `362036E1A4418EAB54BA6E4DA15F0B7666FBC7BA53517D21FEB9D8541133A753`, from WAZO `Dev/QA` source commit `dea4226`. Repository tests 1646/1646, categorized bug ledger 300/300, Import Studio 46/46, deep audit 100,000 probes / 460,000 assertions, UI Humanity 430/430, real-Electron workflows 19/19, and packaged installer verification passed. Dependency vulnerability/license audit remains an external release gate in a lockfile-capable environment. Website publication and cache-busted live verification are pending for this replacement; v1.1.7 remains stable and the package is unsigned.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 

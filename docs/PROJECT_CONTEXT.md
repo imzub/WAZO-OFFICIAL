@@ -4,9 +4,12 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 ## Current synchronization checkpoint - 2026-08-10
 
-- Website `Master` is current at metadata commit `2d39a28`.
-- The v2.0.0.0 testing installer is sourced from private WAZO `Dev/QA` commit
-  `4284642`, is live-verified, and remains clearly labeled testing. Stable
+- Website `Master` is being updated with the refreshed v2 installer; the
+  publication commit is recorded after Pages verification.
+- The refreshed v2.0.0.0 testing installer is sourced from private WAZO
+  `Dev/QA` commit `dea4226`: 99,432,089 bytes, SHA-256
+  `362036E1A4418EAB54BA6E4DA15F0B7666FBC7BA53517D21FEB9D8541133A753`.
+  Website publication and cache-busted live verification are pending. Stable
   v1.1.7 remains unchanged and the Store AppX remains local-only.
 
 ## Publishing
@@ -41,7 +44,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 - Current direct installer: `v1.1.7` / `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`.
 - Optional testing installer: `v2.0.0` / `docs/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0.exe`; status `testing`, stable public release remains `v1.1.7`.
-- The v2.0.0 testing installer is 99,438,888 bytes with SHA-256 `5C6783D145FB3C3A5B83B1721B10F6D902F881455C7C3BD36C7F08156D2F753E`, sourced from WAZO `Dev/QA` commit `4284642`. Repository tests 1644/1644, Import Studio 46/46, deep audit 100,000 probes / 460,000 assertions, UI Humanity 430/430, real-Electron workflows 19/19, packaged native startup 2/2, dependency audit 0 advisories, 762 registry signatures, and 117 attestations passed. The package includes the existing-user migration repair that preserves legacy append-only investment facts across migration saves. Live byte/size verification passed through Pages deployment `31372833271`; metadata is synchronized at website commit `2d39a28`. v1.1.9 remains historical testing evidence and v1.1.7 remains stable.
+- The refreshed v2.0.0 testing installer is 99,432,089 bytes with SHA-256 `362036E1A4418EAB54BA6E4DA15F0B7666FBC7BA53517D21FEB9D8541133A753`, sourced from WAZO `Dev/QA` commit `dea4226`. Repository tests 1646/1646, categorized bug ledger 300/300, Import Studio 46/46, deep audit 100,000 probes / 460,000 assertions, UI Humanity 430/430, real-Electron workflows 19/19, and installer verification passed. Dependency vulnerability/license audit remains an external release gate in a lockfile-capable environment. Website publication and cache-busted live verification are pending; v1.1.9 remains historical testing evidence and v1.1.7 remains stable.
 - The stable v1.1.7 installer is 103,200,128 bytes with SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, sourced from WAZO `Dev/QA` commit `c13bbb973c8866876f527685e52d1875b1de2ad7`; its release manifest records Pages deployment `30905719455` and live verification on `2026-08-04T11:41:14Z`.
 - Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed successfully through GitHub Pages run `30125432522`. Cache-busted verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact expected hashes for the installer, video, captions, poster, thumbnail, transcript, and manual. Live desktop and 390 x 844 responsive checks had no browser-console errors; the 1920 x 1080 video decoded with one caption track.
 - The previous same-version v1.1.6 installer remains historical deployment evidence: 102,427,430 bytes, SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`, source commit `68562c0af607f5c73bd1b948beb95f5517243523`, website artifact commit `41b359e4e306dacb090da69b82e2e3de1eab2e7b`, and successful Pages run `30037802828`.
