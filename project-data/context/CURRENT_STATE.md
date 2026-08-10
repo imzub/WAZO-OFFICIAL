@@ -46,7 +46,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The refreshed v2.0.0 testing installer-only website release is sourced from WAZO `Dev/QA` commit `dea4226`: 99,432,089 bytes, SHA-256 `362036E1A4418EAB54BA6E4DA15F0B7666FBC7BA53517D21FEB9D8541133A753`. It remains testing while v1.1.7 remains stable; website publication and cache-busted live verification are pending for this replacement. Keep the v1.1.9, v1.1.8, v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
+The refreshed v2.0.0 testing installer-only website release is sourced from WAZO `Dev/QA` commit `dea4226`: 99,432,089 bytes, SHA-256 `362036E1A4418EAB54BA6E4DA15F0B7666FBC7BA53517D21FEB9D8541133A753`. It remains testing while v1.1.7 remains stable; live byte/size verification passed through Pages deployment `31380650553` from artifact commit `d163d8d`. Keep the v1.1.9, v1.1.8, v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 
