@@ -28,18 +28,18 @@
     "humanValidated": false
   },
   "testingRelease": {
-    "version": "1.1.9",
+    "version": "2.0.0",
     "status": "testing",
     "stableVersion": "1.1.7",
-    "sizeBytes": 103209860,
-    "sha256": "D8097C2BC4CDCF63B80E5A2FCA6F9A79593AFE1ED8A45D371FB81A6A82F0AA01",
-    "sourceCommit": "d6533f1",
-    "manifest": "site-data/releases/v1.1.9/release.json",
-    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.9/installer/WAZO-Setup-1.1.9.exe?sha=d8097c2bc4cd",
-    "websitePublicationCommit": "f976331ac0b0047eea4176c8b8c5047e18528dd5",
-    "pagesDeploymentId": 31074581797,
-    "liveVerification": "verified",
-    "verifiedAtUtc": "2026-08-06T05:37:21Z",
+    "sizeBytes": 99438425,
+    "sha256": "B9C7A7D471CE404752C46C2BE8FAED3BC491317452E259C6D3DE3BA12C5CDB64",
+    "sourceCommit": "ca08fa7",
+    "manifest": "site-data/releases/v2.0.0/release.json",
+    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0.exe?sha=b9c7a7d471ce",
+    "websitePublicationCommit": null,
+    "pagesDeploymentId": null,
+    "liveVerification": "pending",
+    "verifiedAtUtc": null,
     "humanValidated": false
   },
   "previousSameVersionInstaller": {
@@ -93,8 +93,13 @@
   },
   "versions": [
     {
-      "version": "1.1.9",
+      "version": "2.0.0",
       "status": "testing",
+      "manifest": "site-data/releases/v2.0.0/release.json"
+    },
+    {
+      "version": "1.1.9",
+      "status": "historical-testing",
       "manifest": "site-data/releases/v1.1.9/release.json"
     },
     {

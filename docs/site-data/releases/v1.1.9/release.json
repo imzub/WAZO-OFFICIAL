@@ -3,7 +3,7 @@
   "product": "WAZO",
   "version": "1.1.9",
   "buildVersion": "1.1.9.0",
-  "status": "testing",
+  "status": "historical-testing",
   "publishedDate": "2026-08-06",
   "channel": "testing",
   "stableVersion": "1.1.7",
@@ -25,7 +25,7 @@
     "status": "local-test-package-not-published"
   },
   "publication": {
-    "websiteArtifactScope": "testing-installer-only",
+    "websiteArtifactScope": "historical-testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
     "liveVerification": "verified",
