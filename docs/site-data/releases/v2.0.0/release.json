@@ -9,15 +9,15 @@
   "stableVersion": "1.1.7",
   "installer": {
     "file": "installer/WAZO-Setup-2.0.0.exe",
-    "sizeBytes": 99432089,
-    "sha256": "362036E1A4418EAB54BA6E4DA15F0B7666FBC7BA53517D21FEB9D8541133A753",
+    "sizeBytes": 99433175,
+    "sha256": "248C263FA712E40AF6835E7902D7C31B7ACFDBB90210ED3980670DF264365B12",
     "signed": false
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "Dev/QA",
     "baseBranch": "Dev/QA",
-    "commit": "dea4226"
+    "commit": "3d563d1"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",
@@ -28,17 +28,17 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "verified",
-    "pagesDeploymentId": 31380650553,
-    "websitePublicationCommit": "d163d8d",
-    "verifiedAtUtc": "2026-08-10T10:49:28Z",
-    "publicDownloadVerification": "Verified HTTP 200 and exact 99432089-byte installer SHA-256 362036E1A4418EAB54BA6E4DA15F0B7666FBC7BA53517D21FEB9D8541133A753 at the cache-busted public URL."
+    "liveVerification": "pending",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": null,
+    "verifiedAtUtc": null,
+    "publicDownloadVerification": "Pending Pages deployment and cache-busted HTTP 200/hash verification for the replacement installer."
   },
   "validation": {
-    "sourceTests": "Repository tests 1646/1646; categorized v2 bug ledger 300/300; focused migration/onboarding and renderer hardening tests passed; Import Studio 46/46; deep audit 100,000 probes / 460,000 assertions; UI Humanity 430/430; real-Electron workflows 19/19",
+    "sourceTests": "Prior v2 baseline 1646/1646; post-fix focused source/UI contracts 316/316; static/documentation checks passed; bounded complete-suite rerun exceeded 120 seconds without a result",
     "packagedStartup": "Native current-display fresh and legacy startup 2/2 at DPR 1.5 on 1280x800 with 1280x752 work area",
     "installerBuild": "NSIS installer payload verified with the repository verifier",
-    "dependencyAudit": "Not run in this environment; lockfile-native vulnerability and license review remains an external release gate",
+    "dependencyAudit": "Repository audit recorded separately; no new package dependency was introduced in this slice",
     "humanValidated": false
   }
 }
