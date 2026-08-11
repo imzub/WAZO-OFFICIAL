@@ -30,7 +30,7 @@
     "storePackagePublished": false,
     "liveVerification": "pending-pages-deployment",
     "pagesDeploymentId": null,
-    "websitePublicationCommit": null,
+    "websitePublicationCommit": "b4da2ae",
     "verifiedAtUtc": null,
     "publicDownloadVerification": "Local installer size and SHA-256 were verified before publication; GitHub Pages live verification is pending deployment of the refreshed website commit."
   },

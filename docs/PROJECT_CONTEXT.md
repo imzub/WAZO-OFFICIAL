@@ -4,8 +4,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 ## Current synchronization checkpoint - 2026-08-11
 
-- Website `Master` contains the refreshed v2 installer; publication commit and
-  Pages verification are recorded below.
+- Website `Master` contains the refreshed v2 installer; publication commit
+  `b4da2ae` is recorded in the release manifest and Pages live verification is
+  still pending deployment.
 - The refreshed v2.0.0.0 testing installer is sourced from private WAZO
   `Dev/QA` commit `c990cc3`: 99,434,227 bytes, SHA-256
   `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`.
