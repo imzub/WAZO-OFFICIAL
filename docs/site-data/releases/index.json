@@ -87,11 +87,11 @@
   },
   "featuredVideo": {
     "recordedVersion": "2.0.0.0",
-    "status": "testing-media-pending-publication",
+    "status": "testing-media-live-verified",
     "manifest": "site-data/releases/v2.0.0/video/video.json",
     "sizeBytes": 7196381,
     "sha256": "DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6",
-    "verifiedAtUtc": null
+    "verifiedAtUtc": "2026-08-11T11:02:17Z"
   },
   "versions": [
     {

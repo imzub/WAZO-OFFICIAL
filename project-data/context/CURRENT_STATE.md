@@ -8,8 +8,9 @@ Checkpoint date: 2026-08-11
   52 seconds, 1,920x1,080, H.264/AAC, 7,196,381 bytes,
   SHA-256 DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6.
 - The public v2 release now includes the video manifest, MP4, captions,
-  transcript, no-audio variant, poster, and thumbnail. Website publication and
-  live verification are pending this website commit.
+  transcript, no-audio variant, poster, and thumbnail. Website artifact commit
+  26f6904 and Pages deployment 31484600128 are live; public HTTP 200 and exact
+  MP4/poster hashes were verified at 2026-08-11T11:02:17Z.
 - The v1.1.6 narrated tour remains historical and unchanged.
 
 ## 2026-08-11 refreshed v2 testing package

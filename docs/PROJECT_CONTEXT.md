@@ -11,7 +11,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
   readable manifest.
 - The MP4 is 7,196,381 bytes with SHA-256
   DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6.
-  Website publication and live verification are pending this website commit.
+  Website artifact commit 26f6904 and Pages deployment 31484600128 are live;
+  public HTTP 200 and exact MP4/poster hashes were verified at
+  2026-08-11T11:02:17Z.
 - The old v1.1.6 narrated tour remains in its historical release folder and is
   not deleted or overwritten. The promo uses synthetic Demo data only and is
   not professional financial, tax, Zakat, legal, or investment advice.

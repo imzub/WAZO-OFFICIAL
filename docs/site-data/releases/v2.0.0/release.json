@@ -15,7 +15,7 @@
   },
   "video": {
     "manifest": "site-data/releases/v2.0.0/video/video.json",
-    "status": "testing-media",
+    "status": "testing-media-live-verified",
     "title": "WAZO v2.0.0 product promo",
     "sourceCommit": "4bf939b",
     "durationSeconds": 52,
