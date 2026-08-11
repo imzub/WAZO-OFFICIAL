@@ -2,6 +2,19 @@
 
 Checkpoint date: 2026-08-11
 
+## 2026-08-11 refreshed v2 testing package
+
+- The optional v2.0.0 / build 2.0.0.0 testing installer is rebuilt from WAZO
+  `Dev/QA` source commit `c990cc3`: 99,434,227 bytes, SHA-256
+  `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`.
+- Source evidence is 1,661/1,661 tests, 100,000/460,000 deep-audit
+  probes/assertions, 496/496 full UI Humanity cases with zero severe contrast
+  findings, 21/21 runtime workflows, 1,000/1,000 scenarios, and 7/7 package
+  compatibility cases. Installer payload verification and 12/12 isolated
+  startup journeys passed. GitHub Pages live verification follows publication.
+- Stable v1.1.7 is unchanged; the Store AppX remains local-only, and Android
+  remains archived.
+
 ## Published product state
 
 - The current stable website and direct-installer release is WAZO `1.1.7` / build `1.1.7.0`; the optional v2 testing installer is v2.0.0 / build 2.0.0.0. v1.1.9 is historical testing evidence.
@@ -46,7 +59,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The refreshed v2.0.0 testing installer-only website release is sourced from WAZO `Dev/QA` commit `e864d7b`: 99,433,433 bytes, SHA-256 `690352C51234D1D6E91192BB5DAFBAEA3DA9D5CF5C6D2EDA58708D5E47D0706E`. It remains testing while v1.1.7 remains stable; live byte/size verification passed through Pages deployment `31457559320` from website commit `4d0295b43e70f4dcd25b86f8cb65d515cdd60c92` at `2026-08-11T04:12:02Z`. Keep the v1.1.9, v1.1.8, v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
+The refreshed v2.0.0 testing installer-only website release is sourced from WAZO `Dev/QA` commit `c990cc3`: 99,434,227 bytes, SHA-256 `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`. It remains testing while v1.1.7 remains stable; local hash and payload verification passed before publication. Keep the v1.1.9, v1.1.8, v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 
