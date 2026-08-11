@@ -44,13 +44,13 @@
   "captions": {
     "webVtt": "site-data/releases/v2.0.0/video/WAZO-v2.0.0-Premium-Screen-Tour.vtt",
     "cueCount": 11,
-    "sizeBytes": 2580,
-    "sha256": "5AA0375B749929ACF8AE22A8BB3F3F91F4C48F9337DC5F126E2185227747E28E"
+    "sizeBytes": 2546,
+    "sha256": "D7426213B811C4CB1315EA82C95341CFCB046868D957D243AEFDFA863B969B5D"
   },
   "transcript": {
     "url": "site-data/releases/v2.0.0/video/WAZO-v2.0.0-Premium-Screen-Tour-transcript.md",
-    "sizeBytes": 3218,
-    "sha256": "31F32C5037A520743B74602B7C446AA129E963B7875370104A85FAE2F6B5CA61"
+    "sizeBytes": 3203,
+    "sha256": "D1ECE40AA048B1F06609B7BF4A9746D3B9067E32066A9BBB35634A461F2D587E"
   },
   "audioDescription": "Professional English neural narration with a restrained original instrumental bed",
   "visualTreatment": "Full-frame WAZO application screens with clean editorial cuts; no shake, zoom, fake UI, or decorative animation.",
