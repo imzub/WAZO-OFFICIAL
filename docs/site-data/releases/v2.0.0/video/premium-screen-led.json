@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "title": "WAZO v2.0.0 Premium Screen-Led Product Tour",
+  "recordedVersion": "2.0.0.0",
+  "sourceCommit": "c821aab73f865081603786944ad62a9bcde1c858",
+  "publication": {
+    "status": "pending-live-verification",
+    "websiteCommit": "pending",
+    "pagesDeploymentId": null,
+    "verifiedAtUtc": null,
+    "httpStatus": null
+  },
+  "language": "en-US",
+  "durationSeconds": 166.467,
+  "resolution": "1920x1080",
+  "frameRate": "30/1",
+  "video": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-v2.0.0-Premium-Screen-Tour.mp4",
+    "sizeBytes": 8278367,
+    "sha256": "6D37BD32A456D27657366A5F602632DC5AC5252C1A36EE5D1E3B2FEB6F9B4DCE",
+    "codec": "H.264 High / AAC-LC stereo",
+    "fastStart": true
+  },
+  "noAudio": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-v2.0.0-Premium-Screen-Tour-no-audio.mp4",
+    "sizeBytes": 4599961,
+    "sha256": "E003446A772C0C6805428AA2551D8F2BF8761FFAEFA43AF55E91B71185F66A66"
+  },
+  "poster": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-v2.0.0-Premium-Screen-Tour-poster.png",
+    "sizeBytes": 424802,
+    "sha256": "3091CBF53EF8D53E68D4A7287646D654BB9F23EA38EABD4355E97676C028FC8D",
+    "width": 1920,
+    "height": 1080
+  },
+  "thumbnail": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-v2.0.0-Premium-Screen-Tour-thumbnail.png",
+    "sizeBytes": 424802,
+    "sha256": "3091CBF53EF8D53E68D4A7287646D654BB9F23EA38EABD4355E97676C028FC8D",
+    "width": 1920,
+    "height": 1080
+  },
+  "captions": {
+    "webVtt": "site-data/releases/v2.0.0/video/WAZO-v2.0.0-Premium-Screen-Tour.vtt",
+    "cueCount": 11,
+    "sizeBytes": 2580,
+    "sha256": "5AA0375B749929ACF8AE22A8BB3F3F91F4C48F9337DC5F126E2185227747E28E"
+  },
+  "transcript": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-v2.0.0-Premium-Screen-Tour-transcript.md",
+    "sizeBytes": 3218,
+    "sha256": "31F32C5037A520743B74602B7C446AA129E963B7875370104A85FAE2F6B5CA61"
+  },
+  "audioDescription": "Professional English neural narration with a restrained original instrumental bed",
+  "visualTreatment": "Full-frame WAZO application screens with clean editorial cuts; no shake, zoom, fake UI, or decorative animation.",
+  "dataPolicy": "Isolated anonymous synthetic v2 Demo corpus only; no real user or financial data",
+  "claimsBoundary": "Product communication only; not financial, tax, Zakat, legal, or investment advice",
+  "previousV2Promo": "site-data/releases/v2.0.0/video/video.json",
+  "oldTour": "WAZO v1.1.6 historical tour retained",
+  "pagesDelivery": "ordinary-git-not-lfs"
+}

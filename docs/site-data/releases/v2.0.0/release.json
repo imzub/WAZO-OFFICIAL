@@ -14,20 +14,21 @@
     "signed": false
   },
   "video": {
-    "manifest": "site-data/releases/v2.0.0/video/video.json",
-    "status": "testing-media-live-verified",
-    "title": "WAZO v2.0.0 product promo",
-    "sourceCommit": "4bf939b",
-    "durationSeconds": 52,
-    "sizeBytes": 7196381,
-    "sha256": "DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6",
-    "humanValidated": false
+    "manifest": "site-data/releases/v2.0.0/video/premium-screen-led.json",
+    "status": "testing-media-pending-live-verification",
+    "title": "WAZO v2.0.0 Premium Screen-Led Product Tour",
+    "sourceCommit": "c821aab73f865081603786944ad62a9bcde1c858",
+    "durationSeconds": 166.467,
+    "sizeBytes": 8278367,
+    "sha256": "6D37BD32A456D27657366A5F602632DC5AC5252C1A36EE5D1E3B2FEB6F9B4DCE",
+    "humanValidated": false,
+    "previousVideoManifest": "site-data/releases/v2.0.0/video/video.json"
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "Dev/QA",
     "baseBranch": "Dev/QA",
-    "commit": "c990cc3"
+    "commit": "c821aab73f865081603786944ad62a9bcde1c858"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",

@@ -33,9 +33,10 @@
     "stableVersion": "1.1.7",
     "sizeBytes": 99434227,
     "sha256": "F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130",
-    "sourceCommit": "c990cc3",
+    "sourceCommit": "c821aab73f865081603786944ad62a9bcde1c858",
     "manifest": "site-data/releases/v2.0.0/release.json",
-    "videoManifest": "site-data/releases/v2.0.0/video/video.json",
+    "videoManifest": "site-data/releases/v2.0.0/video/premium-screen-led.json",
+    "previousVideoManifest": "site-data/releases/v2.0.0/video/video.json",
     "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0.exe?sha=f2c480806443",
     "websitePublicationCommit": "b4da2ae",
     "pagesDeploymentId": 31465805369,
@@ -87,11 +88,13 @@
   },
   "featuredVideo": {
     "recordedVersion": "2.0.0.0",
-    "status": "testing-media-live-verified",
-    "manifest": "site-data/releases/v2.0.0/video/video.json",
-    "sizeBytes": 7196381,
-    "sha256": "DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6",
-    "verifiedAtUtc": "2026-08-11T11:02:17Z"
+    "status": "testing-media-pending-live-verification",
+    "manifest": "site-data/releases/v2.0.0/video/premium-screen-led.json",
+    "sizeBytes": 8278367,
+    "sha256": "6D37BD32A456D27657366A5F602632DC5AC5252C1A36EE5D1E3B2FEB6F9B4DCE",
+    "sourceCommit": "c821aab73f865081603786944ad62a9bcde1c858",
+    "verifiedAtUtc": null,
+    "previousVideoManifest": "site-data/releases/v2.0.0/video/video.json"
   },
   "versions": [
     {

@@ -1,0 +1,15 @@
+# WAZO v2 premium screen-led promo transcript
+
+1. **Meet WAZO — A private workspace for your financial life.** — Meet WAZO: a private, offline-first personal wealth organizer for the financial life you actually live. Bring the important details into one workspace, without handing your story to a cloud account.
+2. **Portfolio — See the whole picture at a glance.** — Start at Portfolio. See household net worth, allocation, members, financial-year context, and the signals that deserve a closer look. The summary is clear, but the supporting records remain one click away.
+3. **Assets and investments — Capture holdings and recurring investments with control.** — In Assets, record holdings and investment activity in the way it happened. Manage recurring plans, review pending installments, confirm only what belongs in the ledger, and keep sales, fees, and adjustments traceable.
+4. **Performance and reports — Understand performance from the activity behind it.** — Performance is built from confirmed activity and real dates. WAZO connects those records to XIRR, CAGR, category investigation, reports, and exports, so a result can be reviewed instead of simply trusted.
+5. **Financial Life — Bring income, spending, taxes, and liabilities into view.** — Financial Life goes beyond the portfolio. Record income, expenditure, taxes, liabilities, budgets, and goals, then see how those commitments shape your cash flow and long-range planning.
+6. **Zakat Center — Keep optional Zakat workflows visible and reviewable.** — When Zakat is part of your practice, the Zakat Center keeps cycles, responsibility, payments, and evidence organized. The tools are configurable and transparent, so you can review the assumptions that matter to you.
+7. **Financial years — Preserve history instead of losing it in the current year.** — Financial years give long-term records their proper home. Manage historical periods, map older purchases, and compare change over time without silently rewriting the past.
+8. **Financial goals — Turn visibility into a plan you can revisit.** — Use Financial Goals to turn visibility into direction. Set targets, time horizons, and contributions, then revisit progress as your income, spending, and priorities change.
+9. **Backup and recovery — Protect the workspace you have built.** — Your records deserve a recovery plan. WAZO provides protected backup and restore, recovery points, and migration safeguards so an upgrade or device change does not become a data-entry exercise.
+10. **Privacy and migration — Keep moving while keeping control.** — WAZO is designed around ownership. Keep working locally, migrate deliberately, and make your own choices about privacy and recovery. No universal financial advice claim—just a clear tool for your own records and decisions.
+11. **WAZO v2 — Organize wealth with clarity.** — WAZO brings the pieces together without pretending there is one universal answer. Record well, review deliberately, and plan with context. WAZO for Windows—your financial life, organized with clarity.
+
+This is a local review candidate. It is not published and requires explicit approval before website use.
