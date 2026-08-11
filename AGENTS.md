@@ -4,7 +4,8 @@
 
 - Website checkout is `Master`; the refreshed v2 installer replacement is
   published in website commit `b4da2ae` after local hash and payload
-  verification. GitHub Pages live verification is still pending deployment.
+  verification. GitHub Pages deployment `31465805369` completed successfully;
+  public HTTP 200/size/hash verification passed at `2026-08-11T06:41:05Z`.
 - The v2.0.0.0 testing installer replacement is sourced from private WAZO
   `Dev/QA` commit `c990cc3`: 99,434,227 bytes, SHA-256
   `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`.

@@ -11,7 +11,9 @@ Checkpoint date: 2026-08-11
   probes/assertions, 496/496 full UI Humanity cases with zero severe contrast
   findings, 21/21 runtime workflows, 1,000/1,000 scenarios, and 7/7 package
   compatibility cases. Installer payload verification and 12/12 isolated
-  startup journeys passed. GitHub Pages live verification follows publication.
+  startup journeys passed. GitHub Pages deployment `31465805369` completed
+  successfully; public HTTP 200/size/hash verification passed at
+  `2026-08-11T06:41:05Z`.
 - Stable v1.1.7 is unchanged; the Store AppX remains local-only, and Android
   remains archived.
 
@@ -59,7 +61,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The refreshed v2.0.0 testing installer-only website release is sourced from WAZO `Dev/QA` commit `c990cc3`: 99,434,227 bytes, SHA-256 `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`. It remains testing while v1.1.7 remains stable; local hash and payload verification passed before publication. Keep the v1.1.9, v1.1.8, v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
+The refreshed v2.0.0 testing installer-only website release is sourced from WAZO `Dev/QA` commit `c990cc3`: 99,434,227 bytes, SHA-256 `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`. It remains testing while v1.1.7 remains stable; public HTTP 200/size/hash verification passed through Pages deployment `31465805369` at `2026-08-11T06:41:05Z`. Keep the v1.1.9, v1.1.8, v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 

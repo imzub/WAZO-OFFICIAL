@@ -28,11 +28,11 @@
     "websiteArtifactScope": "testing-installer-only",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "pending-pages-deployment",
-    "pagesDeploymentId": null,
+    "liveVerification": "verified",
+    "pagesDeploymentId": 31465805369,
     "websitePublicationCommit": "b4da2ae",
-    "verifiedAtUtc": null,
-    "publicDownloadVerification": "Local installer size and SHA-256 were verified before publication; GitHub Pages live verification is pending deployment of the refreshed website commit."
+    "verifiedAtUtc": "2026-08-11T06:41:05Z",
+    "publicDownloadVerification": "Verified HTTP 200, exact 99434227-byte installer response, and SHA-256 F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130 at the cache-busted public URL."
   },
   "validation": {
     "sourceTests": "Root source tests 1661/1661; deep audit 100000 probes / 460000 assertions; full UI Humanity 496/496 with zero severe contrast findings; runtime workflows 21/21; scenario register 1000/1000; package compatibility 7/7; static and documentation checks passed",
