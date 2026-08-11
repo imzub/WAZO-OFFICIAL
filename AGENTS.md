@@ -2,6 +2,18 @@
 
 ## Current synchronization checkpoint - 2026-08-11
 
+- The approved premium v2 screen-led product tour is live in website media
+  commit `8f8a27c` and Pages deployment `31497574428`. It is 166.467 seconds,
+  1920x1080, English narrated/captioned, and its MP4 is 8,278,367 bytes with
+  SHA-256 `6D37BD32A456D27657366A5F602632DC5AC5252C1A36EE5D1E3B2FEB6F9B4DCE`.
+  Public HTTP 200 and exact hashes were verified at `2026-08-11T13:45:29Z`.
+  The homepage features it; the earlier short v2 promo and historical v1.1.6
+  tour remain retained.
+- The premium media is sourced from private WAZO `Dev/QA` commit
+  `c821aab73f865081603786944ad62a9bcde1c858`. Only public-safe synthetic Demo
+  media and exact reproducibility metadata are present here; no user data,
+  credentials, browser state, or private application source was copied.
+
 - Website checkout is `Master`; the refreshed v2 installer replacement is
   published in website commit `b4da2ae` after local hash and payload
   verification. GitHub Pages deployment `31465805369` completed successfully;

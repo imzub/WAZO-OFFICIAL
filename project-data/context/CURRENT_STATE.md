@@ -1,5 +1,21 @@
 # Current WAZO Website State
 
+## 2026-08-11 premium v2 screen-led promotion publication
+
+- Premium v2 media is live from website `Master` commit `8f8a27c` through
+  successful Pages deployment `31497574428`. The public homepage points to
+  the 166.467-second, 1920x1080 English-narrated/captioned product tour.
+- Source anchor: private WAZO `Dev/QA` commit
+  `c821aab73f865081603786944ad62a9bcde1c858`. The final MP4 is 8,278,367
+  bytes with SHA-256
+  `6D37BD32A456D27657366A5F602632DC5AC5252C1A36EE5D1E3B2FEB6F9B4DCE`.
+  Public HTTP 200 and exact hashes for all supporting assets were verified at
+  `2026-08-11T13:45:29Z`.
+- The older short v2 review cut and historical v1.1.6 tour remain retained;
+  stable v1.1.7 is unchanged. Public media uses synthetic Demo data only,
+  with no user data or credentials. Website MP4 delivery remains ordinary Git;
+  private source MP4s use Git LFS and render intermediates remain ignored.
+
 Checkpoint date: 2026-08-11
 
 ## v2 dynamic promo media

@@ -2,6 +2,25 @@
 
 The WAZO-OFFICIAL repository is the public marketing and support website for WAZO. It is separate from the private WAZO application source repository.
 
+## 2026-08-11 premium v2 screen-led promotion publication
+
+- The homepage now features the approved WAZO v2.0.0 premium screen-led tour.
+  It is 166.467 seconds, 1920x1080, H.264/AAC, professionally narrated in
+  English, captioned, and built from isolated anonymous synthetic Demo screens.
+- The source anchor is private WAZO `Dev/QA` commit
+  `c821aab73f865081603786944ad62a9bcde1c858`. Website media commit `8f8a27c`
+  deployed successfully through Pages deployment `31497574428`; public HTTP
+  200 and exact hashes for the video and supporting files were verified at
+  `2026-08-11T13:45:29Z`.
+- Premium MP4: 8,278,367 bytes, SHA-256
+  `6D37BD32A456D27657366A5F602632DC5AC5252C1A36EE5D1E3B2FEB6F9B4DCE`.
+  The website manifest records the served LF-normalized caption and transcript
+  hashes. The previous short v2 review cut and historical v1.1.6 narrated tour
+  remain in the repository and are not deleted or overwritten.
+- Stable v1.1.7 remains unchanged, the v2 installer remains an optional testing
+  build, the Store listing is not independently verified, Android is archived,
+  and no real user or financial data is present in the public media.
+
 ## 2026-08-11 v2 promo media checkpoint
 
 - A new v2.0.0 testing promo is staged under

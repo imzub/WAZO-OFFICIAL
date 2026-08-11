@@ -5,11 +5,11 @@
   "recordedVersion": "2.0.0.0",
   "sourceCommit": "c821aab73f865081603786944ad62a9bcde1c858",
   "publication": {
-    "status": "pending-live-verification",
-    "websiteCommit": "pending",
-    "pagesDeploymentId": null,
-    "verifiedAtUtc": null,
-    "httpStatus": null
+    "status": "published-live-verified",
+    "websiteCommit": "8f8a27c",
+    "pagesDeploymentId": 31497574428,
+    "verifiedAtUtc": "2026-08-11T13:45:29Z",
+    "httpStatus": 200
   },
   "language": "en-US",
   "durationSeconds": 166.467,
