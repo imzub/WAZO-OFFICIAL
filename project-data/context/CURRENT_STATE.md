@@ -2,6 +2,16 @@
 
 Checkpoint date: 2026-08-11
 
+## v2 dynamic promo media
+
+- Private WAZO source commit 4bf939b produced the v2 testing promo:
+  52 seconds, 1,920x1,080, H.264/AAC, 7,196,381 bytes,
+  SHA-256 DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6.
+- The public v2 release now includes the video manifest, MP4, captions,
+  transcript, no-audio variant, poster, and thumbnail. Website publication and
+  live verification are pending this website commit.
+- The v1.1.6 narrated tour remains historical and unchanged.
+
 ## 2026-08-11 refreshed v2 testing package
 
 - The optional v2.0.0 / build 2.0.0.0 testing installer is rebuilt from WAZO

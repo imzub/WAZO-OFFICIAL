@@ -2,6 +2,20 @@
 
 The WAZO-OFFICIAL repository is the public marketing and support website for WAZO. It is separate from the private WAZO application source repository.
 
+## 2026-08-11 v2 promo media checkpoint
+
+- A new v2.0.0 testing promo is staged under
+  docs/site-data/releases/v2.0.0/video/ from private WAZO source commit
+  4bf939b. It is a 52-second 1,920x1,080 H.264/AAC video with English
+  captions, transcript, no-audio variant, poster, thumbnail, and machine-
+  readable manifest.
+- The MP4 is 7,196,381 bytes with SHA-256
+  DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6.
+  Website publication and live verification are pending this website commit.
+- The old v1.1.6 narrated tour remains in its historical release folder and is
+  not deleted or overwritten. The promo uses synthetic Demo data only and is
+  not professional financial, tax, Zakat, legal, or investment advice.
+
 ## Current synchronization checkpoint - 2026-08-11
 
 - Website `Master` contains the refreshed v2 installer; publication commit
@@ -80,7 +94,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 ## Current Product Tour
 
-- The home page includes a narrated product tour at `#tour`, placed before the release-specific v1.1.6 changes.
+- The home page features the v2.0.0 testing promo at `#tour`; the narrated
+  v1.1.6 tour remains available at `#historical-tour` as versioned historical
+  media.
 - The featured interface recording is WAZO `v1.1.6`, built from private application commit `56399c120c644c1d80485b368370e630c58f6ac7`.
 - The tour is 58.17 seconds at 1920 x 1080, with English narration, original music, default English WebVTT captions, anonymous demo data, a poster, a thumbnail, and a complete transcript.
 - Public delivery files are under `docs/site-data/releases/v1.1.6/video/`. The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533` and must remain ordinary Git content.

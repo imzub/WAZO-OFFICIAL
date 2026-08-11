@@ -13,6 +13,16 @@
     "sha256": "F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130",
     "signed": false
   },
+  "video": {
+    "manifest": "site-data/releases/v2.0.0/video/video.json",
+    "status": "testing-media",
+    "title": "WAZO v2.0.0 product promo",
+    "sourceCommit": "4bf939b",
+    "durationSeconds": 52,
+    "sizeBytes": 7196381,
+    "sha256": "DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6",
+    "humanValidated": false
+  },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "Dev/QA",
@@ -25,7 +35,7 @@
     "status": "local-test-package-not-published"
   },
   "publication": {
-    "websiteArtifactScope": "testing-installer-only",
+    "websiteArtifactScope": "testing-installer-and-promo-video",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
     "liveVerification": "verified",

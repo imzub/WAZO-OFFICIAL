@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "title": "WAZO v2.0.0 - Wealth, organized clearly",
+  "recordedVersion": "2.0.0.0",
+  "sourceCommit": "4bf939b",
+  "publication": {
+    "status": "pending-website-publication",
+    "websiteCommit": null,
+    "pagesDeploymentId": null,
+    "verifiedAtUtc": null,
+    "httpStatus": null
+  },
+  "language": "en-US",
+  "durationSeconds": 52,
+  "resolution": "1920x1080",
+  "frameRate": "30/1",
+  "video": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-Product-Tour-v2.0.0.mp4",
+    "sizeBytes": 7196381,
+    "sha256": "DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6",
+    "codec": "H.264 High / AAC-LC stereo",
+    "fastStart": true
+  },
+  "noAudio": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-Product-Tour-v2.0.0-no-audio.mp4",
+    "sizeBytes": 6631007,
+    "sha256": "2207072AD63A8B54E588594536454929167136E07E34A7FD582236F7EE9CE15F"
+  },
+  "poster": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-Product-Tour-v2.0.0-Poster.png",
+    "sizeBytes": 566601,
+    "sha256": "CAFE964CB793F52A8A11F50D22D0C9A6A17D08DF5AB079FB39D3E2072B4E8890",
+    "width": 1920,
+    "height": 1080
+  },
+  "thumbnail": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-Product-Tour-v2.0.0-Thumbnail.png",
+    "sizeBytes": 566601,
+    "sha256": "CAFE964CB793F52A8A11F50D22D0C9A6A17D08DF5AB079FB39D3E2072B4E8890",
+    "width": 1920,
+    "height": 1080
+  },
+  "captions": {
+    "webVtt": "site-data/releases/v2.0.0/video/WAZO-Product-Tour-v2.0.0-English.vtt",
+    "cueCount": 13,
+    "sizeBytes": 1217,
+    "sha256": "29DC883E5CFFC920B689FB3A292F57106F58549F9501DEE698593ADB1C378786"
+  },
+  "transcript": {
+    "url": "site-data/releases/v2.0.0/video/WAZO-Product-Tour-v2.0.0-Transcript.md",
+    "sizeBytes": 1617,
+    "sha256": "A544E8D9B2CF48B58BC2F2889301E8EB482B56BD4DA6F69D5513DE7D57445769"
+  },
+  "audioDescription": "Generated low-volume instrumental bed; no voiceover",
+  "dataPolicy": "Isolated anonymous synthetic v2 Demo corpus only; no real user or financial data",
+  "claimsBoundary": "Product communication only; not financial, tax, Zakat, legal, or investment advice",
+  "oldTour": "WAZO v1.1.6 remains retained as historical website media",
+  "pagesDelivery": "ordinary-git-not-lfs"
+}

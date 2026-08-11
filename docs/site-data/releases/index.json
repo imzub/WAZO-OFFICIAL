@@ -35,6 +35,7 @@
     "sha256": "F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130",
     "sourceCommit": "c990cc3",
     "manifest": "site-data/releases/v2.0.0/release.json",
+    "videoManifest": "site-data/releases/v2.0.0/video/video.json",
     "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0.exe?sha=f2c480806443",
     "websitePublicationCommit": "b4da2ae",
     "pagesDeploymentId": 31465805369,
@@ -85,12 +86,12 @@
     "status": "link-added-not-live-verified"
   },
   "featuredVideo": {
-    "recordedVersion": "1.1.6",
-    "status": "published-live-verified",
-    "manifest": "site-data/releases/v1.1.6/video/video.json",
-    "sizeBytes": 24372012,
-    "sha256": "6B79ED9EC177C0182AD7FF44641EEDE55898A9D228F0A921ED796C853E3F1533",
-    "verifiedAtUtc": "2026-07-24T20:53:53Z"
+    "recordedVersion": "2.0.0.0",
+    "status": "testing-media-pending-publication",
+    "manifest": "site-data/releases/v2.0.0/video/video.json",
+    "sizeBytes": 7196381,
+    "sha256": "DC3ED9DE1BE546885F76D6E1B0C2C069A305A9AD3AB7F460EB91114CA6946BF6",
+    "verifiedAtUtc": null
   },
   "versions": [
     {
