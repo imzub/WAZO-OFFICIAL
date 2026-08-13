@@ -6,9 +6,10 @@
 - Local v2 testing installer: 99,450,391 bytes, SHA-256
   `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
 - Automated evidence: root 1,675/1,675, focused 536/536, ultra-scale 8/8.
-- Website v2 replacement is staged locally; public Pages/hash verification is
-  pending publication. Stable v1.1.7 remains unchanged; Store AppX is local
-  only and Android is archived/out of scope.
+- Website v2 replacement is live through website commit `1e6b719` and Pages
+  deployment `5885388365`; public HTTP 200 and exact installer size/hash were
+  verified. Stable v1.1.7 remains unchanged; Store AppX is local only and
+  Android is archived/out of scope.
 
 Last updated: 2026-08-11
 

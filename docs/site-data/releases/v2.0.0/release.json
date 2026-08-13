@@ -39,11 +39,11 @@
     "websiteArtifactScope": "testing-installer-and-promo-video",
     "stablePublicReleaseUnchanged": true,
     "storePackagePublished": false,
-    "liveVerification": "pending-publication",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": null,
-    "verifiedAtUtc": null,
-    "publicDownloadVerification": "Local replacement copied from the verified WAZO v2.0.0 installer. Public HTTP, size, and hash verification is pending after this Pages publication; the previously verified premium v2 media remains unchanged."
+    "liveVerification": "verified",
+    "pagesDeploymentId": 5885388365,
+    "websitePublicationCommit": "1e6b719",
+    "verifiedAtUtc": "2026-08-13T09:26:30Z",
+    "publicDownloadVerification": "Verified public HTTP 200 at the cache-busted installer URL after Pages deployment 5885388365; downloaded response is exactly 99450391 bytes with SHA-256 94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E. The previously verified premium v2 media remains unchanged."
   },
   "validation": {
     "sourceTests": "Root source tests 1675/1675; focused import/calculation/protected/privacy/renderer suites 536/536; 50k workspace ultra-scale 8/8 with 10 profiles, 150 members, 50000 assets, 5000 definitions, 400 periods, and 10 repeated imports; static and documentation checks passed",

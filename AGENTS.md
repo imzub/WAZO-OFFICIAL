@@ -6,8 +6,8 @@
   verified artifact from WAZO `Dev/QA` source commit `3e92050`: 99,450,391
   bytes, SHA-256
   `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
-  Website publication and public HTTP/hash verification are pending this
-  synchronization; do not mark it live until Pages serves the exact file.
+  It is live at the cache-busted website asset path after Pages deployment
+  `5885388365`; public HTTP 200, exact size, and exact hash were verified.
 - Source evidence for this candidate is 1,675/1,675 root tests, 536/536
   focused hardening tests, and an 8/8 ultra-scale run covering 10 profiles,
   150 members, 50,000 assets, 5,000 definitions, 400 periods, and 10 repeated

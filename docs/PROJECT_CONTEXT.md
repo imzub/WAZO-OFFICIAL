@@ -8,8 +8,8 @@
 - Source evidence is 1,675/1,675 root tests, 536/536 focused hardening tests,
   and 8/8 ultra-scale cases using 10 profiles, 150 members, 50,000 assets,
   5,000 definitions, 400 periods, and 10 repeated imports. Website Pages
-  publication and public hash verification remain pending until the website
-  commit is pushed and served.
+  publication is live through website commit `1e6b719` and Pages deployment
+  `5885388365`; public HTTP 200, exact size, and exact hash were verified.
 - v1.1.7 remains the stable public installer and is unchanged. The Windows
   Store AppX remains local-only for later submission; Android work is archived
   and out of scope.
