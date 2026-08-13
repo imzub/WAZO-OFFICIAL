@@ -8,7 +8,7 @@
   "channel": "testing",
   "stableVersion": "1.1.7",
   "installer": {
-    "file": "installer/WAZO-Setup-2.0.0.exe",
+    "file": "installer/WAZO-Setup-2.0.0-20260813.exe",
     "sizeBytes": 99450391,
     "sha256": "94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E",
     "signed": false

@@ -37,7 +37,7 @@
     "manifest": "site-data/releases/v2.0.0/release.json",
     "videoManifest": "site-data/releases/v2.0.0/video/premium-screen-led.json",
     "previousVideoManifest": "site-data/releases/v2.0.0/video/video.json",
-    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0.exe?sha=94ce4dd7c737",
+    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0-20260813.exe",
     "websitePublicationCommit": null,
     "pagesDeploymentId": null,
     "liveVerification": "pending-publication",
