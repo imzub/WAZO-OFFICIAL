@@ -3,19 +3,19 @@
   "product": "WAZO",
   "version": "2.0.0",
   "buildVersion": "2.0.0.0",
-  "status": "testing",
+  "status": "pending-publication",
   "preparedDate": "2026-08-13",
-  "channel": "testing",
-  "stableVersion": "1.1.7",
+  "channel": "stable",
+  "stableVersion": "2.0.0",
   "installer": {
-    "file": "installer/WAZO-Setup-2.0.0-20260813.exe",
+    "file": "installer/WAZO-Setup-2.0.0-stable-20260813.exe",
     "sizeBytes": 99450391,
-    "sha256": "94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E",
+    "sha256": "31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4",
     "signed": false
   },
   "video": {
     "manifest": "site-data/releases/v2.0.0/video/premium-screen-led.json",
-    "status": "testing-media-live-verified",
+    "status": "published-live-verified",
     "title": "WAZO v2.0.0 Premium Screen-Led Product Tour",
     "sourceCommit": "c821aab73f865081603786944ad62a9bcde1c858",
     "durationSeconds": 166.467,
@@ -28,7 +28,7 @@
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "Dev/QA",
     "baseBranch": "Dev/QA",
-    "commit": "3e92050"
+    "commit": "28b0522"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",
@@ -36,18 +36,18 @@
     "status": "local-test-package-not-published"
   },
   "publication": {
-    "websiteArtifactScope": "testing-installer-and-promo-video",
-    "stablePublicReleaseUnchanged": true,
+    "websiteArtifactScope": "stable-installer-and-promo-video",
+    "stablePublicReleaseUnchanged": false,
     "storePackagePublished": false,
-    "liveVerification": "verified",
-    "pagesDeploymentId": 5885388365,
-    "websitePublicationCommit": "1e6b719",
-    "verifiedAtUtc": "2026-08-13T09:26:30Z",
-    "publicDownloadVerification": "Verified public HTTP 200 at the cache-busted installer URL after Pages deployment 5885388365; downloaded response is exactly 99450391 bytes with SHA-256 94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E. The previously verified premium v2 media remains unchanged."
+    "liveVerification": "pending-publication",
+    "pagesDeploymentId": null,
+    "websitePublicationCommit": null,
+    "verifiedAtUtc": null,
+    "publicDownloadVerification": "Stable v2.0.0 candidate copied locally from the verified release installer; public HTTP, size, and hash verification will be recorded after the stable website publication."
   },
   "validation": {
-    "sourceTests": "Root source tests 1675/1675; focused import/calculation/protected/privacy/renderer suites 536/536; 50k workspace ultra-scale 8/8 with 10 profiles, 150 members, 50000 assets, 5000 definitions, 400 periods, and 10 repeated imports; static and documentation checks passed",
-    "packagedStartup": "Isolated startup journeys 12/12 passed across fresh/legacy viewports and scaling journeys; installer payload verification passed",
+    "sourceTests": "Root source tests 1675/1675; Import Studio 46/46; focused hardening 536/536; Trust Foundation passed; launch media 44/44; package compatibility 7/7; deep audit 100000 probes / 460000 assertions; scenario register 1000/1000; 50k workspace ultra-scale 8/8; static and documentation checks passed",
+    "packagedStartup": "Isolated packaged startup journeys 18/18 passed across fresh, legacy, lifecycle, six viewports, and scaling profiles; installer payload verification passed",
     "installerBuild": "NSIS installer payload verified with the repository verifier",
     "dependencyAudit": "Repository audit recorded separately; no new package dependency was introduced in this slice",
     "humanValidated": false

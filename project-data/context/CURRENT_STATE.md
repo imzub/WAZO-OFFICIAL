@@ -1,14 +1,15 @@
 # Current WAZO Website State
 
-## 2026-08-13 v2 testing installer synchronization
+## 2026-08-13 v2.0.0 stable website promotion
 
-- The v2.0.0 testing installer is locally replaced with the artifact from
-  private WAZO `Dev/QA` commit `3e92050`: 99,450,391 bytes, SHA-256
-  `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
-- Validation evidence is root 1,675/1,675, focused 536/536, and ultra-scale
-  8/8. Pages publication is live through website commit `1e6b719` and
-  deployment `5885388365`; public HTTP 200 and exact installer size/hash were
-  verified. Stable v1.1.7 remains unchanged; the Store AppX is local-only.
+- WAZO v2.0.0 is the stable website release, sourced from private WAZO
+  `Dev/QA` commit `28b0522`. The direct installer is 99,450,391 bytes with
+  SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
+- Validation evidence is root 1,675/1,675, Import Studio 46/46, focused
+  536/536, packaged startup 18/18, launch media 44/44, compatibility 7/7,
+  deep audit 100,000 probes / 460,000 assertions, scenario register 1,000/1,000,
+  and ultra-scale 8/8. Public HTTP/size/hash verification is recorded after
+  the stable Pages deployment; the Store AppX is local-only.
 
 ## 2026-08-11 premium v2 screen-led promotion publication
 
@@ -22,7 +23,7 @@
   Public HTTP 200 and exact hashes for all supporting assets were verified at
   `2026-08-11T13:45:29Z`.
 - The older short v2 review cut and historical v1.1.6 tour remain retained;
-  stable v1.1.7 is unchanged. Public media uses synthetic Demo data only,
+  v2.0.0 is now the stable website release. Public media uses synthetic Demo data only,
   with no user data or credentials. Website MP4 delivery remains ordinary Git;
   private source MP4s use Git LFS and render intermediates remain ignored.
 
@@ -39,7 +40,7 @@ Checkpoint date: 2026-08-11
   MP4/poster hashes were verified at 2026-08-11T11:02:17Z.
 - The v1.1.6 narrated tour remains historical and unchanged.
 
-## 2026-08-11 refreshed v2 testing package
+## Historical 2026-08-11 refreshed v2 testing package
 
 - The optional v2.0.0 / build 2.0.0.0 testing installer is rebuilt from WAZO
   `Dev/QA` source commit `c990cc3`: 99,434,227 bytes, SHA-256
@@ -51,14 +52,14 @@ Checkpoint date: 2026-08-11
   startup journeys passed. GitHub Pages deployment `31465805369` completed
   successfully; public HTTP 200/size/hash verification passed at
   `2026-08-11T06:41:05Z`.
-- Stable v1.1.7 is unchanged; the Store AppX remains local-only, and Android
-  remains archived.
+- This package is historical; the v2.0.0 stable website package is recorded in
+  the 2026-08-13 checkpoint above. The Store AppX remains local-only, and
+  Android remains archived.
 
-## Published product state
+## Current published product state
 
-- The current stable website and direct-installer release is WAZO `1.1.7` / build `1.1.7.0`; the optional v2 testing installer is v2.0.0 / build 2.0.0.0. v1.1.9 is historical testing evidence.
-- The stable website privacy route publishes policy revision `WAZO-PP-1.1.7-2026-07-25` (effective `2026-07-25`, canonical source SHA-256 `4d2e8f1076573679d5653bf63c12e3c08752ea7f261e2e820fd92a5e6f232dea`). It is synchronized with the current WAZO 1.1.7 application policy.
-- The stable installer is `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`: 103,200,128 bytes, SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` commit `c13bbb973c8866876f527685e52d1875b1de2ad7`. Its release manifest records verified Pages deployment `30905719455` on `2026-08-04T11:41:14Z`.
+- The current stable website and direct-installer release is WAZO `2.0.0` / build `2.0.0.0`, sourced from WAZO `Dev/QA` commit `28b0522`. The installer is `docs/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0-stable-20260813.exe`: 99,450,391 bytes, SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
+- The stable website privacy route publishes policy revision `WAZO-PP-2.0.0-2026-08-07` (effective `2026-08-07`, canonical source SHA-256 `a2775340dcf179e8f68b33cfa73b9d722f4787ba351999b793f893f152564f79`). The Store AppX remains local-only.
 - Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed through successful GitHub Pages run `30125432522`. Cache-busted verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact expected byte counts and SHA-256 hashes for the installer, video, captions, poster, thumbnail, transcript, and manual.
 - Live desktop and 390 x 844 responsive browser checks passed with no console errors. The public video decoded at 1920 x 1080, duration 58.179 seconds, ready state 4, with one English caption track.
 - The previous same-version v1.1.6 website bytes remain historical evidence: artifact-publication commit `41b359e4e306dacb090da69b82e2e3de1eab2e7b`, successful Pages run `30037802828`, verification at `2026-07-23T19:28:34Z`, installer size 102,427,430 bytes, and SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`.
@@ -70,7 +71,7 @@ Checkpoint date: 2026-08-11
 
 ## Product-tour state
 
-- Status: v1.1.6 tour remains published and live-verified as historical versioned media; the current downloadable installer is v1.1.7.
+- Status: v1.1.6 tour remains published and live-verified as historical versioned media; the current downloadable installer is v2.0.0.
 - Recording version: WAZO `1.1.6`.
 - Private application source commit: `56399c120c644c1d80485b368370e630c58f6ac7`.
 - Runtime: 58.17 seconds.
@@ -98,7 +99,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The refreshed v2.0.0 testing installer-only website release is sourced from WAZO `Dev/QA` commit `c990cc3`: 99,434,227 bytes, SHA-256 `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`. It remains testing while v1.1.7 remains stable; public HTTP 200/size/hash verification passed through Pages deployment `31465805369` at `2026-08-11T06:41:05Z`. Keep the v1.1.9, v1.1.8, v1.1.6 tour, v1.1.4 tour, and all older release files retained in Git; do not add the local-only Store AppX to this website repository.
+The v2.0.0 stable installer is sourced from WAZO `Dev/QA` commit `28b0522`: 99,450,391 bytes, SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`. Public HTTP/size/hash verification is recorded after the stable Pages deployment. Keep historical media and release evidence retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 

@@ -2,17 +2,18 @@
 
 ## Current synchronization checkpoint - 2026-08-13
 
-- The optional v2.0.0 testing installer is locally synchronized from private
-  WAZO `Dev/QA` commit `3e92050`: 99,450,391 bytes, SHA-256
-  `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
-- Source evidence is 1,675/1,675 root tests, 536/536 focused hardening tests,
-  and 8/8 ultra-scale cases using 10 profiles, 150 members, 50,000 assets,
-  5,000 definitions, 400 periods, and 10 repeated imports. Website Pages
-  publication is live through website commit `1e6b719` and Pages deployment
-  `5885388365`; public HTTP 200, exact size, and exact hash were verified.
-- v1.1.7 remains the stable public installer and is unchanged. The Windows
-  Store AppX remains local-only for later submission; Android work is archived
-  and out of scope.
+- WAZO v2.0.0 is the stable public website release, sourced from private WAZO
+  `Dev/QA` commit `28b0522`. The direct installer is 99,450,391 bytes with
+  SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
+- Source evidence is 1,675/1,675 root tests, Import Studio 46/46, focused
+  hardening 536/536, packaged startup 18/18, launch media 44/44, package
+  compatibility 7/7, deep audit 100,000 probes / 460,000 assertions,
+  scenario register 1,000/1,000, and 8/8 ultra-scale cases using 10 profiles,
+  150 members, 50,000 assets, 5,000 definitions, 400 periods, and 10 repeated
+  imports. Public HTTP/size/hash verification is recorded after Pages deploy.
+- The former v1.1.7 current website release has been removed from current
+  cards and release metadata. The Windows Store AppX remains local-only for
+  later submission; Android work is archived and out of scope.
 
 The WAZO-OFFICIAL repository is the public marketing and support website for WAZO. It is separate from the private WAZO application source repository.
 
@@ -31,9 +32,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
   The website manifest records the served LF-normalized caption and transcript
   hashes. The previous short v2 review cut and historical v1.1.6 narrated tour
   remain in the repository and are not deleted or overwritten.
-- Stable v1.1.7 remains unchanged, the v2 installer remains an optional testing
-  build, the Store listing is not independently verified, Android is archived,
-  and no real user or financial data is present in the public media.
+- The v2.0.0 installer is the stable website build; the Store listing is not
+  independently verified, Android is archived, and no real user or financial
+  data is present in the public media.
 
 ## 2026-08-11 v2 promo media checkpoint
 
@@ -51,17 +52,15 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
   not deleted or overwritten. The promo uses synthetic Demo data only and is
   not professional financial, tax, Zakat, legal, or investment advice.
 
-## Current synchronization checkpoint - 2026-08-11
+## Historical synchronization checkpoint - 2026-08-11
 
 - Website `Master` contains the refreshed v2 installer; publication commit
   `b4da2ae` is recorded in the release manifest. Pages deployment
   `31465805369` completed successfully, and public HTTP 200/size/hash
   verification passed at `2026-08-11T06:41:05Z`.
-- The refreshed v2.0.0.0 testing installer is sourced from private WAZO
-  `Dev/QA` commit `c990cc3`: 99,434,227 bytes, SHA-256
-  `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`.
-  Local installer hash and payload verification passed before publication.
-  Stable v1.1.7 remains unchanged and the Store AppX remains local-only.
+- This section records the superseded v2 testing artifact from the prior
+  publication cycle. It is retained as historical evidence only; the current
+  stable package is recorded in the 2026-08-13 checkpoint above.
 
 ## Publishing
 
@@ -73,15 +72,15 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 ## Content Goals
 
 - Explain what WAZO does.
-- Present the current WAZO `v1.1.7` Windows direct installer while retaining the v1.1.6 product tour as explicitly versioned historical media.
+- Present the current WAZO `v2.0.0` Windows direct installer while retaining the v1.1.6 product tour as explicitly versioned historical media.
 - Help users understand the app workflow.
 - Provide version-aware download areas.
 - Position Microsoft Store as the recommended public install channel using the supplied deep link; do not claim listing availability until it is independently verified.
 - Host public Windows installer downloads in versioned folders under `docs/site-data/releases/` with version, size, notes, and SHA-256 hashes.
 - Explain that direct `.exe` installers may trigger SmartScreen/Chrome warnings until they are code-signed and gain reputation.
 - Provide support paths for bugs, issues, feature requests, and queries.
-- The downloads section keeps two stable/public cards: the recommended Microsoft Store channel and the v1.1.7 stable direct installer. An explicitly approved testing build may appear as a separate clearly labeled third card without changing the stable cards. Older releases and the major baseline remain repository history, not current download cards.
-- Showcase privacy, protected local storage, multiple currencies, reports, backups, reversible records, local guidance, and the optional zakat module. For v1.1.7, describe app-managed Windows records and encrypted Import Studio drafts as authenticated encrypted envelopes protected by a Windows-bound key rather than plaintext local JSON.
+- The downloads section keeps the stable/public Microsoft Store channel and the v2.0.0 stable direct installer. The removed v1.1.7 card and stale testing card must not return. Older releases remain repository history, not current download cards.
+- Showcase privacy, protected local storage, multiple currencies, reports, backups, reversible records, local guidance, and the optional zakat module. For v2.0.0, describe app-managed Windows records and encrypted Import Studio drafts as authenticated encrypted envelopes protected by a Windows-bound key rather than plaintext local JSON.
 - Keep the downloads section visually light: one short warning panel, two stable/public cards, an optional testing card, and concise version metadata.
 - Add beginner-friendly FAQ items for initial setup, freeware, offline mode, backups, and core workflows whenever the site is updated.
 
@@ -93,21 +92,22 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 ## Current Public Downloads
 
-- Current direct installer: `v1.1.7` / `docs/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe`.
-- Optional testing installer: `v2.0.0` / `docs/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0-20260813.exe`; status `testing`, stable public release remains `v1.1.7`.
-- The refreshed v2.0.0 testing installer is 99,434,227 bytes with SHA-256 `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`, sourced from WAZO `Dev/QA` commit `c990cc3`. Current source evidence is 1,661/1,661 tests, 100,000/460,000 deep-audit probes/assertions, 496/496 full UI Humanity cases with zero severe contrast findings, 21/21 runtime workflows, 1,000/1,000 scenarios, and 7/7 package-compatibility cases. Installer payload verification and 12/12 isolated startup journeys pass; v1.1.7 remains stable.
-- The stable v1.1.7 installer is 103,200,128 bytes with SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, sourced from WAZO `Dev/QA` commit `c13bbb973c8866876f527685e52d1875b1de2ad7`; its release manifest records Pages deployment `30905719455` and live verification on `2026-08-04T11:41:14Z`.
+- Current direct installer: `v2.0.0` / `docs/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0-stable-20260813.exe`; status `stable`.
+ - The prior v2 testing installer record is historical evidence only. The current
+   stable installer is v2.0.0 and is recorded in the 2026-08-13 checkpoint.
+- The prior v1.1.7 installer record is historical evidence only and is not a
+  current website download.
 - Website commit `5db6957ae8e7d91a060db0fee2f37cbc5e4f807e` deployed successfully through GitHub Pages run `30125432522`. Cache-busted verification at `2026-07-24T20:53:53Z` returned HTTP 200 and exact expected hashes for the installer, video, captions, poster, thumbnail, transcript, and manual. Live desktop and 390 x 844 responsive checks had no browser-console errors; the 1920 x 1080 video decoded with one caption track.
 - The previous same-version v1.1.6 installer remains historical deployment evidence: 102,427,430 bytes, SHA-256 `E641AB23BBFBC49A15E37C78EB62515E195D68C54815D6B1FFE533D50DC3E077`, source commit `68562c0af607f5c73bd1b948beb95f5517243523`, website artifact commit `41b359e4e306dacb090da69b82e2e3de1eab2e7b`, and successful Pages run `30037802828`.
 - Final corrective-source validation passed syntax for 78 files, static analysis, brand and Trust Center checks, `726/726` tests, package matrices `54/54`, native-current-display matrices `9/9` at DPR `1.5`, UI-humanity `166/166`, and runtime workflows `14/14`. This remains automated evidence (`humanValidated=false`); physical packaged human validation is not recorded.
 - The superseded published v1.1.5 installer remains historical evidence: 102,285,721 bytes, SHA-256 `94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB`, product source commit `0f03c6084ab023cd14841158bd369461163ac319`, and website publication commit `94f6cff4868814ee3bc0fd40903e025a72c6331c`.
 - The rejected v1.1.5 predecessor also remains historical evidence: 102,284,642 bytes, SHA-256 `955F00602E1FE632F5F429963E396A535359907D80520A45C7DE9B23AC09A13E`, product source commit `232210ba29904c9f3badf54d0650edc6c721a1b1`, and website publication commit `1630edadb907cce834886ded65b7190ecbe6205a`.
-- The 16-page v1.1.6 manual remains historical website evidence; the v1.1.7 public website scope is intentionally installer-only.
+- The 16-page v1.1.6 manual remains historical website evidence; the v2.0.0 public website scope is intentionally installer-only plus approved v2 promo media.
 - Authenticode status is `NotSigned`, so keep the direct-installer warning visible and never claim code signing.
 - The major baseline installer and other older binaries remain archived in the repository but are intentionally not shown in the Downloads section.
 - Older installers retained for rollback/testing: `v1.0.1`, `v1.0.2`, and `v1.0.4`.
 - Keep older installers available unless Zubair explicitly asks to remove them.
-- The Store card is linked through the Windows Store deep link but remains availability-unverified. The v1.1.7 direct installer is the current usable public download; it remains unsigned and separate from the local-only Store AppX candidate.
+- The Store card is linked through the Windows Store deep link but remains availability-unverified. The v2.0.0 direct installer is the current usable public download; it remains unsigned and separate from the local-only Store AppX candidate.
 
 ## Versioned Website Data
 
@@ -119,7 +119,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Installer binaries live under that release's `installer/` folder.
 - `docs/site-data/releases/index.json` records the current installer, Store deep link, and archived versions; the major baseline is retained in history rather than surfaced as a current card.
 - Archived installers remain tracked in GitHub for GitHub Pages and rollback use. This working clone may omit their binary files through Git sparse checkout; their manifests and notes remain local.
-- WAZO does not currently integrate Electron's automatic updater. Do not publish `latest.yml`, blockmaps, or other auto-update-feed metadata for v1.1.7; website delivery is the direct installer link only.
+- WAZO does not currently integrate Electron's automatic updater. Do not publish `latest.yml`, blockmaps, or other auto-update-feed metadata for v2.0.0; website delivery is the direct installer link only.
 
 ## Public Safety
 
@@ -129,7 +129,7 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 
 ## Current Product Tour
 
-- The home page features the v2.0.0 testing promo at `#tour`; the narrated
+- The home page features the v2.0.0 stable promo at `#tour`; the narrated
   v1.1.6 tour remains available at `#historical-tour` as versioned historical
   media.
 - The featured interface recording is WAZO `v1.1.6`, built from private application commit `56399c120c644c1d80485b368370e630c58f6ac7`.
@@ -142,9 +142,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 ## Stable Privacy Policy
 
 - Public route: `https://imzub.github.io/WAZO-OFFICIAL/privacy/`, sourced from `docs/privacy/index.html`.
-- Active revision: `WAZO-PP-1.1.7-2026-07-25`; effective date: `2026-07-25`; document SHA-256 `4D2E8F1076573679D5653BF63C12E3C08752EA7F261E2E820FD92A5E6F232DEA`.
+- Active revision: `WAZO-PP-2.0.0-2026-08-07`; effective date: `2026-08-07`; document SHA-256 `A2775340DCF179E8F68B33CFA73B9D722F4787BA351999B793F893F152564F79`.
 - Canonical bundled-policy SHA-256: `0f792e634eec910e6c248575a2497301544ce8e85b9bd45a16827b2ec7a43150`.
-- This policy applies to the live WAZO `1.1.7` Windows release and the WAZO Official website. The policy page, installer, release manifest, and release index are synchronized as the current v1.1.7 public release; the v1.1.6 tour remains historical media.
+- This policy applies to the live WAZO `2.0.0` Windows release and the WAZO Official website. The policy page, installer, release manifest, and release index are synchronized as the current v2.0.0 public release; the v1.1.6 tour remains historical media.
 - The R2 policy records the permanent offline-only product boundary: no WAZO cloud portfolio service, synchronization, market-data or financial API, cloud AI, telemetry, advertising request, or background portfolio upload. User-selected website, Store, LinkedIn, policy, and email links are explicit handoffs to external applications and do not attach the local portfolio.
 - Policy publication commit `02b985126843180a6f68e3fac1aa1469642405bc` deployed successfully through GitHub Pages run `30020443537`. Cache-busted verification at `2026-07-23T15:27:22Z` returned HTTP 200 for both policy and manifest; the public policy was byte-identical to `docs/privacy/index.html` (28,953 bytes, SHA-256 `1DDE5582371B480965B5FEC219492D3D1AE494DB94883A20C9CA164C11EBC3E9`), and the public manifest was byte-identical to its repository source.
 - `docs/privacy/policy-manifest.json` and the `wazo-policy-*` metadata in the policy HTML must retain the same revision, effective date, URL, and canonical hash as the exact UTF-8/LF `docs/PRIVACY_POLICY.md` bundled by the matching WAZO release.

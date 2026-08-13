@@ -1,48 +1,30 @@
 {
   "schemaVersion": 1,
   "product": "WAZO",
-  "latestProductVersion": "1.1.7",
-  "currentInstallerVersion": "1.1.7",
+  "latestProductVersion": "2.0.0",
+  "currentInstallerVersion": "2.0.0",
   "currentLiveInstaller": {
-    "version": "1.1.7",
-    "status": "published-live-verified",
-    "sizeBytes": 103200128,
-    "sha256": "489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5",
-    "sourceCommit": "c13bbb973c8866876f527685e52d1875b1de2ad7",
-    "websitePublicationCommit": "23fad887a19434306bca984e20ab56e10c3092f9",
-    "pagesDeploymentId": 30905719455,
-    "publishedDate": "2026-08-04",
-    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v1.1.7/installer/WAZO-Setup-1.1.7.exe?sha=489d6775d55e",
+    "version": "2.0.0",
+    "status": "pending-publication",
+    "sizeBytes": 99450391,
+    "sha256": "31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4",
+    "sourceCommit": "28b0522",
+    "websitePublicationCommit": null,
+    "pagesDeploymentId": null,
+    "publishedDate": "2026-08-13",
+    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0-stable-20260813.exe",
     "sourceValidation": {
       "nodeVersion": "bundled Node runtime",
       "syntax": "passed",
       "static": "passed",
-      "fullTests": "889/889 Node tests passed; focused 77/77; Demo seed/SIP 8/8; UI-humanity 198/198; isolated runtime 19/19",
-      "packagedReadiness": "packaged startup 12/12 across fresh/legacy viewport and scaling journeys",
+      "fullTests": "1675/1675 Node tests passed; Import Studio 46/46; focused hardening 536/536; deep audit 100000 probes / 460000 assertions; scenario register 1000/1000",
+      "packagedReadiness": "packaged startup 18/18 across fresh, legacy, lifecycle, six viewports and scaling journeys",
       "installerBuild": "NSIS generated and archive copy verified",
       "storePackage": "AppX generated locally; not published"
     },
     "installerLifecycle": "not yet human-validated",
-    "verifiedAtUtc": "2026-08-04T11:41:14Z",
-    "publicDownloadVerification": "Verified HTTP 200 and exact 103200128-byte installer SHA-256 489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5 at the cache-busted public URL.",
-    "humanValidated": false
-  },
-  "testingRelease": {
-    "version": "2.0.0",
-    "status": "testing",
-    "stableVersion": "1.1.7",
-    "sizeBytes": 99450391,
-    "sha256": "94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E",
-    "sourceCommit": "3e92050",
-    "manifest": "site-data/releases/v2.0.0/release.json",
-    "videoManifest": "site-data/releases/v2.0.0/video/premium-screen-led.json",
-    "previousVideoManifest": "site-data/releases/v2.0.0/video/video.json",
-    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0-20260813.exe",
-    "websitePublicationCommit": "1e6b719",
-    "pagesDeploymentId": 5885388365,
-    "liveVerification": "verified",
-    "verifiedAtUtc": "2026-08-13T09:26:30Z",
-    "publicDownloadVerification": "Verified public HTTP 200 at the cache-busted installer URL after Pages deployment 5885388365; downloaded response is exactly 99450391 bytes with SHA-256 94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E.",
+    "verifiedAtUtc": null,
+    "publicDownloadVerification": "Local stable v2.0.0 artifact prepared and independently hashed; public HTTP/hash verification will be recorded after publication.",
     "humanValidated": false
   },
   "previousSameVersionInstaller": {
@@ -67,7 +49,7 @@
   },
   "previousLiveInstaller": {
     "version": "1.1.5",
-    "status": "superseded-by-v1.1.7",
+    "status": "historical-superseded",
     "sizeBytes": 102285721,
     "sha256": "94EF7F7C3456FE025689A44C228E4D8759F2AD153C12AD22B0ED81CC328D86AB",
     "sourceCommit": "0f03c6084ab023cd14841158bd369461163ac319",
@@ -101,7 +83,7 @@
   "versions": [
     {
       "version": "2.0.0",
-      "status": "testing",
+      "status": "pending-publication",
       "manifest": "site-data/releases/v2.0.0/release.json"
     },
     {
@@ -113,11 +95,6 @@
       "version": "1.1.8",
       "status": "historical-testing",
       "manifest": "site-data/releases/v1.1.8/release.json"
-    },
-    {
-      "version": "1.1.7",
-      "status": "published-live-verified",
-      "manifest": "site-data/releases/v1.1.7/release.json"
     },
     {
       "version": "1.1.6",

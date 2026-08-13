@@ -2,20 +2,21 @@
 
 ## Current synchronization checkpoint - 2026-08-13
 
-- The optional v2.0.0 testing installer has been replaced locally with the
-  verified artifact from WAZO `Dev/QA` source commit `3e92050`: 99,450,391
-  bytes, SHA-256
-  `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
-  It is live at the cache-busted website asset path after Pages deployment
-  `5885388365`; public HTTP 200, exact size, and exact hash were verified.
-- Source evidence for this candidate is 1,675/1,675 root tests, 536/536
-  focused hardening tests, and an 8/8 ultra-scale run covering 10 profiles,
-  150 members, 50,000 assets, 5,000 definitions, 400 periods, and 10 repeated
-  imports. v1.1.7 remains stable and unchanged.
+- WAZO v2.0.0 is the stable website release, promoted from private WAZO
+  `Dev/QA` source commit `28b0522`. The direct installer is 99,450,391 bytes,
+  SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
+  Website publication and public HTTP/hash verification are recorded after the
+  Pages deployment completes.
+- Source evidence is 1,675/1,675 root tests, Import Studio 46/46, focused
+  hardening 536/536, packaged startup 18/18, launch media 44/44, package
+  compatibility 7/7, deep audit 100,000 probes / 460,000 assertions,
+  scenario register 1,000/1,000, and an 8/8 ultra-scale run covering 10
+  profiles, 150 members, 50,000 assets, 5,000 definitions, 400 periods, and
+  10 repeated imports. v1.1.7 is no longer a current website release.
 - The Store AppX is prepared locally for Store submission and is not published
   to this website. Android remains archived/out of scope.
 
-## Current synchronization checkpoint - 2026-08-11
+## Historical synchronization checkpoint - 2026-08-11
 
 - The approved premium v2 screen-led product tour is live in website media
   commit `8f8a27c` and Pages deployment `31497574428`. It is 166.467 seconds,
@@ -37,7 +38,7 @@
   `Dev/QA` commit `c990cc3`: 99,434,227 bytes, SHA-256
   `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`.
   GitHub Pages live verification follows publication.
-- Stable v1.1.7 remains unchanged. The Store AppX is local-only, the Store
+- The Store AppX is local-only, the Store
   listing is not independently verified, and Android is out of scope.
 
 This repository hosts the public WAZO product website through GitHub Pages.
@@ -74,13 +75,16 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Treat repository files as the durable source of truth; never depend on a particular Codex account, browser profile, saved GitHub session, local path, or hidden task memory.
 - On a new system or with a new AI/tool, read this file, `docs/PROJECT_CONTEXT.md`, `docs/WAZO_CODEX_HANDOFF_POINTER.md`, `project-data/context/CURRENT_STATE.md`, and the matching `docs/site-data/releases/v<version>/release.json` before editing.
 - Re-verify `origin` and the active branch, fetch the named source repositories, and use the exact source commit, artifact size, and SHA-256 recorded in the release manifest. Authentication is an environment prerequisite, not project state; never store tokens or session data in context.
-- Keep `Master` as the website publishing branch, preserve v1.1.7 as stable, and label v2.0.0 as testing until a separately recorded publication and live byte/hash verification exists. Retain v1.1.9 as historical testing evidence.
+- Keep `Master` as the website publishing branch and keep v2.0.0 as the current
+  stable release after its separately recorded publication and live byte/hash
+  verification. Retain older versions only as historical repository evidence,
+  not as current website download cards.
 
 ## Product Messaging
 
 - WAZO is a Windows desktop personal wealth organizer.
 - WAZO `1.1.6` and later are permanently offline-only: no cloud portfolio service or synchronization, market-data or financial API, cloud AI, telemetry, advertising request, or background portfolio upload. Prices and rates are user-maintained locally. Explicit website, Store, LinkedIn, policy, and email links are user-initiated handoffs and never attach the local portfolio.
-- The current public installer is WAZO `1.1.7`. It protects app-managed Windows data as authenticated encrypted envelopes; do not describe those active records as plaintext JSON.
+- The current public installer is WAZO `2.0.0`. It protects app-managed Windows data as authenticated encrypted envelopes; do not describe those active records as plaintext JSON.
 - It supports family/profile setup, members, assets, allocation targets, financial goals, reports, backups, privacy mode, themes, multiple currencies, and optional zakat planning.
 - Zakat is optional. The website should not position WAZO as only a zakat app.
 - Source code is private.
@@ -94,13 +98,15 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Update `docs/site-data/releases/index.json`, the version's `release.json`, and its release notes whenever release status, installer metadata, product graphics, or public update details change.
 - When publishing or replacing a product tour, update its public `video.json`, the version `release.json`, the release index featured-video pointer, `docs/PROJECT_CONTEXT.md`, and the matching `project-data/context/` checkpoint together.
 - Keep video recording versions explicit. The featured tour now shows the
-  WAZO `v2.0.0` testing promo; the v1.1.6 narrated tour remains retained as
+  WAZO `v2.0.0` stable promo; the v1.1.6 narrated tour remains retained as
   historical media and must not be relabeled as current-version evidence.
-- Keep the Downloads section's two stable/public channel cards: recommended Microsoft Store install and the v1.1.7 stable direct installer. When an explicitly approved testing build is published, add one clearly labeled Testing card without changing or removing the stable cards. Retain older releases and the major baseline in repository history, but do not surface them as current download cards.
+- Keep the Downloads section's stable/public channel cards: recommended
+  Microsoft Store install and the v2.0.0 stable direct installer. Do not show
+  the removed v1.1.7 card or a stale testing card. Retain older releases only
+  as repository history, not as current download cards.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
-- Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v1.1.7 uses a direct installer link only.
-- Current direct installer is WAZO `v1.1.7`, 103,200,128 bytes, SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` source commit `c13bbb973c8866876f527685e52d1875b1de2ad7`; the website release manifest records Pages deployment `30905719455` and live verification on `2026-08-04T11:41:14Z`. The Store AppX was generated and tested locally and is not a website artifact. Physical human workflow validation is not recorded.
-- The current optional testing installer is WAZO `v2.0.0` / build `2.0.0.0`, 99,434,227 bytes, SHA-256 `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`, from WAZO `Dev/QA` source commit `c990cc3`. Source evidence is 1,661/1,661 tests, 100,000/460,000 deep-audit probes/assertions, 496/496 full UI Humanity cases with zero severe contrast findings, 21/21 runtime workflows, 1,000/1,000 scenarios, and 7/7 package-compatibility cases. Packaged installer payload verification and 12/12 isolated startup journeys pass; v1.1.7 remains stable and the package is unsigned.
+- Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v2.0.0 uses a direct installer link only.
+- Current direct installer is WAZO `v2.0.0` / build `2.0.0.0`, 99,450,391 bytes, SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, from WAZO `Dev/QA` source commit `28b0522`. Source evidence is 1,675/1,675 root tests, Import Studio 46/46, focused 536/536, packaged startup 18/18, launch media 44/44, deep audit 100,000/460,000, scenario register 1,000/1,000, and 7/7 compatibility cases. The package is unsigned; Store AppX is local-only and physical human workflow validation remains separate.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 

@@ -2,22 +2,24 @@
 
 ## Current synchronization checkpoint - 2026-08-13
 
-- Private application source: `Dev/QA` commit `3e92050`.
-- Local v2 testing installer: 99,450,391 bytes, SHA-256
-  `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
-- Automated evidence: root 1,675/1,675, focused 536/536, ultra-scale 8/8.
-- Website v2 replacement is live through website commit `1e6b719` and Pages
-  deployment `5885388365`; public HTTP 200 and exact installer size/hash were
-  verified. Stable v1.1.7 remains unchanged; Store AppX is local only and
-  Android is archived/out of scope.
+- Private application source: `Dev/QA` commit `28b0522`.
+- WAZO v2.0.0 stable installer: 99,450,391 bytes, SHA-256
+  `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
+- Automated evidence: root 1,675/1,675, Import Studio 46/46, focused 536/536,
+  packaged startup 18/18, ultra-scale 8/8, and deep audit 100,000 probes /
+  460,000 assertions. Public HTTP/hash verification is recorded after Pages
+  deploy.
+- v2.0.0 is the current stable website release. The v1.1.7 current release
+  card and folder were removed from the website tree; Store AppX is local only
+  and Android is archived/out of scope.
 
-Last updated: 2026-08-11
+Last updated: 2026-08-13
 
 The canonical complete substantive WAZO/Codex handoff is stored in the private application repository:
 
 ```text
 Repository: https://github.com/imzub/WAZO.git
-Branch: `Dev/QA` at source commit `c990cc3` for the latest synchronized work; `codex/v1.1.9-deep-audit` is historical lineage only.
+Branch: `Dev/QA` at source commit `28b0522` for the latest synchronized work; older audit branches are historical lineage only.
 File: docs/WAZO_CODEX_CONVERSATION_HANDOFF.md
 ```
 
@@ -34,11 +36,13 @@ Read this repository’s `AGENTS.md` and `docs/PROJECT_CONTEXT.md` before websit
 ## Current Website State
 
 - GitHub Pages publishes from `docs/`.
-- Current stable website installer line is v1.1.7; the v1.1.6 product tour remains explicitly versioned historical media.
-- An optional v2.0.0 testing installer is listed separately and does not replace or relabel v1.1.7. The replacement candidate is 99,434,227 bytes / SHA-256 `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`, from WAZO `Dev/QA` commit `c990cc3`. Installer payload verification, 12/12 isolated startup journeys, and public HTTP 200/size/hash verification pass through Pages deployment `31465805369`. v1.1.7 remains stable and v1.1.9 remains historical testing evidence.
-- The website publication scope includes the v1.1.7 stable installer and the explicitly labeled v2.0.0 testing installer; the v2.0.0 Store AppX remains local for user testing.
-- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability remains unverified. Stable v1.1.7 is 103,200,128 bytes / SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`, from WAZO `Dev/QA` commit `c13bbb973c8866876f527685e52d1875b1de2ad7`; its manifest records verified Pages deployment `30905719455`.
-- Do not claim v1.1.7 Store upload, certification, or publication without direct evidence.
+- Current stable website installer line is v2.0.0; the v1.1.6 product tour remains explicitly versioned historical media.
+- The v2.0.0 stable installer is 99,450,391 bytes / SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, from WAZO `Dev/QA` commit `28b0522`. Installer payload verification and 18/18 isolated startup journeys pass; public HTTP/size/hash verification is recorded after the stable Pages deployment.
+- The website publication scope includes the v2.0.0 stable installer and approved v2 promo media; the v2.0.0 Store AppX remains local for user testing.
+- The former v1.1.7 release record below is historical only and must not be
+  presented as a current website download or Store submission.
+- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability remains unverified.
+- Do not claim Store upload, certification, or publication without direct evidence.
 - Public browser media under `docs/` remains ordinary Git content.
 - Large editable production video/audio under `project-data/` uses Git LFS.
 - Never publish private application source, real financial records, credentials, browser/session data, or user-specific task screenshots.
