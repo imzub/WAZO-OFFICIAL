@@ -17,7 +17,7 @@ This directory preserves the public-safe working material needed to continue WAZ
 
 The historical 58.17-second tour was recorded from WAZO 1.1.6 using anonymous demo data. Its browser-ready media, captions, poster, thumbnail, transcript, and manifest are versioned with the release. The earlier v1.1.4 narrated tour remains retained as historical media.
 
-The stable v1.1.7 installer remains 103,200,128 bytes with SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`. The refreshed optional v2.0.0 testing installer is 99,434,227 bytes with SHA-256 `F2C4808064438E863E1FD065BDA1CDD8D016332C981484E16FCEF5F5E5078130`, anchored to WAZO `Dev/QA` source commit `c990cc3`; it replaces the prior v2 testing binary, while v1.1.9 remains historical evidence. Local hash and payload verification passed before publication; the v1.1.6 tour remains historical media.
+The stable v1.1.7 installer remains 103,200,128 bytes with SHA-256 `489D6775D55E5F3FC7965C357263B5BA452B6BE073DE60CC8B9EC33AF31EF5F5`. The refreshed optional v2.0.0 testing installer is 99,450,391 bytes with SHA-256 `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`, anchored to WAZO `Dev/QA` source commit `3e92050`; it replaces the prior v2 testing binary. Local hash and payload verification passed; public Pages/hash verification is pending this synchronization. The v1.1.6 tour remains historical media.
 
 ## Directory map
 

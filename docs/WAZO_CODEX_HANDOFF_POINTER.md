@@ -1,5 +1,15 @@
 # WAZO Cross-System Handoff Pointer
 
+## Current synchronization checkpoint - 2026-08-13
+
+- Private application source: `Dev/QA` commit `3e92050`.
+- Local v2 testing installer: 99,450,391 bytes, SHA-256
+  `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
+- Automated evidence: root 1,675/1,675, focused 536/536, ultra-scale 8/8.
+- Website v2 replacement is staged locally; public Pages/hash verification is
+  pending publication. Stable v1.1.7 remains unchanged; Store AppX is local
+  only and Android is archived/out of scope.
+
 Last updated: 2026-08-11
 
 The canonical complete substantive WAZO/Codex handoff is stored in the private application repository:

@@ -1,5 +1,14 @@
 # Current WAZO Website State
 
+## 2026-08-13 v2 testing installer synchronization
+
+- The v2.0.0 testing installer is locally replaced with the artifact from
+  private WAZO `Dev/QA` commit `3e92050`: 99,450,391 bytes, SHA-256
+  `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
+- Validation evidence is root 1,675/1,675, focused 536/536, and ultra-scale
+  8/8. Pages publication and public hash verification are pending the website
+  push. Stable v1.1.7 remains unchanged; the Store AppX is local-only.
+
 ## 2026-08-11 premium v2 screen-led promotion publication
 
 - Premium v2 media is live from website `Master` commit `8f8a27c` through

@@ -1,5 +1,20 @@
 # WAZO-OFFICIAL Website Agent Guide
 
+## Current synchronization checkpoint - 2026-08-13
+
+- The optional v2.0.0 testing installer has been replaced locally with the
+  verified artifact from WAZO `Dev/QA` source commit `3e92050`: 99,450,391
+  bytes, SHA-256
+  `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
+  Website publication and public HTTP/hash verification are pending this
+  synchronization; do not mark it live until Pages serves the exact file.
+- Source evidence for this candidate is 1,675/1,675 root tests, 536/536
+  focused hardening tests, and an 8/8 ultra-scale run covering 10 profiles,
+  150 members, 50,000 assets, 5,000 definitions, 400 periods, and 10 repeated
+  imports. v1.1.7 remains stable and unchanged.
+- The Store AppX is prepared locally for Store submission and is not published
+  to this website. Android remains archived/out of scope.
+
 ## Current synchronization checkpoint - 2026-08-11
 
 - The approved premium v2 screen-led product tour is live in website media

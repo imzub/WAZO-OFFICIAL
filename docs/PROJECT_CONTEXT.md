@@ -1,5 +1,19 @@
 # WAZO Official Website Context
 
+## Current synchronization checkpoint - 2026-08-13
+
+- The optional v2.0.0 testing installer is locally synchronized from private
+  WAZO `Dev/QA` commit `3e92050`: 99,450,391 bytes, SHA-256
+  `94CE4DD7C73739468A7525BEC8747BA5060DB74CFC626C5E589A5F260B4AA77E`.
+- Source evidence is 1,675/1,675 root tests, 536/536 focused hardening tests,
+  and 8/8 ultra-scale cases using 10 profiles, 150 members, 50,000 assets,
+  5,000 definitions, 400 periods, and 10 repeated imports. Website Pages
+  publication and public hash verification remain pending until the website
+  commit is pushed and served.
+- v1.1.7 remains the stable public installer and is unchanged. The Windows
+  Store AppX remains local-only for later submission; Android work is archived
+  and out of scope.
+
 The WAZO-OFFICIAL repository is the public marketing and support website for WAZO. It is separate from the private WAZO application source repository.
 
 ## 2026-08-11 premium v2 screen-led promotion publication
