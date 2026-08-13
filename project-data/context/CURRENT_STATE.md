@@ -8,8 +8,9 @@
 - Validation evidence is root 1,675/1,675, Import Studio 46/46, focused
   536/536, packaged startup 18/18, launch media 44/44, compatibility 7/7,
   deep audit 100,000 probes / 460,000 assertions, scenario register 1,000/1,000,
-  and ultra-scale 8/8. Public HTTP/size/hash verification is recorded after
-  the stable Pages deployment; the Store AppX is local-only.
+  and ultra-scale 8/8. Website commit `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24`
+  deployed through Pages deployment `5886802524`; public HTTP/size/hash
+  verification passed at `2026-08-13T11:11:41Z`. The Store AppX is local-only.
 
 ## 2026-08-11 premium v2 screen-led promotion publication
 
@@ -99,7 +100,7 @@ The 24,372,012-byte Pages MP4 has SHA-256 `6B79ED9EC177C0182AD7FF44641EEDE55898A
 
 ## Resume point
 
-The v2.0.0 stable installer is sourced from WAZO `Dev/QA` commit `28b0522`: 99,450,391 bytes, SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`. Public HTTP/size/hash verification is recorded after the stable Pages deployment. Keep historical media and release evidence retained in Git; do not add the local-only Store AppX to this website repository.
+The v2.0.0 stable installer is sourced from WAZO `Dev/QA` commit `28b0522`: 99,450,391 bytes, SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`. Public HTTP/size/hash verification passed through Pages deployment `5886802524` at `2026-08-13T11:11:41Z`. Keep historical media and release evidence retained in Git; do not add the local-only Store AppX to this website repository.
 
 Before making new changes, run:
 

@@ -5,8 +5,9 @@
 - WAZO v2.0.0 is the stable website release, promoted from private WAZO
   `Dev/QA` source commit `28b0522`. The direct installer is 99,450,391 bytes,
   SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
-  Website publication and public HTTP/hash verification are recorded after the
-  Pages deployment completes.
+  Website publication is commit `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24`
+  through Pages deployment `5886802524`; public HTTP 200, exact size, and exact
+  hash were verified at `2026-08-13T11:11:41Z`.
 - Source evidence is 1,675/1,675 root tests, Import Studio 46/46, focused
   hardening 536/536, packaged startup 18/18, launch media 44/44, package
   compatibility 7/7, deep audit 100,000 probes / 460,000 assertions,

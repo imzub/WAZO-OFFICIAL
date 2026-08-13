@@ -3,7 +3,7 @@
   "product": "WAZO",
   "version": "2.0.0",
   "buildVersion": "2.0.0.0",
-  "status": "pending-publication",
+  "status": "published-live-verified",
   "preparedDate": "2026-08-13",
   "channel": "stable",
   "stableVersion": "2.0.0",
@@ -39,11 +39,11 @@
     "websiteArtifactScope": "stable-installer-and-promo-video",
     "stablePublicReleaseUnchanged": false,
     "storePackagePublished": false,
-    "liveVerification": "pending-publication",
-    "pagesDeploymentId": null,
-    "websitePublicationCommit": null,
-    "verifiedAtUtc": null,
-    "publicDownloadVerification": "Stable v2.0.0 candidate copied locally from the verified release installer; public HTTP, size, and hash verification will be recorded after the stable website publication."
+    "liveVerification": "verified",
+    "pagesDeploymentId": 5886802524,
+    "websitePublicationCommit": "2a7a67f4c9f3071a4635aa4ea558a0538f27ec24",
+    "verifiedAtUtc": "2026-08-13T11:11:41Z",
+    "publicDownloadVerification": "GitHub Pages deployment 5886802524 served HTTP 200; public download was 99,450,391 bytes and matched SHA-256 31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4."
   },
   "validation": {
     "sourceTests": "Root source tests 1675/1675; Import Studio 46/46; focused hardening 536/536; Trust Foundation passed; launch media 44/44; package compatibility 7/7; deep audit 100000 probes / 460000 assertions; scenario register 1000/1000; 50k workspace ultra-scale 8/8; static and documentation checks passed",

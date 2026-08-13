@@ -7,8 +7,9 @@
   `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
 - Automated evidence: root 1,675/1,675, Import Studio 46/46, focused 536/536,
   packaged startup 18/18, ultra-scale 8/8, and deep audit 100,000 probes /
-  460,000 assertions. Public HTTP/hash verification is recorded after Pages
-  deploy.
+  460,000 assertions. Website commit `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24`
+  deployed through Pages deployment `5886802524`; public HTTP 200, exact size,
+  and exact hash were verified at `2026-08-13T11:11:41Z`.
 - v2.0.0 is the current stable website release. The v1.1.7 current release
   card and folder were removed from the website tree; Store AppX is local only
   and Android is archived/out of scope.
@@ -37,7 +38,7 @@ Read this repository’s `AGENTS.md` and `docs/PROJECT_CONTEXT.md` before websit
 
 - GitHub Pages publishes from `docs/`.
 - Current stable website installer line is v2.0.0; the v1.1.6 product tour remains explicitly versioned historical media.
-- The v2.0.0 stable installer is 99,450,391 bytes / SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, from WAZO `Dev/QA` commit `28b0522`. Installer payload verification and 18/18 isolated startup journeys pass; public HTTP/size/hash verification is recorded after the stable Pages deployment.
+- The v2.0.0 stable installer is 99,450,391 bytes / SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, from WAZO `Dev/QA` commit `28b0522`. Installer payload verification and 18/18 isolated startup journeys pass; public HTTP/size/hash verification is recorded in the current checkpoint above.
 - The website publication scope includes the v2.0.0 stable installer and approved v2 promo media; the v2.0.0 Store AppX remains local for user testing.
 - The former v1.1.7 release record below is historical only and must not be
   presented as a current website download or Store submission.
