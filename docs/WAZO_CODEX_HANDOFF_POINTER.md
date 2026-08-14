@@ -26,7 +26,7 @@ The canonical complete substantive WAZO/Codex handoff is stored in the private a
 
 ```text
 Repository: https://github.com/imzub/WAZO.git
-Branch: `Dev/QA` at source commit `d68f526` for the latest synchronized work;
+Branch: `Dev/QA` at source commit `42a0477` for the latest synchronized work;
 the v2.0.0 installer artifact remains reproducible from `28b0522`; older audit
 branches are historical lineage only.
 File: docs/WAZO_CODEX_CONVERSATION_HANDOFF.md
