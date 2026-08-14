@@ -2,8 +2,10 @@
 
 ## Current synchronization checkpoint - 2026-08-14
 
-- WAZO v2.0.0 is the stable public website release, sourced from private WAZO
-  `Dev/QA` commit `28b0522`. The direct installer is 99,450,391 bytes with
+- WAZO v2.0.0 is the stable public website release. The direct installer
+  artifact was built from private WAZO `Dev/QA` commit `28b0522`; the current
+  synchronized private source checkout is `Dev/QA` commit `6f8dd57`. The
+  installer is 99,450,391 bytes with
   SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
 - Source evidence is 1,675/1,675 root tests, Import Studio 46/46, focused
   hardening 536/536, packaged startup 18/18, launch media 44/44, package
@@ -12,8 +14,12 @@
   150 members, 50,000 assets, 5,000 definitions, 400 periods, and 10 repeated
   imports. Public HTTP/size/hash verification is recorded after Pages deploy.
 - The former v1.1.7 current website release has been removed from current
-  cards and release metadata. The Windows Store AppX remains local-only for
-  later submission; Android work is archived and out of scope.
+  cards and release metadata. Microsoft Store Submission 5 is published and
+  available; the local unsigned AppX is retained only as reproducibility
+  evidence. Android work is archived and out of scope.
+- The WAZO v2.0 LinkedIn article and article-share post are drafted and saved
+  but unpublished. The article contains the cover video and three captioned
+  visuals; do not claim social publication until the owner publishes it.
 
 The WAZO-OFFICIAL repository is the public marketing and support website for WAZO. It is separate from the private WAZO application source repository.
 

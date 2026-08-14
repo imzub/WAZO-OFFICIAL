@@ -2,12 +2,16 @@
 
 ## Current synchronization checkpoint - 2026-08-14
 
-- Private application source: `Dev/QA` commit `28b0522`.
+- Private application source: `Dev/QA` commit `6f8dd57` (latest synchronized
+  context/documentation state; the stable installer artifact provenance is
+  source commit `28b0522`).
 - WAZO v2.0.0 stable installer: 99,450,391 bytes, SHA-256
   `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
 - Automated evidence: root 1,675/1,675, Import Studio 46/46, focused 536/536,
   packaged startup 18/18, ultra-scale 8/8, and deep audit 100,000 probes /
-  460,000 assertions. Website commit `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24`
+  460,000 assertions. Stable website commit
+  `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24`; latest Store-availability
+  synchronization commit `67149b5`
   deployed through Pages deployment `5886802524`; public HTTP 200, exact size,
   and exact hash were verified at `2026-08-13T11:11:41Z`.
 - v2.0.0 is the current stable website release. The v1.1.7 current release
@@ -22,7 +26,9 @@ The canonical complete substantive WAZO/Codex handoff is stored in the private a
 
 ```text
 Repository: https://github.com/imzub/WAZO.git
-Branch: `Dev/QA` at source commit `28b0522` for the latest synchronized work; older audit branches are historical lineage only.
+Branch: `Dev/QA` at source commit `6f8dd57` for the latest synchronized work;
+the v2.0.0 installer artifact remains reproducible from `28b0522`; older audit
+branches are historical lineage only.
 File: docs/WAZO_CODEX_CONVERSATION_HANDOFF.md
 ```
 
@@ -46,6 +52,9 @@ Read this repository’s `AGENTS.md` and `docs/PROJECT_CONTEXT.md` before websit
   presented as a current website download or Store submission.
 - The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; browser fallback is `https://apps.microsoft.com/detail/9NKLT8DKJ1QX`.
 - Partner Center direct evidence verifies the latest product is available on Store and Submission 5 contains the v2.0.0.0 X64 package.
+- The WAZO v2.0 LinkedIn article and article-share post are drafted and saved
+  but intentionally unpublished. The article includes the approved cover
+  video and three captioned WAZO visuals.
 - Public browser media under `docs/` remains ordinary Git content.
 - Large editable production video/audio under `project-data/` uses Git LFS.
 - Never publish private application source, real financial records, credentials, browser/session data, or user-specific task screenshots.

@@ -2,6 +2,14 @@
 
 ## 2026-08-14 Microsoft Store v2.0.0 publication verification
 
+- Current repository synchronization: private WAZO `Dev/QA` is at `6f8dd57`
+  and WAZO Official `Master` is at `67149b5`. The stable installer’s artifact
+  provenance remains private source commit `28b0522`; its public bytes/hash are
+  unchanged.
+- The LinkedIn article and article-share post are drafted and saved but remain
+  unpublished. The article includes the approved cover video and three
+  captioned WAZO visuals.
+
 - Partner Center direct verification shows: “Your latest product is now
   available on Microsoft Store” and the Store presence is available.
 - Submission 5 contains `WAZO-Store-2.0.0-x64.appx`, version `2.0.0.0`,
