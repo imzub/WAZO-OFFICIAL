@@ -2,8 +2,8 @@
 
 ## 2026-08-14 Microsoft Store v2.0.0 publication verification
 
-- Current repository synchronization: private WAZO `Dev/QA` is at `6f8dd57`
-  and WAZO Official `Master` is at `67149b5`. The stable installer’s artifact
+- Current repository synchronization: private WAZO `Dev/QA` is at `42a0477`
+  and WAZO Official `Master` is at `ade2795`. The stable installer’s artifact
   provenance remains private source commit `28b0522`; its public bytes/hash are
   unchanged.
 - The LinkedIn article and article-share post are drafted and saved but remain

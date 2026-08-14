@@ -2,7 +2,7 @@
 
 ## Current synchronization checkpoint - 2026-08-14
 
-- Private application source: `Dev/QA` commit `6f8dd57` (latest synchronized
+- Private application source: `Dev/QA` commit `42a0477` (latest synchronized
   context/documentation state; the stable installer artifact provenance is
   source commit `28b0522`).
 - WAZO v2.0.0 stable installer: 99,450,391 bytes, SHA-256
@@ -11,7 +11,7 @@
   packaged startup 18/18, ultra-scale 8/8, and deep audit 100,000 probes /
   460,000 assertions. Stable website commit
   `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24`; latest Store-availability
-  synchronization commit `67149b5`
+  synchronization commit `ade2795`
   deployed through Pages deployment `5886802524`; public HTTP 200, exact size,
   and exact hash were verified at `2026-08-13T11:11:41Z`.
 - v2.0.0 is the current stable website release. The v1.1.7 current release
@@ -26,7 +26,7 @@ The canonical complete substantive WAZO/Codex handoff is stored in the private a
 
 ```text
 Repository: https://github.com/imzub/WAZO.git
-Branch: `Dev/QA` at source commit `6f8dd57` for the latest synchronized work;
+Branch: `Dev/QA` at source commit `d68f526` for the latest synchronized work;
 the v2.0.0 installer artifact remains reproducible from `28b0522`; older audit
 branches are historical lineage only.
 File: docs/WAZO_CODEX_CONVERSATION_HANDOFF.md

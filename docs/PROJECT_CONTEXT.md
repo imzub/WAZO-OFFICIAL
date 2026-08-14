@@ -4,7 +4,7 @@
 
 - WAZO v2.0.0 is the stable public website release. The direct installer
   artifact was built from private WAZO `Dev/QA` commit `28b0522`; the current
-  synchronized private source checkout is `Dev/QA` commit `6f8dd57`. The
+  synchronized private source checkout is `Dev/QA` commit `42a0477`. The
   installer is 99,450,391 bytes with
   SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
 - Source evidence is 1,675/1,675 root tests, Import Studio 46/46, focused
