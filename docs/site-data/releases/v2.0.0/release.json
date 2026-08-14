@@ -33,12 +33,21 @@
   "store": {
     "productId": "9NKLT8DKJ1QX",
     "deepLink": "ms-windows-store://pdp/?productid=9NKLT8DKJ1QX",
-    "status": "local-test-package-not-published"
+    "webUrl": "https://apps.microsoft.com/detail/9NKLT8DKJ1QX",
+    "status": "published-live-verified",
+    "version": "2.0.0.0",
+    "architecture": "X64",
+    "deviceFamily": "Windows.Desktop",
+    "minimumVersion": "10.0.17763.0",
+    "submission": "5",
+    "verifiedAtUtc": "2026-08-14T09:01:18Z",
+    "verification": "Partner Center shows the latest product available on Microsoft Store; Store presence is available and Submission 5 contains WAZO-Store-2.0.0-x64.appx."
   },
   "publication": {
     "websiteArtifactScope": "stable-installer-and-promo-video",
     "stablePublicReleaseUnchanged": false,
-    "storePackagePublished": false,
+    "storePackagePublished": true,
+    "storePublication": "Submission 5 published; WAZO-Store-2.0.0-x64.appx v2.0.0.0, X64, Windows.Desktop min 10.0.17763.0",
     "liveVerification": "verified",
     "pagesDeploymentId": 5886802524,
     "websitePublicationCommit": "2a7a67f4c9f3071a4635aa4ea558a0538f27ec24",

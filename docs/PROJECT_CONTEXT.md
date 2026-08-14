@@ -1,6 +1,6 @@
 # WAZO Official Website Context
 
-## Current synchronization checkpoint - 2026-08-13
+## Current synchronization checkpoint - 2026-08-14
 
 - WAZO v2.0.0 is the stable public website release, sourced from private WAZO
   `Dev/QA` commit `28b0522`. The direct installer is 99,450,391 bytes with
@@ -32,9 +32,11 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
   The website manifest records the served LF-normalized caption and transcript
   hashes. The previous short v2 review cut and historical v1.1.6 narrated tour
   remain in the repository and are not deleted or overwritten.
-- The v2.0.0 installer is the stable website build; the Store listing is not
-  independently verified, Android is archived, and no real user or financial
-  data is present in the public media.
+- The v2.0.0 installer is the stable website build. Microsoft Store
+  verification completed on 2026-08-14: Partner Center shows the latest
+  product available on Store, with Submission 5 carrying
+  `WAZO-Store-2.0.0-x64.appx` v2.0.0.0 for X64 Windows.Desktop devices. Android
+  is archived, and no real user or financial data is present in public media.
 
 ## 2026-08-11 v2 promo media checkpoint
 
@@ -65,7 +67,10 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 ## Publishing
 
 - GitHub Pages URL: `https://imzub.github.io/WAZO-OFFICIAL/`
-- Microsoft Store product ID: `9NKLT8DKJ1QX`; the public Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`. Listing availability remains unverified.
+- Microsoft Store product ID: `9NKLT8DKJ1QX`; the public Store button uses
+  `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`, with browser fallback
+  `https://apps.microsoft.com/detail/9NKLT8DKJ1QX`. The v2.0.0 listing is
+  published and live-verified through Partner Center.
 - Publish source: `docs/`
 - Keep `.nojekyll` in `docs/` so GitHub Pages serves static assets directly.
 
@@ -75,7 +80,10 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Present the current WAZO `v2.0.0` Windows direct installer while retaining the v1.1.6 product tour as explicitly versioned historical media.
 - Help users understand the app workflow.
 - Provide version-aware download areas.
-- Position Microsoft Store as the recommended public install channel using the supplied deep link; do not claim listing availability until it is independently verified.
+- Position Microsoft Store as the recommended public install channel using the
+  supplied deep link and browser fallback. The v2.0.0 listing is now verified
+  as published and available; preserve the direct installer as a fallback for
+  regional or device-specific Store availability differences.
 - Host public Windows installer downloads in versioned folders under `docs/site-data/releases/` with version, size, notes, and SHA-256 hashes.
 - Explain that direct `.exe` installers may trigger SmartScreen/Chrome warnings until they are code-signed and gain reputation.
 - Provide support paths for bugs, issues, feature requests, and queries.
@@ -107,7 +115,9 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - The major baseline installer and other older binaries remain archived in the repository but are intentionally not shown in the Downloads section.
 - Older installers retained for rollback/testing: `v1.0.1`, `v1.0.2`, and `v1.0.4`.
 - Keep older installers available unless Zubair explicitly asks to remove them.
-- The Store card is linked through the Windows Store deep link but remains availability-unverified. The v2.0.0 direct installer is the current usable public download; it remains unsigned and separate from the local-only Store AppX candidate.
+- The Store card is linked through the Windows Store deep link and browser
+  listing URL. Microsoft Store v2.0.0 is published and available; the direct
+  v2.0.0 installer remains a usable fallback and is unsigned.
 
 ## Versioned Website Data
 

@@ -17,7 +17,7 @@ This directory preserves the public-safe working material needed to continue WAZ
 
 The historical 58.17-second tour was recorded from WAZO 1.1.6 using anonymous demo data. Its browser-ready media, captions, poster, thumbnail, transcript, and manifest are versioned with the release. The earlier v1.1.4 narrated tour remains retained as historical media.
 
-The stable v2.0.0 installer is 99,450,391 bytes with SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, anchored to WAZO `Dev/QA` source commit `28b0522`. Local hash, payload, and 18/18 startup verification passed; website commit `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24` deployed through Pages deployment `5886802524`, and public HTTP/size/hash verification passed at `2026-08-13T11:11:41Z`. The v1.1.6 tour remains historical media and the Store AppX remains local-only.
+The stable v2.0.0 installer is 99,450,391 bytes with SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, anchored to WAZO `Dev/QA` source commit `28b0522`. Local hash, payload, and 18/18 startup verification passed; website commit `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24` deployed through Pages deployment `5886802524`, and public HTTP/size/hash verification passed at `2026-08-13T11:11:41Z`. The v1.1.6 tour remains historical media. Microsoft Store Submission 5 is now published and available with `WAZO-Store-2.0.0-x64.appx` v2.0.0.0 for X64 Windows.Desktop devices.
 
 ## Directory map
 

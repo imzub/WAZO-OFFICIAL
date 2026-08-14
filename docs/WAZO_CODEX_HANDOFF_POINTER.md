@@ -1,6 +1,6 @@
 # WAZO Cross-System Handoff Pointer
 
-## Current synchronization checkpoint - 2026-08-13
+## Current synchronization checkpoint - 2026-08-14
 
 - Private application source: `Dev/QA` commit `28b0522`.
 - WAZO v2.0.0 stable installer: 99,450,391 bytes, SHA-256
@@ -11,10 +11,12 @@
   deployed through Pages deployment `5886802524`; public HTTP 200, exact size,
   and exact hash were verified at `2026-08-13T11:11:41Z`.
 - v2.0.0 is the current stable website release. The v1.1.7 current release
-  card and folder were removed from the website tree; Store AppX is local only
-  and Android is archived/out of scope.
+  card and folder were removed from the website tree. Microsoft Store
+  Submission 5 is published and available with
+  `WAZO-Store-2.0.0-x64.appx` v2.0.0.0 for X64 Windows.Desktop devices;
+  Android is archived/out of scope.
 
-Last updated: 2026-08-13
+Last updated: 2026-08-14
 
 The canonical complete substantive WAZO/Codex handoff is stored in the private application repository:
 
@@ -39,11 +41,11 @@ Read this repository’s `AGENTS.md` and `docs/PROJECT_CONTEXT.md` before websit
 - GitHub Pages publishes from `docs/`.
 - Current stable website installer line is v2.0.0; the v1.1.6 product tour remains explicitly versioned historical media.
 - The v2.0.0 stable installer is 99,450,391 bytes / SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, from WAZO `Dev/QA` commit `28b0522`. Installer payload verification and 18/18 isolated startup journeys pass; public HTTP/size/hash verification is recorded in the current checkpoint above.
-- The website publication scope includes the v2.0.0 stable installer and approved v2 promo media; the v2.0.0 Store AppX remains local for user testing.
+- The website publication scope includes the v2.0.0 stable installer and approved v2 promo media. The v2.0.0 Store package is published through Submission 5 and available on Microsoft Store.
 - The former v1.1.7 release record below is historical only and must not be
   presented as a current website download or Store submission.
-- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; listing availability remains unverified.
-- Do not claim Store upload, certification, or publication without direct evidence.
+- The Microsoft Store button uses `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; browser fallback is `https://apps.microsoft.com/detail/9NKLT8DKJ1QX`.
+- Partner Center direct evidence verifies the latest product is available on Store and Submission 5 contains the v2.0.0.0 X64 package.
 - Public browser media under `docs/` remains ordinary Git content.
 - Large editable production video/audio under `project-data/` uses Git LFS.
 - Never publish private application source, real financial records, credentials, browser/session data, or user-specific task screenshots.

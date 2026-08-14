@@ -1,6 +1,6 @@
 # WAZO-OFFICIAL Website Agent Guide
 
-## Current synchronization checkpoint - 2026-08-13
+## Current synchronization checkpoint - 2026-08-14
 
 - WAZO v2.0.0 is the stable website release, promoted from private WAZO
   `Dev/QA` source commit `28b0522`. The direct installer is 99,450,391 bytes,
@@ -14,8 +14,10 @@
   scenario register 1,000/1,000, and an 8/8 ultra-scale run covering 10
   profiles, 150 members, 50,000 assets, 5,000 definitions, 400 periods, and
   10 repeated imports. v1.1.7 is no longer a current website release.
-- The Store AppX is prepared locally for Store submission and is not published
-  to this website. Android remains archived/out of scope.
+- Microsoft Store verification completed on 2026-08-14: Partner Center shows
+  the latest product available on Microsoft Store. Submission 5 contains
+  `WAZO-Store-2.0.0-x64.appx`, version `2.0.0.0`, X64, Windows.Desktop minimum
+  version `10.0.17763.0`. Android remains archived/out of scope.
 
 ## Historical synchronization checkpoint - 2026-08-11
 
@@ -65,7 +67,11 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Public installer downloads are stored in the matching version's `installer/` folder and linked from the Downloads section.
 - Keep older releases and installers tracked in the GitHub repository. The local clone may use sparse checkout to omit archived installer binaries while keeping their metadata and release notes locally.
 - Do not remove an older release artifact from GitHub unless Zubair explicitly asks for its deletion.
-- Microsoft Store is the recommended install path through `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; the website link is present but listing availability is not independently live-verified. The direct `.exe` installer remains the current website download channel.
+- Microsoft Store is the recommended install path through
+  `ms-windows-store://pdp/?productid=9NKLT8DKJ1QX`; the browser listing is
+  `https://apps.microsoft.com/detail/9NKLT8DKJ1QX`. The v2.0.0 listing is
+  published and live-verified through Partner Center. The direct `.exe`
+  installer remains available as the fallback website channel.
 - Do not recreate or use the old `Site/` folder.
 - Do not link to the private WAZO source repository.
 - Do not copy private WAZO application source, dependencies, credentials, browser sessions, or user data into this public repository. Record only the exact private source commit required for authorized reproduction.
@@ -107,7 +113,7 @@ This repository hosts the public WAZO product website through GitHub Pages.
   as repository history, not as current download cards.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
 - Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v2.0.0 uses a direct installer link only.
-- Current direct installer is WAZO `v2.0.0` / build `2.0.0.0`, 99,450,391 bytes, SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, from WAZO `Dev/QA` source commit `28b0522`. Source evidence is 1,675/1,675 root tests, Import Studio 46/46, focused 536/536, packaged startup 18/18, launch media 44/44, deep audit 100,000/460,000, scenario register 1,000/1,000, and 7/7 compatibility cases. The package is unsigned; Store AppX is local-only and physical human workflow validation remains separate.
+- Current direct installer is WAZO `v2.0.0` / build `2.0.0.0`, 99,450,391 bytes, SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, from WAZO `Dev/QA` source commit `28b0522`. Source evidence is 1,675/1,675 root tests, Import Studio 46/46, focused 536/536, packaged startup 18/18, launch media 44/44, deep audit 100,000/460,000, scenario register 1,000/1,000, and 7/7 compatibility cases. The direct installer is unsigned; the Store package is published and available, and physical human workflow validation remains a separate gate.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 
