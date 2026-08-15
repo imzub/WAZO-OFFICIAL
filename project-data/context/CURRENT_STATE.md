@@ -1,17 +1,18 @@
 # Current WAZO Website State
 
-## 2026-08-15 v2.0.1 stable website promotion
+## 2026-08-15 v2.0.0 stable baseline and v2.0.1 update
 
-- Current website direct installer: WAZO v2.0.1 / build 2.0.1.0, sourced from
-  private WAZO `Dev/QA` commit `5b82ddf`.
+- Stable baseline: WAZO v2.0.0 / build 2.0.0.0. Latest website direct
+  installer update: WAZO v2.0.1 / build 2.0.1.0, sourced from private WAZO
+  `Dev/QA` commit `5b82ddf`.
 - Installer size/hash: 99,453,083 bytes / SHA-256
   `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`.
 - Website commit `018a987` deployed through Pages run `31884767262`; public
   HTTP 200, exact size, and exact hash verification passed at
   `2026-08-15T12:37:17Z`.
-- v2.0.0 remains retained and byte-preserved as the previous stable website
-  installer. Microsoft Store remains published as v2.0.0.0; no Store update
-  was claimed or submitted in this website-only promotion.
+- v2.0.0 remains the stable baseline and is byte-preserved. Microsoft Store
+  remains published as v2.0.0.0; v2.0.1 is a website-only bug-fix and
+  enhancement update on the v2.0.0 stable line.
 
 ## 2026-08-14 Microsoft Store v2.0.0 publication verification
 

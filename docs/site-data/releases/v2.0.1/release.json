@@ -3,10 +3,13 @@
   "product": "WAZO",
   "version": "2.0.1",
   "buildVersion": "2.0.1.0",
-  "status": "published-live-verified",
+  "status": "stable-line-update-live-verified",
   "preparedDate": "2026-08-15",
-  "channel": "stable",
-  "stableVersion": "2.0.1",
+  "channel": "stable-line-update",
+  "stableVersion": "2.0.0",
+  "baselineVersion": "2.0.0",
+  "releaseLine": "2.0.0-stable",
+  "classification": "bug-fix-and-enhancement-update",
   "installer": {
     "file": "installer/WAZO-Setup-2.0.1-stable-20260815.exe",
     "downloadName": "WAZO-Setup-2.0.1.exe",
@@ -28,8 +31,8 @@
     "note": "The Microsoft Store package remains v2.0.0.0. This website release changes the direct installer channel only."
   },
   "publication": {
-    "websiteArtifactScope": "stable-direct-installer",
-    "previousStableReleasePreserved": "2.0.0",
+    "websiteArtifactScope": "stable-line-bug-fix-and-enhancement-installer",
+    "stableBaselinePreserved": "2.0.0",
     "websitePublicationCommit": "018a98736812fe1ceb07ed2d7591ed56281fc135",
     "pagesDeploymentId": 31884767262,
     "liveVerification": "verified",

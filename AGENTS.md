@@ -2,20 +2,21 @@
 
 ## Current synchronization checkpoint - 2026-08-15
 
-- WAZO v2.0.1 is the current stable official-website direct-installer
-  release, sourced from private WAZO `Dev/QA` commit `5b82ddf`. The installer
+- WAZO v2.0.0 is the stable baseline release. WAZO v2.0.1 is the latest
+  stable-line bug-fix and enhancement update, sourced from private WAZO
+  `Dev/QA` commit `5b82ddf`. Its installer
   is 99,453,083 bytes, SHA-256
   `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`.
 - Website publication commit `018a987` deployed through Pages run
   `31884767262`; public HTTP 200, exact size, and exact hash were verified at
   `2026-08-15T12:37:17Z`. The retained v2.0.0 installer also remained HTTP
   200 with its unchanged recorded hash.
-- v2.0.0 remains a retained previous stable website release and is not deleted
-  or overwritten. Microsoft Store Submission 5 remains published as v2.0.0.0;
-  this website release does not claim a Store upgrade. Android remains
-  archived/out of scope.
+- v2.0.0 remains the stable baseline and is not deleted or overwritten.
+  Microsoft Store Submission 5 remains published as v2.0.0.0; the v2.0.1
+  website update does not claim a Store upgrade. Android remains archived/out
+  of scope.
 
-- WAZO v2.0.0 was the previous stable website release, promoted from private WAZO
+- WAZO v2.0.0 is the stable baseline website release, promoted from private WAZO
   `Dev/QA` source commit `28b0522`. The direct installer is 99,450,391 bytes,
   SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`.
   Website publication is commit `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24`
@@ -95,20 +96,21 @@ This repository hosts the public WAZO product website through GitHub Pages.
 - Treat repository files as the durable source of truth; never depend on a particular Codex account, browser profile, saved GitHub session, local path, or hidden task memory.
 - On a new system or with a new AI/tool, read this file, `docs/PROJECT_CONTEXT.md`, `docs/WAZO_CODEX_HANDOFF_POINTER.md`, `project-data/context/CURRENT_STATE.md`, and the matching `docs/site-data/releases/v<version>/release.json` before editing.
 - Re-verify `origin` and the active branch, fetch the named source repositories, and use the exact source commit, artifact size, and SHA-256 recorded in the release manifest. Authentication is an environment prerequisite, not project state; never store tokens or session data in context.
-- Keep `Master` as the website publishing branch and keep v2.0.1 as the current
-  stable website direct-installer release after its separately recorded
-  publication and live byte/hash verification. Retain v2.0.0 as the previous
-  stable release and keep it available for rollback; older versions remain
-  historical repository evidence, not current website download cards.
+- Keep `Master` as the website publishing branch and keep v2.0.0 as the stable
+  baseline. v2.0.1 and later 2.0.x versions are stable-line bug-fix and
+  enhancement updates after separately recorded publication and live byte/hash
+  verification. Keep the baseline and each update available as versioned
+  releases; older versions remain historical repository evidence.
 
 ## Product Messaging
 
 - WAZO is a Windows desktop personal wealth organizer.
 - WAZO `1.1.6` and later are permanently offline-only: no cloud portfolio service or synchronization, market-data or financial API, cloud AI, telemetry, advertising request, or background portfolio upload. Prices and rates are user-maintained locally. Explicit website, Store, LinkedIn, policy, and email links are user-initiated handoffs and never attach the local portfolio.
-- The current public direct installer is WAZO `2.0.1`; the Microsoft Store
-  channel remains published at `2.0.0.0`. WAZO protects app-managed Windows
-  data as authenticated encrypted envelopes; do not describe those active
-  records as plaintext JSON.
+- The current public direct installer is WAZO `2.0.1`, a bug-fix and
+  enhancement update on the WAZO `2.0.0` stable baseline line. The Microsoft
+  Store channel remains published at `2.0.0.0`. WAZO protects app-managed
+  Windows data as authenticated encrypted envelopes; do not describe those
+  active records as plaintext JSON.
 - It supports family/profile setup, members, assets, allocation targets, financial goals, reports, backups, privacy mode, themes, multiple currencies, and optional zakat planning.
 - Zakat is optional. The website should not position WAZO as only a zakat app.
 - Source code is private.
@@ -125,13 +127,13 @@ This repository hosts the public WAZO product website through GitHub Pages.
   WAZO `v2.0.0` stable promo; the v1.1.6 narrated tour remains retained as
   historical media and must not be relabeled as current-version evidence.
 - Keep the Downloads section's stable/public channel cards: the recommended
-  Microsoft Store v2.0.0.0 install, the current stable v2.0.1 direct installer,
-  and the clearly labeled retained v2.0.0 previous-stable installer. Do not
-  show the removed v1.1.7 card or a stale testing card. Retain older releases
-  only as repository history, not as current download cards.
+  Microsoft Store v2.0.0.0 stable baseline, the v2.0.0 stable baseline direct
+  installer, and the latest v2.0.1 bug-fix and enhancement update. Do not show
+  the removed v1.1.7 card or a stale testing card. Retain older releases only
+  as repository history, not as current download cards.
 - Keep SmartScreen/Chrome warning guidance visible near direct installer links until standalone installers are code-signed and have download reputation.
 - Do not publish `latest.yml`, blockmaps, or other automatic-update metadata unless WAZO first ships and verifies a compatible automatic-update client and URL layout. WAZO v2.0.0 uses a direct installer link only.
-- Current direct installer is WAZO `v2.0.1` / build `2.0.1.0`, 99,453,083 bytes, SHA-256 `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`, from WAZO `Dev/QA` source commit `5b82ddf`; website publication commit `018a987` and Pages deployment `31884767262` are live-verified. Source evidence includes the fresh v2.0.1 audit, full Node regression, 460,000 deterministic assertions, scenario register 1,000/1,000, Human UI 496/496, ultra-scale 8/8 matrices, release-hardening 35/35, and packaged startup 12/12. The direct installer is unsigned; the Store package remains published at v2.0.0.0, and physical human workflow validation remains a separate gate.
+- Current direct installer is WAZO `v2.0.1` / build `2.0.1.0`, a bug-fix and enhancement update on the `v2.0.0` stable baseline line. It is 99,453,083 bytes, SHA-256 `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`, from WAZO `Dev/QA` source commit `5b82ddf`; website publication commit `018a987` and Pages deployment `31884767262` are live-verified. Source evidence includes the fresh v2.0.1 audit, full Node regression, 460,000 deterministic assertions, scenario register 1,000/1,000, Human UI 496/496, ultra-scale 8/8 matrices, release-hardening 35/35, and packaged startup 12/12. The direct installer is unsigned; the Store baseline remains published at v2.0.0.0, and physical human workflow validation remains a separate gate.
 - Support actions should use email templates for bugs, feature requests, and queries.
 - Use public-safe screenshots or app-style visuals only. Do not include personal financial data.
 

@@ -1,18 +1,18 @@
 # WAZO Official Website Context
 
-## 2026-08-15 v2.0.1 stable website installer promotion
+## 2026-08-15 v2.0.0 stable baseline and v2.0.1 update
 
-- WAZO v2.0.1 / build 2.0.1.0 is the current stable direct-installer release
-  on the official website. It is sourced from private WAZO `Dev/QA` commit
+- WAZO v2.0.0 / build 2.0.0.0 remains the stable baseline. WAZO v2.0.1 /
+  build 2.0.1.0 is the latest bug-fix and enhancement update on that stable
+  line. It is sourced from private WAZO `Dev/QA` commit
   `5b82ddf`; the installer is 99,453,083 bytes with SHA-256
   `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`.
 - Website publication commit `018a98736812fe1ceb07ed2d7591ed56281fc135`
   deployed successfully through GitHub Pages run `31884767262`. Public
   HTTP/size/hash verification passed at `2026-08-15T12:37:17Z`.
-- v2.0.0 / build 2.0.0.0 remains retained as a previous stable website
-  release with its original 99,450,391-byte hash. Microsoft Store remains
-  published at v2.0.0.0; this publication changed the direct website
-  installer only. Android remains archived/out of scope.
+- v2.0.0 remains the stable baseline with its original 99,450,391-byte hash.
+  Microsoft Store remains published at v2.0.0.0; the v2.0.1 publication is a
+  website direct-installer update only. Android remains archived/out of scope.
 
 ## Current synchronization checkpoint - 2026-08-14
 
@@ -107,7 +107,10 @@ The WAZO-OFFICIAL repository is the public marketing and support website for WAZ
 - Host public Windows installer downloads in versioned folders under `docs/site-data/releases/` with version, size, notes, and SHA-256 hashes.
 - Explain that direct `.exe` installers may trigger SmartScreen/Chrome warnings until they are code-signed and gain reputation.
 - Provide support paths for bugs, issues, feature requests, and queries.
-- The downloads section keeps the stable/public Microsoft Store channel and the v2.0.0 stable direct installer. The removed v1.1.7 card and stale testing card must not return. Older releases remain repository history, not current download cards.
+- The downloads section keeps the Microsoft Store v2.0.0 stable baseline, the
+  v2.0.0 baseline direct installer, and the latest v2.0.1 stable-line update.
+  The removed v1.1.7 card and stale testing card must not return. Older
+  releases remain repository history, not current download cards.
 - Showcase privacy, protected local storage, multiple currencies, reports, backups, reversible records, local guidance, and the optional zakat module. For v2.0.0, describe app-managed Windows records and encrypted Import Studio drafts as authenticated encrypted envelopes protected by a Windows-bound key rather than plaintext local JSON.
 - Keep the downloads section visually light: one short warning panel, two stable/public cards, an optional testing card, and concise version metadata.
 - Add beginner-friendly FAQ items for initial setup, freeware, offline mode, backups, and core workflows whenever the site is updated.

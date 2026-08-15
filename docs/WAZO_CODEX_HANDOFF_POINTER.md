@@ -2,15 +2,16 @@
 
 ## Current synchronization checkpoint - 2026-08-15
 
-- Private application source: WAZO `Dev/QA` commit `5b82ddf`; current website
-  direct installer: v2.0.1 / build 2.0.1.0, 99,453,083 bytes, SHA-256
+- Private application source: WAZO `Dev/QA` commit `5b82ddf`; v2.0.0 is the
+  stable baseline and v2.0.1 / build 2.0.1.0 is the current bug-fix and
+  enhancement update, 99,453,083 bytes, SHA-256
   `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`.
 - Website `Master` publication commit `018a987` deployed through Pages run
   `31884767262`; public HTTP/size/hash verification passed at
   `2026-08-15T12:37:17Z`.
-- v2.0.0 remains byte-preserved as a previous stable website release and is
-  not deleted. Microsoft Store remains published at v2.0.0.0. Android is
-  archived/out of scope.
+- v2.0.0 remains byte-preserved as the stable baseline and is not deleted.
+  Microsoft Store remains published at v2.0.0.0. Android is archived/out of
+  scope.
 
 ## Current synchronization checkpoint - 2026-08-14
 

@@ -1,11 +1,16 @@
 {
   "schemaVersion": 1,
   "product": "WAZO",
+  "stableBaselineVersion": "2.0.0",
+  "releaseLine": "2.0.0-stable",
   "latestProductVersion": "2.0.1",
   "currentInstallerVersion": "2.0.1",
   "currentLiveInstaller": {
     "version": "2.0.1",
-    "status": "published-live-verified",
+    "status": "stable-line-update-live-verified",
+    "classification": "bug-fix-and-enhancement-update",
+    "baselineVersion": "2.0.0",
+    "releaseLine": "2.0.0-stable",
     "sizeBytes": 99453083,
     "sha256": "F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8",
     "sourceCommit": "5b82ddf",
@@ -92,12 +97,13 @@
   "versions": [
     {
       "version": "2.0.1",
-      "status": "published-live-verified",
+      "status": "stable-line-update-live-verified",
+      "classification": "bug-fix-and-enhancement-update",
       "manifest": "site-data/releases/v2.0.1/release.json"
     },
     {
       "version": "2.0.0",
-      "status": "published-live-verified",
+      "status": "stable-baseline-live-verified",
       "manifest": "site-data/releases/v2.0.0/release.json"
     },
     {
