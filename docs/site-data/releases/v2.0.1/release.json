@@ -3,7 +3,7 @@
   "product": "WAZO",
   "version": "2.0.1",
   "buildVersion": "2.0.1.0",
-  "status": "stable-line-update-live-verified",
+  "status": "stable-line-update-pending-verification",
   "preparedDate": "2026-08-15",
   "channel": "stable-line-update",
   "stableVersion": "2.0.0",
@@ -13,15 +13,15 @@
   "installer": {
     "file": "installer/WAZO-Setup-2.0.1-stable-20260815.exe",
     "downloadName": "WAZO-Setup-2.0.1.exe",
-    "sizeBytes": 99453083,
-    "sha256": "F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8",
+    "sizeBytes": 99453603,
+    "sha256": "AF00F8966E48B87CA876954B8D09863F383EA166F8C694D44772E76A2AA2E564",
     "signed": false
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "Dev/QA",
     "baseBranch": "Dev/QA",
-    "commit": "5b82ddf"
+    "commit": "ced9761"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",
@@ -33,11 +33,11 @@
   "publication": {
     "websiteArtifactScope": "stable-line-bug-fix-and-enhancement-installer",
     "stableBaselinePreserved": "2.0.0",
-    "websitePublicationCommit": "018a98736812fe1ceb07ed2d7591ed56281fc135",
-    "pagesDeploymentId": 31884767262,
-    "liveVerification": "verified",
-    "verifiedAtUtc": "2026-08-15T12:37:17Z",
-    "publicDownloadVerification": "GitHub Pages deployment 31884767262 served HTTP 200; public download was 99,453,083 bytes and matched SHA-256 F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8. The retained v2.0.0 download also remained HTTP 200 at 99,450,391 bytes with its recorded SHA-256."
+    "websitePublicationCommit": null,
+    "pagesDeploymentId": null,
+    "liveVerification": "pending",
+    "verifiedAtUtc": null,
+    "publicDownloadVerification": "Pending the GitHub Pages deployment and public HTTP/size/hash verification for this refreshed artifact. The retained v2.0.0 download remains unchanged."
   },
   "validation": {
     "sourceAudit": "11 evidence-backed v2.0.1 findings fixed; historical v2 ledger retains 318 covered entries",

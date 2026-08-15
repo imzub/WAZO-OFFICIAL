@@ -7,15 +7,15 @@
   "currentInstallerVersion": "2.0.1",
   "currentLiveInstaller": {
     "version": "2.0.1",
-    "status": "stable-line-update-live-verified",
+    "status": "stable-line-update-pending-verification",
     "classification": "bug-fix-and-enhancement-update",
     "baselineVersion": "2.0.0",
     "releaseLine": "2.0.0-stable",
-    "sizeBytes": 99453083,
-    "sha256": "F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8",
-    "sourceCommit": "5b82ddf",
-    "websitePublicationCommit": "018a98736812fe1ceb07ed2d7591ed56281fc135",
-    "pagesDeploymentId": 31884767262,
+    "sizeBytes": 99453603,
+    "sha256": "AF00F8966E48B87CA876954B8D09863F383EA166F8C694D44772E76A2AA2E564",
+    "sourceCommit": "ced9761",
+    "websitePublicationCommit": null,
+    "pagesDeploymentId": null,
     "publishedDate": "2026-08-15",
     "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.1/installer/WAZO-Setup-2.0.1-stable-20260815.exe",
     "sourceValidation": {
@@ -29,8 +29,8 @@
       "storePackage": "Microsoft Store Submission 5 remains published as v2.0.0.0; this website release does not change the Store package"
     },
     "installerLifecycle": "not yet human-validated",
-    "verifiedAtUtc": "2026-08-15T12:37:17Z",
-    "publicDownloadVerification": "GitHub Pages deployment 31884767262 served HTTP 200; public download was 99,453,083 bytes and matched SHA-256 F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8. The retained v2.0.0 download also remained HTTP 200 at 99,450,391 bytes with its recorded SHA-256.",
+    "verifiedAtUtc": null,
+    "publicDownloadVerification": "Pending the GitHub Pages deployment and public HTTP/size/hash verification for this refreshed artifact. The retained v2.0.0 download remains unchanged.",
     "humanValidated": false
   },
   "previousSameVersionInstaller": {

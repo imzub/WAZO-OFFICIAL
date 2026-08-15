@@ -5,11 +5,11 @@
 - WAZO v2.0.0 / build 2.0.0.0 remains the stable baseline. WAZO v2.0.1 /
   build 2.0.1.0 is the latest bug-fix and enhancement update on that stable
   line. It is sourced from private WAZO `Dev/QA` commit
-  `5b82ddf`; the installer is 99,453,083 bytes with SHA-256
-  `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`.
-- Website publication commit `018a98736812fe1ceb07ed2d7591ed56281fc135`
-  deployed successfully through GitHub Pages run `31884767262`. Public
-  HTTP/size/hash verification passed at `2026-08-15T12:37:17Z`.
+  `ced9761`; the refreshed installer is 99,453,603 bytes with SHA-256
+  `AF00F8966E48B87CA876954B8D09863F383EA166F8C694D44772E76A2AA2E564`.
+- Website publication and public HTTP/size/hash verification for this refreshed
+  artifact are pending the GitHub Pages deployment. The v2.0.0 baseline remains
+  live and byte-preserved.
 - v2.0.0 remains the stable baseline with its original 99,450,391-byte hash.
   Microsoft Store remains published at v2.0.0.0; the v2.0.1 publication is a
   website direct-installer update only. Android remains archived/out of scope.
