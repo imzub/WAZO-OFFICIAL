@@ -1,5 +1,19 @@
 # WAZO Official Website Context
 
+## 2026-08-15 v2.0.1 stable website installer promotion
+
+- WAZO v2.0.1 / build 2.0.1.0 is the current stable direct-installer release
+  on the official website. It is sourced from private WAZO `Dev/QA` commit
+  `5b82ddf`; the installer is 99,453,083 bytes with SHA-256
+  `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`.
+- Website publication commit `018a98736812fe1ceb07ed2d7591ed56281fc135`
+  deployed successfully through GitHub Pages run `31884767262`. Public
+  HTTP/size/hash verification passed at `2026-08-15T12:37:17Z`.
+- v2.0.0 / build 2.0.0.0 remains retained as a previous stable website
+  release with its original 99,450,391-byte hash. Microsoft Store remains
+  published at v2.0.0.0; this publication changed the direct website
+  installer only. Android remains archived/out of scope.
+
 ## Current synchronization checkpoint - 2026-08-14
 
 - WAZO v2.0.0 is the stable public website release. The direct installer

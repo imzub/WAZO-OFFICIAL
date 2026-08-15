@@ -3,7 +3,7 @@
   "product": "WAZO",
   "version": "2.0.1",
   "buildVersion": "2.0.1.0",
-  "status": "published-pending-live-verification",
+  "status": "published-live-verified",
   "preparedDate": "2026-08-15",
   "channel": "stable",
   "stableVersion": "2.0.1",
@@ -30,11 +30,11 @@
   "publication": {
     "websiteArtifactScope": "stable-direct-installer",
     "previousStableReleasePreserved": "2.0.0",
-    "websitePublicationCommit": "pending-live-verification",
-    "pagesDeploymentId": null,
-    "liveVerification": "pending",
-    "verifiedAtUtc": null,
-    "publicDownloadVerification": "Pending cache-busted GitHub Pages HTTP 200, size, and SHA-256 verification."
+    "websitePublicationCommit": "018a98736812fe1ceb07ed2d7591ed56281fc135",
+    "pagesDeploymentId": 31884767262,
+    "liveVerification": "verified",
+    "verifiedAtUtc": "2026-08-15T12:37:17Z",
+    "publicDownloadVerification": "GitHub Pages deployment 31884767262 served HTTP 200; public download was 99,453,083 bytes and matched SHA-256 F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8. The retained v2.0.0 download also remained HTTP 200 at 99,450,391 bytes with its recorded SHA-256."
   },
   "validation": {
     "sourceAudit": "11 evidence-backed v2.0.1 findings fixed; historical v2 ledger retains 318 covered entries",

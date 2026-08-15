@@ -9,7 +9,8 @@ This directory preserves the public-safe working material needed to continue WAZ
 - Publishing branch: `Master`
 - GitHub Pages source: `docs/`
 - Live site: `https://imzub.github.io/WAZO-OFFICIAL/`
-- Current stable website and direct-installer version: `2.0.0` / build `2.0.0.0`
+- Current stable website direct-installer version: `2.0.1` / build `2.0.1.0`
+- Retained previous stable website release: `2.0.0` / build `2.0.0.0`; Microsoft Store remains published at `2.0.0.0`.
 - The former v1.1.7 website release is removed from current website metadata; older releases remain historical repository evidence.
 - Current privacy policy: `WAZO-PP-2.0.0-2026-08-07`
 - Current website identity: Organized W revision `organized-w-r2`
@@ -17,7 +18,7 @@ This directory preserves the public-safe working material needed to continue WAZ
 
 The historical 58.17-second tour was recorded from WAZO 1.1.6 using anonymous demo data. Its browser-ready media, captions, poster, thumbnail, transcript, and manifest are versioned with the release. The earlier v1.1.4 narrated tour remains retained as historical media.
 
-The stable v2.0.0 installer is 99,450,391 bytes with SHA-256 `31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4`, anchored to WAZO `Dev/QA` source commit `28b0522`. Local hash, payload, and 18/18 startup verification passed; website commit `2a7a67f4c9f3071a4635aa4ea558a0538f27ec24` deployed through Pages deployment `5886802524`, and public HTTP/size/hash verification passed at `2026-08-13T11:11:41Z`. The v1.1.6 tour remains historical media. Microsoft Store Submission 5 is now published and available with `WAZO-Store-2.0.0-x64.appx` v2.0.0.0 for X64 Windows.Desktop devices.
+The stable v2.0.1 installer is 99,453,083 bytes with SHA-256 `F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8`, anchored to WAZO `Dev/QA` source commit `5b82ddf`. Website commit `018a987` deployed through Pages deployment `31884767262`, and public HTTP/size/hash verification passed at `2026-08-15T12:37:17Z`. The v2.0.0 installer remains byte-preserved and live as a previous stable release. The v1.1.6 tour remains historical media. Microsoft Store Submission 5 remains published and available with `WAZO-Store-2.0.0-x64.appx` v2.0.0.0 for X64 Windows.Desktop devices.
 
 ## Directory map
 
