@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "product": "WAZO",
+  "version": "2.0.1",
+  "buildVersion": "2.0.1.0",
+  "status": "published-pending-live-verification",
+  "preparedDate": "2026-08-15",
+  "channel": "stable",
+  "stableVersion": "2.0.1",
+  "installer": {
+    "file": "installer/WAZO-Setup-2.0.1-stable-20260815.exe",
+    "downloadName": "WAZO-Setup-2.0.1.exe",
+    "sizeBytes": 99453083,
+    "sha256": "F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8",
+    "signed": false
+  },
+  "source": {
+    "repository": "https://github.com/imzub/WAZO.git",
+    "branch": "Dev/QA",
+    "baseBranch": "Dev/QA",
+    "commit": "5b82ddf"
+  },
+  "store": {
+    "productId": "9NKLT8DKJ1QX",
+    "webUrl": "https://apps.microsoft.com/detail/9NKLT8DKJ1QX",
+    "status": "published-v2.0.0-unchanged",
+    "version": "2.0.0.0",
+    "note": "The Microsoft Store package remains v2.0.0.0. This website release changes the direct installer channel only."
+  },
+  "publication": {
+    "websiteArtifactScope": "stable-direct-installer",
+    "previousStableReleasePreserved": "2.0.0",
+    "websitePublicationCommit": "pending-live-verification",
+    "pagesDeploymentId": null,
+    "liveVerification": "pending",
+    "verifiedAtUtc": null,
+    "publicDownloadVerification": "Pending cache-busted GitHub Pages HTTP 200, size, and SHA-256 verification."
+  },
+  "validation": {
+    "sourceAudit": "11 evidence-backed v2.0.1 findings fixed; historical v2 ledger retains 318 covered entries",
+    "sourceTests": "Full Node regression passed; Import Studio 46/46; focused audit 165/165; deep audit 460000 assertions; scenario register 1000/1000; Human UI 496/496; ultra-scale 25,000 and 50,000 asset matrices 8/8 each",
+    "packagedStartup": "12/12 isolated packaged fresh/legacy journeys across six viewport/scaling profiles",
+    "installerBuild": "NSIS installer generated and payload, ASAR integrity, Electron fuses, metadata, and release-hardening checks passed",
+    "humanValidated": false
+  }
+}

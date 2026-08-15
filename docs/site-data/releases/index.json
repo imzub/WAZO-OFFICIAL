@@ -1,30 +1,31 @@
 {
   "schemaVersion": 1,
   "product": "WAZO",
-  "latestProductVersion": "2.0.0",
-  "currentInstallerVersion": "2.0.0",
+  "latestProductVersion": "2.0.1",
+  "currentInstallerVersion": "2.0.1",
   "currentLiveInstaller": {
-    "version": "2.0.0",
-    "status": "published-live-verified",
-    "sizeBytes": 99450391,
-    "sha256": "31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4",
-    "sourceCommit": "28b0522",
-    "websitePublicationCommit": "2a7a67f4c9f3071a4635aa4ea558a0538f27ec24",
-    "pagesDeploymentId": 5886802524,
-    "publishedDate": "2026-08-13",
-    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.0/installer/WAZO-Setup-2.0.0-stable-20260813.exe",
+    "version": "2.0.1",
+    "status": "published-pending-live-verification",
+    "sizeBytes": 99453083,
+    "sha256": "F2F04955A46EB2AC0DED9C29D44D0E93D4DA9FFCAE039CE104398171ED123EF8",
+    "sourceCommit": "5b82ddf",
+    "websitePublicationCommit": "pending-live-verification",
+    "pagesDeploymentId": null,
+    "publishedDate": "2026-08-15",
+    "publicUrl": "https://imzub.github.io/WAZO-OFFICIAL/site-data/releases/v2.0.1/installer/WAZO-Setup-2.0.1-stable-20260815.exe",
     "sourceValidation": {
       "nodeVersion": "bundled Node runtime",
       "syntax": "passed",
       "static": "passed",
-      "fullTests": "1675/1675 Node tests passed; Import Studio 46/46; focused hardening 536/536; deep audit 100000 probes / 460000 assertions; scenario register 1000/1000",
-      "packagedReadiness": "packaged startup 18/18 across fresh, legacy, lifecycle, six viewports and scaling journeys",
+      "fullTests": "Full Node regression passed; Import Studio 46/46; focused audit 165/165; deep audit 460000 assertions; scenario register 1000/1000",
+      "packagedReadiness": "Packaged startup 12/12 across fresh and legacy journeys on six viewport/scaling profiles; release smoke passed",
       "installerBuild": "NSIS generated and archive copy verified",
-      "storePackage": "Microsoft Store Submission 5 published; WAZO-Store-2.0.0-x64.appx v2.0.0.0, X64, Windows.Desktop min 10.0.17763.0"
+      "releaseHardening": "35/35 release-hardening tests passed; installer payload and ASAR/fuse verification passed",
+      "storePackage": "Microsoft Store Submission 5 remains published as v2.0.0.0; this website release does not change the Store package"
     },
     "installerLifecycle": "not yet human-validated",
-    "verifiedAtUtc": "2026-08-13T11:11:41Z",
-    "publicDownloadVerification": "GitHub Pages deployment 5886802524 served HTTP 200; public download was 99,450,391 bytes and matched SHA-256 31F44DAF38D26CDB69A42AFFE46FE473060CA239262871FA7B5A6F4BB9E44FE4.",
+    "verifiedAtUtc": null,
+    "publicDownloadVerification": "Pending cache-busted GitHub Pages HTTP 200, size, and SHA-256 verification after publication.",
     "humanValidated": false
   },
   "previousSameVersionInstaller": {
@@ -89,6 +90,11 @@
     "previousVideoManifest": "site-data/releases/v2.0.0/video/video.json"
   },
   "versions": [
+    {
+      "version": "2.0.1",
+      "status": "published-pending-live-verification",
+      "manifest": "site-data/releases/v2.0.1/release.json"
+    },
     {
       "version": "2.0.0",
       "status": "published-live-verified",
