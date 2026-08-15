@@ -7,8 +7,9 @@
   line. It is sourced from private WAZO `Dev/QA` commit
   `ced9761`; the refreshed installer is 99,453,603 bytes with SHA-256
   `AF00F8966E48B87CA876954B8D09863F383EA166F8C694D44772E76A2AA2E564`.
-- Website publication and public HTTP/size/hash verification for this refreshed
-  artifact are pending the GitHub Pages deployment. The v2.0.0 baseline remains
+- Website publication commit `d0269be11cdcfd7fd59309efeff75e4a01477457`
+  deployed through GitHub Pages run `31898827988`; public HTTP/size/hash
+  verification passed at `2026-08-15T17:40:02Z`. The v2.0.0 baseline remains
   live and byte-preserved.
 - v2.0.0 remains the stable baseline with its original 99,450,391-byte hash.
   Microsoft Store remains published at v2.0.0.0; the v2.0.1 publication is a
