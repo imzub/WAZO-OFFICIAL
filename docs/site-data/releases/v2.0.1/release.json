@@ -26,9 +26,11 @@
   "store": {
     "productId": "9NKLT8DKJ1QX",
     "webUrl": "https://apps.microsoft.com/detail/9NKLT8DKJ1QX",
-    "status": "published-v2.0.0-unchanged",
-    "version": "2.0.0.0",
-    "note": "The Microsoft Store package remains v2.0.0.0. This website release changes the direct installer channel only."
+    "status": "published-live-verified",
+    "version": "2.0.1.0",
+    "submission": "6",
+    "verifiedAtUtc": "2026-08-20T15:34:33Z",
+    "note": "Microsoft Store Submission 6 is certified, published, and live on WAZO v2.0.1.0. v2.0.0 remains the preserved stable baseline."
   },
   "publication": {
     "websiteArtifactScope": "stable-line-bug-fix-and-enhancement-installer",

@@ -1,6 +1,6 @@
 # WAZO Official Website Context
 
-## 2026-08-20 v2.0.1 installer refresh and public verification from synchronized Dev/QA
+## 2026-08-20 v2.0.1 installer and Microsoft Store refresh from synchronized Dev/QA
 
 - The direct website installer was rebuilt from private WAZO `Dev/QA` commit
   `b411e8c` after the tutorial/context synchronization. The existing v2.0.1
@@ -9,11 +9,20 @@
   `238FA449846A4B9829E99E0991152FE0F7F8D237CAB41CB2B9D019BE19F2B97D`.
 - Website metadata, release notes, the visible download card, displayed size,
   build date, and checksum were updated together. v2.0.0 remains preserved as
-  the stable baseline and the Microsoft Store card remains v2.0.0.0.
+  the stable baseline; the Microsoft Store card now reflects the live v2.0.1.0
+  listing.
 - Local installer payload verification passed. GitHub Pages deployment
   `6005191863` completed successfully; the public direct download returned HTTP
   200, 99,465,168 bytes, and the exact same SHA-256 at
   `2026-08-20T15:17:21Z`.
+
+## 2026-08-20 Microsoft Store v2.0.1 live status
+
+- Microsoft Store product `9NKLT8DKJ1QX`, Submission 6, is certified,
+  published, and live at WAZO v2.0.1.0. The public listing contains the
+  current v2.0.1 description and is the recommended managed install channel.
+- The website keeps v2.0.0 as the preserved baseline and rollback reference;
+  it must not describe v2.0.0 as the current Store build.
 
 ## 2026-08-15 v2.0.0 stable baseline and v2.0.1 update
 

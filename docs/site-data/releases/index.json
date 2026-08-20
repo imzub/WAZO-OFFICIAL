@@ -26,7 +26,7 @@
       "packagedReadiness": "Packaged startup 12/12 across fresh and legacy journeys on six viewport/scaling profiles; release smoke passed",
       "installerBuild": "NSIS generated and archive copy verified",
       "releaseHardening": "35/35 release-hardening tests passed; installer payload and ASAR/fuse verification passed",
-      "storePackage": "Microsoft Store Submission 5 remains published as v2.0.0.0; this website release does not change the Store package"
+      "storePackage": "Microsoft Store Submission 6 is certified, published, and live as WAZO v2.0.1.0; v2.0.0 remains the preserved stable baseline"
     },
     "installerLifecycle": "not yet human-validated",
     "verifiedAtUtc": "2026-08-20T15:17:21Z",
@@ -74,13 +74,13 @@
     "deepLink": "ms-windows-store://pdp/?productid=9NKLT8DKJ1QX",
     "webUrl": "https://apps.microsoft.com/detail/9NKLT8DKJ1QX",
     "status": "published-live-verified",
-    "version": "2.0.0.0",
+    "version": "2.0.1.0",
     "architecture": "X64",
     "deviceFamily": "Windows.Desktop",
     "minimumVersion": "10.0.17763.0",
-    "submission": "5",
-    "verifiedAtUtc": "2026-08-14T09:01:18Z",
-    "verification": "Partner Center shows the latest product available on Microsoft Store; Store presence is available and Submission 5 contains the v2.0.0.0 X64 package."
+    "submission": "6",
+    "verifiedAtUtc": "2026-08-20T15:34:33Z",
+    "verification": "Partner Center Submission 6 is certified, published, and live; the Microsoft Store listing serves WAZO v2.0.1.0 for X64 Windows.Desktop devices."
   },
   "featuredVideo": {
     "recordedVersion": "2.0.0.0",
