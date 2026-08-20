@@ -4,7 +4,7 @@
   "version": "2.0.1",
   "buildVersion": "2.0.1.0",
   "status": "stable-line-update-live-verified",
-  "preparedDate": "2026-08-15",
+  "preparedDate": "2026-08-20",
   "channel": "stable-line-update",
   "stableVersion": "2.0.0",
   "baselineVersion": "2.0.0",
@@ -13,15 +13,15 @@
   "installer": {
     "file": "installer/WAZO-Setup-2.0.1-stable-20260815.exe",
     "downloadName": "WAZO-Setup-2.0.1.exe",
-    "sizeBytes": 99453603,
-    "sha256": "AF00F8966E48B87CA876954B8D09863F383EA166F8C694D44772E76A2AA2E564",
+    "sizeBytes": 99465168,
+    "sha256": "238FA449846A4B9829E99E0991152FE0F7F8D237CAB41CB2B9D019BE19F2B97D",
     "signed": false
   },
   "source": {
     "repository": "https://github.com/imzub/WAZO.git",
     "branch": "Dev/QA",
     "baseBranch": "Dev/QA",
-    "commit": "ced9761"
+    "commit": "b411e8c"
   },
   "store": {
     "productId": "9NKLT8DKJ1QX",
@@ -33,11 +33,11 @@
   "publication": {
     "websiteArtifactScope": "stable-line-bug-fix-and-enhancement-installer",
     "stableBaselinePreserved": "2.0.0",
-    "websitePublicationCommit": "d0269be11cdcfd7fd59309efeff75e4a01477457",
-    "pagesDeploymentId": 31898827988,
-    "liveVerification": "verified",
-    "verifiedAtUtc": "2026-08-15T17:40:02Z",
-    "publicDownloadVerification": "GitHub Pages deployment 31898827988 served HTTP 200; public download was 99,453,603 bytes and matched SHA-256 AF00F8966E48B87CA876954B8D09863F383EA166F8C694D44772E76A2AA2E564. The retained v2.0.0 download also served HTTP 200 at 99,450,391 bytes and matched its recorded SHA-256."
+    "websitePublicationCommit": "pending-pages-deployment",
+    "pagesDeploymentId": null,
+    "liveVerification": "pending-pages-deployment",
+    "verifiedAtUtc": null,
+    "publicDownloadVerification": "Local replacement verified at 99,465,168 bytes with SHA-256 238FA449846A4B9829E99E0991152FE0F7F8D237CAB41CB2B9D019BE19F2B97D; public verification is pending the next GitHub Pages deployment."
   },
   "validation": {
     "sourceAudit": "11 evidence-backed v2.0.1 findings fixed; historical v2 ledger retains 318 covered entries",

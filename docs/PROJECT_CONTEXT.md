@@ -1,5 +1,19 @@
 # WAZO Official Website Context
 
+## 2026-08-20 v2.0.1 installer refresh from synchronized Dev/QA
+
+- The direct website installer was rebuilt from private WAZO `Dev/QA` commit
+  `b411e8c` after the tutorial/context synchronization. The existing v2.0.1
+  stable download URL remains unchanged, while its payload is now 99,465,168
+  bytes with SHA-256
+  `238FA449846A4B9829E99E0991152FE0F7F8D237CAB41CB2B9D019BE19F2B97D`.
+- Website metadata, release notes, the visible download card, displayed size,
+  build date, and checksum were updated together. v2.0.0 remains preserved as
+  the stable baseline and the Microsoft Store card remains v2.0.0.0.
+- Local installer payload verification passed. Public HTTP/hash verification
+  is intentionally recorded only after the next GitHub Pages deployment; do
+  not claim live verification before that check.
+
 ## 2026-08-15 v2.0.0 stable baseline and v2.0.1 update
 
 - WAZO v2.0.0 / build 2.0.0.0 remains the stable baseline. WAZO v2.0.1 /
