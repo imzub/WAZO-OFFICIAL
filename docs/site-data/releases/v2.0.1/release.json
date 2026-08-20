@@ -33,7 +33,7 @@
   "publication": {
     "websiteArtifactScope": "stable-line-bug-fix-and-enhancement-installer",
     "stableBaselinePreserved": "2.0.0",
-    "websitePublicationCommit": "pending-pages-deployment",
+    "websitePublicationCommit": "813a927",
     "pagesDeploymentId": null,
     "liveVerification": "pending-pages-deployment",
     "verifiedAtUtc": null,
