@@ -24,6 +24,18 @@
 - The website keeps v2.0.0 as the preserved baseline and rollback reference;
   it must not describe v2.0.0 as the current Store build.
 
+## 2026-08-20 final cross-system conversation and repository handoff
+
+- The current WAZO conversation is represented by the source and website
+  context records, release metadata, and the source conversation handoff;
+  no separate important chat artifact remains pending for publication.
+- The source repository is `WAZO` `Dev/QA` commit `41e0c31`; this website
+  repository is `WAZO-OFFICIAL` `Master` commit `8f17a1d`. Both worktrees are
+  clean and synchronized with their remotes.
+- The website installer, Store status, release notes, and download metadata
+  are pushed. The tutorial package is tracked in the source repository and
+  remains review-only; it is not implicitly published by repository sync.
+
 ## 2026-08-15 v2.0.0 stable baseline and v2.0.1 update
 
 - WAZO v2.0.0 / build 2.0.0.0 remains the stable baseline. WAZO v2.0.1 /
