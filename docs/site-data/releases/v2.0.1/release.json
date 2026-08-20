@@ -34,10 +34,10 @@
     "websiteArtifactScope": "stable-line-bug-fix-and-enhancement-installer",
     "stableBaselinePreserved": "2.0.0",
     "websitePublicationCommit": "813a927",
-    "pagesDeploymentId": null,
-    "liveVerification": "pending-pages-deployment",
-    "verifiedAtUtc": null,
-    "publicDownloadVerification": "Local replacement verified at 99,465,168 bytes with SHA-256 238FA449846A4B9829E99E0991152FE0F7F8D237CAB41CB2B9D019BE19F2B97D; public verification is pending the next GitHub Pages deployment."
+    "pagesDeploymentId": 6005191863,
+    "liveVerification": "verified",
+    "verifiedAtUtc": "2026-08-20T15:17:21Z",
+    "publicDownloadVerification": "GitHub Pages deployment 6005191863 served HTTP 200; the public download was 99,465,168 bytes and matched SHA-256 238FA449846A4B9829E99E0991152FE0F7F8D237CAB41CB2B9D019BE19F2B97D."
   },
   "validation": {
     "sourceAudit": "11 evidence-backed v2.0.1 findings fixed; historical v2 ledger retains 318 covered entries",
